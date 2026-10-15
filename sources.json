@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {"repo":"anthropics/skills","kind":"publisher","priority":10,"include":["skills/"],"note_zh":"Anthropic 发布；各技能单独授权，文档类可能为 source-available。"},
+    {"repo":"openai/skills","kind":"publisher","priority":10,"include":["skills/.curated/","skills/.system/"],"note_zh":"OpenAI Codex 技能；以技能内许可和兼容性说明为准。"},
+    {"repo":"vercel-labs/agent-skills","kind":"publisher","priority":10,"include":["skills/"],"note_zh":"Vercel：React、前端和部署。"},
+    {"repo":"huggingface/skills","kind":"publisher","priority":10,"include":["skills/","hf-mcp/skills/"],"note_zh":"Hugging Face：模型、数据集和训练工作流。"},
+    {"repo":"google-gemini/gemini-skills","kind":"publisher","priority":10,"include":["skills/"],"note_zh":"Google Gemini API 与生态技能。"},
+    {"repo":"supabase/agent-skills","kind":"publisher","priority":10,"include":["skills/"],"note_zh":"Supabase：PostgreSQL 与数据库实践。"},
+    {"repo":"remotion-dev/skills","kind":"publisher","priority":10,"include":["skills/"],"note_zh":"Remotion：程序化视频制作。"},
+    {"repo":"obra/superpowers","kind":"specialist","priority":15,"include":["skills/"],"note_zh":"软件开发方法：规划、调试、测试与评审。"},
+    {"repo":"trailofbits/skills","kind":"specialist","priority":15,"include":["plugins/"],"note_zh":"Trail of Bits：安全审计与研究。"},
+    {"repo":"K-Dense-AI/scientific-agent-skills","aliases":["K-Dense-AI/claude-scientific-skills"],"kind":"specialist","priority":15,"include":["skills/"],"note_zh":"科学计算、文献、生物医药与研究工作流。"},
+    {"repo":"ComposioHQ/awesome-claude-skills","kind":"collection","priority":30,"include":[""],"exclude":[".github/"],"note_zh":"用户指定；同时含实际技能和外部导航链接。"},
+    {"repo":"sickn33/agentic-awesome-skills","aliases":["sickn33/antigravity-awesome-skills"],"kind":"collection","priority":40,"include":["skills/"],"note_zh":"用户指定；仅收录 skills/ 主目录，跳过插件分发副本。"}
+  ]
+}

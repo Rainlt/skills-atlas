@@ -1,0 +1,585 @@
+{
+  "upstream_category_map": {
+    "security": "security",
+    "reverse-engineering": "security",
+    "pentest-tools": "security",
+    "development": "engineering",
+    "engineering": "engineering",
+    "code": "engineering",
+    "coding": "engineering",
+    "core-dev": "engineering",
+    "framework": "engineering",
+    "developer-tools": "engineering",
+    "tools": "engineering",
+    "general": "engineering",
+    "super-code": "engineering",
+    "meta": "engineering",
+    "skill-authoring": "engineering",
+    "planning": "engineering",
+    "reasoning": "engineering",
+    "andruia": "engineering",
+    "agent-behavior": "ai",
+    "business": "business",
+    "marketing": "business",
+    "seo": "business",
+    "finance": "business",
+    "product": "business",
+    "product-management": "business",
+    "business-strategy": "business",
+    "growth": "business",
+    "ecommerce": "business",
+    "consulting": "business",
+    "blockchain": "business",
+    "leiloeiro": "business",
+    "monopoly": "business",
+    "devops": "devops",
+    "cloud": "devops",
+    "reliability": "devops",
+    "ml-ops": "devops",
+    "ai-ml": "ai",
+    "ai-agents": "ai",
+    "agent-orchestration": "ai",
+    "mcp": "ai",
+    "voice-agents": "ai",
+    "agent-persona": "ai",
+    "agent-squad": "ai",
+    "agent-tooling": "ai",
+    "context-optimization": "ai",
+    "prompt-engineering": "ai",
+    "orchestration": "ai",
+    "ai": "ai",
+    "content": "writing",
+    "writing": "writing",
+    "content-writing": "writing",
+    "knowledge-management": "writing",
+    "memory": "writing",
+    "workflow": "automation",
+    "automation": "automation",
+    "productivity": "automation",
+    "project-management": "automation",
+    "granular-workflow-bundle": "automation",
+    "workflow-bundle": "automation",
+    "operations": "automation",
+    "browser-automation": "automation",
+    "office-productivity": "automation",
+    "collaboration": "automation",
+    "travel": "automation",
+    "web-development": "frontend",
+    "frontend": "frontend",
+    "front-end": "frontend",
+    "web": "frontend",
+    "app-builder": "engineering",
+    "fullstack": "backend",
+    "backend": "backend",
+    "architecture": "backend",
+    "api-integration": "backend",
+    "testing": "testing",
+    "code-quality": "testing",
+    "test-automation": "testing",
+    "development-and-testing": "testing",
+    "debugging": "testing",
+    "agent-evaluation": "testing",
+    "quality": "testing",
+    "ai-testing": "testing",
+    "tool-quality": "testing",
+    "data": "data",
+    "data-ai": "data",
+    "data-science": "data",
+    "analysis": "data",
+    "data-engineering": "data",
+    "design-it": "media",
+    "design": "media",
+    "media": "media",
+    "graphics-processing": "media",
+    "creative": "media",
+    "media-processing": "media",
+    "video": "media",
+    "mobile": "mobile",
+    "game-development": "mobile",
+    "research": "research",
+    "science": "research",
+    "ai-research": "research",
+    "database": "database",
+    "database-processing": "database",
+    "databases": "database",
+    "document-verification": "documents",
+    "document-processing": "documents",
+    "presentation-processing": "documents",
+    "spreadsheet-processing": "documents"
+  },
+  "categories": [
+    {
+      "id": "documents",
+      "name_zh": "文档、表格与演示",
+      "keywords": [
+        "docx",
+        "pptx",
+        "xlsx",
+        "pdf",
+        "powerpoint",
+        "spreadsheet",
+        "word document",
+        "slides",
+        "presentation",
+        "latex"
+      ],
+      "queries_zh": [
+        "文档",
+        "表格",
+        "演示",
+        "幻灯片",
+        "论文排版"
+      ]
+    },
+    {
+      "id": "research",
+      "name_zh": "科研、文献与科学计算",
+      "keywords": [
+        "scientific",
+        "research",
+        "literature",
+        "citation",
+        "pubmed",
+        "bioinformatics",
+        "genomic",
+        "molecular",
+        "chemistry",
+        "biology",
+        "clinical",
+        "protein",
+        "quantum",
+        "physics",
+        "scientist"
+      ],
+      "queries_zh": [
+        "科研",
+        "文献",
+        "论文",
+        "生物",
+        "化学",
+        "医学",
+        "科学计算"
+      ]
+    },
+    {
+      "id": "data",
+      "name_zh": "数据分析与可视化",
+      "keywords": [
+        "data analysis",
+        "visualization",
+        "statistics",
+        "statistical",
+        "pandas",
+        "numpy",
+        "plotly",
+        "matplotlib",
+        "analytics",
+        "csv",
+        "data pipeline",
+        "polars"
+      ],
+      "queries_zh": [
+        "数据分析",
+        "可视化",
+        "统计",
+        "图表"
+      ]
+    },
+    {
+      "id": "ai",
+      "name_zh": "AI、模型与智能体",
+      "keywords": [
+        "llm",
+        "machine learning",
+        "deep learning",
+        "model training",
+        "fine-tun",
+        "hugging",
+        "gemini",
+        "openai",
+        "claude-api",
+        "rag",
+        "mcp",
+        "agent",
+        "prompt",
+        "embedding",
+        "transformers",
+        "pytorch"
+      ],
+      "queries_zh": [
+        "人工智能",
+        "大模型",
+        "智能体",
+        "模型训练",
+        "提示词"
+      ]
+    },
+    {
+      "id": "frontend",
+      "name_zh": "前端、界面与体验",
+      "keywords": [
+        "react",
+        "nextjs",
+        "next.js",
+        "frontend",
+        "front-end",
+        "css",
+        "tailwind",
+        "vue",
+        "svelte",
+        "web design",
+        "ui design",
+        "ux design",
+        "accessibility",
+        "html",
+        "angular"
+      ],
+      "queries_zh": [
+        "前端",
+        "网页",
+        "界面",
+        "交互",
+        "无障碍"
+      ]
+    },
+    {
+      "id": "backend",
+      "name_zh": "后端、API 与架构",
+      "keywords": [
+        "backend",
+        "back-end",
+        "api design",
+        "rest api",
+        "fastapi",
+        "django",
+        "spring",
+        "microservice",
+        "architecture",
+        "graphql",
+        "aspnet",
+        "asp.net",
+        "nodejs",
+        "node.js"
+      ],
+      "queries_zh": [
+        "后端",
+        "接口",
+        "架构",
+        "微服务"
+      ]
+    },
+    {
+      "id": "database",
+      "name_zh": "数据库与存储",
+      "keywords": [
+        "postgres",
+        "database",
+        "sql",
+        "supabase",
+        "mongodb",
+        "redis",
+        "prisma",
+        "sqlite",
+        "mysql",
+        "snowflake",
+        "dbt",
+        "clickhouse"
+      ],
+      "queries_zh": [
+        "数据库",
+        "存储",
+        "查询"
+      ]
+    },
+    {
+      "id": "testing",
+      "name_zh": "测试、调试与代码评审",
+      "keywords": [
+        "test",
+        "debug",
+        "review",
+        "verification",
+        "quality assurance",
+        "playwright",
+        "pytest",
+        "vitest",
+        "bug",
+        "coverage",
+        "lint"
+      ],
+      "queries_zh": [
+        "测试",
+        "调试",
+        "评审",
+        "排错",
+        "质量"
+      ]
+    },
+    {
+      "id": "security",
+      "name_zh": "安全、隐私与审计",
+      "keywords": [
+        "security",
+        "vulnerability",
+        "vulnerabilities",
+        "pentest",
+        "audit",
+        "malware",
+        "reverse engineering",
+        "threat",
+        "exploit",
+        "cryptography",
+        "forensics"
+      ],
+      "queries_zh": [
+        "安全",
+        "审计",
+        "漏洞",
+        "隐私",
+        "渗透"
+      ]
+    },
+    {
+      "id": "devops",
+      "name_zh": "部署、云与运维",
+      "keywords": [
+        "deploy",
+        "docker",
+        "kubernetes",
+        "terraform",
+        "devops",
+        "ci/cd",
+        "github actions",
+        "cloudflare",
+        "aws",
+        "azure",
+        "infrastructure",
+        "monitoring",
+        "observability",
+        "vercel"
+      ],
+      "queries_zh": [
+        "部署",
+        "运维",
+        "云服务",
+        "容器",
+        "监控"
+      ]
+    },
+    {
+      "id": "mobile",
+      "name_zh": "移动端、桌面与游戏",
+      "keywords": [
+        "ios",
+        "android",
+        "swift",
+        "kotlin",
+        "flutter",
+        "react native",
+        "expo",
+        "desktop",
+        "electron",
+        "unity",
+        "unreal",
+        "godot",
+        "game development"
+      ],
+      "queries_zh": [
+        "移动端",
+        "手机",
+        "桌面",
+        "游戏"
+      ]
+    },
+    {
+      "id": "media",
+      "name_zh": "设计、图像、音频与视频",
+      "keywords": [
+        "image",
+        "video",
+        "audio",
+        "remotion",
+        "animation",
+        "figma",
+        "illustration",
+        "canvas",
+        "artistic",
+        "graphic design",
+        "gif",
+        "3d",
+        "blender",
+        "music"
+      ],
+      "queries_zh": [
+        "设计",
+        "图像",
+        "图片",
+        "音频",
+        "视频",
+        "动画",
+        "绘画"
+      ]
+    },
+    {
+      "id": "writing",
+      "name_zh": "写作、翻译与知识管理",
+      "keywords": [
+        "writing",
+        "writer",
+        "copywriting",
+        "translation",
+        "translate",
+        "documentation",
+        "knowledge",
+        "notes",
+        "summariz",
+        "content research",
+        "technical writing"
+      ],
+      "queries_zh": [
+        "写作",
+        "翻译",
+        "笔记",
+        "知识管理",
+        "总结"
+      ]
+    },
+    {
+      "id": "business",
+      "name_zh": "产品、营销与商业",
+      "keywords": [
+        "marketing",
+        "seo",
+        "sales",
+        "crm",
+        "business",
+        "growth",
+        "product management",
+        "pricing",
+        "finance",
+        "financial",
+        "investment",
+        "startup",
+        "conversion",
+        "brand",
+        "ads"
+      ],
+      "queries_zh": [
+        "产品",
+        "营销",
+        "商业",
+        "销售",
+        "财务",
+        "金融",
+        "品牌"
+      ]
+    },
+    {
+      "id": "automation",
+      "name_zh": "办公、应用集成与自动化",
+      "keywords": [
+        "automation",
+        "automate",
+        "workflow",
+        "slack",
+        "gmail",
+        "notion",
+        "calendar",
+        "zapier",
+        "n8n",
+        "composio",
+        "meeting",
+        "organizer",
+        "productivity",
+        "email"
+      ],
+      "queries_zh": [
+        "自动化",
+        "办公",
+        "集成",
+        "邮件",
+        "会议",
+        "日程"
+      ]
+    },
+    {
+      "id": "engineering",
+      "name_zh": "通用开发与工程方法",
+      "keywords": [
+        "git",
+        "programming",
+        "development",
+        "refactor",
+        "planning",
+        "brainstorm",
+        "code",
+        "algorithm",
+        "skill",
+        "engineering",
+        "python",
+        "rust",
+        "typescript"
+      ],
+      "queries_zh": [
+        "开发",
+        "编程",
+        "工程",
+        "规划",
+        "技能",
+        "重构"
+      ]
+    },
+    {
+      "id": "other",
+      "name_zh": "其他与待细分",
+      "keywords": [],
+      "queries_zh": [
+        "其他"
+      ]
+    }
+  ],
+  "name_overrides": {
+    "algorithmic-art": [
+      "media"
+    ],
+    "internal-comms": [
+      "writing",
+      "automation"
+    ],
+    "domain-name-brainstormer": [
+      "business"
+    ],
+    "jupyter-notebook": [
+      "data",
+      "research"
+    ],
+    "sentry": [
+      "devops",
+      "testing"
+    ],
+    "linear": [
+      "automation"
+    ],
+    "yeet": [
+      "engineering"
+    ],
+    "dispatching-parallel-agents": [
+      "ai",
+      "engineering"
+    ],
+    "executing-plans": [
+      "engineering"
+    ],
+    "theme-factory": [
+      "media",
+      "documents"
+    ],
+    "tailored-resume-generator": [
+      "writing",
+      "business"
+    ],
+    "raffle-winner-picker": [
+      "automation"
+    ]
+  }
+}

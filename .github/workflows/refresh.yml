@@ -1,0 +1,54 @@
+name: Refresh catalog
+on:
+  workflow_dispatch:
+  # Enable only when the maintainer chooses a schedule.
+  # schedule:
+  #   - cron: '20 1 * * 1' # Monday 09:20 Asia/Shanghai
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: skills-atlas-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: .cache/blobs
+          key: skill-metadata-${{ github.run_id }}
+          restore-keys: skill-metadata-
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python scripts/update.py
+      - run: python scripts/validate.py
+      - run: python -m unittest discover -s tests -v
+      - name: Submit reviewable update
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- data docs CATALOG.md README.md browse.html; then
+            echo 'No catalog changes.'
+            exit 0
+          fi
+          SNAPSHOT=$(python -c "import json; print(json.load(open('data/catalog.json'))['snapshot'])")
+          BRANCH="catalog-update-${SNAPSHOT}-${GITHUB_RUN_ID}"
+          git switch -c "$BRANCH"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data docs CATALOG.md README.md browse.html
+          git commit -m "catalog: refresh ${SNAPSHOT}"
+          git push --set-upstream origin "$BRANCH"
+          cat > /tmp/skills-atlas-update.md <<'BODY'
+          Refreshes the configured upstream snapshots, catalog, classifications and duplicate relations.
+
+          Review `data/changes.json`, `docs/SOURCES.md` and `docs/QUALITY.md` for changes. Skill code is not mirrored and user-installed skills are not modified.
+
+          Validation: all bundle manifests reconstructed and checked against Git tree fingerprints; downloader and deduplication tests passed.
+          BODY
+          gh pr create --title "catalog: refresh ${SNAPSHOT}" --body-file /tmp/skills-atlas-update.md --head "$BRANCH"

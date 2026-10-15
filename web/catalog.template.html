@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Skills Atlas · 技能导航</title>
+<style>
+:root{font-family:system-ui,-apple-system,"PingFang SC",sans-serif;color:#18282b;background:#f4f6f3;--card:#fff;--line:#dce4de;--muted:#59706b;--accent:#12634e}*{box-sizing:border-box}body{margin:0}header,main{max-width:1180px;margin:auto;padding:32px 24px}header{padding-bottom:16px}.eyebrow{letter-spacing:.12em;font-size:12px;color:var(--accent);font-weight:700}h1{font-size:40px;letter-spacing:-.04em;margin:10px 0}h1 span{font-size:21px;font-weight:450;letter-spacing:0;color:var(--muted)}p{line-height:1.65}.intro{max-width:760px;color:var(--muted)}.stats{display:flex;gap:24px;flex-wrap:wrap;font-size:14px}.stats strong{font-size:22px;color:var(--accent);margin-right:5px}.controls{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px;margin-bottom:12px}input,select,button{font:inherit;border:1px solid var(--line);border-radius:9px;background:var(--card);color:inherit;padding:12px}input{width:100%}input:focus,select:focus,button:focus{outline:2px solid var(--accent);outline-offset:2px}button{cursor:pointer}button:hover{border-color:var(--accent)}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:13px;color:var(--muted);margin-bottom:20px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;min-width:0}.card h2{font-size:19px;margin:0 0 8px;overflow-wrap:anywhere}.card p{font-size:14px;color:var(--muted);margin:12px 0;overflow-wrap:anywhere}.tags{display:flex;gap:6px;flex-wrap:wrap}.tag{font-size:11px;color:var(--accent);background:#eaf2ed;border-radius:5px;padding:4px 7px}.source{font-size:12px;color:var(--muted);overflow-wrap:anywhere}.meta{font-size:12px;color:var(--muted);margin:12px 0;line-height:1.7}.actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.actions a{font-size:13px;color:var(--accent);padding:8px 0;margin-right:8px}.actions button{font-size:12px;padding:8px 10px}details{font-size:12px;margin-top:12px}summary{cursor:pointer}pre{overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;font-size:11px;background:#f2f5f2;padding:12px;border-radius:8px}.pagination{display:flex;gap:12px;align-items:center;justify-content:center;margin-top:24px}.note{font-size:12px;color:var(--muted)}.empty{text-align:center;padding:60px;color:var(--muted);grid-column:1/-1}footer{max-width:1180px;margin:0 auto;padding:0 24px 40px}a{color:var(--accent)}@media(max-width:720px){.controls,.grid{grid-template-columns:1fr}h1{font-size:32px}h1 span{display:block;font-size:19px;margin-top:8px}.stats{gap:12px}header,main{padding:24px 16px}}
+@media(prefers-color-scheme:dark){:root{color:#e3ece7;background:#15201c;--card:#1c2a24;--line:#34473e;--muted:#a8bbb0;--accent:#89d8b5}.tag,pre{background:#263d31}}
+</style>
+<style>.card>p{display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}.card h2{margin-top:8px}.card .tags{margin-top:12px}</style>
+<header>
+  <div class="eyebrow">FIND THE RIGHT SKILL</div>
+  <h1>Skills Atlas <span>把技能找到，再按需带走。</span></h1>
+  <p class="intro">按主题整理多个公开来源，合并完全相同的技能目录，保留不同实现。找到用途后，查看上游说明，复制命令下载一个完整技能。名称与描述保留原文，中文词支持主题扩展。</p>
+  <div class="stats" id="stats"></div>
+</header>
+<main>
+  <div class="controls">
+    <input id="query" type="search" placeholder="搜索技能，如：科研、pdf、视频、debug…" aria-label="搜索技能">
+    <select id="category" aria-label="按主题筛选"><option value="">所有主题</option></select>
+    <select id="source" aria-label="按来源筛选"><option value="">所有来源</option></select>
+  </div>
+  <div class="toolbar"><span id="count" aria-live="polite"></span><span>复制的命令在 skills-atlas 仓库目录中运行 · <a href="README.md">使用说明</a></span></div>
+  <div class="grid" id="results"></div>
+  <div class="pagination"><button id="prev">上一页</button><span id="page"></span><button id="next">下一页</button></div>
+</main>
+<footer><p class="note">索引不等于质量或兼容性认证。授权声明缺失的条目保留待核实状态；公开可下载不代表宽松开源。下载工具不自动执行技能或安装外部依赖。<br><span id="snapshot"></span> · <a href="docs/METHODOLOGY.md">去重规则</a> · <a href="docs/SOURCES.md">来源与署名</a></p></footer>
+<script id="atlas-data" type="application/json">__DATA__</script>
+<script>
+'use strict';
+const data=JSON.parse(document.getElementById('atlas-data').textContent),$=id=>document.getElementById(id);
+const categoryNames=Object.fromEntries(data.categories.map(c=>[c.id,c.name_zh]));
+for(const c of data.categories){const o=document.createElement('option');o.value=c.id;o.textContent=c.name_zh;$('category').append(o)}
+for(const repo of data.sources){const o=document.createElement('option');o.value=repo;o.textContent=repo;$('source').append(o)}
+for(const [n,label] of [[data.stats.sources,'个来源'],[data.stats.unique_bundles,'个技能目录'],[data.stats.excluded_identical_distribution_copies,'处分发副本已避开']]){const span=document.createElement('span'),strong=document.createElement('strong');strong.textContent=n.toLocaleString();span.append(strong,document.createTextNode(label));$('stats').append(span)}
+$('snapshot').textContent='固定版本快照 '+data.snapshot+' · '+data.generated_at.slice(0,10);
+let page=0,filtered=[],pageSize=40;
+const el=(tag,text,cls)=>{const x=document.createElement(tag);if(text!==undefined)x.textContent=text;if(cls)x.className=cls;return x};
+const shellQuote=value=>"'"+value.replaceAll("'","'\"'\"'")+"'";
+const corpus=data.skills.map(s=>[s.id,s.name,s.description,...s.categories,...s.categories.map(c=>categoryNames[c])].join(' ').toLowerCase());
+function filter(){
+ const terms=$('query').value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+ const groups=terms.map(t=>[t,...data.categories.filter(c=>c.queries_zh.includes(t)||c.name_zh===t).flatMap(c=>[c.id,...c.keywords])]);
+ filtered=data.skills.filter((s,i)=>(!$('category').value||s.categories.includes($('category').value))&&(!$('source').value||s.sources.includes($('source').value))&&groups.every(g=>g.some(t=>corpus[i].includes(t))));
+ filtered.sort((a,b)=>{const score=s=>terms.reduce((n,t)=>n+(s.name.toLowerCase().includes(t)?10:0),0);return score(b)-score(a)||a.id.localeCompare(b.id)});
+ page=0;render();
+}
+async function copy(text,button){try{await navigator.clipboard.writeText(text)}catch(error){const area=el('textarea',text);document.body.append(area);area.select();document.execCommand('copy');area.remove()}const old=button.textContent;button.textContent='已复制';setTimeout(()=>button.textContent=old,1400)}
+function render(){
+ $('results').replaceChildren();const pages=Math.max(1,Math.ceil(filtered.length/pageSize));$('count').textContent='找到 '+filtered.length.toLocaleString()+' 个条目';$('page').textContent=(page+1)+' / '+pages;$('prev').disabled=page===0;$('next').disabled=page>=pages-1;
+ for(const s of filtered.slice(page*pageSize,(page+1)*pageSize)){
+  const card=el('article',undefined,'card');card.append(el('h2',s.name),el('div',s.sources[0],'source'));
+  const tags=el('div',undefined,'tags');for(const c of s.categories)tags.append(el('span',categoryNames[c],'tag'));card.append(tags,el('p',s.description||'上游未提供用途描述，请查看 SKILL.md。'));
+  const license=s.license.declared||('技能级授权待核实；仓库线索 '+s.license.repository);card.append(el('div','授权：'+license+(s.risk?' · 上游自报风险：'+s.risk:'')+(s.external?' · 有目录外依赖线索':''),'meta'));
+  const actions=el('div',undefined,'actions'),a=el('a','查看上游');a.href=s.url;a.target='_blank';a.rel='noopener noreferrer';actions.append(a);
+  const slug=s.name.replace(/[^a-zA-Z0-9_-]/g,'-').slice(0,80)||'skill';
+  for(const [label,command] of [['复制下载命令',`python3 atlas.py download ${shellQuote(s.id)} --dest ${shellQuote('./downloads/'+slug)}`],['复制 ZIP 命令',`python3 atlas.py download ${shellQuote(s.id)} --dest ${shellQuote('./downloads/'+slug+'.zip')} --zip`]]){const button=el('button',label);button.addEventListener('click',()=>copy(command,button));actions.append(button)}
+  card.append(actions);const details=el('details');details.append(el('summary','完整说明、版本与来源'),el('pre',JSON.stringify({description:s.description,id:s.id,commit:s.commit,sources:s.sources,aliases:s.aliases,compatibility:s.compatibility,format_issues:s.format_issues},null,2)));card.append(details);$('results').append(card);
+ }
+ if(!filtered.length)$('results').append(el('div','没有匹配的条目。可尝试英文任务词，或清除来源和主题筛选。','empty'));
+}
+let debounce;$('query').addEventListener('input',()=>{clearTimeout(debounce);debounce=setTimeout(filter,100)});$('category').addEventListener('change',filter);$('source').addEventListener('change',filter);$('prev').addEventListener('click',()=>{page--;render()});$('next').addEventListener('click',()=>{page++;render()});filter();
+</script>
+</html>
