@@ -12,6 +12,7 @@ from pathlib import Path, PurePosixPath
 import re
 import sys
 import subprocess
+import urllib.error
 from datetime import datetime, timezone
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -48,8 +49,21 @@ def git_snapshot(repo, existing_meta=None):
         info, path = row.split("\t", 1)
         mode, kind, sha = info.split()
         items.append({"mode": mode, "type": kind, "sha": sha, "path": path})
+    # Hosted runners start without the local source cache. Retain committed metadata
+    # if the API is unavailable, instead of replacing known license hints with UNKNOWN.
+    if not existing_meta and (ROOT / "data/catalog.json").exists():
+        previous = json.loads((ROOT / "data/catalog.json").read_text(encoding="utf-8"))
+        source = next((s for s in previous["sources"] if s["repo"] == repo), None)
+        if source:
+            existing_meta = {"full_name": repo, "html_url": source["url"], "default_branch": source["branch"],
+                             "archived": source["archived"], "license": {"spdx_id": source["repository_license"]}}
     meta = existing_meta or {"full_name": repo, "html_url": "https://github.com/" + repo,
                              "default_branch": "HEAD", "archived": None, "license": None}
+    if os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN"):
+        try:
+            meta = atlas.api("repos/" + repo)
+        except (urllib.error.URLError, ValueError) as exc:
+            print("仓库元数据接口暂不可用，保留已知信息：{} ({})".format(repo, type(exc).__name__), flush=True)
     return {"meta": meta, "tree": {"sha": tree_sha, "tree": items, "truncated": False}, "commit": commit}
 
 

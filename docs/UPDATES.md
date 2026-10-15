@@ -1,10 +1,10 @@
 # 更新与维护
 
-初版已提供手动更新工作流，未开启周期任务。
+已开启每周更新：**每周一北京时间 09:20（UTC 01:20）**，通过 GitHub Actions 的 **Refresh catalog** 执行。
 
-在 GitHub 仓库 Actions 中选择 **Refresh catalog → Run workflow**。工作流获取白名单来源、重新分类去重，执行完整性检查和测试，有变化时提交到专用分支并创建 PR；无变化时结束。第一次使用时，仓库 Settings → Actions → General 需要允许 GitHub Actions 创建 Pull Request。默认的 `GITHUB_TOKEN` 已由 GitHub 注入，无需额外个人令牌。
+工作流获取白名单来源、重新分类去重，执行完整性检查和测试。有变化时提交到专用分支并创建 PR；无变化时结束。PR 由维护者审核和合并，不自动合并。也可以在仓库 Actions 中选择 **Refresh catalog → Run workflow** 随时手动检查。默认的 `GITHUB_TOKEN` 由 GitHub 注入，无需额外个人令牌；仓库已允许 GitHub Actions 创建 Pull Request。
 
-后续决定周期后，在 `.github/workflows/refresh.yml` 的 `on` 中启用注释示例：
+周期配置位于 `.github/workflows/refresh.yml`：
 
 ```yaml
   schedule:

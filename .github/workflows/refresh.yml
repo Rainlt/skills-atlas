@@ -1,9 +1,8 @@
 name: Refresh catalog
 on:
   workflow_dispatch:
-  # Enable only when the maintainer chooses a schedule.
-  # schedule:
-  #   - cron: '20 1 * * 1' # Monday 09:20 Asia/Shanghai
+  schedule:
+    - cron: '20 1 * * 1' # Monday 09:20 Asia/Shanghai
 permissions:
   contents: write
   pull-requests: write
@@ -26,6 +25,8 @@ jobs:
           restore-keys: skill-metadata-
       - run: python -m pip install -r requirements-dev.txt
       - run: python scripts/update.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
       - run: python scripts/validate.py
       - run: python -m unittest discover -s tests -v
       - name: Submit reviewable update

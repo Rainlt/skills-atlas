@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+import urllib.error
 from unittest.mock import patch
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -97,6 +98,22 @@ class DeduplicationTests(unittest.TestCase):
         metadata, _, issue = self.update.frontmatter("---\nname: !!python/object/apply:os.system ['echo unsafe']\n---\nbody")
         self.assertEqual(issue, "invalid_frontmatter")
         self.assertEqual(metadata, {})
+
+    def test_fresh_runner_keeps_license_metadata_when_api_unavailable(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "data").mkdir()
+            source = {"repo": "example/repo", "url": "https://github.com/example/repo", "branch": "main",
+                      "archived": False, "repository_license": "MIT"}
+            (root / "data/catalog.json").write_text(json.dumps({"sources": [source]}))
+            with patch.object(self.update, "ROOT", root), patch.object(self.update, "CACHE", root / "cache"), \
+                 patch.object(self.update.subprocess, "run"), \
+                 patch.object(self.update.subprocess, "check_output", side_effect=[b"", b"111\n", b"222\n", b""]), \
+                 patch.dict(self.update.os.environ, {"GITHUB_TOKEN": "test-only-placeholder"}), \
+                 patch.object(atlas, "api", side_effect=urllib.error.URLError("unavailable")):
+                snapshot = self.update.git_snapshot("example/repo")
+            self.assertEqual(snapshot["meta"]["license"]["spdx_id"], "MIT")
+            self.assertEqual(snapshot["meta"]["default_branch"], "main")
 
 
 if __name__ == "__main__":
