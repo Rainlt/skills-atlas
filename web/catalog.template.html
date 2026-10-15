@@ -14,6 +14,7 @@
   <h1>Skills Atlas <span>把技能找到，再按需带走。</span></h1>
   <p class="intro">按主题整理多个公开来源，合并完全相同的技能目录，保留不同实现。找到用途后，查看上游说明，复制命令下载一个完整技能。名称与描述保留原文，中文词支持主题扩展。</p>
   <div class="stats" id="stats"></div>
+  <details class="note" style="margin-top:18px"><summary>如何按需下载一个技能</summary><p>在线搜索和查看来源无需下载仓库。需要下载技能时，先<a href="https://rainlt.github.io/skills-atlas/skills-atlas-tools.zip" download>下载轻量工具包</a>并解压，在解压目录中打开终端，再运行卡片上的下载命令。需要 Python 3.9 或更新版本；工具包仅包含下载工具和索引。</p></details>
 </header>
 <main>
   <div class="controls">
@@ -21,11 +22,11 @@
     <select id="category" aria-label="按主题筛选"><option value="">所有主题</option></select>
     <select id="source" aria-label="按来源筛选"><option value="">所有来源</option></select>
   </div>
-  <div class="toolbar"><span id="count" aria-live="polite"></span><span>复制的命令在 skills-atlas 仓库目录中运行 · <a href="README.md">使用说明</a></span></div>
+  <div class="toolbar"><span id="count" aria-live="polite"></span><span>命令在轻量工具包的解压目录或仓库目录中运行 · <a href="https://github.com/Rainlt/skills-atlas#readme" target="_blank" rel="noopener noreferrer">使用说明</a></span></div>
   <div class="grid" id="results"></div>
   <div class="pagination"><button id="prev">上一页</button><span id="page"></span><button id="next">下一页</button></div>
 </main>
-<footer><p class="note">索引不等于质量或兼容性认证。授权声明缺失的条目保留待核实状态；公开可下载不代表宽松开源。下载工具不自动执行技能或安装外部依赖。<br><span id="snapshot"></span> · <a href="docs/METHODOLOGY.md">去重规则</a> · <a href="docs/SOURCES.md">来源与署名</a></p></footer>
+<footer><p class="note">索引不等于质量或兼容性认证。授权声明缺失的条目保留待核实状态；公开可下载不代表宽松开源。下载工具不自动执行技能或安装外部依赖。<br><span id="snapshot"></span> · <a href="https://github.com/Rainlt/skills-atlas/blob/main/docs/METHODOLOGY.md" target="_blank" rel="noopener noreferrer">去重规则</a> · <a href="https://github.com/Rainlt/skills-atlas/blob/main/docs/SOURCES.md" target="_blank" rel="noopener noreferrer">来源与署名</a></p></footer>
 <script id="atlas-data" type="application/json">__DATA__</script>
 <script>
 'use strict';

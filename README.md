@@ -8,13 +8,15 @@
 索引快照：`f03a82e7ea5d088a`。主目录之间完全相同的条目合并 0 处；同名但不同实现均保留。
 <!-- STATS:END -->
 
-**从这里开始：[中文分类目录](CATALOG.md) · [来源与版本](docs/SOURCES.md) · [整理规则](docs/METHODOLOGY.md) · [质量记录](docs/QUALITY.md)**
+**从这里开始：[在线搜索](https://rainlt.github.io/skills-atlas/) · [中文分类目录](CATALOG.md) · [来源与版本](docs/SOURCES.md) · [整理规则](docs/METHODOLOGY.md) · [质量记录](docs/QUALITY.md)**
 
 本仓库保存元数据、目录和工具，不收集整套技能正文。中文分类和搜索词由本项目维护，技能名称和描述保留上游原文。它是有明确来源范围的导航，不宣称覆盖全部互联网技能。
 
 ## 查找技能
 
-无需运行工具时，直接打开上面的分类目录。下载本仓库后，双击 `browse.html` 即可离线搜索、筛选来源并复制单项下载命令；页面无需账号或后台。
+直接打开 [GitHub Pages 在线搜索](https://rainlt.github.io/skills-atlas/)，即可搜索技能、筛选主题与来源、查看上游并复制单项下载命令，无需下载仓库或登录。下载本仓库后，双击 `browse.html` 也可离线搜索。
+
+需要真正下载技能时，可只获取并解压[轻量下载工具包](https://rainlt.github.io/skills-atlas/skills-atlas-tools.zip)，在解压目录运行卡片命令。工具包只包含下载工具、索引和授权说明，无需克隆仓库。仍可按下方说明使用仓库版工具。
 
 命令行需要 Python 3.9 或更新版本，搜索和下载无需安装第三方包：
 
@@ -78,6 +80,8 @@ python3 -m unittest discover -s tests -v
 更新器只取 Git 提交和目录对象，再按需获取技能说明，用于读取元数据与计算指纹；不会下载完整上游技能库。文件按内容指纹缓存，未变化的说明无需重新获取。任何一个来源失败，保留原有索引，不发布缺项快照。首次生成会请求数千份说明，耗时取决于网络；后续通常只获取变更项。
 
 Actions 的 **Refresh catalog** 每周一北京时间 **09:20** 自动检查，也支持手动运行。成功验证后，有变化则创建更新分支和 Pull Request，供维护者审核；无变化则结束。PR 不自动合并。详见[更新说明](docs/UPDATES.md)。索引更新不会替换用户已经下载的技能。
+
+目录更新合并到 `main` 后，**Deploy GitHub Pages** 自动重新发布搜索页面和轻量工具包。发布方式见 [GitHub Pages 说明](docs/PAGES.md)。
 
 ## 项目文件
 

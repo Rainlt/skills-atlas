@@ -5,3 +5,4 @@ __pycache__/
 downloads/
 .DS_Store
 *.zip
+_site/
