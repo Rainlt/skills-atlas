@@ -97,9 +97,9 @@
       "note_zh": "Google Gemini API 与生态技能。",
       "commit": "ee9da52195752ca83c2fca701d96bcb5a9c08d2d",
       "tree_sha": "d82d9dff66230a90b2d607d62d42dadf6d9fe2e7",
-      "branch": "HEAD",
-      "archived": null,
-      "repository_license": "UNKNOWN",
+      "branch": "main",
+      "archived": false,
+      "repository_license": "Apache-2.0",
       "skills_scanned": 3,
       "url": "https://github.com/google-gemini/gemini-skills",
       "excluded_skill_files": 0,
@@ -115,9 +115,9 @@
       "note_zh": "Supabase：PostgreSQL 与数据库实践。",
       "commit": "c9be0e931b7930f7d02126d04774d904c381e7d7",
       "tree_sha": "f0caa69c2816cd975288ca33797eb8cfbcec0a1c",
-      "branch": "HEAD",
-      "archived": null,
-      "repository_license": "UNKNOWN",
+      "branch": "main",
+      "archived": false,
+      "repository_license": "MIT",
       "skills_scanned": 2,
       "url": "https://github.com/supabase/agent-skills",
       "excluded_skill_files": 0,
@@ -133,8 +133,8 @@
       "note_zh": "Remotion：程序化视频制作。",
       "commit": "7ba4dcf8ebe1626b00baa41e1f2478113719b60b",
       "tree_sha": "4fae79f049e26ef69b58ff169653b054ef06f4d3",
-      "branch": "HEAD",
-      "archived": null,
+      "branch": "main",
+      "archived": false,
       "repository_license": "UNKNOWN",
       "skills_scanned": 12,
       "url": "https://github.com/remotion-dev/skills",
@@ -44277,8 +44277,8 @@
           "kind": "publisher",
           "license": {
             "declared": null,
-            "repository": "UNKNOWN",
-            "content_hint": "UNKNOWN",
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
             "review_required": true,
             "url": "https://github.com/google-gemini/gemini-skills/tree/ee9da52195752ca83c2fca701d96bcb5a9c08d2d/skills/gemini-api-dev"
           },
@@ -44325,8 +44325,8 @@
           "kind": "publisher",
           "license": {
             "declared": null,
-            "repository": "UNKNOWN",
-            "content_hint": "UNKNOWN",
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
             "review_required": true,
             "url": "https://github.com/google-gemini/gemini-skills/tree/ee9da52195752ca83c2fca701d96bcb5a9c08d2d/skills/gemini-live-api-dev"
           },
@@ -44373,8 +44373,8 @@
           "kind": "publisher",
           "license": {
             "declared": null,
-            "repository": "UNKNOWN",
-            "content_hint": "UNKNOWN",
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
             "review_required": true,
             "url": "https://github.com/google-gemini/gemini-skills/tree/ee9da52195752ca83c2fca701d96bcb5a9c08d2d/skills/gemini-omni-flash-api"
           },
@@ -184999,8 +184999,8 @@
           "kind": "publisher",
           "license": {
             "declared": null,
-            "repository": "UNKNOWN",
-            "content_hint": "UNKNOWN",
+            "repository": "MIT",
+            "content_hint": "MIT",
             "review_required": true,
             "url": "https://github.com/supabase/agent-skills/tree/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase"
           },
@@ -185047,8 +185047,8 @@
           "kind": "publisher",
           "license": {
             "declared": "MIT",
-            "repository": "UNKNOWN",
-            "content_hint": "UNKNOWN",
+            "repository": "MIT",
+            "content_hint": "MIT",
             "review_required": false,
             "url": "https://github.com/supabase/agent-skills/tree/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices"
           },

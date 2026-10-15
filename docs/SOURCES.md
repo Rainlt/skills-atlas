@@ -8,8 +8,8 @@
 | [openai/skills](https://github.com/openai/skills) | publisher | 44 | [49f948faa925](https://github.com/openai/skills/commit/49f948faa9258a0c61caceaf225e179651397431) | UNKNOWN |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | publisher | 9 | [063bee94c3f4](https://github.com/vercel-labs/agent-skills/commit/063bee94c3f4df8453406c830b0a7df0f2860278) | UNKNOWN |
 | [huggingface/skills](https://github.com/huggingface/skills) | publisher | 26 | [c3ff942be3e0](https://github.com/huggingface/skills/commit/c3ff942be3e07116b475253f0a8fc4f54682c1a8) | Apache-2.0 |
-| [google-gemini/gemini-skills](https://github.com/google-gemini/gemini-skills) | publisher | 3 | [ee9da5219575](https://github.com/google-gemini/gemini-skills/commit/ee9da52195752ca83c2fca701d96bcb5a9c08d2d) | UNKNOWN |
-| [supabase/agent-skills](https://github.com/supabase/agent-skills) | publisher | 2 | [c9be0e931b79](https://github.com/supabase/agent-skills/commit/c9be0e931b7930f7d02126d04774d904c381e7d7) | UNKNOWN |
+| [google-gemini/gemini-skills](https://github.com/google-gemini/gemini-skills) | publisher | 3 | [ee9da5219575](https://github.com/google-gemini/gemini-skills/commit/ee9da52195752ca83c2fca701d96bcb5a9c08d2d) | Apache-2.0 |
+| [supabase/agent-skills](https://github.com/supabase/agent-skills) | publisher | 2 | [c9be0e931b79](https://github.com/supabase/agent-skills/commit/c9be0e931b7930f7d02126d04774d904c381e7d7) | MIT |
 | [remotion-dev/skills](https://github.com/remotion-dev/skills) | publisher | 12 | [7ba4dcf8ebe1](https://github.com/remotion-dev/skills/commit/7ba4dcf8ebe1626b00baa41e1f2478113719b60b) | UNKNOWN |
 | [obra/superpowers](https://github.com/obra/superpowers) | specialist | 15 | [bb92a7774141](https://github.com/obra/superpowers/commit/bb92a77741419a4ab5f06e711a283343f1ada0c3) | MIT |
 | [trailofbits/skills](https://github.com/trailofbits/skills) | specialist | 85 | [e1f86a390d4c](https://github.com/trailofbits/skills/commit/e1f86a390d4caf28bf1c377a7d86707b2898669c) | CC-BY-SA-4.0 |
