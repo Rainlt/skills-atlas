@@ -7,8 +7,8 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def generate(data, taxonomy):
     stats = data["stats"]
-    line = "**{} 个来源 · {} 个独立技能目录 · 避开 {} 处分发副本 · 17 个中文主题**\n\n索引快照：`{}`。主目录之间完全相同的条目合并 {} 处；同名但不同实现均保留。".format(
-        stats["sources"], stats["unique_bundles"], stats.get("excluded_identical_distribution_copies", 0), data["snapshot"], stats["exact_duplicates_removed"])
+    line = "目前收录 {} 个来源、{:,} 个技能目录，分为 {} 类。".format(
+        stats["sources"], stats["unique_bundles"], len(taxonomy))
     readme = ROOT / "README.md"
     text = readme.read_text(encoding="utf-8")
     text = re.sub(r"<!-- STATS:START -->.*?<!-- STATS:END -->", "<!-- STATS:START -->\n" + line + "\n<!-- STATS:END -->", text, flags=re.S)
