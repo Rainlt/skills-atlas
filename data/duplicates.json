@@ -977,6 +977,15 @@
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "01bcabb11e4d3db27d0e6cca2d9c738bd1347f8d",
+      "canonical_path": "skills/obtain-coupons-all-in-one",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/obtain-coupons-all-in-one",
+        "plugins/agentic-awesome-skills/skills/obtain-coupons-all-in-one"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
       "bundle_sha": "01d420bde59244f50d9167d25a1a43106e1111ba",
       "canonical_path": "skills/youtube-seo-optimizer",
       "excluded_paths": [
@@ -1408,6 +1417,24 @@
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "0666341285b6692fe1fa04c13b19b23396faa93a",
+      "canonical_path": "skills/moltnode-chain-reader",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/moltnode-chain-reader",
+        "plugins/agentic-awesome-skills/skills/moltnode-chain-reader"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "06a10c02a8328be2e22ce088f99d107796137da2",
+      "canonical_path": "skills/krexa",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/krexa",
+        "plugins/agentic-awesome-skills/skills/krexa"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
       "bundle_sha": "06abf847bd5987439c7de0e9d3e8077c400496b3",
       "canonical_path": "skills/make-automation",
       "excluded_paths": [
@@ -1476,6 +1503,15 @@
       "excluded_paths": [
         "plugins/agentic-awesome-skills-claude/skills/game-development/pc-games",
         "plugins/agentic-awesome-skills/skills/game-development/pc-games"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "074d6f2aa46803ea6c100903b67db685bf9c0a15",
+      "canonical_path": "skills/mmx-cli",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/mmx-cli",
+        "plugins/agentic-awesome-skills/skills/mmx-cli"
       ]
     },
     {
@@ -3215,6 +3251,15 @@
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "198d6b6bb47c8e5e3798665e98b550ad51dce0f4",
+      "canonical_path": "skills/obsess",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/obsess",
+        "plugins/agentic-awesome-skills/skills/obsess"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
       "bundle_sha": "19a39d01f3e57c8cc30f9dd3843e6c1c0ef0abe9",
       "canonical_path": "skills/address-github-comments",
       "excluded_paths": [
@@ -4132,6 +4177,15 @@
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "22ae60a5abff767344288f4bf471232fd06bdda5",
+      "canonical_path": "skills/takeout-coupon",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/takeout-coupon",
+        "plugins/agentic-awesome-skills/skills/takeout-coupon"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
       "bundle_sha": "22bd5c37da1d2b14d69aab7714a6a15dcb2a7eb2",
       "canonical_path": "skills/architecture",
       "excluded_paths": [
@@ -4734,6 +4788,15 @@
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "2935677860b5333b03a0ccffff40b102fd259862",
+      "canonical_path": "skills/apify-reddit-scraper",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/apify-reddit-scraper",
+        "plugins/agentic-awesome-skills/skills/apify-reddit-scraper"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
       "bundle_sha": "295f086f10993239b396b182a096b4292503f39f",
       "canonical_path": "skills/frontend-developer",
       "excluded_paths": [
@@ -5045,6 +5108,15 @@
       "excluded_paths": [
         "plugins/agentic-awesome-skills-claude/skills/firmware-pentest",
         "plugins/agentic-awesome-skills/skills/firmware-pentest"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "2d64633b10968daa12ecda8a86506e1be1964dce",
+      "canonical_path": "skills/project-memory-log",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/project-memory-log",
+        "plugins/agentic-awesome-skills/skills/project-memory-log"
       ]
     },
     {
@@ -7396,15 +7468,6 @@
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
-      "bundle_sha": "45fd89588e566be1d3fcbf0d9dafa3428a584e55",
-      "canonical_path": "skills/mmx-cli",
-      "excluded_paths": [
-        "plugins/agentic-awesome-skills-claude/skills/mmx-cli",
-        "plugins/agentic-awesome-skills/skills/mmx-cli"
-      ]
-    },
-    {
-      "repo": "sickn33/agentic-awesome-skills",
       "bundle_sha": "463c001340e099ec1ec1cdd98a6b6ebe0145feb7",
       "canonical_path": "skills/threejs-geometry",
       "excluded_paths": [
@@ -8231,6 +8294,15 @@
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "4fc911683b1a296b888a61d58307af188cce8eda",
+      "canonical_path": "skills/aident-loadout",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/aident-loadout",
+        "plugins/agentic-awesome-skills/skills/aident-loadout"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
       "bundle_sha": "4fff1427348b2430d7d40acb6bde9ba861d58478",
       "canonical_path": "skills/vitest-skill",
       "excluded_paths": [
@@ -8537,6 +8609,15 @@
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "531c5688b90c5d1c94b289f46277180ed5b3bebf",
+      "canonical_path": "skills/agentic-test-audit",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/agentic-test-audit",
+        "plugins/agentic-awesome-skills/skills/agentic-test-audit"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
       "bundle_sha": "5321657a729bd9048ce8c5c2fd9dc8a18eb1726f",
       "canonical_path": "skills/sam-altman",
       "excluded_paths": [
@@ -8758,6 +8839,15 @@
       "excluded_paths": [
         "plugins/agentic-awesome-skills-claude/skills/github-actions-debugger",
         "plugins/agentic-awesome-skills/skills/github-actions-debugger"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "55936e835827e850806385a9493ceec3a74e4785",
+      "canonical_path": "skills/movie-coupon",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/movie-coupon",
+        "plugins/agentic-awesome-skills/skills/movie-coupon"
       ]
     },
     {
@@ -9473,15 +9563,6 @@
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
-      "bundle_sha": "5d57f605b625e7c4c42a730b4a2c9c881319819d",
-      "canonical_path": "skills/antigravity-maintainer-batch-release",
-      "excluded_paths": [
-        "plugins/agentic-awesome-skills-claude/skills/antigravity-maintainer-batch-release",
-        "plugins/agentic-awesome-skills/skills/antigravity-maintainer-batch-release"
-      ]
-    },
-    {
-      "repo": "sickn33/agentic-awesome-skills",
       "bundle_sha": "5d8981c6ed3e9060d0707b29e99d1d63aac665ce",
       "canonical_path": "skills/suno-lyrics-to-song",
       "excluded_paths": [
@@ -10103,6 +10184,15 @@
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "6528a68f95d521292a48b49911ba362b93ab50e1",
+      "canonical_path": "skills/openhook",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/openhook",
+        "plugins/agentic-awesome-skills/skills/openhook"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
       "bundle_sha": "654f8a976af7a8d2b66aa6b834bff07fe92f73be",
       "canonical_path": "skills/subagent-driven-development",
       "excluded_paths": [
@@ -10207,6 +10297,15 @@
       "excluded_paths": [
         "plugins/agentic-awesome-skills-claude/skills/unslop-commit",
         "plugins/agentic-awesome-skills/skills/unslop-commit"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "66e1cc4d2b7198abf14135a175b86af0a55a2d68",
+      "canonical_path": "skills/curlshot",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/curlshot",
+        "plugins/agentic-awesome-skills/skills/curlshot"
       ]
     },
     {
@@ -12628,6 +12727,15 @@
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "8111fbca4f92efcfa26acb3bfc3b1686b7448737",
+      "canonical_path": "skills/chord-onchain-trading",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/chord-onchain-trading",
+        "plugins/agentic-awesome-skills/skills/chord-onchain-trading"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
       "bundle_sha": "811a702da7429f2f13595633f259aecffd432c3b",
       "canonical_path": "skills/basecamp-automation",
       "excluded_paths": [
@@ -14247,6 +14355,15 @@
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "93622c694de6b4743eb0e1d33b4b984357e6c2e0",
+      "canonical_path": "skills/logo-to-stickers",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/logo-to-stickers",
+        "plugins/agentic-awesome-skills/skills/logo-to-stickers"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
       "bundle_sha": "936af5ddc689668b4046007535bba8348340c648",
       "canonical_path": "skills/objection-preemptor",
       "excluded_paths": [
@@ -14261,6 +14378,15 @@
       "excluded_paths": [
         "plugins/agentic-awesome-skills-claude/skills/probation-tracker",
         "plugins/agentic-awesome-skills/skills/probation-tracker"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "9396c76c66fed335823d2e4fad2a51677dee82c4",
+      "canonical_path": "skills/trip-coupon",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/trip-coupon",
+        "plugins/agentic-awesome-skills/skills/trip-coupon"
       ]
     },
     {
@@ -15568,6 +15694,15 @@
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "a612b410a4a29db4d531e4e699132c5f9d692b2d",
+      "canonical_path": "skills/altorank",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/altorank",
+        "plugins/agentic-awesome-skills/skills/altorank"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
       "bundle_sha": "a628c0ac51233f27e8c86fc4b4b02fc22e45dd37",
       "canonical_path": "skills/planetscale",
       "excluded_paths": [
@@ -16311,6 +16446,15 @@
       "excluded_paths": [
         "plugins/agentic-awesome-skills-claude/skills/hf-mcp",
         "plugins/agentic-awesome-skills/skills/hf-mcp"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "ae6a829d1c62f8f61b76ad8e4dca63cfa8e7deeb",
+      "canonical_path": "skills/parcel-coupon",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/parcel-coupon",
+        "plugins/agentic-awesome-skills/skills/parcel-coupon"
       ]
     },
     {
@@ -17183,6 +17327,15 @@
       "excluded_paths": [
         "plugins/agentic-awesome-skills-claude/skills/uncle-bob-craft",
         "plugins/agentic-awesome-skills/skills/uncle-bob-craft"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "b5b142ed6be136a457ed3e776af7f45017c4d4b9",
+      "canonical_path": "skills/healthcare-job-search",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/healthcare-job-search",
+        "plugins/agentic-awesome-skills/skills/healthcare-job-search"
       ]
     },
     {
@@ -19992,6 +20145,15 @@
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "d478d287c202e5c9c871deed6100ddcb1eaef448",
+      "canonical_path": "skills/antigravity-maintainer-batch-release",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/antigravity-maintainer-batch-release",
+        "plugins/agentic-awesome-skills/skills/antigravity-maintainer-batch-release"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
       "bundle_sha": "d488cfc6351c039086261f19daa2a10fb5df7925",
       "canonical_path": "skills/asana-automation",
       "excluded_paths": [
@@ -21486,6 +21648,15 @@
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "e1f251e76bf2fabde893b39696c4325e281032eb",
+      "canonical_path": "skills/pangolinfo-amazon-data-research",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/pangolinfo-amazon-data-research",
+        "plugins/agentic-awesome-skills/skills/pangolinfo-amazon-data-research"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
       "bundle_sha": "e1fea8038f6c666714de384d03383ef8fcd5ef4f",
       "canonical_path": "skills/brain-to-docs",
       "excluded_paths": [
@@ -22538,6 +22709,15 @@
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "ebeddfdba028c9c4520e5d9beddf659920001bb0",
+      "canonical_path": "skills/solidping",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/solidping",
+        "plugins/agentic-awesome-skills/skills/solidping"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
       "bundle_sha": "ebf185f04b30c7c5f3f36d1c67caa86fd17c5f30",
       "canonical_path": "skills/audit-agent-run-evidence",
       "excluded_paths": [
@@ -23444,6 +23624,15 @@
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "f51139a7691decb48544ed7a286b88b46f820c70",
+      "canonical_path": "skills/agentic-verify",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/agentic-verify",
+        "plugins/agentic-awesome-skills/skills/agentic-verify"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
       "bundle_sha": "f516d09befd3ec28106e1a4d8f38e7ba5f4575a8",
       "canonical_path": "skills/llm-application-dev-ai-assistant",
       "excluded_paths": [
@@ -23629,6 +23818,15 @@
       "excluded_paths": [
         "plugins/agentic-awesome-skills-claude/skills/fda-medtech-compliance-auditor",
         "plugins/agentic-awesome-skills/skills/fda-medtech-compliance-auditor"
+      ]
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
+      "bundle_sha": "f6b368e01714bea44d7599643e41ef3011f7b9fd",
+      "canonical_path": "skills/outreachgenie-list-audit",
+      "excluded_paths": [
+        "plugins/agentic-awesome-skills-claude/skills/outreachgenie-list-audit",
+        "plugins/agentic-awesome-skills/skills/outreachgenie-list-audit"
       ]
     },
     {

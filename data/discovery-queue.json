@@ -80,6 +80,11 @@
     "status": "unverified_reference"
   },
   {
+    "repo": "Aident-AI/aident-skill",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference"
+  },
+  {
     "repo": "alapha888/agent-skills-en",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference"
@@ -116,6 +121,11 @@
   },
   {
     "repo": "AlmogBaku/debug-skill",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference"
+  },
+  {
+    "repo": "AltoRank/altorank",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference"
   },
@@ -650,6 +660,11 @@
     "status": "unverified_reference"
   },
   {
+    "repo": "fclairamb/solidping-plugin",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference"
+  },
+  {
     "repo": "features/copilot",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference"
@@ -686,6 +701,11 @@
   },
   {
     "repo": "Genefold/arrowspace-skills",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference"
+  },
+  {
+    "repo": "getchordlabs/chord",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference"
   },
@@ -740,6 +760,11 @@
     "status": "unverified_reference"
   },
   {
+    "repo": "harshmaur/apify-reddit-scraper-skill",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference"
+  },
+  {
     "repo": "HasData/hasdata-cli",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference"
@@ -766,6 +791,11 @@
   },
   {
     "repo": "huifer/WellAlly-health",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference"
+  },
+  {
+    "repo": "huyanxius/logo-to-stickers",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference"
   },
@@ -891,6 +921,11 @@
   },
   {
     "repo": "kotobuki09/instructree",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference"
+  },
+  {
+    "repo": "Krexa-xyz/skills",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference"
   },
@@ -1065,6 +1100,31 @@
     "status": "unverified_reference"
   },
   {
+    "repo": "moooai/movie-coupon",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference"
+  },
+  {
+    "repo": "moooai/obtain-coupons-all-in-one",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference"
+  },
+  {
+    "repo": "moooai/parcel-coupon",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference"
+  },
+  {
+    "repo": "moooai/takeout-coupon",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference"
+  },
+  {
+    "repo": "moooai/trip-coupon",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference"
+  },
+  {
     "repo": "morluto/rea",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference"
@@ -1200,6 +1260,11 @@
     "status": "unverified_reference"
   },
   {
+    "repo": "openhook-dev/openhook-inbox",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference"
+  },
+  {
     "repo": "openweb-org/openweb",
     "discovered_in": "ComposioHQ/awesome-claude-skills",
     "status": "unverified_reference"
@@ -1211,6 +1276,16 @@
   },
   {
     "repo": "Orkas-AI/Orkas-VideoStudio",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference"
+  },
+  {
+    "repo": "Outreachgenie/outreachgenie-linkedin-mcp",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference"
+  },
+  {
+    "repo": "pangolin-spg/openclaw-skills",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference"
   },
@@ -1400,6 +1475,11 @@
     "status": "unverified_reference"
   },
   {
+    "repo": "SergiuPogor/curlshot-mcp",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference"
+  },
+  {
     "repo": "SHADOWPR0/beautiful_prose",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference"
@@ -1580,6 +1660,11 @@
     "status": "unverified_reference"
   },
   {
+    "repo": "timini/agentic-verification",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference"
+  },
+  {
     "repo": "timwukp/agent-skills-best-practice",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference"
@@ -1600,6 +1685,11 @@
     "status": "unverified_reference"
   },
   {
+    "repo": "tuantqse90/moltnode-mcp",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference"
+  },
+  {
     "repo": "tubeagentkit/youtube-transcript-skills",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference"
@@ -1616,6 +1706,11 @@
   },
   {
     "repo": "uizze/uizze",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference"
+  },
+  {
+    "repo": "UmarSiddiqui/obsess",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference"
   },
@@ -1842,6 +1937,11 @@
   {
     "repo": "ykdojo/claude-code-tips",
     "discovered_in": "ComposioHQ/awesome-claude-skills",
+    "status": "unverified_reference"
+  },
+  {
+    "repo": "yumaheymans/carejobs-mcp",
+    "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference"
   },
   {
