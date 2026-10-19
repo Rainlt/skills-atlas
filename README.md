@@ -5,7 +5,7 @@
 [在线搜索](https://rainlt.github.io/skills-atlas/) · [分类目录](CATALOG.md) · [下载工具](https://rainlt.github.io/skills-atlas/skills-atlas-tools.zip)
 
 <!-- STATS:START -->
-目前收录 12 个来源、3,946 个技能目录，分为 17 类。
+目前收录 12 个来源、3,968 个技能目录，分为 17 类。
 <!-- STATS:END -->
 
 ## 使用

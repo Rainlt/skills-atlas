@@ -30021,10 +30021,10 @@
       "type": "blob"
     }
   ],
-  "52ebfc32e4e362cf41769499f31684391e883838": [
+  "468853917f855717aa6a9090122008fac2c2fb55": [
     {
       "path": "SKILL.md",
-      "sha": "9efad367dd14d6766cb0c60711cd3caa68b7144a",
+      "sha": "482b8ed512b4f7bd9f910c9711af4d8d9a7f8138",
       "mode": "100644",
       "type": "blob"
     },
@@ -30042,7 +30042,7 @@
     },
     {
       "path": "remotion-captions/REFERENCE.md",
-      "sha": "959485a1489e793accb21e1e0b8fcc07bda35483",
+      "sha": "b1761fd6e5ea8ce956509bb2f8b2341a0a814db5",
       "mode": "100644",
       "type": "blob"
     },
@@ -30060,7 +30060,7 @@
     },
     {
       "path": "remotion-captions/display-captions.md",
-      "sha": "2ecdbe14dafb4990fbcd8c31e40fcf2e65ea810d",
+      "sha": "f698d42ad2788485abb1a1be462934d2decf3dcb",
       "mode": "100644",
       "type": "blob"
     },
@@ -30078,7 +30078,7 @@
     },
     {
       "path": "remotion-create/REFERENCE.md",
-      "sha": "5ff2db48b758fb0ad449465ed04da5e8110ae5f8",
+      "sha": "ece3b633fa47aab5a4290c08a7961b1cbd05b6cc",
       "mode": "100644",
       "type": "blob"
     },
@@ -30108,7 +30108,7 @@
     },
     {
       "path": "remotion-docs/REFERENCE.md",
-      "sha": "12f79afb5eec257b57328e17da64c9aa72d08c47",
+      "sha": "f956eaf53f272a75a659e1e80262a4c10ebcc084",
       "mode": "100644",
       "type": "blob"
     },
@@ -30126,7 +30126,7 @@
     },
     {
       "path": "remotion-interactivity/REFERENCE.md",
-      "sha": "df8e3a8c5e8c1f6a147624eb19e0329e6ce8ff71",
+      "sha": "681332d21c9387887fe60d0495d694185abf8efe",
       "mode": "100644",
       "type": "blob"
     },
@@ -30149,8 +30149,14 @@
       "type": "blob"
     },
     {
+      "path": "remotion-interactivity/timeline-structure.md",
+      "sha": "d7cf02ed14c4a027add202e10a60b6c83e5bbebd",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
       "path": "remotion-maps/REFERENCE.md",
-      "sha": "ad6d97a2c47682b59831e0b1de866269af53c5c6",
+      "sha": "eed2bb9339e01dad66da8c016fe84786152feed1",
       "mode": "100644",
       "type": "blob"
     },
@@ -30348,7 +30354,7 @@
     },
     {
       "path": "remotion-markup/REFERENCE.md",
-      "sha": "b36b8960b07962c182432fcc0adbd7f4af51ea46",
+      "sha": "7ef0ad21aee4dbad09dfe4acfe58dfa250c6e82c",
       "mode": "100644",
       "type": "blob"
     },
@@ -30372,13 +30378,19 @@
     },
     {
       "path": "remotion-markup/audio.md",
-      "sha": "8cc4eedfc7d02fe123b18b19154e70618bb35574",
+      "sha": "4ec871f142f5e68e9e5f881ea9b91cb806be44a6",
       "mode": "100644",
       "type": "blob"
     },
     {
       "path": "remotion-markup/calculate-metadata.md",
       "sha": "b66aedbe80a3ba7eb97ffbaf3c1439d1dc76ea07",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "remotion-markup/color-correction.md",
+      "sha": "18a3b5614d9d6b269349aae919604c84cd483b9d",
       "mode": "100644",
       "type": "blob"
     },
@@ -30390,19 +30402,19 @@
     },
     {
       "path": "remotion-markup/connected-compositions.md",
-      "sha": "bd195ece9c9e33eb2c53a689fb01e2d100d0738f",
+      "sha": "acf7b1d577f3a4bdd25c7611c3d323e683e0ea96",
       "mode": "100644",
       "type": "blob"
     },
     {
       "path": "remotion-markup/cropping.md",
-      "sha": "7a0cb5c9b8964a9c56317120801ce26757cb9827",
+      "sha": "8ffb6442e689923a64fd4d34e2285d34dbad8aa4",
       "mode": "100644",
       "type": "blob"
     },
     {
       "path": "remotion-markup/effects.md",
-      "sha": "901de39f15ace81db70a6f96c04adfc9d3c5a563",
+      "sha": "5912d80f07cbaeb37e45553605298694c19547b1",
       "mode": "100644",
       "type": "blob"
     },
@@ -30480,7 +30492,7 @@
     },
     {
       "path": "remotion-markup/multi-scene-video.md",
-      "sha": "26681cbf09f5b4c847f6a2e2a5b6ff82d9ffd9fb",
+      "sha": "64ce9112928fc5a4d622ff24b64df13f95096556",
       "mode": "100644",
       "type": "blob"
     },
@@ -30492,7 +30504,7 @@
     },
     {
       "path": "remotion-markup/remotion-maps/REFERENCE.md",
-      "sha": "ad6d97a2c47682b59831e0b1de866269af53c5c6",
+      "sha": "eed2bb9339e01dad66da8c016fe84786152feed1",
       "mode": "100644",
       "type": "blob"
     },
@@ -30684,7 +30696,7 @@
     },
     {
       "path": "remotion-markup/sequencing.md",
-      "sha": "dad3bb8e23a0c74a15d399557273115ae00e8e00",
+      "sha": "a2ba28279deaa94b582c60b73c9c02940def1338",
       "mode": "100644",
       "type": "blob"
     },
@@ -30708,7 +30720,7 @@
     },
     {
       "path": "remotion-markup/timing-props.md",
-      "sha": "7527e9b9de2e62e6cf429b01ff3c2617885a2fe8",
+      "sha": "e2d81e37ec82ac1c5bb730623a70a1a3590531f3",
       "mode": "100644",
       "type": "blob"
     },
@@ -30720,13 +30732,13 @@
     },
     {
       "path": "remotion-markup/transitions.md",
-      "sha": "0e33e59541119106c5d4f7ba9ebe4f9db3aa47c3",
+      "sha": "a83d709804446eca705fabf671f2ccdc219d4842",
       "mode": "100644",
       "type": "blob"
     },
     {
       "path": "remotion-markup/video-editing.md",
-      "sha": "b88ba94e2c848b626e752471cb0ed81841a6168d",
+      "sha": "69183ed23c8eb43468de31890b9acfb8631663a7",
       "mode": "100644",
       "type": "blob"
     },
@@ -30738,7 +30750,7 @@
     },
     {
       "path": "remotion-multimedia/REFERENCE.md",
-      "sha": "22ef178dd2f05fb29fc9b2a1d3b2470ceffc5ba4",
+      "sha": "5a48149e67f86f7993ed2fe2d850b4301857814d",
       "mode": "100644",
       "type": "blob"
     },
@@ -30774,7 +30786,7 @@
     },
     {
       "path": "remotion-render/REFERENCE.md",
-      "sha": "2967fb4ea7f3e45842c6eaa74ac2edbebb52a7b7",
+      "sha": "03989b3bf8f77fe9d06d4c6831b7edd454d442cf",
       "mode": "100644",
       "type": "blob"
     },
@@ -30798,7 +30810,7 @@
     },
     {
       "path": "remotion-saas/REFERENCE.md",
-      "sha": "61506d3fe81523e17d49a90fb4d7ae0c02e63049",
+      "sha": "66b46ff43f1906954c385b468b2672e12a9c2823",
       "mode": "100644",
       "type": "blob"
     },
@@ -30834,7 +30846,7 @@
     },
     {
       "path": "remotion-studio/REFERENCE.md",
-      "sha": "a1415bde5ef4ce1e0dc32d25c9340530479d40fb",
+      "sha": "a56df6bc67f525f9f9485e5f4e6fda849f1f7325",
       "mode": "100644",
       "type": "blob"
     },
@@ -30852,7 +30864,7 @@
     },
     {
       "path": "remotion-upgrade/REFERENCE.md",
-      "sha": "c610af86044679cc903ffa4347a972ba6ba90534",
+      "sha": "bc059286cb86c365609016f327d5d568b3d8ae88",
       "mode": "100644",
       "type": "blob"
     },
@@ -30869,10 +30881,10 @@
       "type": "blob"
     }
   ],
-  "3d407aa18ea3fc1b529244ab5611f2de4d356837": [
+  "910b8b24aefbed7f7aeb1c0b9c3268a6bbad01ec": [
     {
       "path": "SKILL.md",
-      "sha": "9088e8e2c10b1de99712019022e040c8eb42a63d",
+      "sha": "9c31ee035ee20abfdd11fb8aa705b7e2553c0d8c",
       "mode": "100644",
       "type": "blob"
     },
@@ -30890,7 +30902,7 @@
     },
     {
       "path": "display-captions.md",
-      "sha": "2ecdbe14dafb4990fbcd8c31e40fcf2e65ea810d",
+      "sha": "f698d42ad2788485abb1a1be462934d2decf3dcb",
       "mode": "100644",
       "type": "blob"
     },
@@ -30907,10 +30919,10 @@
       "type": "blob"
     }
   ],
-  "640ddd5ac3be0740b3475d8c35ef9bb2bd2c1675": [
+  "323c165c1cbd31c5eb61097d6d42506fce2b5508": [
     {
       "path": "SKILL.md",
-      "sha": "ccf5058c5019c02073e7870211c94e6e5a932a95",
+      "sha": "5d4d4ef0c8b777184ad343d5c00f0d9fa1bef2d2",
       "mode": "100644",
       "type": "blob"
     },
@@ -30939,10 +30951,10 @@
       "type": "blob"
     }
   ],
-  "971248adb963f84c14eea6850187958d2a4c956b": [
+  "75c69afc0606c539363d4dc0d42c937020d9b2b8": [
     {
       "path": "SKILL.md",
-      "sha": "b774720dd8ca6fce1aa27ec6e54e6265fded6b2b",
+      "sha": "2461e79cd5c300c11e007bf8d0b40eedaa7afc91",
       "mode": "100644",
       "type": "blob"
     },
@@ -30959,10 +30971,10 @@
       "type": "blob"
     }
   ],
-  "de2829a447a2b8b1788cff69946aad38ed13b5d0": [
+  "56acc309a50e95749c93ad7b11d2639c45e55595": [
     {
       "path": "SKILL.md",
-      "sha": "1ca512e275bb28bf8b939e16c58f3084838d4b53",
+      "sha": "c1a69e30500ea2c9a8ee19ddee74100fea6b3e83",
       "mode": "100644",
       "type": "blob"
     },
@@ -30983,12 +30995,18 @@
       "sha": "910a95d51e3a6b8ba8929d21e1e9af895696f31c",
       "mode": "100644",
       "type": "blob"
+    },
+    {
+      "path": "timeline-structure.md",
+      "sha": "95d484194e6e5a1ea36451e899ac0379c018ee0a",
+      "mode": "100644",
+      "type": "blob"
     }
   ],
-  "b8480093d9001abbd4ddae7e9f55f609c210a8b1": [
+  "ab81ad527b5fb523d129ee7eac14dc6e3d0dcc4f": [
     {
       "path": "SKILL.md",
-      "sha": "ad6d97a2c47682b59831e0b1de866269af53c5c6",
+      "sha": "eed2bb9339e01dad66da8c016fe84786152feed1",
       "mode": "100644",
       "type": "blob"
     },
@@ -31179,7 +31197,7 @@
       "type": "blob"
     }
   ],
-  "5fd9170d1f002cea5526cac12a055b313688c42a": [
+  "e11dde341da39ca91565ca04ec1b5deff51b0e14": [
     {
       "path": "3d.md",
       "sha": "c9d254f1209d83fd6f8a313659cfc694ec7b7837",
@@ -31188,7 +31206,7 @@
     },
     {
       "path": "SKILL.md",
-      "sha": "1962a591686bac453181c2d6d898b2b2c211dac8",
+      "sha": "051121a9c87aca6c4e144d1191bc09ff81a16695",
       "mode": "100644",
       "type": "blob"
     },
@@ -31212,13 +31230,19 @@
     },
     {
       "path": "audio.md",
-      "sha": "8cc4eedfc7d02fe123b18b19154e70618bb35574",
+      "sha": "4ec871f142f5e68e9e5f881ea9b91cb806be44a6",
       "mode": "100644",
       "type": "blob"
     },
     {
       "path": "calculate-metadata.md",
       "sha": "0529375bc725735b5d9ef28f503cc915965d4e89",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "color-correction.md",
+      "sha": "18a3b5614d9d6b269349aae919604c84cd483b9d",
       "mode": "100644",
       "type": "blob"
     },
@@ -31230,19 +31254,19 @@
     },
     {
       "path": "connected-compositions.md",
-      "sha": "f1f985331b9b93c753a8801650086084acbfb93e",
+      "sha": "7b5617780224bcc6bf23de92c0556eabbd10d349",
       "mode": "100644",
       "type": "blob"
     },
     {
       "path": "cropping.md",
-      "sha": "1a933e81dc06c9748e1062908940ea7e6712921f",
+      "sha": "5ff5981e8c4da3b1295f1b10ad8f356a5654c09a",
       "mode": "100644",
       "type": "blob"
     },
     {
       "path": "effects.md",
-      "sha": "901de39f15ace81db70a6f96c04adfc9d3c5a563",
+      "sha": "5912d80f07cbaeb37e45553605298694c19547b1",
       "mode": "100644",
       "type": "blob"
     },
@@ -31320,7 +31344,7 @@
     },
     {
       "path": "multi-scene-video.md",
-      "sha": "26681cbf09f5b4c847f6a2e2a5b6ff82d9ffd9fb",
+      "sha": "8daa99dc9aabbab36cd75213ec912408aff21c54",
       "mode": "100644",
       "type": "blob"
     },
@@ -31332,7 +31356,7 @@
     },
     {
       "path": "remotion-maps/REFERENCE.md",
-      "sha": "ad6d97a2c47682b59831e0b1de866269af53c5c6",
+      "sha": "eed2bb9339e01dad66da8c016fe84786152feed1",
       "mode": "100644",
       "type": "blob"
     },
@@ -31524,7 +31548,7 @@
     },
     {
       "path": "sequencing.md",
-      "sha": "e451f9998ec1c26c5a5c21f26dd1bd757ef1a4cf",
+      "sha": "2ca28d5047ca93122df2a5c8eab686fea2d5cbcf",
       "mode": "100644",
       "type": "blob"
     },
@@ -31548,7 +31572,7 @@
     },
     {
       "path": "timing-props.md",
-      "sha": "dce28ecc5e3ef03f2c167e68ad3b59e92e022646",
+      "sha": "30096bf6af5f081b2b0c2019bac611a16ada59db",
       "mode": "100644",
       "type": "blob"
     },
@@ -31560,13 +31584,13 @@
     },
     {
       "path": "transitions.md",
-      "sha": "0e33e59541119106c5d4f7ba9ebe4f9db3aa47c3",
+      "sha": "7189497099623d8684c0622628138f639e95cda8",
       "mode": "100644",
       "type": "blob"
     },
     {
       "path": "video-editing.md",
-      "sha": "b67a8fc94ae4638683c8f7d53ba9ad232fdf2973",
+      "sha": "cd04fc4c656f9e3a3deb413ba207dfba572fbf74",
       "mode": "100644",
       "type": "blob"
     },
@@ -31577,10 +31601,10 @@
       "type": "blob"
     }
   ],
-  "aee2e1fe8af788c2507242611877460bdad202e5": [
+  "0b91a710f7462948da86693715e1c24118e0220d": [
     {
       "path": "SKILL.md",
-      "sha": "22ef178dd2f05fb29fc9b2a1d3b2470ceffc5ba4",
+      "sha": "5a48149e67f86f7993ed2fe2d850b4301857814d",
       "mode": "100644",
       "type": "blob"
     },
@@ -31615,10 +31639,10 @@
       "type": "blob"
     }
   ],
-  "4a4dd0abe624298638152343a4dc4abb677608b8": [
+  "9c15d9d9b4490769323ebd66034eb7f2902d2af6": [
     {
       "path": "SKILL.md",
-      "sha": "2967fb4ea7f3e45842c6eaa74ac2edbebb52a7b7",
+      "sha": "03989b3bf8f77fe9d06d4c6831b7edd454d442cf",
       "mode": "100644",
       "type": "blob"
     },
@@ -31641,10 +31665,10 @@
       "type": "blob"
     }
   ],
-  "52822a39aea969055dffd1b594e126204ade660e": [
+  "79bb1ca7c6b3378070df217576a19e5abd74884f": [
     {
       "path": "SKILL.md",
-      "sha": "61506d3fe81523e17d49a90fb4d7ae0c02e63049",
+      "sha": "66b46ff43f1906954c385b468b2672e12a9c2823",
       "mode": "100644",
       "type": "blob"
     },
@@ -31679,10 +31703,10 @@
       "type": "blob"
     }
   ],
-  "13fff7e942c0f8fd8f79aeb5e93d581943bd60e3": [
+  "1f518104c8020b06830890a8f74e87b5e4a85038": [
     {
       "path": "SKILL.md",
-      "sha": "a1415bde5ef4ce1e0dc32d25c9340530479d40fb",
+      "sha": "a56df6bc67f525f9f9485e5f4e6fda849f1f7325",
       "mode": "100644",
       "type": "blob"
     },
@@ -31699,10 +31723,10 @@
       "type": "blob"
     }
   ],
-  "43655202c0e1020debd1d2c7bb760746c4df03a3": [
+  "f4d3dedd94ad64e9ffc4c306b0ca9059f4a92e30": [
     {
       "path": "SKILL.md",
-      "sha": "c610af86044679cc903ffa4347a972ba6ba90534",
+      "sha": "bc059286cb86c365609016f327d5d568b3d8ae88",
       "mode": "100644",
       "type": "blob"
     },
@@ -32717,6 +32741,22 @@
       "type": "blob"
     }
   ],
+  "531c5688b90c5d1c94b289f46277180ed5b3bebf": [
+    {
+      "path": "SKILL.md",
+      "sha": "0adda319912796c944739370bea73a92fe77c038",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "f51139a7691decb48544ed7a286b88b46f820c70": [
+    {
+      "path": "SKILL.md",
+      "sha": "879ddcb56afee36e2c0d9855fc21d25aa1927c3b",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "fe8c7e2711a511a683607a9c0aaca7fa59ec6ba1": [
     {
       "path": "SKILL.md",
@@ -33263,6 +33303,14 @@
       "type": "blob"
     }
   ],
+  "4fc911683b1a296b888a61d58307af188cce8eda": [
+    {
+      "path": "SKILL.md",
+      "sha": "35bac5a318df6799b2d0ef87252cecf69d3cfaad",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "8f34662764508f817c1d40905aad0ddeff1fbb44": [
     {
       "path": "SKILL.md",
@@ -33397,6 +33445,14 @@
     {
       "path": "SKILL.md",
       "sha": "21b3d1ae041a0eea4dd35b675da4bb1dcf5b1ed1",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "a612b410a4a29db4d531e4e699132c5f9d692b2d": [
+    {
+      "path": "SKILL.md",
+      "sha": "5ea346030922dfa81389b6b3901bb2c5e9a9a25f",
       "mode": "100644",
       "type": "blob"
     }
@@ -33805,16 +33861,46 @@
       "type": "blob"
     }
   ],
-  "5d57f605b625e7c4c42a730b4a2c9c881319819d": [
+  "d478d287c202e5c9c871deed6100ddcb1eaef448": [
     {
       "path": "SKILL.md",
-      "sha": "90c1f69ead85b088f237bc6516c174a3383c60fc",
+      "sha": "05f119dfee717090933730b5453c5a99d9c3aef8",
       "mode": "100644",
       "type": "blob"
     },
     {
       "path": "agents/openai.yaml",
-      "sha": "e7bbef8b23f8de2eb9c8bd733b625c4bbaadd85f",
+      "sha": "63d79e1800491ab285ea018421bac2c7387747a9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/component-validation.md",
+      "sha": "d68f57407498d236e03a64feac4197f3acf56166",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/core-preview.md",
+      "sha": "0ba522e6011f43609ed5c2a8fe06e56119d75d9e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/maintenance-contract.md",
+      "sha": "a55e34e491f749baa2673bc8458f89661abe2d38",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/public-surfaces.md",
+      "sha": "45a01f88cd1398bd406cded04a70cb44f203d88b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/skillspector.md",
+      "sha": "2651f7bdc0e4ae6bcc1972b2ba69f9f04ea321ad",
       "mode": "100644",
       "type": "blob"
     }
@@ -34391,6 +34477,26 @@
     {
       "path": "reference/scripts/run_actor.js",
       "sha": "a4b8798b1ee6e6488e6e99197aae66ab7a068e63",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "2935677860b5333b03a0ccffff40b102fd259862": [
+    {
+      "path": "SKILL.md",
+      "sha": "9e22d05ca292ed590d61ad732abffc8b65bbbc8d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/gotchas.md",
+      "sha": "a326e7f17720b2e549fe8eead78ccefbea38a601",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/input-mapping.md",
+      "sha": "e2e31310a9eaa6c0a4caa688ed09b318dd4ff67a",
       "mode": "100644",
       "type": "blob"
     }
@@ -39463,6 +39569,14 @@
     {
       "path": "SKILL.md",
       "sha": "83ab61c09e1d1ddafc652003c37be1d240a448aa",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "8111fbca4f92efcfa26acb3bfc3b1686b7448737": [
+    {
+      "path": "SKILL.md",
+      "sha": "fa3fea285e13bcaa0298be957897cebd8ceb2204",
       "mode": "100644",
       "type": "blob"
     }
@@ -44569,6 +44683,14 @@
     {
       "path": "SKILL.md",
       "sha": "6ea8e4fe3cd0caa9de4e2a5514704be3f4318d36",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "66e1cc4d2b7198abf14135a175b86af0a55a2d68": [
+    {
+      "path": "SKILL.md",
+      "sha": "f2b0be8919a28defa635776b549ed160627bab5c",
       "mode": "100644",
       "type": "blob"
     }
@@ -52935,6 +53057,14 @@
       "type": "blob"
     }
   ],
+  "b5b142ed6be136a457ed3e776af7f45017c4d4b9": [
+    {
+      "path": "SKILL.md",
+      "sha": "93c03c7bed8356a5253ebac2fdfa955835399b30",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "4a57fb3bca96c188964ca43e4fdefd06676f27ef": [
     {
       "path": "SKILL.md",
@@ -57447,6 +57577,32 @@
       "type": "blob"
     }
   ],
+  "06a10c02a8328be2e22ce088f99d107796137da2": [
+    {
+      "path": "SKILL.md",
+      "sha": "0e36eded19daca4afc197cc0d5988fa553eae4e7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/limits.md",
+      "sha": "ece3bdf6c59de7cbd17bde95e4961d0ca1e955f8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/setup.md",
+      "sha": "c15fb8012fcd6f06ef52a91dbe7d2d18bf2dbd46",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/tools.md",
+      "sha": "70641dbf3839ca0e7f28fae2ee09a8420383374c",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "001d8f5e65643bf24c2da965cd252f6b30540946": [
     {
       "path": "SKILL.md",
@@ -58985,6 +59141,26 @@
     {
       "path": "SKILL.md",
       "sha": "354ea2a4b707386ae8d5754dc1343a6af378c044",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "93622c694de6b4743eb0e1d33b4b984357e6c2e0": [
+    {
+      "path": "LICENSE",
+      "sha": "0857d744a95e315506561ede8428dcd476461e1a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "104d099af08bf1c45665a3a890831e316d7624ab",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/walkthrough.md",
+      "sha": "228f6f08c93fd364f46bc969bc0df55bfd56cc33",
       "mode": "100644",
       "type": "blob"
     }
@@ -67755,10 +67931,10 @@
       "type": "blob"
     }
   ],
-  "45fd89588e566be1d3fcbf0d9dafa3428a584e55": [
+  "074d6f2aa46803ea6c100903b67db685bf9c0a15": [
     {
       "path": "SKILL.md",
-      "sha": "f3f25bed471ecbd2aee27e6a8e43f5422487581e",
+      "sha": "71e3c2cd173411697912f34cd77dd3792aae8722",
       "mode": "100644",
       "type": "blob"
     }
@@ -67955,6 +68131,14 @@
     {
       "path": "resources/implementation-playbook.md",
       "sha": "72657f0fae9638cf25d210758f888386953f81d0",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "0666341285b6692fe1fa04c13b19b23396faa93a": [
+    {
+      "path": "SKILL.md",
+      "sha": "15c6d3cff62672cea7d47a69cc5f8cfb47696e27",
       "mode": "100644",
       "type": "blob"
     }
@@ -68861,6 +69045,32 @@
     {
       "path": "references/detailed-guide.md",
       "sha": "38e24a25b7e9305d6e3dc4f191ce7e8af4a0a260",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "55936e835827e850806385a9493ceec3a74e4785": [
+    {
+      "path": "SKILL.md",
+      "sha": "d01294535caf87714d48cb56ca7c47c9276f9996",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/movie-sample1.png",
+      "sha": "ea887c847da556397592ffd5485d4100e5f0efd9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/api_documentation.md",
+      "sha": "c9935de5210a1371ea86301f70761b1cf5cf7687",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/fetch_coupons.py",
+      "sha": "28c9f8133394799f074997acfb5c1aa7edf5aa8e",
       "mode": "100644",
       "type": "blob"
     }
@@ -70027,6 +70237,164 @@
       "type": "blob"
     }
   ],
+  "198d6b6bb47c8e5e3798665e98b550ad51dce0f4": [
+    {
+      "path": "LICENSE",
+      "sha": "ade19db727ff5cc6a8381b2d8d489dafb0fa922a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "0345d5ed1806704237645ad896410724cb006056",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/baseline.example.json",
+      "sha": "fc3b11101773c08209d7f77775dafe67f185bc45",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/candidate.example.json",
+      "sha": "61b20914060c140be90e00d131a4469f59a1ece1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/contract.example.json",
+      "sha": "9abc4c7453e4784a05324114eecf084cd2af62b0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/experiment.template.json",
+      "sha": "12e29ff122cd3e6e4bb5833573dbc92b13ba1c68",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/report.template.md",
+      "sha": "f3ccbef1d74032d38b6b5663977df3672725382f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/run.template.md",
+      "sha": "ee7e74e56cf585e69f78ee6b1a9fe8df04aff211",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/state.template.json",
+      "sha": "4bc2d790bd8aeedb53202a29e7db44c04de94018",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/discovery.md",
+      "sha": "06954166ad7103036dfd7cece0112a823e744dd9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/evaluators.md",
+      "sha": "876c61447e181281d682fa38d48e0204d1924145",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/host.md",
+      "sha": "a4ded4054e6799712ad2eccec0e6c6ae2a88e76f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/integrations/cline/obsess.md",
+      "sha": "380e7c63d2108b8f78d8c9a50f660d05db002c65",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/integrations/codex/obsess.md",
+      "sha": "fca1abca814919c074ba862a8b2014e032663718",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/integrations/copilot/obsess.prompt.md",
+      "sha": "ab091941a756bc526553a9f34765041d08ea25e9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/integrations/cursor/obsess.md",
+      "sha": "86ae024ef07b68de450cb7675012f65a8c922fcf",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/integrations/gemini/obsess-command.md",
+      "sha": "d9f1b29697d59b9c9406890a8ad75c643ce79a9b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/integrations/opencode/obsess.md",
+      "sha": "a79d298df742d8d6dfa5cd99a560a9547f32ef53",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/integrations/rules/obsess.md",
+      "sha": "4fd4d3989b747d42a754ecbcbd1f0108b5d50fde",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/integrations/windsurf/obsess.md",
+      "sha": "8f4f92c852a1a3158b178460b3fbdaf8bd9cd6f1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/polish.md",
+      "sha": "d5ec084e8fb5495433db5403095e0d6216337412",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/protocol.md",
+      "sha": "940cd3c23b6c0597d9b2ea3594a169ff1a61e648",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/recipes.md",
+      "sha": "458a796a0a4c3b71fc737a5cf2250828ced2727e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/recovery.md",
+      "sha": "fb55497c807d89cb675d520a53156af5843669ce",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/gate.py",
+      "sha": "401b6d42717b0b068bf6c5d6066e82e5293895b9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/install.py",
+      "sha": "16be9bb8afbbef684989d385402b91a122bc6de9",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "3016fecc58edf94d81f51e77c98186286749c0d7": [
     {
       "path": "SKILL.md",
@@ -70133,6 +70501,26 @@
     {
       "path": "references/PROPERTIES.md",
       "sha": "e46a63abadd7c18224a79c2c9ea902bfb3e88bd6",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "01bcabb11e4d3db27d0e6cca2d9c738bd1347f8d": [
+    {
+      "path": "SKILL.md",
+      "sha": "6b2b66aa68d86b8e9d448dec9328358335c4b084",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/api_documentation.md",
+      "sha": "b7d30e725b21976591aa4a29c69f343e92ff9951",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/fetch_coupons.py",
+      "sha": "6286d038ef7a75fa08a58e82a519d054e5ce2957",
       "mode": "100644",
       "type": "blob"
     }
@@ -70825,6 +71213,26 @@
       "type": "blob"
     }
   ],
+  "6528a68f95d521292a48b49911ba362b93ab50e1": [
+    {
+      "path": "LICENSE",
+      "sha": "bbde708cb5421a71e28f3e84099d740c7b479002",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "b7c71dc4e65df31f10ce8f5f26d46d9e883f240b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/evaluations.md",
+      "sha": "28148d9f5fe8ea0527feb08806f059f0a88e747c",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "4a881e271a811b89b593171290953f8e434c9afd": [
     {
       "path": "SKILL.md",
@@ -71023,6 +71431,56 @@
       "type": "blob"
     }
   ],
+  "f6b368e01714bea44d7599643e41ef3011f7b9fd": [
+    {
+      "path": "LICENSE",
+      "sha": "8a81d00fbd4f00a0eba70259ad2615c4178c6c03",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "00597692b064fad705dadc1c647ec433083a266b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/fictional-snapshot.json",
+      "sha": "92805d55ae41f510f6e1560384d5894f7797dfa1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/capture.md",
+      "sha": "8010af141416bce4112415a8b1cc0e18522f667d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/checks.md",
+      "sha": "d0e66b9c6de527aaa94833c7ed869c75c7b44573",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/setup.md",
+      "sha": "1d92d82dec466becc6a9a41984c3e531a3666382",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/audit.py",
+      "sha": "6970df641526c3dcdc5e445f5648e3f6876910f3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/test_audit.py",
+      "sha": "c3d03cb306c14a9ca9f35c002da92c7900d069b7",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "29ec1730c2d5377b39ce056f21168e02e4924b1f": [
     {
       "path": "SKILL.md",
@@ -71075,6 +71533,14 @@
       "type": "blob"
     }
   ],
+  "e1f251e76bf2fabde893b39696c4325e281032eb": [
+    {
+      "path": "SKILL.md",
+      "sha": "6b4de9db00fa33c0821b4a1c98053710ef25d85c",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "7668dd2416a07e3835b894bb85847c3ee6682ee9": [
     {
       "path": "SKILL.md",
@@ -71101,6 +71567,26 @@
     {
       "path": "SKILL.md",
       "sha": "a2046db0eb133552808e9457b56ae0f389d5159a",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "ae6a829d1c62f8f61b76ad8e4dca63cfa8e7deeb": [
+    {
+      "path": "SKILL.md",
+      "sha": "82f6e6692f331c9e81d1abd1bb4c7fc6a586bf11",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/api_documentation.md",
+      "sha": "cb01c031a0c48174ad1a0db83299317795b52033",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/fetch_coupons.py",
+      "sha": "bf0dcdf1d8e81b50ee1ecc9fff54d9c636d1014c",
       "mode": "100644",
       "type": "blob"
     }
@@ -74403,6 +74889,44 @@
     {
       "path": "SKILL.md",
       "sha": "825dc18b5e495922dd9162135c863d50f72fa0cb",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "2d64633b10968daa12ecda8a86506e1be1964dce": [
+    {
+      "path": "LICENSE",
+      "sha": "4767a2f86a349092935f41389ca3b3c45bb8bb23",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "b58880f2ba807618d46b4c9d6eec6212819f83b8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/example-document-catalog.md",
+      "sha": "e519922f0bbfc7cdb8fc2290424291efb06be6de",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/example-notes.md",
+      "sha": "17d57919771e62be1b40856502aaaa9e3a0311e7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/example-operation-log.md",
+      "sha": "67f5fa35a27b6bc8090d1e33a4c45c5738dc7b13",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/record-formats.md",
+      "sha": "3447e63d04a1a5d0a9e79636b29e5ed9c9fac1f3",
       "mode": "100644",
       "type": "blob"
     }
@@ -81429,6 +81953,14 @@
       "type": "blob"
     }
   ],
+  "ebeddfdba028c9c4520e5d9beddf659920001bb0": [
+    {
+      "path": "SKILL.md",
+      "sha": "ad4a78930cba9d737cd461f0d76f7689ed88f950",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "f02a593df382fa3455d2dd96341136bab41140a1": [
     {
       "path": "SKILL.md",
@@ -83439,6 +83971,38 @@
       "type": "blob"
     }
   ],
+  "22ae60a5abff767344288f4bf471232fd06bdda5": [
+    {
+      "path": "SKILL.md",
+      "sha": "6e65d79375b3f09ee4ecc501366a9a0638dc2114",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/eleme-sample1.png",
+      "sha": "a0e9df98f386aab9af7e27590b34b08e6017650c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/meituan-sample1.png",
+      "sha": "59df2b4c4a81d101c303362defe10489a4f4e97c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/api_documentation.md",
+      "sha": "dabc0b13b837b56a4751d5ceb8ebe5a369eb04a6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/fetch_coupons.py",
+      "sha": "73d372e2d9d03fa4bc603bc3287684e271c2012a",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "2e323e2e0456b8a337a66a9bf018f31f35b7eca8": [
     {
       "path": "SKILL.md",
@@ -85035,6 +85599,38 @@
     {
       "path": "references/detailed-guide.md",
       "sha": "972cf28222af4808dad636644072d32e537efaca",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "9396c76c66fed335823d2e4fad2a51677dee82c4": [
+    {
+      "path": "SKILL.md",
+      "sha": "7f8f5b6a866967a0266df51932102b894a147632",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/trip-sample1.png",
+      "sha": "a26b2bbb8340c9999476a138e574dbe95f809875",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/trip-sample2.png",
+      "sha": "85477339ae3ac2e65c83bcbc7a6a930ad1384cf2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/api_documentation.md",
+      "sha": "30afecf6e71af7e121bf9e1099e53443a7a7d1d0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/fetch_coupons.py",
+      "sha": "e4687a2b66a8573ed90f18cf09bec8d4a2f1104e",
       "mode": "100644",
       "type": "blob"
     }
@@ -91233,7 +91829,7 @@
       "type": "blob"
     }
   ],
-  "ad963e0336535a8de6071e85a93001049dca52e1": [
+  "4a2948dc493c5e5e0edcb4852422cba9a8e928b1": [
     {
       "path": "SKILL.md",
       "sha": "7e00563a8557433e768ae46427e768f54d3702eb",
@@ -91272,7 +91868,7 @@
     },
     {
       "path": "resources/Dockerfile",
-      "sha": "edfdaba59406a1c963d0046207d622be59129e14",
+      "sha": "d21abde54a34df4d2c6e625898c61a9010be9f91",
       "mode": "100644",
       "type": "blob"
     },
@@ -91427,10 +92023,10 @@
       "type": "blob"
     }
   ],
-  "448d53109803f16b7f54f3a8ebf9447647e66d07": [
+  "fc9942b08ab05a1538dfbe8b5efbf598b110d9f7": [
     {
       "path": "SKILL.md",
-      "sha": "8ac846d35deb9b8cc43b98155a1c51044dd5b213",
+      "sha": "a9807fe70afc4149acc8b0cd7474096341c129de",
       "mode": "100644",
       "type": "blob"
     },
@@ -91454,13 +92050,13 @@
     },
     {
       "path": "references/move-aptos.md",
-      "sha": "82af3fc31c093e5dcf948098b583e61dac3b7190",
+      "sha": "bd2d43182dc0c5a8f37306415b1776b7461893f2",
       "mode": "100644",
       "type": "blob"
     },
     {
       "path": "references/move-sui.md",
-      "sha": "ec03557012f1672bda33443874d975ec925fa609",
+      "sha": "fa32d883c1305da5e3d9201b3f238a67ac647351",
       "mode": "100644",
       "type": "blob"
     },
@@ -91472,7 +92068,7 @@
     },
     {
       "path": "references/solidity.md",
-      "sha": "c8b4fdeb72dd25927ed30583a18cf7dd2d9d1dce",
+      "sha": "1592d0b8cd968ec2f8c3260aad451ce02b332126",
       "mode": "100644",
       "type": "blob"
     },
@@ -91484,7 +92080,7 @@
     },
     {
       "path": "references/vyper.md",
-      "sha": "5ad2d84b8cb5a9da6b2c8209d136bd153e92d307",
+      "sha": "766731be111f934b9d94cf78c61157217ec853ad",
       "mode": "100644",
       "type": "blob"
     }
@@ -93941,7 +94537,7 @@
       "type": "blob"
     }
   ],
-  "ee82f04a427b7b42081ca060e24a2e7f3bb58ebc": [
+  "daa193a1791ee99ce4c7668fed748a841a5c7538": [
     {
       "path": "SKILL.md",
       "sha": "4483ffb03b1402da2f888772a09308baf18cfa54",
@@ -93974,7 +94570,7 @@
     },
     {
       "path": "scripts/pyproject.toml",
-      "sha": "d62066e436c2d81db9a679094a6f6ac1a9761e38",
+      "sha": "c1942a67b7c58d19ca470d9ada5b703a27759161",
       "mode": "100644",
       "type": "blob"
     },
@@ -93986,7 +94582,7 @@
     },
     {
       "path": "scripts/uv.lock",
-      "sha": "2953e8da9f249c3b28f7a5c0d86fed5f82d81d27",
+      "sha": "2e0615877503d4a0735e017a53245d7e2cbc68aa",
       "mode": "100644",
       "type": "blob"
     }
