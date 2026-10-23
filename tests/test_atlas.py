@@ -71,6 +71,16 @@ class DownloadTests(unittest.TestCase):
             self.assertEqual(result["files"], 1)
             self.assertFalse((root / "result").exists())
 
+    def test_runtime_requirement_is_carried_to_download_receipt(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            skill, data = self.fixture(root)
+            skill['compatibility'] = 'Requires matching external runtime; copying files is not installation.'
+            with patch.object(atlas, 'ROOT', root), patch.object(atlas, 'fetch', return_value=data):
+                atlas.download(skill, root / 'result')
+            receipt = json.loads((root / 'result/.atlas-receipt.json').read_text())
+            self.assertEqual(receipt['compatibility'], skill['compatibility'])
+
 
 class DeduplicationTests(unittest.TestCase):
     @classmethod
@@ -98,6 +108,17 @@ class DeduplicationTests(unittest.TestCase):
         metadata, _, issue = self.update.frontmatter("---\nname: !!python/object/apply:os.system ['echo unsafe']\n---\nbody")
         self.assertEqual(issue, "invalid_frontmatter")
         self.assertEqual(metadata, {})
+
+    def test_offline_cache_cannot_erase_reviewed_license_for_same_commit(self):
+        state = {'commit': 'pinned', 'meta': {'full_name': 'example/repo', 'default_branch': 'HEAD',
+                 'archived': None, 'license': None}}
+        known = {'repo': 'example/repo', 'commit': 'pinned', 'branch': 'main', 'archived': False,
+                 'repository_license': 'MIT'}
+        restored = self.update.retain_published_metadata(state, [known])
+        self.assertEqual(restored['meta']['license']['spdx_id'], 'MIT')
+        self.assertEqual(restored['meta']['default_branch'], 'main')
+        self.assertEqual(self.update.retain_published_metadata({**state, 'commit': 'new'}, [known]),
+                         {**state, 'commit': 'new'})
 
     def test_fresh_runner_keeps_license_metadata_when_api_unavailable(self):
         with tempfile.TemporaryDirectory() as tmp:

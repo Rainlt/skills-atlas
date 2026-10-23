@@ -16,6 +16,7 @@
 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | specialist | 177 | [a1043ef544e3](https://github.com/K-Dense-AI/scientific-agent-skills/commit/a1043ef544e3a100c28e70a736b6cf32554d0677) | MIT |
 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | collection | 864 | [be2a406907db](https://github.com/ComposioHQ/awesome-claude-skills/commit/be2a406907dbc61b73e6827ded415c96139d13a2) | UNKNOWN |
 | [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | collection | 2690 | [a3072641b750](https://github.com/sickn33/agentic-awesome-skills/commit/a3072641b750a1fb2f6ce695a5f984ea3d4c3ec1) | MIT |
+| [loopx-project/loopx](https://github.com/loopx-project/loopx) | specialist | 10 | [d3c79a68979d](https://github.com/loopx-project/loopx/commit/d3c79a68979da8a61f92398a9984229d60fc6c1a) | Apache-2.0 |
 
 仓库级许可证只是线索，不覆盖技能中的单独授权；UNKNOWN 表示未被 GitHub 识别。
 

@@ -539,6 +539,9 @@
     }
   ],
   "name_overrides": {
+    "loopx-performance-diagnosis": ["engineering", "testing"],
+    "loopx-project": ["automation", "engineering"],
+    "loopx-self-repair": ["automation", "engineering"],
     "algorithmic-art": [
       "media"
     ],

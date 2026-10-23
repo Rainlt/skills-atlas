@@ -12,6 +12,7 @@
     {"repo":"trailofbits/skills","kind":"specialist","priority":15,"include":["plugins/"],"note_zh":"Trail of Bits：安全审计与研究。"},
     {"repo":"K-Dense-AI/scientific-agent-skills","aliases":["K-Dense-AI/claude-scientific-skills"],"kind":"specialist","priority":15,"include":["skills/"],"note_zh":"科学计算、文献、生物医药与研究工作流。"},
     {"repo":"ComposioHQ/awesome-claude-skills","kind":"collection","priority":30,"include":[""],"exclude":[".github/"],"note_zh":"用户指定；同时含实际技能和外部导航链接。"},
-    {"repo":"sickn33/agentic-awesome-skills","aliases":["sickn33/antigravity-awesome-skills"],"kind":"collection","priority":40,"include":["skills/"],"note_zh":"用户指定；仅收录 skills/ 主目录，跳过插件分发副本。"}
+    {"repo":"sickn33/agentic-awesome-skills","aliases":["sickn33/antigravity-awesome-skills"],"kind":"collection","priority":40,"include":["skills/"],"note_zh":"用户指定；仅收录 skills/ 主目录，跳过插件分发副本。"},
+    {"repo":"loopx-project/loopx","kind":"specialist","priority":15,"include":["skills/"],"note_zh":"长期目标与 Agent 工作流；仅索引主技能目录，需配套运行时。","compatibility":"需要安装 LoopX 运行时及版本匹配的配套技能；按上游 workflow-skills 安装。单独下载目录不等于可运行，父级文档与共享资源以官方安装为准。"}
   ]
 }

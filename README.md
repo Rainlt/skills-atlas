@@ -5,7 +5,7 @@
 [在线搜索](https://rainlt.github.io/skills-atlas/) · [分类目录](CATALOG.md) · [下载工具](https://rainlt.github.io/skills-atlas/skills-atlas-tools.zip)
 
 <!-- STATS:START -->
-目前收录 12 个来源、3,946 个技能目录，分为 17 类。
+目前收录 13 个来源、3,956 个技能目录，分为 17 类。
 <!-- STATS:END -->
 
 ## 使用
@@ -38,7 +38,7 @@ python3 atlas.py download obra/superpowers/skills/systematic-debugging --dest ./
 
 ## 更新
 
-每周一北京时间 **09:20** 检查上游，有变化就提交 PR。审核合并后，在线目录和下载工具包自动更新。
+每周一北京时间 **09:20** 更新已有来源，并独立搜索、核实新来源。有变化就提交 PR，审核合并后更新在线目录和下载工具包。新候选及核实结果见[发现报告](docs/DISCOVERY.md)，不会自动安装或直接进入下载目录。
 
 也可以在 Actions 中手动运行 **Refresh catalog**。本地更新见[维护说明](docs/UPDATES.md)，网页发布见 [GitHub Pages 配置](docs/PAGES.md)。
 

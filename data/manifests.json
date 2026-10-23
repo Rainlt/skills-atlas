@@ -24779,6 +24779,284 @@
       "type": "blob"
     }
   ],
+  "f9b9a2d755ba6ddd8258a755b30a4644793325e6": [
+    {
+      "path": ".loopx-skill-scope",
+      "sha": "b47d0eb84b0648fb70c8a821566837aa8c4f37c5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "4dbe980697cf7f01442a450b1a43620e3c29f39d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha": "55deaf2d0c3214a008ea12870f17ba81cdaea3a6",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "a3ec509bfa24438e91f44934e1712d9e0b0f771d": [
+    {
+      "path": ".loopx-skill-scope",
+      "sha": "5191b607b3e32f278bad475e0261141d848cb22e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "bf57acd29625d9ad499db18b4eae9038e0f6e61b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha": "fc0f73caf9562b48662dd3498fbc7612b718c85b",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "1a3abef92d4513aae68da981d0904a0908c7f445": [
+    {
+      "path": ".loopx-skill-scope",
+      "sha": "b47d0eb84b0648fb70c8a821566837aa8c4f37c5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "2f73d7224059edb46358ec61e6f2d8ab0728b0db",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha": "32c553182baa73d95b7eb5136125cc41f2a3c9c5",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "16447ba45b79737d988c30a2fcb13f9677511c43": [
+    {
+      "path": ".loopx-skill-scope",
+      "sha": "5191b607b3e32f278bad475e0261141d848cb22e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "8d6053238548bc28ea1d8f4724d9ac0816699e36",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha": "a3cfee8bb52371db7f6d067cb12077b0b68478da",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "3dcf3324d024858435da4e346b6c2a1ea94745db": [
+    {
+      "path": ".loopx-skill-scope",
+      "sha": "b47d0eb84b0648fb70c8a821566837aa8c4f37c5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "3ff8421c146ca30c7795198f590f952362800873",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha": "b07d5a951eb1a3bb87e397f9da01f57953ac2247",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "2c47360a4544a976e0c31fa2b45f979d4904ff51": [
+    {
+      "path": "SKILL.md",
+      "sha": "d7c24a6796d2f3329ae41e8cb0d8ab2a82854b48",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha": "0fe20d24f41c037a7b4e8f65c9157eab68ab0947",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "978e51cd93989e6c1286dfae31ebceaa72b38613": [
+    {
+      "path": ".loopx-skill-scope",
+      "sha": "b47d0eb84b0648fb70c8a821566837aa8c4f37c5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "0ce68fabb3976eab08f2364892b0ecf080a75bff",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha": "c9fd6135a18e843f5891543d8e7ee07c15f49451",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/snapshot-contract.md",
+      "sha": "5b0235259f96452995fc93404d89fb7d2ad5b6bc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/diff_snapshot.py",
+      "sha": "8443335443fe5cecc0ce0fe7078770fb91a141dd",
+      "mode": "100755",
+      "type": "blob"
+    }
+  ],
+  "88febee37078df6b019541159005769cb4bfdb95": [
+    {
+      "path": ".loopx-skill-scope",
+      "sha": "b47d0eb84b0648fb70c8a821566837aa8c4f37c5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "f966818fe7e6bc58f5188d2ed2544d56ad44e0f5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha": "8dabb96d17e8cde7577963f911721aa59b677064",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "6f3ffb2fc741c21a4d4e79b5d9272bd61bf2db08": [
+    {
+      "path": ".loopx-skill-scope",
+      "sha": "b47d0eb84b0648fb70c8a821566837aa8c4f37c5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "e25ccfefe92b96f62c51d29330c80ead9eaacb81",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha": "ef6affed062ecb11a1977c5f9f4a4be0487d8e28",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/autonomous-execution.md",
+      "sha": "a0cfb3382d1dc55ccad46aa81b44ec624c894276",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/handoff-and-feedback.md",
+      "sha": "7ac2199ed7618c6e8fffc0ad3c7dc754cf244121",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/heartbeat-hosts.md",
+      "sha": "86e30ccca3e4e1b4b1d8af2ee3c82e02d699787a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/installation-and-diagnosis.md",
+      "sha": "bf97d31b51ee0f42bf86ecff851417f0582d562b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/materials-explore-quality.md",
+      "sha": "cf0db591e971032fe0e660bfffe31a8595ad1958",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/outcome-refinement.md",
+      "sha": "a7292251fe02568eb715196270557a11fc1c4488",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/start-and-connect.md",
+      "sha": "32b6d5b45b65591b19d49cee20ff28c229f3397c",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "de7d58ba0191c06456ba11e643530a76114373cb": [
+    {
+      "path": ".loopx-skill-scope",
+      "sha": "b47d0eb84b0648fb70c8a821566837aa8c4f37c5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "fe78edc1d6799d2dbdd7cb25eabd97877c61219f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha": "e38a3f72d1c404d1e49984485d44f289c2ebfeb4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/pattern-lookup.md",
+      "sha": "24d9903036a00f6768c3db8818048cbbb4d8cc7c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/repair-patterns.md",
+      "sha": "186ed398f4ad9f70af5ad97c7e615f570290c409",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/targeted-diagnostics.md",
+      "sha": "18d92ced6022a6603af2d98a543d7f581f14a590",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/upstream-issue-escalation.md",
+      "sha": "2afd4e6c0b8da12d5e92da064a98995de346d16d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/find_pattern.py",
+      "sha": "e9873c5e61269073578bdcc493a0ac676e691ae9",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "abe5c2fed8c215d4b86b77be1d8a7d0b0562651c": [
     {
       "path": "SKILL.md",

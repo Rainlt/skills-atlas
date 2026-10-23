@@ -2,7 +2,27 @@
 
 已开启每周更新：**每周一北京时间 09:20（UTC 01:20）**，通过 GitHub Actions 的 **Refresh catalog** 执行。
 
-工作流获取白名单来源、重新分类去重，执行完整性检查和测试。有变化时提交到专用分支并创建 PR；无变化时结束。PR 由维护者审核和合并，不自动合并。也可以在仓库 Actions 中选择 **Refresh catalog → Run workflow** 随时手动检查。默认的 `GITHUB_TOKEN` 由 GitHub 注入，无需额外个人令牌；仓库已允许 GitHub Actions 创建 Pull Request。
+工作流先独立搜索新来源，按预算核实候选和历史队列，再获取白名单来源、重新分类去重，执行完整性检查和测试。有变化时提交到专用分支并创建 PR；PR 由维护者审核和合并，不自动合并。也可以在仓库 Actions 中选择 **Refresh catalog → Run workflow** 随时手动检查。默认的 `GITHUB_TOKEN` 由 GitHub 注入，无需额外个人令牌；仓库已允许 GitHub Actions 创建 Pull Request。
+
+## 发现新来源
+
+`discovery.json` 保存通用检索式与预算，独立于 `sources.json`。搜索覆盖 Agent Skills 主题、科研技能、长任务与长期目标；名称与简介查询用于减少大型 README 合集造成的干扰。它是有边界的抽样，不代表搜索了全部 GitHub。可继续补充主题查询，无需修改代码。
+
+```bash
+python3 scripts/discover.py
+```
+
+每条查询默认读取按 star 排序的前 20 个结果，各查询轮流选取候选，共核实 16 个；另按最久未检查的顺序核实 4 个历史候选。请求较多，建议通过 `GITHUB_TOKEN` 环境变量使用 GitHub API 配额。网络或搜索失败时失败退出，保留上次报告；个别候选核实失败时记录错误并以非零状态退出，定时任务不会据此提交“全部成功”的 PR。
+
+候选核实读取固定 commit 的完整目录树，寻找实际 `SKILL.md`，优先抽样主 `skills/` 目录中的 3 份说明并校验 Git blob 指纹。截断树、篡改内容、缺失说明和网络错误分别记录，README 链接本身不算技能证据。说明只解析为数据，不执行上游指令。
+
+- `data/discovery-queue.json`：合并搜索与合集链接的持久候选队列，保留来源、commit、抽样和核实状态。
+- `data/discovery-report.json`：本次查询、返回排名、检查范围与错误。
+- `docs/DISCOVERY.md`：供审核者阅读的报告。
+
+`verified_candidate` 表示已确认存在技能文件和有效说明抽样，不表示所有技能质量、许可或运行兼容性都已验证。审核后才将来源加入 `sources.json`；有运行时或共享资源依赖的来源，应填写 `compatibility`。该提示会进入技能详情、网页和下载回执，单独下载目录不等于安装完整系统。
+
+可用 `--require-repo owner/repo` 做发现验收：它要求该仓库本次被通用查询命中并成功核实，不会将参数作为搜索词或候选种子。用于验收的仓库应尚未列入来源白名单；已收录项目由正常索引流程验证。离线单元测试不冒充在线搜索验收。
 
 周期配置位于 `.github/workflows/refresh.yml`：
 
@@ -21,6 +41,7 @@
 python3 -m venv .venv
 source .venv/bin/activate
 python3 -m pip install -r requirements-dev.txt
+python3 scripts/discover.py
 python3 scripts/update.py
 python3 scripts/validate.py
 python3 -m unittest discover -s tests -v

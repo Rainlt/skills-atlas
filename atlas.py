@@ -154,6 +154,7 @@ def download(skill, dest, *, variant=0, dry_run=False, as_zip=False):
     plan = bundle_plan(location)
     summary = {"id": skill["id"], "source": location["url"], "commit": location["commit"],
                "files": len(plan),
+               "compatibility": skill.get("compatibility", "未验证；请阅读上游要求"),
                "license": location["license"], "external_references": skill["has_external_refs"]}
     if dry_run:
         return summary

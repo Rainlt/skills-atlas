@@ -137,12 +137,30 @@ def ancestor_notices(path, items):
             and notice_file(x["path"])]
 
 
+def retain_published_metadata(state, previous_sources):
+    """An old offline cache must not erase later-reviewed metadata for the same commit."""
+    previous = next((s for s in previous_sources if s['repo'] == state['meta']['full_name']
+                     and s['commit'] == state['commit']), None)
+    meta = dict(state['meta'])
+    if previous:
+        if not (meta.get('license') or {}).get('spdx_id') or (meta.get('license') or {}).get('spdx_id') == 'UNKNOWN':
+            meta['license'] = {'spdx_id': previous['repository_license']}
+        if meta.get('default_branch') in (None, 'HEAD'):
+            meta['default_branch'] = previous['branch']
+        if meta.get('archived') is None:
+            meta['archived'] = previous['archived']
+    return {**state, 'meta': meta}
+
+
 def scan_source(source, taxonomy, offline=False, seed_dir=None):
     repo = source["repo"]
     key = repo.replace("/", "--")
     state_path = CACHE / "sources" / (key + ".json")
     if offline:
         state = json.loads(state_path.read_text(encoding="utf-8"))
+        published = ROOT / 'data/catalog.json'
+        if published.exists():
+            state = retain_published_metadata(state, json.loads(published.read_text(encoding='utf-8'))['sources'])
     else:
         seed = seed_dir / (key + ".json") if seed_dir else state_path
         previous_meta = json.loads(seed.read_text(encoding="utf-8"))["meta"] if seed.exists() else None
@@ -226,7 +244,8 @@ def scan_source(source, taxonomy, offline=False, seed_dir=None):
                 "instruction_sha256": hashlib.sha256(normalized.encode()).hexdigest(),
                 "has_external_refs": bool(re.search(r"(?:\.\./|\$\{?(?:CLAUDE_PLUGIN_ROOT|CODEX_HOME)|\$\{?SKILL_ROOT)", body)),
                 "declared_risk": str(risk) if risk is not None else None,
-                "compatibility": str(meta_skill.get("compatibility") or "未验证；请阅读上游要求"),
+                "compatibility": "；".join(str(v) for v in [source.get("compatibility"), meta_skill.get("compatibility")]
+                                             if v) or "未验证；请阅读上游要求",
                 "format_issues": problems,
                 "location": {"repo": repo, "path": directory, "commit": commit,
                              "bundle_sha": bundle_sha, "skill_sha": item["sha"],
@@ -367,8 +386,10 @@ def main():
     write_json(ROOT / "data/duplicates.json", {"exact_groups": [{"id": s["id"], "aliases": s["aliases"]} for s in skills if s["aliases"]],
                                               "same_name_families": families, "instruction_matches": matches,
                                               "excluded_distribution_copies": distribution_copies})
-    configured = {s["repo"].lower() for s in sources}
-    write_json(ROOT / "data/discovery-queue.json", sorted([r for r in references if r["repo"].lower() not in configured], key=lambda r: (r["repo"].lower(), r["discovered_in"])))
+    from scripts.discover import merge_queue
+    queue_path = ROOT / "data/discovery-queue.json"
+    previous_queue = json.loads(queue_path.read_text(encoding="utf-8")) if queue_path.exists() else []
+    write_json(queue_path, merge_queue(previous_queue, references, [s["repo"] for s in sources]))
     # A no-op run should not replace the last meaningful change report.
     if old.get("snapshot") != snapshot:
         write_json(ROOT / "data/changes.json", {"previous_snapshot": old.get("snapshot"), "snapshot": snapshot, **delta})

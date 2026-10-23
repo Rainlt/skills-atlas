@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "queries": [
+    "topic:agent-skills stars:>=100 archived:false",
+    "\"research\" skill in:name,description stars:>=100 archived:false",
+    "\"long-horizon\" agent in:name,description archived:false",
+    "\"long-running\" agent in:name,description stars:>=10 archived:false"
+  ],
+  "results_per_query": 20,
+  "search_inspections": 16,
+  "queue_inspections": 4,
+  "skill_samples": 3
+}
