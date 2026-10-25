@@ -18,6 +18,9 @@
 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | collection | 864 | [be2a406907db](https://github.com/ComposioHQ/awesome-claude-skills/commit/be2a406907dbc61b73e6827ded415c96139d13a2) | UNKNOWN |
 | [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | collection | 2690 | [a3072641b750](https://github.com/sickn33/agentic-awesome-skills/commit/a3072641b750a1fb2f6ce695a5f984ea3d4c3ec1) | MIT |
 | [loopx-project/loopx](https://github.com/loopx-project/loopx) | specialist | 10 | [d3c79a68979d](https://github.com/loopx-project/loopx/commit/d3c79a68979da8a61f92398a9984229d60fc6c1a) | Apache-2.0 |
+| [Adkid-Zephyr/oral-paper-skill](https://github.com/Adkid-Zephyr/oral-paper-skill) | specialist | 1 | [a2c4bc41b3aa](https://github.com/Adkid-Zephyr/oral-paper-skill/commit/a2c4bc41b3aa6946b2ccce1c844ce9936ef83308) | UNKNOWN |
+| [larashero3-dotcom/lieflat-less-ai-tone](https://github.com/larashero3-dotcom/lieflat-less-ai-tone) | specialist | 1 | [27d29232f101](https://github.com/larashero3-dotcom/lieflat-less-ai-tone/commit/27d29232f10124db904ca9c0536d0b67cb3b2833) | MIT |
+| [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | specialist | 1 | [14c213405669](https://github.com/Panniantong/Agent-Reach/commit/14c213405669414492bda0f8d52cc6531d062c45) | MIT |
 
 仓库级许可证只是线索，不覆盖技能中的单独授权；UNKNOWN 表示未被 GitHub 识别。
 

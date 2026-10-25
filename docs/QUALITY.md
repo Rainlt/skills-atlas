@@ -4,8 +4,8 @@
 
 | 指标 | 条目数 |
 |---|---:|
-| 缺少技能级许可声明，需核实具体授权 | 2779 |
-| 名称、目录或 frontmatter 等格式问题 | 98 |
+| 缺少技能级许可声明，需核实具体授权 | 2782 |
+| 名称、目录或 frontmatter 等格式问题 | 99 |
 | 含父目录引用或插件根目录变量等依赖线索 | 175 |
 | 有上游自报 risk 字段 | 2690 |
 
@@ -108,6 +108,7 @@
 | `ComposioHQ/awesome-claude-skills/composio-skills/zoho_invoice-automation` | nonstandard_name |
 | `ComposioHQ/awesome-claude-skills/composio-skills/zoho_mail-automation` | nonstandard_name |
 | `ComposioHQ/awesome-claude-skills/video-downloader` | name_directory_mismatch |
+| `Panniantong/Agent-Reach/agent_reach/skill` | name_directory_mismatch |
 | `sickn33/agentic-awesome-skills/skills/android_ui_verification` | nonstandard_name |
 | `vercel-labs/agent-skills/skills/composition-patterns` | name_directory_mismatch |
 | `vercel-labs/agent-skills/skills/react-best-practices` | name_directory_mismatch |

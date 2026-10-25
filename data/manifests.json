@@ -1,4 +1,42 @@
 {
+  "fa260d9489083cc5bd10fde947a7a2cfac10a216": [
+    {
+      "path": "SKILL.md",
+      "sha": "41552226f2feff91fa87258d853ce41a3da1d45d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha": "71eb636728acd40c2ffb9106699461860e2cfd7a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/abstract-derived-practices.md",
+      "sha": "dfd5518d5cfbc67476e6e1573cc792106754d86a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/archetypes.md",
+      "sha": "b45f485664c0748844ef5bfbe192df3df6f520aa",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/oral-patterns.md",
+      "sha": "7c1b217117b38905743a8349af5b6637912edd53",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/review-scorecard.md",
+      "sha": "16a37e91a235b48beb2ce1a37eb8a3de3d0cc3f7",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "f89c02f23fbb7c5077ab960f46bdb6a3817d6fc2": [
     {
       "path": "LICENSE.txt",
@@ -21041,6 +21079,38 @@
       "type": "blob"
     }
   ],
+  "b971a826555f7ba2dc1bfda79c5e1120a64bad0a": [
+    {
+      "path": "SKILL.md",
+      "sha": "b16129cccb2bb0a79339f923b4dceb2e108622f4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL_en.md",
+      "sha": "21efcd59a0059683bcdedd531515eafd87822363",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/capabilities.md",
+      "sha": "024b78ea286936e5452babdec3687cd9e622ba9b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/maintenance.md",
+      "sha": "19958f21302ca202d795016636dd85f7d7ba35f8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/sessions.md",
+      "sha": "80708ace2ce9f79402c332915847dfcb49e09a7d",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "baddb91c315ea384f9191615054ba8026eb57ba2": [
     {
       "path": "LICENSE.txt",
@@ -24897,6 +24967,80 @@
     {
       "path": "SKILL.md",
       "sha": "9046f03f975bcc061234266e70cb56ab43892526",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "ccc5c9ffd4c415e2e021ba869ae40c254e498d2f": [
+    {
+      "path": ".gitignore",
+      "sha": "7454f9acc511340fdd8e4497a20591eaffb49e0a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "8e2cd658cf9c54fa58bec4e4cf0b3a8d11e70666",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "README.en.md",
+      "sha": "97a775a2034ca1b9219385f57b0325041abfd09e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "README.md",
+      "sha": "263f66ddbc190c9172c87f8580ade2532a88ff94",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "RESEARCH.en.md",
+      "sha": "6a300fd32274c6293af4eaf70a598b24fd8d7e6a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "RESEARCH.md",
+      "sha": "767ffe6686ec9c03b53c8256cc7eb57b32a368c6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "6d07d49649c676619f8ca53f09014665109f51ba",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/less-ai-tone-hero-en.png",
+      "sha": "fdbc463971439ed859be40bd2c31b4f57f602814",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/less-ai-tone-hero-zh.png",
+      "sha": "676a89d049b560bb2fc7083a0f05138cbb630f02",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/check-structure.py",
+      "sha": "35132c32d9c6b096cfe286e6a5714225748b568c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/check-translationese.py",
+      "sha": "a7ba68ef2ec29145e00b46aae4da83c70ea97090",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/compare-human-ai.py",
+      "sha": "645607ba88617fe300bb3be7e01f73fd332aef13",
       "mode": "100644",
       "type": "blob"
     }

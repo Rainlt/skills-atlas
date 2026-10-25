@@ -4,14 +4,14 @@
 
 | 用途 | 入口 ID | 核对状态 | 下次复查 |
 |---|---|---|---|
-| 文献综述 | `K-Dense-AI/scientific-agent-skills/skills/literature-review` | 用途与结构已核对 | 2026-11-22 |
-| 科研论文写作 | `K-Dense-AI/scientific-agent-skills/skills/scientific-writing` | 用途与结构已核对 | 2026-11-22 |
-| 参考文献管理 | `K-Dense-AI/scientific-agent-skills/skills/citation-management` | 用途与结构已核对 | 2026-11-22 |
-| 论文审阅 | `K-Dense-AI/scientific-agent-skills/skills/peer-review` | 用途与结构已核对 | 2026-11-22 |
-| 实验设计 | `K-Dense-AI/scientific-agent-skills/skills/experimental-design` | 用途与结构已核对 | 2026-11-22 |
-| 统计分析 | `K-Dense-AI/scientific-agent-skills/skills/statistical-analysis` | 用途与结构已核对 | 2026-11-22 |
+| 文献综述 | `K-Dense-AI/scientific-agent-skills/skills/literature-review` | 下载已验证 | 2026-11-24 |
+| 科研论文写作 | `K-Dense-AI/scientific-agent-skills/skills/scientific-writing` | 下载已验证 | 2026-11-24 |
+| 参考文献管理 | `K-Dense-AI/scientific-agent-skills/skills/citation-management` | 下载已验证 | 2026-11-24 |
+| 论文审阅 | `K-Dense-AI/scientific-agent-skills/skills/peer-review` | 下载已验证 | 2026-11-24 |
+| 实验设计 | `K-Dense-AI/scientific-agent-skills/skills/experimental-design` | 下载已验证 | 2026-11-24 |
+| 统计分析 | `K-Dense-AI/scientific-agent-skills/skills/statistical-analysis` | 下载已验证 | 2026-11-24 |
 | 样本量与统计功效 | `K-Dense-AI/scientific-agent-skills/skills/statistical-power` | 用途与结构已核对 | 2026-11-22 |
-| 科研数据绘图 | `K-Dense-AI/scientific-agent-skills/skills/scientific-visualization` | 用途与结构已核对 | 2026-11-22 |
+| 科研数据绘图 | `K-Dense-AI/scientific-agent-skills/skills/scientific-visualization` | 下载已验证 | 2026-11-24 |
 | 科研证据检查 | `K-Dense-AI/scientific-agent-skills/skills/scientific-critical-thinking` | 用途与结构已核对 | 2026-11-22 |
 | 研究假设 | `K-Dense-AI/scientific-agent-skills/skills/hypothesis-generation` | 用途与结构已核对 | 2026-11-22 |
 | 科研选题讨论 | `K-Dense-AI/scientific-agent-skills/skills/scientific-brainstorming` | 用途与结构已核对 | 2026-11-22 |
@@ -41,3 +41,5 @@
 | 长期任务接续 | `loopx-project/loopx/skills/loopx-project` | 下载已验证 | 2026-11-22 |
 | 数据结论与图表叙事 | `sickn33/agentic-awesome-skills/skills/data-storytelling` | 用途与结构已核对 | 2026-11-24 |
 | 浏览器演示文稿 | `sickn33/agentic-awesome-skills/skills/frontend-slides` | 用途与结构已核对 | 2026-11-24 |
+| 论文贡献与证据梳理 | `Adkid-Zephyr/oral-paper-skill/skills/oral-paper-skill` | 下载已验证 | 2026-11-24 |
+| 中文成稿清理 | `larashero3-dotcom/lieflat-less-ai-tone` | 下载已验证 | 2026-11-24 |

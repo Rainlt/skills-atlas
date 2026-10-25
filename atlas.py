@@ -167,7 +167,8 @@ def download(skill, dest, *, variant=0, dry_run=False, as_zip=False):
     with tempfile.TemporaryDirectory(prefix=".atlas-", dir=str(dest.parent)) as temp:
         stage = Path(temp) / "skill"
         stage.mkdir()
-        entries = [(f, location["path"] + "/" + f["path"], f["path"]) for f in plan]
+        prefix = "" if location["path"] == "." else location["path"] + "/"
+        entries = [(f, prefix + f["path"], f["path"]) for f in plan]
         downloaded = [0]
         lock = threading.Lock()
         # Carry ancestor copyright/license notices without modifying upstream skill files.

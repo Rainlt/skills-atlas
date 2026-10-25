@@ -1,6 +1,6 @@
 # AI、模型与智能体
 
-[返回总目录](../../CATALOG.md) · 293 个条目 · 分类为规则初分，欢迎纠错。
+[返回总目录](../../CATALOG.md) · 294 个条目 · 分类为规则初分，欢迎纠错。
 
 复制完整 ID 后运行 `python3 atlas.py download <ID> --dest ./downloads/<目录名>`。
 
@@ -11,6 +11,7 @@
 | [OpenAI Automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/be2a406907dbc61b73e6827ded415c96139d13a2/composio-skills/openai-automation) | Automate OpenAI API operations -- generate responses with multimodal and structured output support, create embeddings, generate images, and list models via the Composio MCP integration. | `ComposioHQ/awesome-claude-skills/composio-skills/openai-automation` |
 | [langsmith-fetch](https://github.com/ComposioHQ/awesome-claude-skills/tree/be2a406907dbc61b73e6827ded415c96139d13a2/langsmith-fetch) | Debug LangChain and LangGraph agents by fetching execution traces from LangSmith Studio. Use when debugging agent behavior, investigating errors, analyzing tool calls, checking memory operations, or examining agent perfo | `ComposioHQ/awesome-claude-skills/langsmith-fetch` |
 | [mcp-builder](https://github.com/ComposioHQ/awesome-claude-skills/tree/be2a406907dbc61b73e6827ded415c96139d13a2/mcp-builder) | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services,  | `ComposioHQ/awesome-claude-skills/mcp-builder` |
+| [agent-reach](https://github.com/Panniantong/Agent-Reach/tree/14c213405669414492bda0f8d52cc6531d062c45/agent_reach/skill) | 只读读取各平台内容：搜索、读帖、看评论、取字幕、查行情和职位。 Use when 用户提到或贴出链接：小红书/xiaohongshu、B站/bilibili、Twitter/X、Reddit、 YouTube（字幕、转录）、GitHub、V2EX、雪球/股票行情、LinkedIn/Boss直聘 职位、 Instagram、Facebook、小宇宙播客；或说"帮我搜/看看/读一下这个链接"而自带网页搜索/读取不可用、失败或拿不到正文； 或 | `Panniantong/Agent-Reach/agent_reach/skill` |
 | [academy-guide](https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/academy-guide) | Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product — it recommends matching courses, tutorials, and use cases from Claude Academy (academy.claude.com), Anthropi | `anthropics/skills/skills/academy-guide` |
 | [claude-api](https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/claude-api) | Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration. TRIGGER — read BEFORE opening the target file; don't skip because it  | `anthropics/skills/skills/claude-api` |
 | [mcp-builder](https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/mcp-builder) | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services,  | `anthropics/skills/skills/mcp-builder` |
