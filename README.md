@@ -14,6 +14,8 @@
 
 目前已有 **[科研工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/research-toolbox)**：调研 → 定题与研究方案 → 实验 → 分析 → 写作 → 复核交付；引用、绘图与中文清理按需嵌入。例如已有实验结果，可以直接分析、出图并写结果段落。
 
+另有 **[动画制作工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/animation-toolbox)**：材料核对 → 讲稿与分镜 → 动画小样 → 导出与检查。整合论文转动画、vibe 方法与 HyperFrames / Remotion；例如把论文方法做成 30 秒模块流程动画。
+
 正文在私有个人方法库中统一维护，需有访问权限；本库保留轻量索引与核对版本，不重复维护上游全文，也不占单项技能精选名额。
 
 ```bash
