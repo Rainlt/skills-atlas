@@ -5,9 +5,12 @@ on:
     paths:
       - 'browse.html'
       - 'atlas.py'
+      - 'catalog_model.py'
       - 'taxonomy.json'
       - 'data/catalog.json'
       - 'data/manifests.json'
+      - 'data/curated.json'
+      - 'data/shortlist.json'
       - 'LICENSE'
       - 'scripts/build_pages.py'
       - '.github/workflows/pages.yml'
