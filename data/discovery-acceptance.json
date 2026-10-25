@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "config_sha256": "d7954e84d3b63d0de8274571e2ed2421ce9ad06bc707461d5b843cc9d2bb23d2",
+  "pre_index_sources": [
+    "anthropics/skills",
+    "openai/skills",
+    "vercel-labs/agent-skills",
+    "huggingface/skills",
+    "google-gemini/gemini-skills",
+    "supabase/agent-skills",
+    "remotion-dev/skills",
+    "obra/superpowers",
+    "trailofbits/skills",
+    "K-Dense-AI/scientific-agent-skills",
+    "ComposioHQ/awesome-claude-skills",
+    "sickn33/agentic-awesome-skills"
+  ],
+  "command": "python scripts/discover.py --require-repo loopx-project/loopx",
+  "report": {
+    "schema_version": 1,
+    "checked_at": "2026-10-23T14:32:35.013281+00:00",
+    "status": "complete",
+    "searches": [
+      {
+        "query": "topic:agent-skills stars:>=100 archived:false",
+        "total_count": 1012,
+        "returned": 20,
+        "results": [
+          "morluto/rea",
+          "anthropics/skills",
+          "DietrichGebert/ponytail",
+          "addyosmani/agent-skills",
+          "paperclipai/paperclip",
+          "nexu-io/open-design",
+          "Leonxlnx/taste-skill",
+          "tt-a1i/archify",
+          "ComposioHQ/awesome-claude-skills",
+          "career-ops-hq/career-ops",
+          "cathrynlavery/diagram-design",
+          "blader/humanizer",
+          "hesreallyhim/awesome-claude-code",
+          "coreyhaines31/marketingskills",
+          "K-Dense-AI/scientific-agent-skills",
+          "VoltAgent/awesome-openclaw-skills",
+          "CherryHQ/cherry-studio",
+          "sickn33/agentic-awesome-skills",
+          "alibaba/open-code-review",
+          "reactive-resume/reactive-resume"
+        ]
+      },
+      {
+        "query": "\"research\" skill in:name,description stars:>=100 archived:false",
+        "total_count": 211,
+        "returned": 20,
+        "results": [
+          "affaan-m/ECC",
+          "bytedance/deer-flow",
+          "mvanhorn/last30days-skill",
+          "Imbad0202/academic-research-skills",
+          "zhaoxuya520/reverse-skill",
+          "alirezarezvani/claude-skills",
+          "wanshuiyin/Auto-claude-code-research-in-sleep",
+          "Orchestra-Research/AI-Research-SKILLs",
+          "Imbad0202/academic-research-skills-codex",
+          "trailofbits/skills",
+          "Master-cai/Research-Paper-Writing-Skills",
+          "Ryze-AI-Adgent/open-seo-mcp-skills",
+          "0xNyk/awesome-hermes-agent",
+          "aipoch/open-science",
+          "zLanqing/codex-claude-academic-skills",
+          "brycewang-stanford/Auto-Empirical-Research-Skills",
+          "ScrapeCreators/social-media-research-skills",
+          "muxuuu/serenity-skill",
+          "Leonxlnx/unlazy",
+          "gadievron/raptor"
+        ]
+      },
+      {
+        "query": "\"long-horizon\" agent in:name,description archived:false",
+        "total_count": 1091,
+        "returned": 20,
+        "results": [
+          "cocoindex-io/cocoindex",
+          "loopx-project/loopx",
+          "microsoft/CUAWright",
+          "datacurve-ai/deep-swe",
+          "AMAP-ML/LongHorizon-Harness",
+          "InternScience/InternAgent",
+          "AutoTrustAI/PaperGuru-Benchmark",
+          "Accio-org/CommerceAgentBench",
+          "pat-jj/harness-1",
+          "XYZ-AI-Lab/AxisAgentic",
+          "cayu-dev/cayu",
+          "WooooDyy/AgentGym-RL",
+          "RUC-NLPIR/Awesome-Long-Horizon-Agents",
+          "SAIL-Research-Lab/cheetahclaws",
+          "verl-project/uni-agent",
+          "ksenxx/kiss_ai",
+          "Omni-Interaction-Gander/Omni-Interaction-Agent",
+          "scaleapi/SWE-bench_Pro-os",
+          "hkust-nlp/Toolathlon",
+          "PV-Bhat/vibe-check-mcp-server"
+        ]
+      },
+      {
+        "query": "\"long-running\" agent in:name,description stars:>=10 archived:false",
+        "total_count": 112,
+        "returned": 20,
+        "results": [
+          "OthmanAdi/planning-with-files",
+          "PrimeIntellect-ai/prime-agent",
+          "agentscope-ai/agentscope-java",
+          "golutra/golutra",
+          "gotalab/cc-sdd",
+          "moazbuilds/CodeMachine-CLI",
+          "durable-workflow/workflow",
+          "polyuiislab/infiAgent",
+          "voyag-commits/Open-Source-Astra-Alternative",
+          "mims-harvard/AutoScientists",
+          "anthropics/cwc-long-running-agents",
+          "ekailabs/contexto",
+          "pizza-bot-app/pizza-bot",
+          "GaosCode/PlanWeave",
+          "brainqub3/jar3d_meta_expert",
+          "Intelligent-Internet/zenith",
+          "PageAI-Pro/ralph-loop",
+          "mkurman/zorai",
+          "arcee-ai/nac",
+          "graniet/kheish"
+        ]
+      }
+    ],
+    "inspected": [
+      "morluto/rea",
+      "affaan-m/ECC",
+      "cocoindex-io/cocoindex",
+      "OthmanAdi/planning-with-files",
+      "DietrichGebert/ponytail",
+      "bytedance/deer-flow",
+      "loopx-project/loopx",
+      "PrimeIntellect-ai/prime-agent",
+      "addyosmani/agent-skills",
+      "mvanhorn/last30days-skill",
+      "microsoft/CUAWright",
+      "agentscope-ai/agentscope-java",
+      "paperclipai/paperclip",
+      "Imbad0202/academic-research-skills",
+      "datacurve-ai/deep-swe",
+      "golutra/golutra",
+      "0xNyk/awesome-hermes-agent",
+      "0xsarwagya/ontoly",
+      "1NickPappas/move-code-quality-skill",
+      "263311487-ux/falsify"
+    ],
+    "errors": [],
+    "limits": {
+      "schema_version": 1,
+      "results_per_query": 20,
+      "search_inspections": 16,
+      "queue_inspections": 4,
+      "skill_samples": 3
+    },
+    "scope": "按检索式、排序和预算抽样，不代表覆盖全部 GitHub",
+    "acceptance": {
+      "required_repo": "loopx-project/loopx",
+      "passed": true
+    }
+  },
+  "candidate": {
+    "repo": "loopx-project/loopx",
+    "stars": 6404,
+    "origins": [
+      "search:\"long-horizon\" agent in:name,description archived:false"
+    ],
+    "status": "verified_candidate",
+    "canonical_repo": "loopx-project/loopx",
+    "commit": "d3c79a68979da8a61f92398a9984229d60fc6c1a",
+    "repository_license": "Apache-2.0",
+    "skill_paths": [
+      "skills/loopx-benchmark/SKILL.md",
+      "skills/loopx-change-quality/SKILL.md",
+      "skills/loopx-doc-registry/SKILL.md",
+      "skills/loopx-material/SKILL.md",
+      "skills/loopx-performance-diagnosis/SKILL.md",
+      "skills/loopx-pr-merge/SKILL.md",
+      "skills/loopx-pr-program/SKILL.md",
+      "skills/loopx-pr-review/SKILL.md",
+      "skills/loopx-project/SKILL.md",
+      "skills/loopx-self-repair/SKILL.md",
+      "benchmark/swe-marathon/skills/swe-marathon-five-arm/SKILL.md",
+      "benchmark/swe-marathon/skills/tb4-five-arm/SKILL.md",
+      "demo/auto_research/worker_skill/SKILL.md",
+      "loopx/capabilities/manager_context/skills/loopx-manager/SKILL.md"
+    ],
+    "samples": [
+      {
+        "path": "skills/loopx-benchmark/SKILL.md",
+        "blob_sha": "4dbe980697cf7f01442a450b1a43620e3c29f39d",
+        "name": "loopx-benchmark",
+        "description": "Operate or analyze LoopX-managed benchmark experiments through benchmark-toolkit, including trajectory-based effectiveness and efficiency diagnosis, matched comparisons, run selection and integrity. Solving an assigned task under an existing runner does not by itself select this skill. Excludes casual benchmark discussion and ordinary software microbenchmarks.",
+        "frontmatter_issue": null,
+        "external_references": true
+      },
+      {
+        "path": "skills/loopx-change-quality/SKILL.md",
+        "blob_sha": "bf57acd29625d9ad499db18b4eae9038e0f6e61b",
+        "name": "loopx-change-quality",
+        "description": "Qualify the exact final diff for a LoopX-managed goal. Use when goal policy enables change_quality_qualification, before a non-trivial delivery or merge, and when producing or repairing an exact-scope quality receipt. The workflow is language-neutral, permits at most one policy-authorized safe-fix pass, and never grants merge or repository authority.",
+        "frontmatter_issue": null,
+        "external_references": false
+      },
+      {
+        "path": "skills/loopx-doc-registry/SKILL.md",
+        "blob_sha": "2f73d7224059edb46358ec61e6f2d8ab0728b0db",
+        "name": "loopx-doc-registry",
+        "description": "Use when a connected LoopX project is asked to read, remember, record, index, register, or use a durable project material such as a Lark/wiki/design doc, research note, SOP, owner packet, migration report, benchmark paper, or external material source. Use even when the user does not mention LoopX or doc registry.",
+        "frontmatter_issue": null,
+        "external_references": false
+      }
+    ],
+    "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
+    "checked_at": "2026-10-23T14:32:35.013281+00:00"
+  }
+}

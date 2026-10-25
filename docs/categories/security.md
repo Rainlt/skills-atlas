@@ -1,11 +1,12 @@
 # 安全、隐私与审计
 
-[返回总目录](../../CATALOG.md) · 356 个条目 · 分类为规则初分，欢迎纠错。
+[返回总目录](../../CATALOG.md) · 357 个条目 · 分类为规则初分，欢迎纠错。
 
 复制完整 ID 后运行 `python3 atlas.py download <ID> --dest ./downloads/<目录名>`。
 
 | 名称与来源 | 用途（上游原文） | 完整 ID |
 |---|---|---|
+| [security-audit](https://github.com/cloudflare/security-audit-skill/tree/c1c8a8c1471069fb0e188eeaff69b8e8db6564a8/skills/security-audit) | Security guidance and vulnerability review for codebases, APIs, services, CLI tools, libraries, and daemons. Use for security questions, focused reviews, vulnerability research, security audits, or pen tests. Run the com | `cloudflare/security-audit-skill/skills/security-audit` |
 | [security-best-practices](https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/security-best-practices) | Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-def | `openai/skills/skills/.curated/security-best-practices` |
 | [security-ownership-map](https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/security-ownership-map) | Analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensitive-code ownership, and export CSV/JSON for graph databases and visualization. Trigger only when the user exp | `openai/skills/skills/.curated/security-ownership-map` |
 | [security-threat-model](https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/security-threat-model) | Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigger only when the user explicitly asks to | `openai/skills/skills/.curated/security-threat-model` |

@@ -1,6 +1,6 @@
 # 测试、调试与代码评审
 
-[返回总目录](../../CATALOG.md) · 125 个条目 · 分类为规则初分，欢迎纠错。
+[返回总目录](../../CATALOG.md) · 126 个条目 · 分类为规则初分，欢迎纠错。
 
 复制完整 ID 后运行 `python3 atlas.py download <ID> --dest ./downloads/<目录名>`。
 
@@ -8,6 +8,7 @@
 |---|---|---|
 | [webapp-testing](https://github.com/ComposioHQ/awesome-claude-skills/tree/be2a406907dbc61b73e6827ded415c96139d13a2/webapp-testing) | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs. | `ComposioHQ/awesome-claude-skills/webapp-testing` |
 | [webapp-testing](https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/webapp-testing) | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs. | `anthropics/skills/skills/webapp-testing` |
+| [loopx-pr-review](https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-pr-review) | Use for `/loopx-pr-review` or evidence-backed PR queue review. Run `loopx pr-review` first, execute the capability-owned review plan for each selected exact head, then publish full bilingual PR reviews (complete Chinese  | `loopx-project/loopx/skills/loopx-pr-review` |
 | [receiving-code-review](https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/receiving-code-review) | Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind  | `obra/superpowers/skills/receiving-code-review` |
 | [systematic-debugging](https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/systematic-debugging) | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes | `obra/superpowers/skills/systematic-debugging` |
 | [verification-before-completion](https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/verification-before-completion) | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions a | `obra/superpowers/skills/verification-before-completion` |

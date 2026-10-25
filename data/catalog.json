@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot": "f03a82e7ea5d088a",
-  "generated_at": "2026-10-15T03:48:25.895355+00:00",
+  "snapshot": "43a53de8a9d827e0",
+  "generated_at": "2026-10-25T05:03:02.894975+00:00",
   "stats": {
-    "sources": 12,
-    "scanned_skills": 3946,
-    "unique_bundles": 3946,
+    "sources": 14,
+    "scanned_skills": 3957,
+    "unique_bundles": 3957,
     "exact_duplicates_removed": 0,
-    "same_name_families": 96,
+    "same_name_families": 97,
     "excluded_identical_distribution_copies": 5226,
-    "excluded_noncanonical_skill_files": 5605,
+    "excluded_noncanonical_skill_files": 5609,
     "identical_instruction_groups": 6
   },
   "sources": [
@@ -178,6 +178,25 @@
       "excluded_identical_distribution_copies": 0
     },
     {
+      "repo": "cloudflare/security-audit-skill",
+      "kind": "publisher",
+      "priority": 10,
+      "include": [
+        "skills/security-audit/"
+      ],
+      "note_zh": "Cloudflare：检查代码中的安全漏洞，独立复查问题是否存在并生成报告。",
+      "compatibility": "完整审计需要支持工具调用和并行子智能体的编程助手，以及 Node.js 校验器。执行目标代码需满足上游规定的隔离运行条件；条件不足时仅核对源码，将相关问题标为待验证。单项下载包含配套说明与校验脚本，不等于已安装或完成安全验证。",
+      "commit": "c1c8a8c1471069fb0e188eeaff69b8e8db6564a8",
+      "tree_sha": "8cd03bb3941496e441d6248aaae2429a35b93cc3",
+      "branch": "main",
+      "archived": false,
+      "repository_license": "MIT",
+      "skills_scanned": 1,
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "excluded_skill_files": 0,
+      "excluded_identical_distribution_copies": 0
+    },
+    {
       "repo": "K-Dense-AI/scientific-agent-skills",
       "aliases": [
         "K-Dense-AI/claude-scientific-skills"
@@ -239,6 +258,25 @@
       "url": "https://github.com/sickn33/agentic-awesome-skills",
       "excluded_skill_files": 5604,
       "excluded_identical_distribution_copies": 5226
+    },
+    {
+      "repo": "loopx-project/loopx",
+      "kind": "specialist",
+      "priority": 15,
+      "include": [
+        "skills/"
+      ],
+      "note_zh": "长期目标与 Agent 工作流；仅索引主技能目录，需配套运行时。",
+      "compatibility": "需要安装 LoopX 运行时及版本匹配的配套技能；按上游 workflow-skills 安装。单独下载目录不等于可运行，父级文档与共享资源以官方安装为准。",
+      "commit": "d3c79a68979da8a61f92398a9984229d60fc6c1a",
+      "tree_sha": "100906862d6c2e8efce5e8c8eff2f22ff5871a02",
+      "branch": "main",
+      "archived": false,
+      "repository_license": "Apache-2.0",
+      "skills_scanned": 10,
+      "url": "https://github.com/loopx-project/loopx",
+      "excluded_skill_files": 4,
+      "excluded_identical_distribution_copies": 0
     }
   ],
   "skills": [
@@ -44251,6 +44289,54 @@
       "format_issues": []
     },
     {
+      "id": "cloudflare/security-audit-skill/skills/security-audit",
+      "name": "security-audit",
+      "description": "Security guidance and vulnerability review for codebases, APIs, services, CLI tools, libraries, and daemons. Use for security questions, focused reviews, vulnerability research, security audits, or pen tests. Run the complete workflow only for explicit codebase audit or pen-test requests, full/comprehensive/end-to-end reviews, or requested report artifacts.",
+      "categories": [
+        "security",
+        "testing",
+        "automation"
+      ],
+      "tags_zh": [
+        "测试、调试与代码评审",
+        "安全、隐私与审计",
+        "办公、应用集成与自动化"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "cloudflare/security-audit-skill",
+          "path": "skills/security-audit",
+          "commit": "c1c8a8c1471069fb0e188eeaff69b8e8db6564a8",
+          "bundle_sha": "ccbc33ed119b28c3ef7b44a7e2081ab191ad63af",
+          "skill_sha": "92178dad304d3f63e37582a297026a7874e12c62",
+          "url": "https://github.com/cloudflare/security-audit-skill/tree/c1c8a8c1471069fb0e188eeaff69b8e8db6564a8/skills/security-audit",
+          "priority": 10,
+          "kind": "publisher",
+          "license": {
+            "declared": null,
+            "repository": "MIT",
+            "content_hint": "MIT",
+            "review_required": true,
+            "url": "https://github.com/cloudflare/security-audit-skill/tree/c1c8a8c1471069fb0e188eeaff69b8e8db6564a8/skills/security-audit"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "6dbc9ecb3a5b9080e95b962869e8c7ab16cfdc20",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "834b632d30cb6feb384f76d8e1b1f2dc66711efae69c94550889e38225ec2055",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "完整审计需要支持工具调用和并行子智能体的编程助手，以及 Node.js 校验器。执行目标代码需满足上游规定的隔离运行条件；条件不足时仅核对源码，将相关问题标为待验证。单项下载包含配套说明与校验脚本，不等于已安装或完成安全验证。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
       "id": "google-gemini/gemini-skills/skills/gemini-api-dev",
       "name": "gemini-api-dev",
       "description": "Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal understanding, image generation, video generation, speech generation (TTS), voice design, voice replication, streaming responses, background research tasks, function calling, structured output, or migrating from the old generateContent API. Covers SDK usage and best practices for Gemini models and agents in Python and TypeScript.",
@@ -45616,6 +45702,558 @@
       "declared_risk": null,
       "compatibility": "未验证；请阅读上游要求",
       "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "loopx-project/loopx/skills/loopx-benchmark",
+      "name": "loopx-benchmark",
+      "description": "Operate or analyze LoopX-managed benchmark experiments through benchmark-toolkit, including trajectory-based effectiveness and efficiency diagnosis, matched comparisons, run selection and integrity. Solving an assigned task under an existing runner does not by itself select this skill. Excludes casual benchmark discussion and ordinary software microbenchmarks.",
+      "categories": [
+        "engineering"
+      ],
+      "tags_zh": [
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "loopx-project/loopx",
+          "path": "skills/loopx-benchmark",
+          "commit": "d3c79a68979da8a61f92398a9984229d60fc6c1a",
+          "bundle_sha": "f9b9a2d755ba6ddd8258a755b30a4644793325e6",
+          "skill_sha": "4dbe980697cf7f01442a450b1a43620e3c29f39d",
+          "url": "https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-benchmark",
+          "priority": 15,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-benchmark"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+              "mode": "100644"
+            },
+            {
+              "path": "LICENSE-MIT",
+              "sha": "f5746a7eee9f275edd9b23f3ac1af27d02e9cd2d",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "45a3556ecf5e5d6fc04755d5b94f22cd90428346",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "c7b4edd12f6b31876055f6163bd1ab251d1c47a76906bd54eabc82d849904dcd",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "需要安装 LoopX 运行时及版本匹配的配套技能；按上游 workflow-skills 安装。单独下载目录不等于可运行，父级文档与共享资源以官方安装为准。",
+      "has_external_refs": true,
+      "format_issues": []
+    },
+    {
+      "id": "loopx-project/loopx/skills/loopx-change-quality",
+      "name": "loopx-change-quality",
+      "description": "Qualify the exact final diff for a LoopX-managed goal. Use when goal policy enables change_quality_qualification, before a non-trivial delivery or merge, and when producing or repairing an exact-scope quality receipt. The workflow is language-neutral, permits at most one policy-authorized safe-fix pass, and never grants merge or repository authority.",
+      "categories": [
+        "automation"
+      ],
+      "tags_zh": [
+        "办公、应用集成与自动化"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "loopx-project/loopx",
+          "path": "skills/loopx-change-quality",
+          "commit": "d3c79a68979da8a61f92398a9984229d60fc6c1a",
+          "bundle_sha": "a3ec509bfa24438e91f44934e1712d9e0b0f771d",
+          "skill_sha": "bf57acd29625d9ad499db18b4eae9038e0f6e61b",
+          "url": "https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-change-quality",
+          "priority": 15,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-change-quality"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+              "mode": "100644"
+            },
+            {
+              "path": "LICENSE-MIT",
+              "sha": "f5746a7eee9f275edd9b23f3ac1af27d02e9cd2d",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "45a3556ecf5e5d6fc04755d5b94f22cd90428346",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "d35bdabc19483773b7083051ca797e42685c4c3c6d2a121f313dea225dbab66f",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "需要安装 LoopX 运行时及版本匹配的配套技能；按上游 workflow-skills 安装。单独下载目录不等于可运行，父级文档与共享资源以官方安装为准。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "loopx-project/loopx/skills/loopx-doc-registry",
+      "name": "loopx-doc-registry",
+      "description": "Use when a connected LoopX project is asked to read, remember, record, index, register, or use a durable project material such as a Lark/wiki/design doc, research note, SOP, owner packet, migration report, benchmark paper, or external material source. Use even when the user does not mention LoopX or doc registry.",
+      "categories": [
+        "research"
+      ],
+      "tags_zh": [
+        "科研、文献与科学计算"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "loopx-project/loopx",
+          "path": "skills/loopx-doc-registry",
+          "commit": "d3c79a68979da8a61f92398a9984229d60fc6c1a",
+          "bundle_sha": "1a3abef92d4513aae68da981d0904a0908c7f445",
+          "skill_sha": "2f73d7224059edb46358ec61e6f2d8ab0728b0db",
+          "url": "https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-doc-registry",
+          "priority": 15,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-doc-registry"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+              "mode": "100644"
+            },
+            {
+              "path": "LICENSE-MIT",
+              "sha": "f5746a7eee9f275edd9b23f3ac1af27d02e9cd2d",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "45a3556ecf5e5d6fc04755d5b94f22cd90428346",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "41d5801c24eb5dbfaf0b56bde3014bea388851a4503b89caaa4869f99ef825fb",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "需要安装 LoopX 运行时及版本匹配的配套技能；按上游 workflow-skills 安装。单独下载目录不等于可运行，父级文档与共享资源以官方安装为准。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "loopx-project/loopx/skills/loopx-material",
+      "name": "loopx-material",
+      "description": "Operate an explicitly activated LoopX Material Lifecycle for a connected project. Use for material-store inventory, lossless migration, candidate/archive transitions, exact-read-backed ranking, ranked-entry rebuilds, bounded Explore intake, owner-gated apply, rollback, and audit. Do not use for ordinary one-off reading or research when the project has not activated Material Lifecycle.",
+      "categories": [
+        "research",
+        "security"
+      ],
+      "tags_zh": [
+        "科研、文献与科学计算",
+        "安全、隐私与审计"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "loopx-project/loopx",
+          "path": "skills/loopx-material",
+          "commit": "d3c79a68979da8a61f92398a9984229d60fc6c1a",
+          "bundle_sha": "16447ba45b79737d988c30a2fcb13f9677511c43",
+          "skill_sha": "8d6053238548bc28ea1d8f4724d9ac0816699e36",
+          "url": "https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-material",
+          "priority": 15,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-material"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+              "mode": "100644"
+            },
+            {
+              "path": "LICENSE-MIT",
+              "sha": "f5746a7eee9f275edd9b23f3ac1af27d02e9cd2d",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "45a3556ecf5e5d6fc04755d5b94f22cd90428346",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "f83c8e73ce41c09489476856318c3a331d4861dfbd2dd5829b4805119a1553cc",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "需要安装 LoopX 运行时及版本匹配的配套技能；按上游 workflow-skills 安装。单独下载目录不等于可运行，父级文档与共享资源以官方安装为准。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "loopx-project/loopx/skills/loopx-performance-diagnosis",
+      "name": "loopx-performance-diagnosis",
+      "description": "Diagnose demonstrated CPU, command latency, allocation or IO regressions in an owned process with controlled measurements and language-appropriate profilers. Route benchmark effectiveness, score growth and trajectory efficiency to loopx-benchmark; profiling does not qualify a budget or grant execution authority.",
+      "categories": [
+        "engineering",
+        "testing"
+      ],
+      "tags_zh": [
+        "测试、调试与代码评审",
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "loopx-project/loopx",
+          "path": "skills/loopx-performance-diagnosis",
+          "commit": "d3c79a68979da8a61f92398a9984229d60fc6c1a",
+          "bundle_sha": "3dcf3324d024858435da4e346b6c2a1ea94745db",
+          "skill_sha": "3ff8421c146ca30c7795198f590f952362800873",
+          "url": "https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-performance-diagnosis",
+          "priority": 15,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-performance-diagnosis"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+              "mode": "100644"
+            },
+            {
+              "path": "LICENSE-MIT",
+              "sha": "f5746a7eee9f275edd9b23f3ac1af27d02e9cd2d",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "45a3556ecf5e5d6fc04755d5b94f22cd90428346",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "fe120cef8cf17df5d2e89eb9cad2381a5454e3ecaa2b8963d54b6ce4dbdd8627",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "需要安装 LoopX 运行时及版本匹配的配套技能；按上游 workflow-skills 安装。单独下载目录不等于可运行，父级文档与共享资源以官方安装为准。",
+      "has_external_refs": true,
+      "format_issues": []
+    },
+    {
+      "id": "loopx-project/loopx/skills/loopx-pr-merge",
+      "name": "loopx-pr-merge",
+      "description": "Optional maintainer workflow for the approval, merge-readiness, or authorized self-merge decision on a LoopX pull request. Requires the exact-head review evidence from `loopx pr-review`. Review depth, verdicts, review comments, and the published review format belong to loopx-pr-review.",
+      "categories": [
+        "automation",
+        "testing"
+      ],
+      "tags_zh": [
+        "测试、调试与代码评审",
+        "办公、应用集成与自动化"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "loopx-project/loopx",
+          "path": "skills/loopx-pr-merge",
+          "commit": "d3c79a68979da8a61f92398a9984229d60fc6c1a",
+          "bundle_sha": "2c47360a4544a976e0c31fa2b45f979d4904ff51",
+          "skill_sha": "d7c24a6796d2f3329ae41e8cb0d8ab2a82854b48",
+          "url": "https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-pr-merge",
+          "priority": 15,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-pr-merge"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+              "mode": "100644"
+            },
+            {
+              "path": "LICENSE-MIT",
+              "sha": "f5746a7eee9f275edd9b23f3ac1af27d02e9cd2d",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "45a3556ecf5e5d6fc04755d5b94f22cd90428346",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "3f9ed64006d8bacde1d1c09cbac7041458c541a99e0d892811694b1447001ff8",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "需要安装 LoopX 运行时及版本匹配的配套技能；按上游 workflow-skills 安装。单独下载目录不等于可运行，父级文档与共享资源以官方安装为准。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "loopx-project/loopx/skills/loopx-pr-program",
+      "name": "loopx-pr-program",
+      "description": "Use when LoopX must manage a multi-PR or multi-MR delivery program across one or more repositories: inventory current change requests, reconcile new/merged/closed or retargeted work, preserve requirement and dependency priorities, maintain a roadmap document, or monitor material lifecycle/check/review changes over time. Use provider-neutral snapshots and one grouped continuous monitor; do not use for deep per-PR code review, approval, commenting, or merge actions.",
+      "categories": [
+        "engineering",
+        "testing"
+      ],
+      "tags_zh": [
+        "测试、调试与代码评审",
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "loopx-project/loopx",
+          "path": "skills/loopx-pr-program",
+          "commit": "d3c79a68979da8a61f92398a9984229d60fc6c1a",
+          "bundle_sha": "978e51cd93989e6c1286dfae31ebceaa72b38613",
+          "skill_sha": "0ce68fabb3976eab08f2364892b0ecf080a75bff",
+          "url": "https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-pr-program",
+          "priority": 15,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-pr-program"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+              "mode": "100644"
+            },
+            {
+              "path": "LICENSE-MIT",
+              "sha": "f5746a7eee9f275edd9b23f3ac1af27d02e9cd2d",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "45a3556ecf5e5d6fc04755d5b94f22cd90428346",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "f708038e6ebde875457722b985a7fc15e3802a9d7962024aa9311c05d05c064d",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "需要安装 LoopX 运行时及版本匹配的配套技能；按上游 workflow-skills 安装。单独下载目录不等于可运行，父级文档与共享资源以官方安装为准。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "loopx-project/loopx/skills/loopx-pr-review",
+      "name": "loopx-pr-review",
+      "description": "Use for `/loopx-pr-review` or evidence-backed PR queue review. Run `loopx pr-review` first, execute the capability-owned review plan for each selected exact head, then publish full bilingual PR reviews (complete Chinese five-block review plus one concise English verdict) that match the verified findings. Use `loopx-pr-merge` for approval or merge actions.",
+      "categories": [
+        "testing"
+      ],
+      "tags_zh": [
+        "测试、调试与代码评审"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "loopx-project/loopx",
+          "path": "skills/loopx-pr-review",
+          "commit": "d3c79a68979da8a61f92398a9984229d60fc6c1a",
+          "bundle_sha": "88febee37078df6b019541159005769cb4bfdb95",
+          "skill_sha": "f966818fe7e6bc58f5188d2ed2544d56ad44e0f5",
+          "url": "https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-pr-review",
+          "priority": 15,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-pr-review"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+              "mode": "100644"
+            },
+            {
+              "path": "LICENSE-MIT",
+              "sha": "f5746a7eee9f275edd9b23f3ac1af27d02e9cd2d",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "45a3556ecf5e5d6fc04755d5b94f22cd90428346",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "79107609947bfa4b49fd4486512ecf07b04a2b423d13dbe536390bbd149f4d19",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "需要安装 LoopX 运行时及版本匹配的配套技能；按上游 workflow-skills 安装。单独下载目录不等于可运行，父级文档与共享资源以官方安装为准。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "loopx-project/loopx/skills/loopx-project",
+      "name": "loopx-project",
+      "description": "Use for LoopX project lifecycle work: connect or configure a project/Goal, repair project-local state or stale dashboard status, sync registry entries, or diagnose CLI/PATH/status/history routing. In an already bound Goal, also use for a material direct-user deliverable or correction that must refine cumulative outcome requirements. Other ordinary task execution and routine refresh-state settlement already directed by a current interaction_contract do not require this skill. For registering durable project materials, prefer loopx-doc-registry.",
+      "categories": [
+        "automation",
+        "engineering"
+      ],
+      "tags_zh": [
+        "办公、应用集成与自动化",
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "loopx-project/loopx",
+          "path": "skills/loopx-project",
+          "commit": "d3c79a68979da8a61f92398a9984229d60fc6c1a",
+          "bundle_sha": "6f3ffb2fc741c21a4d4e79b5d9272bd61bf2db08",
+          "skill_sha": "e25ccfefe92b96f62c51d29330c80ead9eaacb81",
+          "url": "https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-project",
+          "priority": 15,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-project"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+              "mode": "100644"
+            },
+            {
+              "path": "LICENSE-MIT",
+              "sha": "f5746a7eee9f275edd9b23f3ac1af27d02e9cd2d",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "45a3556ecf5e5d6fc04755d5b94f22cd90428346",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "e3722c09c911e46ab4f01c427c0c3b69604f075720ac1e3fa759627fe5cf1930",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "需要安装 LoopX 运行时及版本匹配的配套技能；按上游 workflow-skills 安装。单独下载目录不等于可运行，父级文档与共享资源以官方安装为准。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "loopx-project/loopx/skills/loopx-self-repair",
+      "name": "loopx-self-repair",
+      "description": "Diagnose and repair LoopX control-plane drift or agent behavior drift. Use when a LoopX task makes unexpectedly small progress, follows a stale or contradictory recommended_action, ignores a higher-priority blocked item while doing fallback work, reports vague owner/user gates, loses todo projection, misaligns benchmark treatment with the real product path, mixes temporary artifacts into commits, or when the user asks for root-cause analysis, self-repair, or why the harness/agent behaved unexpectedly.",
+      "categories": [
+        "automation",
+        "engineering"
+      ],
+      "tags_zh": [
+        "办公、应用集成与自动化",
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "loopx-project/loopx",
+          "path": "skills/loopx-self-repair",
+          "commit": "d3c79a68979da8a61f92398a9984229d60fc6c1a",
+          "bundle_sha": "de7d58ba0191c06456ba11e643530a76114373cb",
+          "skill_sha": "fe78edc1d6799d2dbdd7cb25eabd97877c61219f",
+          "url": "https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-self-repair",
+          "priority": 15,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-self-repair"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+              "mode": "100644"
+            },
+            {
+              "path": "LICENSE-MIT",
+              "sha": "f5746a7eee9f275edd9b23f3ac1af27d02e9cd2d",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "45a3556ecf5e5d6fc04755d5b94f22cd90428346",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "e46dc38633f5630b74f35b0ee76f4f9b82ee50804a635efd1b0f855cea246e5b",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "需要安装 LoopX 运行时及版本匹配的配套技能；按上游 workflow-skills 安装。单独下载目录不等于可运行，父级文档与共享资源以官方安装为准。",
+      "has_external_refs": true,
       "format_issues": []
     },
     {

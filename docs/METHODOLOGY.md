@@ -2,7 +2,7 @@
 
 ## 来源边界
 
-只扫描 `sources.json` 白名单及其 include/exclude 目录。技能必须存在实际 `SKILL.md`，普通提示词、README 导航链接、插件说明不直接充当可安装技能。集合 README 中其他 GitHub 仓库进入发现队列，不递归抓取、不自动安装。来源使用 GitHub 的规范仓库地址；已知旧名记录于 aliases。
+下载索引只扫描 `sources.json` 白名单及其 include/exclude 目录。技能必须存在实际 `SKILL.md`，普通提示词、README 导航链接、插件说明不直接充当可安装技能。新来源通过独立 GitHub 搜索和集合 README 链接发现，按预算核实完整目录树和部分技能说明，再由维护者审核是否收录。未核实或尚未批准的候选保留在发现队列，不自动安装。来源使用 GitHub 的规范仓库地址；已知旧名记录于 aliases。检索范围与每轮证据见[发现报告](DISCOVERY.md)，操作见[维护说明](UPDATES.md)。
 
 `sickn33/agentic-awesome-skills` 只扫描 `skills/`，避免把相同库的 Claude、Codex 等插件分发副本多次计入。每个来源解析 HEAD 对应的完整提交，目录与文件都来自同一固定版本。
 

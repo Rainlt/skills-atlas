@@ -10,8 +10,10 @@
     {"repo":"remotion-dev/skills","kind":"publisher","priority":10,"include":["skills/"],"note_zh":"Remotion：程序化视频制作。"},
     {"repo":"obra/superpowers","kind":"specialist","priority":15,"include":["skills/"],"note_zh":"软件开发方法：规划、调试、测试与评审。"},
     {"repo":"trailofbits/skills","kind":"specialist","priority":15,"include":["plugins/"],"note_zh":"Trail of Bits：安全审计与研究。"},
+    {"repo":"cloudflare/security-audit-skill","kind":"publisher","priority":10,"include":["skills/security-audit/"],"note_zh":"Cloudflare：检查代码中的安全漏洞，独立复查问题是否存在并生成报告。","compatibility":"完整审计需要支持工具调用和并行子智能体的编程助手，以及 Node.js 校验器。执行目标代码需满足上游规定的隔离运行条件；条件不足时仅核对源码，将相关问题标为待验证。单项下载包含配套说明与校验脚本，不等于已安装或完成安全验证。"},
     {"repo":"K-Dense-AI/scientific-agent-skills","aliases":["K-Dense-AI/claude-scientific-skills"],"kind":"specialist","priority":15,"include":["skills/"],"note_zh":"科学计算、文献、生物医药与研究工作流。"},
     {"repo":"ComposioHQ/awesome-claude-skills","kind":"collection","priority":30,"include":[""],"exclude":[".github/"],"note_zh":"用户指定；同时含实际技能和外部导航链接。"},
-    {"repo":"sickn33/agentic-awesome-skills","aliases":["sickn33/antigravity-awesome-skills"],"kind":"collection","priority":40,"include":["skills/"],"note_zh":"用户指定；仅收录 skills/ 主目录，跳过插件分发副本。"}
+    {"repo":"sickn33/agentic-awesome-skills","aliases":["sickn33/antigravity-awesome-skills"],"kind":"collection","priority":40,"include":["skills/"],"note_zh":"用户指定；仅收录 skills/ 主目录，跳过插件分发副本。"},
+    {"repo":"loopx-project/loopx","kind":"specialist","priority":15,"include":["skills/"],"note_zh":"长期目标与 Agent 工作流；仅索引主技能目录，需配套运行时。","compatibility":"需要安装 LoopX 运行时及版本匹配的配套技能；按上游 workflow-skills 安装。单独下载目录不等于可运行，父级文档与共享资源以官方安装为准。"}
   ]
 }

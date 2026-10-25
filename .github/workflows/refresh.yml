@@ -24,6 +24,10 @@ jobs:
           key: skill-metadata-${{ github.run_id }}
           restore-keys: skill-metadata-
       - run: python -m pip install -r requirements-dev.txt
+      - name: Discover and inspect new sources
+        run: python scripts/discover.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
       - run: python scripts/update.py
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -46,9 +50,11 @@ jobs:
           git commit -m "catalog: refresh ${SNAPSHOT}"
           git push --set-upstream origin "$BRANCH"
           cat > /tmp/skills-atlas-update.md <<'BODY'
-          Refreshes the configured upstream snapshots, catalog, classifications and duplicate relations.
+          Refreshes configured upstream snapshots and independently searches for new source candidates.
 
-          Review `data/changes.json`, `docs/SOURCES.md` and `docs/QUALITY.md` for changes. Skill code is not mirrored and user-installed skills are not modified.
+          Review `docs/DISCOVERY.md` and `data/discovery-report.json` for search coverage, inspected candidates and failures. Candidates do not automatically enter the catalog; approve sources in `sources.json` first.
+
+          Review `data/changes.json`, `docs/SOURCES.md` and `docs/QUALITY.md` for catalog changes. Skill code is not mirrored and user-installed skills are not modified.
 
           Validation: all bundle manifests reconstructed and checked against Git tree fingerprints; downloader and deduplication tests passed.
           BODY
