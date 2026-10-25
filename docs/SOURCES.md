@@ -13,6 +13,7 @@
 | [remotion-dev/skills](https://github.com/remotion-dev/skills) | publisher | 12 | [7ba4dcf8ebe1](https://github.com/remotion-dev/skills/commit/7ba4dcf8ebe1626b00baa41e1f2478113719b60b) | UNKNOWN |
 | [obra/superpowers](https://github.com/obra/superpowers) | specialist | 15 | [bb92a7774141](https://github.com/obra/superpowers/commit/bb92a77741419a4ab5f06e711a283343f1ada0c3) | MIT |
 | [trailofbits/skills](https://github.com/trailofbits/skills) | specialist | 85 | [e1f86a390d4c](https://github.com/trailofbits/skills/commit/e1f86a390d4caf28bf1c377a7d86707b2898669c) | CC-BY-SA-4.0 |
+| [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | publisher | 1 | [c1c8a8c14710](https://github.com/cloudflare/security-audit-skill/commit/c1c8a8c1471069fb0e188eeaff69b8e8db6564a8) | MIT |
 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | specialist | 177 | [a1043ef544e3](https://github.com/K-Dense-AI/scientific-agent-skills/commit/a1043ef544e3a100c28e70a736b6cf32554d0677) | MIT |
 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | collection | 864 | [be2a406907db](https://github.com/ComposioHQ/awesome-claude-skills/commit/be2a406907dbc61b73e6827ded415c96139d13a2) | UNKNOWN |
 | [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | collection | 2690 | [a3072641b750](https://github.com/sickn33/agentic-awesome-skills/commit/a3072641b750a1fb2f6ce695a5f984ea3d4c3ec1) | MIT |

@@ -23713,6 +23713,128 @@
       "type": "blob"
     }
   ],
+  "ccbc33ed119b28c3ef7b44a7e2081ab191ad63af": [
+    {
+      "path": "AI-AND-LLM.md",
+      "sha": "02ba9039eca4cec811fefc77bce0d7349b379aae",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "ATTACK-CLASSES.md",
+      "sha": "18a2beb4dbb554fb52b0a0293b8bd9108207f8fa",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "CLIENT-SIDE.md",
+      "sha": "8ba673e9e7e3d02f5518aa0219bcbeec7957531b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "CLOUD-AND-DEPLOYMENT.md",
+      "sha": "5569f76c7740744aa3f60aaa89eaefe275f2e6c9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "DATA-ISOLATION-AND-LIFECYCLE.md",
+      "sha": "0cba1fa463b62c9b0caba710a201e29c1eecd0ec",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "DESKTOP-MOBILE-AND-LOCAL-IPC.md",
+      "sha": "d6230098651bff6348d3868c11f566bfb1306e7f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "HUNTING.md",
+      "sha": "377d4dcfbe88a049379448cd7892717185401597",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "MEMORY-SAFETY-AND-BINARY.md",
+      "sha": "86ff4920752661fc4a31a35ca4f962ace5dd5f48",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "PROTOCOLS-RPC-AND-MESSAGING.md",
+      "sha": "b04ab88f852224838fdc9683d9fcccd858b0778a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "RECONNAISSANCE.md",
+      "sha": "1a170a93ab76b93dc5ac268a5b690beb423a8aa9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "RESOURCE-EXHAUSTION-AND-AVAILABILITY.md",
+      "sha": "6cbbd1e2cfa482068c8279c2f7da9db43d3f54b8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "92178dad304d3f63e37582a297026a7874e12c62",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SUPPLY-CHAIN-AND-RELEASE.md",
+      "sha": "bf96aed0803bc07471483ab129dea86759c3e305",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "VALIDATION-AND-REPORTING.md",
+      "sha": "5e200d7387e665e53e0e4190fa4a5814c334c507",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "WEB-PROTOCOL-AND-AUTH.md",
+      "sha": "1a099fa575cf52a61e9a627f91b61015120fa517",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "report-schema.json",
+      "sha": "55815a3687a45fff63d8ebf20068611bd6ad6d9a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "validate-coverage-ledger.cjs",
+      "sha": "0ef58657bef18b26a92321df6c8e3d31bc8e6659",
+      "mode": "100755",
+      "type": "blob"
+    },
+    {
+      "path": "validate-coverage-ledger.test.cjs",
+      "sha": "b1444f57e1b021a61175733b8c356171861c8701",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "validate-findings.cjs",
+      "sha": "2843feceddb7e30bf10d6e4f7bbe6640e4c57799",
+      "mode": "100755",
+      "type": "blob"
+    },
+    {
+      "path": "validate-findings.test.cjs",
+      "sha": "8d245b226bbe2fdf28b46b3203b99c2824039d2d",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "904a7b9bd28c6a3454752f5558910aca3b2d8e0a": [
     {
       "path": "SKILL.md",

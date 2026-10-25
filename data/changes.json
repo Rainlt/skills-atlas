@@ -1,17 +1,8 @@
 {
-  "previous_snapshot": "f03a82e7ea5d088a",
-  "snapshot": "c68c7ff682e7f85a",
+  "previous_snapshot": "c68c7ff682e7f85a",
+  "snapshot": "43a53de8a9d827e0",
   "added": [
-    "loopx-project/loopx/skills/loopx-benchmark",
-    "loopx-project/loopx/skills/loopx-change-quality",
-    "loopx-project/loopx/skills/loopx-doc-registry",
-    "loopx-project/loopx/skills/loopx-material",
-    "loopx-project/loopx/skills/loopx-performance-diagnosis",
-    "loopx-project/loopx/skills/loopx-pr-merge",
-    "loopx-project/loopx/skills/loopx-pr-program",
-    "loopx-project/loopx/skills/loopx-pr-review",
-    "loopx-project/loopx/skills/loopx-project",
-    "loopx-project/loopx/skills/loopx-self-repair"
+    "cloudflare/security-audit-skill/skills/security-audit"
   ],
   "removed": [],
   "updated": [],

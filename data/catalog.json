@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "snapshot": "c68c7ff682e7f85a",
-  "generated_at": "2026-10-23T14:39:06.714546+00:00",
+  "snapshot": "43a53de8a9d827e0",
+  "generated_at": "2026-10-25T05:03:02.894975+00:00",
   "stats": {
-    "sources": 13,
-    "scanned_skills": 3956,
-    "unique_bundles": 3956,
+    "sources": 14,
+    "scanned_skills": 3957,
+    "unique_bundles": 3957,
     "exact_duplicates_removed": 0,
-    "same_name_families": 96,
+    "same_name_families": 97,
     "excluded_identical_distribution_copies": 5226,
     "excluded_noncanonical_skill_files": 5609,
     "identical_instruction_groups": 6
@@ -174,6 +174,25 @@
       "repository_license": "CC-BY-SA-4.0",
       "skills_scanned": 85,
       "url": "https://github.com/trailofbits/skills",
+      "excluded_skill_files": 0,
+      "excluded_identical_distribution_copies": 0
+    },
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "kind": "publisher",
+      "priority": 10,
+      "include": [
+        "skills/security-audit/"
+      ],
+      "note_zh": "Cloudflare：检查代码中的安全漏洞，独立复查问题是否存在并生成报告。",
+      "compatibility": "完整审计需要支持工具调用和并行子智能体的编程助手，以及 Node.js 校验器。执行目标代码需满足上游规定的隔离运行条件；条件不足时仅核对源码，将相关问题标为待验证。单项下载包含配套说明与校验脚本，不等于已安装或完成安全验证。",
+      "commit": "c1c8a8c1471069fb0e188eeaff69b8e8db6564a8",
+      "tree_sha": "8cd03bb3941496e441d6248aaae2429a35b93cc3",
+      "branch": "main",
+      "archived": false,
+      "repository_license": "MIT",
+      "skills_scanned": 1,
+      "url": "https://github.com/cloudflare/security-audit-skill",
       "excluded_skill_files": 0,
       "excluded_identical_distribution_copies": 0
     },
@@ -44266,6 +44285,54 @@
       "upstream_category": null,
       "declared_risk": null,
       "compatibility": "未验证；请阅读上游要求",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "cloudflare/security-audit-skill/skills/security-audit",
+      "name": "security-audit",
+      "description": "Security guidance and vulnerability review for codebases, APIs, services, CLI tools, libraries, and daemons. Use for security questions, focused reviews, vulnerability research, security audits, or pen tests. Run the complete workflow only for explicit codebase audit or pen-test requests, full/comprehensive/end-to-end reviews, or requested report artifacts.",
+      "categories": [
+        "security",
+        "testing",
+        "automation"
+      ],
+      "tags_zh": [
+        "测试、调试与代码评审",
+        "安全、隐私与审计",
+        "办公、应用集成与自动化"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "cloudflare/security-audit-skill",
+          "path": "skills/security-audit",
+          "commit": "c1c8a8c1471069fb0e188eeaff69b8e8db6564a8",
+          "bundle_sha": "ccbc33ed119b28c3ef7b44a7e2081ab191ad63af",
+          "skill_sha": "92178dad304d3f63e37582a297026a7874e12c62",
+          "url": "https://github.com/cloudflare/security-audit-skill/tree/c1c8a8c1471069fb0e188eeaff69b8e8db6564a8/skills/security-audit",
+          "priority": 10,
+          "kind": "publisher",
+          "license": {
+            "declared": null,
+            "repository": "MIT",
+            "content_hint": "MIT",
+            "review_required": true,
+            "url": "https://github.com/cloudflare/security-audit-skill/tree/c1c8a8c1471069fb0e188eeaff69b8e8db6564a8/skills/security-audit"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "6dbc9ecb3a5b9080e95b962869e8c7ab16cfdc20",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "834b632d30cb6feb384f76d8e1b1f2dc66711efae69c94550889e38225ec2055",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "完整审计需要支持工具调用和并行子智能体的编程助手，以及 Node.js 校验器。执行目标代码需满足上游规定的隔离运行条件；条件不足时仅核对源码，将相关问题标为待验证。单项下载包含配套说明与校验脚本，不等于已安装或完成安全验证。",
       "has_external_refs": false,
       "format_issues": []
     },

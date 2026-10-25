@@ -2242,7 +2242,7 @@
   {
     "repo": "cloudflare/security-audit-skill",
     "discovered_in": "sickn33/agentic-awesome-skills",
-    "status": "unverified_reference",
+    "status": "indexed",
     "origins": [
       "collection:sickn33/agentic-awesome-skills"
     ]

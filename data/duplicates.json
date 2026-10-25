@@ -495,6 +495,14 @@
       "status": "same_name_kept_separate"
     },
     {
+      "name": "security-audit",
+      "members": [
+        "cloudflare/security-audit-skill/skills/security-audit",
+        "sickn33/agentic-awesome-skills/skills/security-audit"
+      ],
+      "status": "same_name_kept_separate"
+    },
+    {
       "name": "semgrep-rule-creator",
       "members": [
         "sickn33/agentic-awesome-skills/skills/semgrep-rule-creator",
