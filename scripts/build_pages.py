@@ -7,7 +7,7 @@ import re
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-TOOL_FILES = ("atlas.py", "taxonomy.json", "data/catalog.json", "data/manifests.json", "LICENSE")
+TOOL_FILES = ("atlas.py", "catalog_model.py", "taxonomy.json", "data/catalog.json", "data/manifests.json", "data/curated.json", "data/shortlist.json", "LICENSE")
 
 
 def build(output):
@@ -19,6 +19,10 @@ def build(output):
     catalog = json.loads((ROOT / "data/catalog.json").read_text(encoding="utf-8"))
     if embedded["snapshot"] != catalog["snapshot"] or len(embedded["skills"]) != len(catalog["skills"]):
         raise ValueError("搜索页面与索引版本不一致，请先运行 scripts/render.py")
+    curated = json.loads((ROOT / 'data/curated.json').read_text(encoding='utf-8'))
+    short = json.loads((ROOT / 'data/shortlist.json').read_text(encoding='utf-8'))
+    if embedded.get('curation_version') != curated['curation_version'] or short['curation_version'] != curated['curation_version']:
+        raise ValueError('页面、精选与下载工具包的版本不一致')
     output.mkdir(parents=True, exist_ok=True)
     for filename in ("index.html", "browse.html"):
         (output / filename).write_text(page, encoding="utf-8")

@@ -1,66 +1,66 @@
 <!doctype html>
-<html lang="zh-CN">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<title>Skills Atlas · 技能导航</title>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Skills Atlas · 精选技能导航</title>
 <style>
-:root{font-family:system-ui,-apple-system,"PingFang SC",sans-serif;color:#18282b;background:#f4f6f3;--card:#fff;--line:#dce4de;--muted:#59706b;--accent:#12634e}*{box-sizing:border-box}body{margin:0}header,main{max-width:1180px;margin:auto;padding:32px 24px}header{padding-bottom:16px}.eyebrow{letter-spacing:.12em;font-size:12px;color:var(--accent);font-weight:700}h1{font-size:40px;letter-spacing:-.04em;margin:10px 0}h1 span{font-size:21px;font-weight:450;letter-spacing:0;color:var(--muted)}p{line-height:1.65}.intro{max-width:760px;color:var(--muted)}.stats{display:flex;gap:24px;flex-wrap:wrap;font-size:14px}.stats strong{font-size:22px;color:var(--accent);margin-right:5px}.controls{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px;margin-bottom:12px}input,select,button{font:inherit;border:1px solid var(--line);border-radius:9px;background:var(--card);color:inherit;padding:12px}input{width:100%}input:focus,select:focus,button:focus{outline:2px solid var(--accent);outline-offset:2px}button{cursor:pointer}button:hover{border-color:var(--accent)}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:13px;color:var(--muted);margin-bottom:20px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;min-width:0}.card h2{font-size:19px;margin:0 0 8px;overflow-wrap:anywhere}.card p{font-size:14px;color:var(--muted);margin:12px 0;overflow-wrap:anywhere}.tags{display:flex;gap:6px;flex-wrap:wrap}.tag{font-size:11px;color:var(--accent);background:#eaf2ed;border-radius:5px;padding:4px 7px}.source{font-size:12px;color:var(--muted);overflow-wrap:anywhere}.meta{font-size:12px;color:var(--muted);margin:12px 0;line-height:1.7}.actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.actions a{font-size:13px;color:var(--accent);padding:8px 0;margin-right:8px}.actions button{font-size:12px;padding:8px 10px}details{font-size:12px;margin-top:12px}summary{cursor:pointer}pre{overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;font-size:11px;background:#f2f5f2;padding:12px;border-radius:8px}.pagination{display:flex;gap:12px;align-items:center;justify-content:center;margin-top:24px}.note{font-size:12px;color:var(--muted)}.empty{text-align:center;padding:60px;color:var(--muted);grid-column:1/-1}footer{max-width:1180px;margin:0 auto;padding:0 24px 40px}a{color:var(--accent)}@media(max-width:720px){.controls,.grid{grid-template-columns:1fr}h1{font-size:32px}h1 span{display:block;font-size:19px;margin-top:8px}.stats{gap:12px}header,main{padding:24px 16px}}
-@media(prefers-color-scheme:dark){:root{color:#e3ece7;background:#15201c;--card:#1c2a24;--line:#34473e;--muted:#a8bbb0;--accent:#89d8b5}.tag,pre{background:#263d31}}
-</style>
-<style>.card>p{display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}.card h2{margin-top:8px}.card .tags{margin-top:12px}</style>
-<header>
-  <div class="eyebrow">FIND THE RIGHT SKILL</div>
-  <h1>Skills Atlas <span>把技能找到，再按需带走。</span></h1>
-  <p class="intro">按主题整理多个公开来源，合并完全相同的技能目录，保留不同实现。找到用途后，查看上游说明，复制命令下载一个完整技能。名称与描述保留原文，中文词支持主题扩展。</p>
-  <div class="stats" id="stats"></div>
-  <details class="note" style="margin-top:18px"><summary>如何按需下载一个技能</summary><p>在线搜索和查看来源无需下载仓库。需要下载技能时，先<a href="https://rainlt.github.io/skills-atlas/skills-atlas-tools.zip" download>下载轻量工具包</a>并解压，在解压目录中打开终端，再运行卡片上的下载命令。需要 Python 3.9 或更新版本；工具包仅包含下载工具和索引。</p></details>
-</header>
-<main>
-  <div class="controls">
-    <input id="query" type="search" placeholder="搜索技能，如：科研、pdf、视频、debug…" aria-label="搜索技能">
-    <select id="category" aria-label="按主题筛选"><option value="">所有主题</option></select>
-    <select id="source" aria-label="按来源筛选"><option value="">所有来源</option></select>
-  </div>
-  <div class="toolbar"><span id="count" aria-live="polite"></span><span>命令在轻量工具包的解压目录或仓库目录中运行 · <a href="https://github.com/Rainlt/skills-atlas#readme" target="_blank" rel="noopener noreferrer">使用说明</a></span></div>
-  <div class="grid" id="results"></div>
-  <div class="pagination"><button id="prev">上一页</button><span id="page"></span><button id="next">下一页</button></div>
-</main>
-<footer><p class="note">索引不等于质量或兼容性认证。授权声明缺失的条目保留待核实状态；公开可下载不代表宽松开源。下载工具不自动执行技能或安装外部依赖。<br><span id="snapshot"></span> · <a href="https://github.com/Rainlt/skills-atlas/blob/main/docs/METHODOLOGY.md" target="_blank" rel="noopener noreferrer">去重规则</a> · <a href="https://github.com/Rainlt/skills-atlas/blob/main/docs/SOURCES.md" target="_blank" rel="noopener noreferrer">来源与署名</a></p></footer>
-<script id="atlas-data" type="application/json">__DATA__</script>
+:root{font-family:system-ui,-apple-system,"PingFang SC",sans-serif;color:#19312c;background:#f5f7f3;--card:#fff;--line:#dce5dc;--muted:#61746d;--accent:#17674d;--soft:#eaf3ed;--gold:#79550a;--gold-bg:#fff1cc}*{box-sizing:border-box}body{margin:0}header,main,footer{max-width:1190px;margin:auto;padding:30px 26px}header{padding-top:40px;padding-bottom:20px}.eyebrow{font-size:11px;letter-spacing:.15em;font-weight:700;color:var(--accent)}h1{font-size:38px;letter-spacing:-.04em;margin:12px 0 10px}h1 span{display:block;font-size:20px;letter-spacing:0;font-weight:450;color:var(--muted);margin-top:8px}p{line-height:1.7}.intro{max-width:800px;color:var(--muted);font-size:15px;margin:0 0 20px}.stats{display:flex;gap:24px;flex-wrap:wrap;font-size:12px;color:var(--muted)}.stats strong{font-size:22px;color:var(--accent);margin-right:6px}.scopes{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}button,input,select{font:inherit;color:inherit;border:1px solid var(--line);border-radius:9px;background:var(--card);padding:11px 12px}button{cursor:pointer}button:hover{border-color:var(--accent)}:focus-visible{outline:3px solid #82bca3;outline-offset:3px}.scope{border-radius:999px;font-size:13px;padding:9px 15px}.scope.active{background:var(--accent);border-color:var(--accent);color:white}.controls{display:grid;grid-template-columns:minmax(0,2fr) 1fr 1fr 1fr;gap:10px}input{width:100%;min-width:0}select{min-width:0}.toolbar{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center;color:var(--muted);font-size:12px;margin:16px 0}.options{display:flex;gap:16px;flex-wrap:wrap;align-items:center}.options label{display:flex;align-items:center;gap:6px}.options input{width:auto}.hint{font-size:12px;color:var(--muted);line-height:1.7;margin-bottom:20px}.banner{border-left:3px solid var(--accent);background:var(--soft);padding:12px 16px;margin:14px 0;font-size:13px}.banner[hidden]{display:none}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;min-width:0}.card.standalone{border-top:3px solid #bf9540}.card h2{font-size:20px;margin:13px 0 6px;overflow-wrap:anywhere}.source{font-size:12px;color:var(--muted);overflow-wrap:anywhere}.tags{display:flex;flex-wrap:wrap;gap:6px}.tag{font-size:11px;color:var(--accent);background:var(--soft);padding:4px 8px;border-radius:5px;line-height:1.5}.tag.gold{background:var(--gold-bg);color:var(--gold)}.tag.neutral{color:#626c67;background:#f0f2f0}.tag.watch{color:#8a510b;background:#fff1dc}.summary{font-size:14px;color:#364f45;margin:14px 0;line-height:1.8;overflow-wrap:anywhere}.reason{font-size:12px;color:var(--muted);padding-left:11px;border-left:2px solid var(--line);margin:12px 0}.meta{font-size:11px;color:var(--muted);line-height:1.8;margin-top:12px}.actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:16px}.actions a{font-size:13px}.actions button{font-size:12px;padding:7px 10px}a{color:var(--accent);text-underline-offset:3px}details{font-size:12px;margin-top:16px;border-top:1px solid var(--line);padding-top:12px}summary{cursor:pointer;color:var(--muted)}pre{font-size:11px;white-space:pre-wrap;overflow-wrap:anywhere;padding:12px;background:#f2f5f1;border-radius:8px;line-height:1.7}.variant{padding:16px 0;border-bottom:1px solid var(--line)}.variant h3{font-size:14px;margin:0 0 5px}.variant p{font-size:12px;color:var(--muted);overflow-wrap:anywhere}.pagination{display:flex;justify-content:center;align-items:center;gap:16px;margin-top:25px;font-size:13px}.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:48px 15px}.help{font-size:12px;color:var(--muted);max-width:900px}footer{padding-top:0;padding-bottom:40px}.toplinks{display:flex;flex-wrap:wrap;gap:15px;margin-top:20px;font-size:12px}.copy-search{padding:7px 10px;font-size:12px}.compact-note{margin-top:14px;font-size:12px;color:var(--muted)}
+@media(max-width:740px){header,main,footer{padding:24px 16px}.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}.controls select:last-child{grid-column:1/-1}.grid{grid-template-columns:1fr}h1{font-size:32px}h1 span{display:block;font-size:18px;margin-top:6px}.stats{gap:12px 20px}.card{padding:18px}.toolbar{align-items:flex-start}.scope{padding:8px 12px;font-size:12px}}
+</style></head><body>
+<header><div class="eyebrow">SKILLS ATLAS · PERSONAL SHORTLIST</div><h1>先找到适合任务的技能<span>再看候选，按需下载。</span></h1><p class="intro">先从少量精选用途开始。相近候选收在同一个入口里；版本、许可和下载仍分别保留。独立技能仓库与高关注来源会标亮。</p><div class="stats" id="stats"></div><div class="toplinks"><a href="https://github.com/Rainlt/skills-atlas/blob/main/SHORTLIST.md" target="_blank" rel="noopener">精选速查表</a><a href="https://rainlt.github.io/skills-atlas/skills-atlas-tools.zip" download>下载搜索与下载工具包</a><a href="https://github.com/Rainlt/skills-atlas/blob/main/docs/CURATION.md" target="_blank" rel="noopener">精选与退出规则</a></div></header>
+<main><nav class="scopes" aria-label="浏览范围" id="scopes"></nav><div class="controls"><input id="query" type="search" placeholder="你想做什么？如：文献综述、PDF、视频、排错…" aria-label="搜索任务或技能"><select id="category" aria-label="按主题筛选"><option value="">所有主题</option></select><select id="source" aria-label="按来源筛选"><option value="">所有来源</option></select><select id="sort" aria-label="排序方式"><option value="relevance">用途相关与核对状态</option><option value="stars">来源仓库 Star</option><option value="name">技能名称</option></select></div><div class="toolbar"><span id="count" aria-live="polite"></span><div class="options"><label><input type="checkbox" id="grouped" checked>合并候选入口</label><label><input type="checkbox" id="archived">包含归档</label><button class="copy-search" id="copy-search">复制 AI 查询命令</button></div></div><div class="banner" id="fallback" hidden></div><p class="hint">★ 是来源仓库的累计 Star，不是单个技能的评分。独立仓库指当前来源仅包含一个主技能；高关注默认 ≥10,000 Star。用途核对、下载验证与任务跑通分别标记。</p><div class="grid" id="results"></div><div class="pagination"><button id="prev">上一页</button><span id="page"></span><button id="next">下一页</button></div></main>
+<footer><p class="help">精选先查，未命中再扩展；同名候选不代表功能等价。复查到期或版本变化的精选会转入观察，归档条目保留原因、替代项与原始下载 ID。完整目录继续保留。<br>命令在工具包解压目录或仓库中运行，需要 Python 3.9+。下载不执行上游技能或自动安装依赖。<br><span id="snapshot"></span></p></footer>
+<script id="atlas-data" type="application/json">__DATA__</script><script>__MODEL__</script>
 <script>
 'use strict';
-const data=JSON.parse(document.getElementById('atlas-data').textContent),$=id=>document.getElementById(id);
-const categoryNames=Object.fromEntries(data.categories.map(c=>[c.id,c.name_zh]));
-for(const c of data.categories){const o=document.createElement('option');o.value=c.id;o.textContent=c.name_zh;$('category').append(o)}
-for(const repo of data.sources){const o=document.createElement('option');o.value=repo;o.textContent=repo;$('source').append(o)}
-for(const [n,label] of [[data.stats.sources,'个来源'],[data.stats.unique_bundles,'个技能目录'],[data.stats.excluded_identical_distribution_copies,'处分发副本已避开']]){const span=document.createElement('span'),strong=document.createElement('strong');strong.textContent=n.toLocaleString();span.append(strong,document.createTextNode(label));$('stats').append(span)}
-$('snapshot').textContent='固定版本快照 '+data.snapshot+' · '+data.generated_at.slice(0,10);
-let page=0,filtered=[],pageSize=40;
-const el=(tag,text,cls)=>{const x=document.createElement(tag);if(text!==undefined)x.textContent=text;if(cls)x.className=cls;return x};
-const shellQuote=value=>"'"+value.replaceAll("'","'\"'\"'")+"'";
-const corpus=data.skills.map(s=>[s.id,s.name,s.description,...s.categories,...s.categories.map(c=>categoryNames[c])].join(' ').toLowerCase());
+const data=JSON.parse(document.getElementById('atlas-data').textContent),model=createAtlasModel(data),$=id=>document.getElementById(id);
+const names=Object.fromEntries(data.categories.map(c=>[c.id,c.name_zh]));
+const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n};
+const quote=s=>"'"+s.replaceAll("'","'\"'\"'")+"'";
+let scope='featured',page=0,filtered=[],pageSize=12;
+for(const [value,label] of [['featured','精选用途'],['research','科研与文档'],['integrations','平台集成'],['all','全部目录'],['archived','观察与归档']]){const b=el('button',label,'scope');b.dataset.scope=value;b.addEventListener('click',()=>{scope=value;filter()});$('scopes').append(b)}
+for(const c of data.categories){const o=el('option',c.name_zh);o.value=c.id;$('category').append(o)}
+for(const r of data.sources){const o=el('option',r);o.value=r;$('source').append(o)}
+for(const [n,label] of [[data.curation.featured_groups,'个精选用途'],[data.stats.unique_bundles,'个技能保留'],[data.curation.all_groups,'个候选分组']]){const a=el('span'),b=el('strong',n.toLocaleString());a.append(b,document.createTextNode(label));$('stats').append(a)}
+$('snapshot').textContent='目录 '+data.snapshot+' · 精选复查基准 '+data.as_of+' · Star 以卡片采集日期为准';
+async function copy(text,b){try{await navigator.clipboard.writeText(text)}catch(e){const a=el('textarea',text);document.body.append(a);a.select();document.execCommand('copy');a.remove()}const t=b.textContent;b.textContent='已复制';setTimeout(()=>b.textContent=t,1200)}
 function filter(){
- const terms=$('query').value.toLowerCase().trim().split(/\s+/).filter(Boolean);
- const groups=terms.map(t=>[t,...data.categories.filter(c=>c.queries_zh.includes(t)||c.name_zh===t).flatMap(c=>[c.id,...c.keywords])]);
- filtered=data.skills.filter((s,i)=>(!$('category').value||s.categories.includes($('category').value))&&(!$('source').value||s.sources.includes($('source').value))&&groups.every(g=>g.some(t=>corpus[i].includes(t))));
- filtered.sort((a,b)=>{const score=s=>terms.reduce((n,t)=>n+(s.name.toLowerCase().includes(t)?10:0),0);return score(b)-score(a)||a.id.localeCompare(b.id)});
- page=0;render();
+ const options={query:$('query').value,category:$('category').value,source:$('source').value,scope,grouped:$('grouped').checked,sort:$('sort').value,include_archived:$('archived').checked};
+ let result=model.filter(options),expanded=false;
+ if(scope==='featured'&&!result.cards.length&&(options.query||options.category||options.source)){result=model.filter({...options,scope:'all'});expanded=true}
+ filtered=result.cards;page=0;
+ $('fallback').hidden=!expanded;$('fallback').textContent='精选中没有匹配，已扩展到全部目录。仍可按来源、主题和候选分组缩小范围。';
+ for(const b of document.querySelectorAll('[data-scope]')){b.classList.toggle('active',b.dataset.scope===scope);b.setAttribute('aria-pressed',String(b.dataset.scope===scope))}
+ $('count').textContent=filtered.length+' 个用途入口 · '+result.matchedSkills+' 个匹配实现'+(expanded?' · 已扩展全库':'');render();
 }
-async function copy(text,button){try{await navigator.clipboard.writeText(text)}catch(error){const area=el('textarea',text);document.body.append(area);area.select();document.execCommand('copy');area.remove()}const old=button.textContent;button.textContent='已复制';setTimeout(()=>button.textContent=old,1400)}
+function tags(s){const t=el('div',undefined,'tags'),r=s.repository;
+ if(r.kind==='standalone')t.append(el('span','独立技能仓库','tag gold'));
+ else if(r.kind==='suite')t.append(el('span','专题技能集','tag neutral'));
+ else t.append(el('span','集合来源','tag neutral'));
+ if(r.stars!==null)t.append(el('span','来源 ★ '+r.stars.toLocaleString()+(r.fresh?'':' · 旧快照'),r.high_star?'tag gold':'tag neutral'));
+ t.append(el('span',s.verification.label,s.verification.rank?'tag':'tag neutral'));
+ if(['watch','archived'].includes(s.lifecycle.state))t.append(el('span',s.lifecycle.state==='watch'?'观察待复核':'已归档','tag watch'));
+ return t;
+}
+function actions(s){const a=el('div',undefined,'actions'),link=el('a','查看上游 ↗');link.href=s.url;link.target='_blank';link.rel='noopener noreferrer';a.append(link);
+ const slug=s.name.replace(/[^a-zA-Z0-9_-]/g,'-').slice(0,80)||'skill';
+ for(const [label,cmd] of [['复制下载命令',`python3 atlas.py download ${quote(s.id)} --dest ${quote('./downloads/'+slug)}`],['复制 ZIP 命令',`python3 atlas.py download ${quote(s.id)} --dest ${quote('./downloads/'+slug+'.zip')} --zip`]]){const b=el('button',label);b.addEventListener('click',()=>copy(cmd,b));a.append(b)}return a;
+}
+function evidence(s){const d=el('details');d.append(el('summary','完整用途、核对依据与版本'),el('pre',JSON.stringify({id:s.id,description:s.description,verification:s.verification,lifecycle:s.lifecycle,repository:s.repository,commit:s.commit,compatibility:s.compatibility,license:s.license,format_issues:s.format_issues},null,2)));return d}
 function render(){
- $('results').replaceChildren();const pages=Math.max(1,Math.ceil(filtered.length/pageSize));$('count').textContent='找到 '+filtered.length.toLocaleString()+' 个条目';$('page').textContent=(page+1)+' / '+pages;$('prev').disabled=page===0;$('next').disabled=page>=pages-1;
- for(const s of filtered.slice(page*pageSize,(page+1)*pageSize)){
-  const card=el('article',undefined,'card');card.append(el('h2',s.name),el('div',s.sources[0],'source'));
-  const tags=el('div',undefined,'tags');for(const c of s.categories)tags.append(el('span',categoryNames[c],'tag'));card.append(tags,el('p',s.description||'上游未提供用途描述，请查看 SKILL.md。'));
-  const license=s.license.declared||('技能级授权待核实；仓库线索 '+s.license.repository);card.append(el('div','授权：'+license+(s.risk?' · 上游自报风险：'+s.risk:'')+(s.external?' · 有目录外依赖线索':''),'meta'));
-  const actions=el('div',undefined,'actions'),a=el('a','查看上游');a.href=s.url;a.target='_blank';a.rel='noopener noreferrer';actions.append(a);
-  const slug=s.name.replace(/[^a-zA-Z0-9_-]/g,'-').slice(0,80)||'skill';
-  for(const [label,command] of [['复制下载命令',`python3 atlas.py download ${shellQuote(s.id)} --dest ${shellQuote('./downloads/'+slug)}`],['复制 ZIP 命令',`python3 atlas.py download ${shellQuote(s.id)} --dest ${shellQuote('./downloads/'+slug+'.zip')} --zip`]]){const button=el('button',label);button.addEventListener('click',()=>copy(command,button));actions.append(button)}
-  card.append(actions);const details=el('details');details.append(el('summary','完整说明、版本与来源'),el('pre',JSON.stringify({description:s.description,id:s.id,commit:s.commit,sources:s.sources,aliases:s.aliases,compatibility:s.compatibility,format_issues:s.format_issues},null,2)));card.append(details);$('results').append(card);
+ $('results').replaceChildren();const pages=Math.max(1,Math.ceil(filtered.length/pageSize));$('page').textContent=(page+1)+' / '+pages;$('prev').disabled=page===0;$('next').disabled=page>=pages-1;
+ for(const item of filtered.slice(page*pageSize,(page+1)*pageSize)){
+  const s=item.representative,g=item.group,r=s.repository,card=el('article',undefined,'card'+(r.kind==='standalone'?' standalone':''));
+  card.dataset.id=s.id;card.append(tags(s),el('h2',s.id===g.preferred?g.title:s.name),el('div',s.sources.join(' · '),'source'),el('p',s.id===g.preferred&&g.summary?g.summary:s.description,'summary'));
+  if(s.id===g.preferred&&g.reason)card.append(el('div',g.reason,'reason'));
+  if(s.lifecycle.reason)card.append(el('div',s.lifecycle.reason,'reason'));
+  if(s.lifecycle.replaced_by){const replacement=model.byId.get(s.lifecycle.replaced_by),a=el('a','替代入口：'+(replacement?replacement.name:s.lifecycle.replaced_by));a.href=replacement?replacement.url:s.url;a.target='_blank';a.rel='noopener';card.append(a)}
+  card.append(el('div',s.categories.map(c=>names[c]).join(' · ')+' · '+s.file_count+' 个配套文件'+(s.lifecycle.next_review_at?' · 下次复查 '+s.lifecycle.next_review_at:'')+(r.captured_at?' · Star 采集 '+r.captured_at.slice(0,10):''),'meta'),actions(s),evidence(s));
+  if(item.variants.length>1){const d=el('details');d.append(el('summary','展开其余 '+(item.variants.length-1)+' 个匹配候选 · 文件分别保留'));for(const v of item.variants.slice(1)){const a=el('div',undefined,'variant');a.append(el('h3',v.name),el('div',v.sources.join(' · '),'source'),tags(v),el('p',v.description),actions(v),evidence(v));d.append(a)}card.append(d)}
+  $('results').append(card);
  }
- if(!filtered.length)$('results').append(el('div','没有匹配的条目。可尝试英文任务词，或清除来源和主题筛选。','empty'));
+ if(!filtered.length)$('results').append(el('div',scope==='featured'?'当前精选需要复核，或没有匹配用途。可查看观察项或切换全部目录。':'没有匹配。可清除筛选，或在“观察与归档”中查找退出记录。','empty'));
 }
-let debounce;$('query').addEventListener('input',()=>{clearTimeout(debounce);debounce=setTimeout(filter,100)});$('category').addEventListener('change',filter);$('source').addEventListener('change',filter);$('prev').addEventListener('click',()=>{page--;render()});$('next').addEventListener('click',()=>{page++;render()});filter();
-</script>
-</html>
+let debounce;$('query').addEventListener('input',()=>{clearTimeout(debounce);debounce=setTimeout(filter,100)});
+for(const id of ['category','source','sort','grouped','archived'])$(id).addEventListener('change',filter);
+$('prev').addEventListener('click',()=>{page--;render()});$('next').addEventListener('click',()=>{page++;render()});
+$('copy-search').addEventListener('click',e=>copy(`python3 atlas.py search ${quote($('query').value)} --json`+(scope==='featured'?'':` --scope ${scope}`)+($('source').value?` --source ${quote($('source').value)}`:'')+($('category').value?` --category ${quote($('category').value)}`:'')+($('archived').checked?' --include-archived':''),e.currentTarget));
+filter();
+</script></body></html>

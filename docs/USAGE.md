@@ -17,7 +17,17 @@ python3 atlas.py search '视频' --limit 10
 python3 atlas.py search 'postgres' --json
 ```
 
-中文词会按主题扩展匹配，分类和关键词见 [taxonomy.json](../taxonomy.json)。搜索结果中的 ID 包含仓库和技能路径；重名技能可以据此区分。
+默认先读精选，最多输出 5 个用途，未命中时自动扩展全库。同组只显示最匹配的一个入口。`--json` 返回简短对象，含实际搜索范围、是否扩展、用途数量和结果；结果显示核对状态、来源仓库 Star 和候选数。
+
+```bash
+python3 atlas.py search 'pdf' --all
+python3 atlas.py search '安全' --scope featured --json
+python3 atlas.py search '文档' --scope archived --json
+python3 atlas.py search 'pdf' --include-archived
+python3 atlas.py search 'pdf' --raw --json --limit 30
+```
+
+`--raw` 保留原始逐项搜索和完整 JSON 列表的旧格式。`--scope` 还可选 research、integrations、all；`--all` 等价于 `--scope all`。中文词按主题扩展，分类和关键词见 [taxonomy.json](../taxonomy.json)。来源筛选保留子串匹配，例如 `--source anthropics`。
 
 ## 查看与下载
 
@@ -25,6 +35,7 @@ python3 atlas.py search 'postgres' --json
 
 ```bash
 python3 atlas.py show obra/superpowers/skills/systematic-debugging
+python3 atlas.py show openai/skills/skills/.curated/pdf --alternatives
 python3 atlas.py download obra/superpowers/skills/systematic-debugging --dest ./downloads/systematic-debugging --dry-run
 python3 atlas.py download obra/superpowers/skills/systematic-debugging --dest ./downloads/systematic-debugging
 ```

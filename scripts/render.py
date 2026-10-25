@@ -1,14 +1,18 @@
 import json
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
 
 
 def generate(data, taxonomy):
+    from scripts.curate import generate as generate_curation
+    editorial = generate_curation(data)
     stats = data["stats"]
-    line = "目前收录 {} 个来源、{:,} 个技能目录，分为 {} 类。".format(
-        stats["sources"], stats["unique_bundles"], len(taxonomy))
+    line = "目前收录 {} 个来源、{:,} 个技能目录，分为 {} 类。默认展示 {} 个精选用途，相近候选收拢为 {:,} 个入口。".format(
+        stats["sources"], stats["unique_bundles"], len(taxonomy), editorial['curation']['featured_groups'], editorial['curation']['all_groups'])
     readme = ROOT / "README.md"
     text = readme.read_text(encoding="utf-8")
     text = re.sub(r"<!-- STATS:START -->.*?<!-- STATS:END -->", "<!-- STATS:START -->\n" + line + "\n<!-- STATS:END -->", text, flags=re.S)
@@ -38,9 +42,11 @@ def generate(data, taxonomy):
                                "url": loc["url"], "commit": loc["commit"], "license": loc["license"],
                                "external": s["has_external_refs"], "risk": s["declared_risk"],
                                "compatibility": s["compatibility"], "format_issues": s["format_issues"]})
+    slim.update({k: v for k, v in editorial.items() if k not in ('schema_version', 'snapshot')})
     payload = json.dumps(slim, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
     template = (ROOT / "web/catalog.template.html").read_text(encoding="utf-8")
-    (ROOT / "browse.html").write_text(template.replace("__DATA__", payload), encoding="utf-8")
+    model = (ROOT / 'web/catalog-model.js').read_text(encoding='utf-8')
+    (ROOT / "browse.html").write_text(template.replace("__DATA__", payload).replace('__MODEL__', model), encoding="utf-8")
 
 
 if __name__ == "__main__":

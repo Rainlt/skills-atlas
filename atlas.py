@@ -218,14 +218,19 @@ def download(skill, dest, *, variant=0, dry_run=False, as_zip=False):
 def main():
     parser = argparse.ArgumentParser(description="Skills Atlas：搜索索引、查看来源、仅下载选中的技能")
     sub = parser.add_subparsers(dest="command", required=True)
-    p = sub.add_parser("search")
+    p = sub.add_parser("search", help="先查精选，未命中再扩展；默认只返回 5 个用途")
     p.add_argument("query", nargs="?", default="")
     p.add_argument("--category")
     p.add_argument("--source")
-    p.add_argument("--limit", type=int, default=30)
+    p.add_argument("--limit", type=int, default=5)
     p.add_argument("--json", action="store_true")
+    p.add_argument("--all", action="store_true", help="直接搜索全库，仍合并候选入口")
+    p.add_argument("--scope", choices=["auto", "featured", "all", "research", "integrations", "archived"], default="auto")
+    p.add_argument("--include-archived", action="store_true")
+    p.add_argument("--raw", action="store_true", help="原始逐项搜索与完整 JSON，保留旧格式")
     p = sub.add_parser("show")
     p.add_argument("id")
+    p.add_argument("--alternatives", action="store_true", help="列出同组候选及退出原因")
     for cmd in ("download", "install"):
         p = sub.add_parser(cmd, help="只写入指定目录，不运行技能或安装外部依赖")
         p.add_argument("id")
@@ -236,9 +241,22 @@ def main():
             p.add_argument("--zip", action="store_true")
     args = parser.parse_args()
     try:
-        data = catalog()
         if args.command == "search":
-            results = search(data, args.query, args.category, args.source, max(1, args.limit))
+            if not args.raw and (ROOT / 'data/shortlist.json').exists():
+                from catalog_model import recommend
+                result = recommend(ROOT, args.query, args.category, args.source, max(1, args.limit),
+                                   'all' if args.all else args.scope, args.include_archived)
+                if args.json:
+                    print(json.dumps(result, ensure_ascii=False, indent=2))
+                else:
+                    for s in result['results']:
+                        stars = ' · 来源仓库 ★{:,}'.format(s['repository_stars']) if s['repository_stars'] is not None else ''
+                        print('{}\n  {} · {}{}\n  {} · 另有 {} 个匹配候选'.format(
+                            s['id'], s['task'], s['verification'], stars, s['summary'], s['alternatives']))
+                    print('\n范围：{}{}；{} 个用途，显示 {} 项。show <ID> 查看详情；--all 查全库，--scope archived 查退出项。'.format(
+                        result['scope'], '（精选未命中，已扩展）' if result['expanded_to_all'] else '', result['total_groups'], len(result['results'])))
+                return 0
+            results = search(catalog(), args.query, args.category, args.source, max(1, args.limit))
             if args.json:
                 print(json.dumps(results, ensure_ascii=False, indent=2))
             else:
@@ -246,9 +264,20 @@ def main():
                     print("{}  [{}]\n  {}\n  {}".format(s["id"], ", ".join(s["categories"]), s["name"], s["description"][:180]))
                 print("\n{} 个结果（最多 {} 个）。show <ID> 查看完整信息。".format(len(results), args.limit))
         else:
+            data = catalog()
             skill = resolve_skill(data, args.id)
             if args.command == "show":
-                print(json.dumps(skill, ensure_ascii=False, indent=2))
+                view = dict(skill)
+                curated_path = ROOT / 'data/curated.json'
+                if curated_path.exists():
+                    editorial = json.loads(curated_path.read_text(encoding='utf-8'))
+                    item = next(s for s in editorial['skills'] if s['id'] == skill['id'])
+                    view.update({k: item[k] for k in ('verification', 'lifecycle', 'repository')})
+                    if args.alternatives:
+                        group = next(g for g in editorial['groups'] if g['id'] == item['group_id'])
+                        view['candidates'] = [{k: s[k] for k in ('id', 'url', 'sources', 'verification', 'lifecycle', 'repository')}
+                                              for s in editorial['skills'] if s['id'] in group['members']]
+                print(json.dumps(view, ensure_ascii=False, indent=2))
             else:
                 if not 0 <= args.variant < len(skill["locations"]):
                     raise ValueError("来源位置编号不存在")

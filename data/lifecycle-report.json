@@ -1,0 +1,38 @@
+{
+  "as_of": "2026-10-25",
+  "missing_featured": [],
+  "items": [
+    {
+      "id": "ComposioHQ/awesome-claude-skills/document-skills/docx",
+      "state": "archived",
+      "reason": "同用途已选择当前核对过的发布者入口，旧集合版本转入备选归档，减少默认重复；不声称文件或能力完全相同。",
+      "next_review_at": null,
+      "changed_on": "2026-10-25",
+      "replaced_by": "anthropics/skills/skills/docx"
+    },
+    {
+      "id": "ComposioHQ/awesome-claude-skills/document-skills/pdf",
+      "state": "archived",
+      "reason": "同用途已选择当前核对过的发布者入口，旧集合版本转入备选归档，减少默认重复；不声称文件或能力完全相同。",
+      "next_review_at": null,
+      "changed_on": "2026-10-25",
+      "replaced_by": "openai/skills/skills/.curated/pdf"
+    },
+    {
+      "id": "ComposioHQ/awesome-claude-skills/document-skills/pptx",
+      "state": "archived",
+      "reason": "同用途已选择当前核对过的发布者入口，旧集合版本转入备选归档，减少默认重复；不声称文件或能力完全相同。",
+      "next_review_at": null,
+      "changed_on": "2026-10-25",
+      "replaced_by": "anthropics/skills/skills/pptx"
+    },
+    {
+      "id": "ComposioHQ/awesome-claude-skills/document-skills/xlsx",
+      "state": "archived",
+      "reason": "同用途已选择当前核对过的发布者入口，旧集合版本转入备选归档，减少默认重复；不声称文件或能力完全相同。",
+      "next_review_at": null,
+      "changed_on": "2026-10-25",
+      "replaced_by": "anthropics/skills/skills/xlsx"
+    }
+  ]
+}

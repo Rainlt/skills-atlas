@@ -1,16 +1,23 @@
 # Skills Atlas
 
-汇总多个 GitHub 仓库里的 Agent Skills，按用途分类，支持中文搜索和单项下载。
+先查少量精选用途，再比较同用途候选。支持中文搜索、来源仓库 Star 提示、独立技能仓库标亮和单项下载。
 
-[在线搜索](https://rainlt.github.io/skills-atlas/) · [分类目录](CATALOG.md) · [下载工具](https://rainlt.github.io/skills-atlas/skills-atlas-tools.zip)
+[在线搜索](https://rainlt.github.io/skills-atlas/) · [精选速查](SHORTLIST.md) · [完整目录](CATALOG.md) · [下载工具](https://rainlt.github.io/skills-atlas/skills-atlas-tools.zip)
 
 <!-- STATS:START -->
-目前收录 14 个来源、3,957 个技能目录，分为 17 类。
+目前收录 14 个来源、3,957 个技能目录，分为 17 类。默认展示 37 个精选用途，相近候选收拢为 3,826 个入口。
 <!-- STATS:END -->
 
 ## 使用
 
-打开[在线搜索](https://rainlt.github.io/skills-atlas/)，找到技能后可以查看上游说明、复制下载命令。
+打开[在线搜索](https://rainlt.github.io/skills-atlas/)，默认查看精选；也可切换科研与文档、平台集成、全部目录、观察与归档。查到用途后展开候选比较，各实现的文件、许可和下载 ID 分别保留。
+
+给 AI 查技能时，优先使用下面的简短查询，默认最多返回 5 个用途，精选未命中才扩展全库。不要先读取完整目录和全部上游说明。
+
+```bash
+python3 atlas.py search '文献综述' --json
+python3 atlas.py search 'pdf' --all --source anthropics
+```
 
 需要下载时，先解压[工具包](https://rainlt.github.io/skills-atlas/skills-atlas-tools.zip)，在解压目录运行命令。需要 **Python 3.9+**，无需额外安装 Python 包。
 
@@ -34,7 +41,9 @@ python3 atlas.py download obra/superpowers/skills/systematic-debugging --dest ./
 
 来源包括 [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)、[agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)，以及 Anthropic、OpenAI、Vercel、Hugging Face 等项目。完整名单和收录版本见[来源列表](docs/SOURCES.md)。
 
-只有整个技能目录的文件和结构一致时才合并；同名或功能相近的不同实现会保留。中文分类和搜索词由本项目整理，技能名称与描述保留原文。具体规则见[整理方法](docs/METHODOLOGY.md)。
+只有整个技能目录的文件和结构一致时才物理去重；同名或说明相同的不同实现收在一个候选入口下，仍可分别下载。同名不等于功能等价。具体规则见[整理方法](docs/METHODOLOGY.md)。
+
+精选与退出由 [curation.json](curation.json) 管理，默认上限 40 个用途。版本变化、复查到期或候选到期会转观察；人工归档保留原因、日期和替代项。Star 是来源仓库关注度，不是技能评分；缺失或过期时不假定为零，不用 Star 代替核对依据。见[精选与退出规则](docs/CURATION.md)。
 
 ## 更新
 
