@@ -46,6 +46,48 @@
       "state": "active",
       "reason": "同用途一个默认技能，衔接现有技能并共享来源、证据与结果。",
       "invoke": "使用我的科研工具箱，根据当前材料选择环节并执行。先读取 Rainlt/methods-atlas 的 toolboxes/research-toolbox/SKILL.md；仅按需准备当前技能。"
+    },
+    {
+      "id": "animation-toolbox",
+      "name": "动画制作工具箱",
+      "summary": "把论文、讲稿或知识点做成动画；用 vibe 方法和 AI 协作，默认 HyperFrames，已有 Remotion 工程则复用。",
+      "example": "把一篇论文的方法做成 30 秒动画：让输入依次经过模块，用箭头和变化说明处理过程，最后导出视频。",
+      "stages": [
+        "材料核对",
+        "讲稿与分镜",
+        "动画小样",
+        "导出与检查"
+      ],
+      "helpers": [
+        "视觉素材",
+        "旁白与音频"
+      ],
+      "keywords": [
+        "动画",
+        "论文转动画",
+        "科研动画",
+        "科普视频",
+        "分镜",
+        "讲稿",
+        "HyperFrames",
+        "vibe动画",
+        "vibe animation",
+        "Remotion",
+        "animation",
+        "paper-to-video"
+      ],
+      "primary_count": 4,
+      "component_count": 6,
+      "canonical_version": "2026-10-25.1",
+      "canonical_commit": "208a071c1b5bf6a9afa6305d4d474e7cf58d209b",
+      "guide_url": "https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/animation-toolbox",
+      "entry_url": "https://github.com/Rainlt/methods-atlas/blob/main/toolboxes/animation-toolbox/SKILL.md",
+      "access": "private",
+      "verification": "方法与固定说明已核对；渲染环境及真实论文样片待验证",
+      "checked_on": "2026-10-25",
+      "state": "active",
+      "reason": "复用论文转动画与 vibe 方法；默认评估 HyperFrames，已有 Remotion 工程优先复用；共用分镜、出处与时间安排。",
+      "invoke": "使用我的动画制作工具箱，把提供的论文或讲稿制作成动画。先读取 Rainlt/methods-atlas 的 toolboxes/animation-toolbox/SKILL.md，从已有材料进入；按需选择 HyperFrames 或复用已有 Remotion 工程，完成所要求的预览或视频。"
     }
   ]
 }

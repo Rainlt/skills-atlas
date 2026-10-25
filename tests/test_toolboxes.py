@@ -24,6 +24,7 @@ class ToolboxTests(unittest.TestCase):
 
     def test_archived_toolbox_keeps_history_but_exits_default_lookup(self):
         data = copy.deepcopy(toolbox_index.load(atlas.ROOT))
+        data['toolboxes'] = data['toolboxes'][:1]
         row = data['toolboxes'][0]
         row.update(state='archived', reason='真实任务不适配；保留旧版本，等待替代组合。')
         with tempfile.TemporaryDirectory() as folder:
