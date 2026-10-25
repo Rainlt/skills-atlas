@@ -4,6 +4,8 @@
 
 工作流先独立搜索新来源，按预算核实候选和历史队列，再获取白名单来源、重新分类去重，执行完整性检查和测试。有变化时提交到专用分支并创建 PR；PR 由维护者审核和合并，不自动合并。也可以在仓库 Actions 中选择 **Refresh catalog → Run workflow** 随时手动检查。默认的 `GITHUB_TOKEN` 由 GitHub 注入，无需额外个人令牌；仓库已允许 GitHub Actions 创建 Pull Request。
 
+同一流程还刷新来源仓库 Star 快照，并按北京时间的当前日期检查精选和候选期限。失败的 Star 请求保留旧快照；版本变化或到期条目进入观察，归档与恢复记录见 `data/lifecycle-report.json` 和[精选与退出规则](CURATION.md)。没有新增定时器。
+
 ## 发现新来源
 
 `discovery.json` 保存通用检索式与预算，独立于 `sources.json`。搜索覆盖 Agent Skills 主题、科研技能、长任务与长期目标；名称与简介查询用于减少大型 README 合集造成的干扰。它是有边界的抽样，不代表搜索了全部 GitHub。可继续补充主题查询，无需修改代码。

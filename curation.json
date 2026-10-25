@@ -1,0 +1,777 @@
+{
+  "schema_version": 1,
+  "audience": "科研论文、文档图表、产品调研和开发",
+  "featured": [
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/literature-review",
+      "title": "文献综述",
+      "summary": "检索、筛选和综合研究文献，记录检索范围与证据限制。",
+      "reason": "适合论文背景与相关工作；含引用核查和综述流程。",
+      "keywords": [
+        "文献",
+        "综述",
+        "论文",
+        "检索",
+        "literature",
+        "review"
+      ]
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/scientific-writing",
+      "title": "科研论文写作",
+      "summary": "起草、修改与检查科研稿件，核对证据、引用和声明。",
+      "reason": "适合论文成稿检查，关注主张与现有证据的一致性。",
+      "keywords": [
+        "论文",
+        "写作",
+        "科研",
+        "学术",
+        "scientific",
+        "writing"
+      ]
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/citation-management",
+      "title": "参考文献管理",
+      "summary": "检索文献元数据，校验引用并整理参考文献。",
+      "reason": "适合 DOI、BibTeX 和引文信息核查。",
+      "keywords": [
+        "引用",
+        "文献",
+        "bibtex",
+        "doi",
+        "citation"
+      ]
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/peer-review",
+      "title": "论文审阅",
+      "summary": "按研究问题、方法和证据准备审阅意见。",
+      "reason": "适合投稿前自查与整理具体修改建议。",
+      "keywords": [
+        "论文",
+        "审稿",
+        "审阅",
+        "peer",
+        "review"
+      ]
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/experimental-design",
+      "title": "实验设计",
+      "summary": "在收集数据前规划实验、随机化、分组与处理条件。",
+      "reason": "适合提前明确比较方案和分析单位。",
+      "keywords": [
+        "实验",
+        "设计",
+        "对照",
+        "experiment"
+      ]
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/statistical-analysis",
+      "title": "统计分析",
+      "summary": "选择统计方法，检查假设并报告效应与不确定性。",
+      "reason": "适合研究数据分析；需按技能说明配置科学计算环境。",
+      "keywords": [
+        "统计",
+        "分析",
+        "显著性",
+        "statistics"
+      ]
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/statistical-power",
+      "title": "样本量与统计功效",
+      "summary": "为研究计划估计样本量与统计功效。",
+      "reason": "适合实验前评估样本需求。",
+      "keywords": [
+        "样本量",
+        "功效",
+        "power"
+      ]
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/scientific-visualization",
+      "title": "科研数据绘图",
+      "summary": "用 Matplotlib、Seaborn 或 Plotly 制作并检查科研图表。",
+      "reason": "适合论文图、多面板布局和图表可读性检查。",
+      "keywords": [
+        "科研",
+        "绘图",
+        "图表",
+        "可视化",
+        "matplotlib",
+        "plot"
+      ]
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/scientific-critical-thinking",
+      "title": "科研证据检查",
+      "summary": "检查研究主张、偏差、混杂因素与统计解释。",
+      "reason": "适合核对结论是否超出实验支持范围。",
+      "keywords": [
+        "证据",
+        "批判",
+        "思考",
+        "论文",
+        "evidence"
+      ]
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/hypothesis-generation",
+      "title": "研究假设",
+      "summary": "形成有依据的候选假设、竞争解释与可区分的预测。",
+      "reason": "适合从研究问题推进到可检验的方案。",
+      "keywords": [
+        "假设",
+        "科研",
+        "创新",
+        "hypothesis"
+      ]
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/scientific-brainstorming",
+      "title": "科研选题讨论",
+      "summary": "整理候选方向、假设、评价与讨论记录。",
+      "reason": "适合选题初期比较研究路线。",
+      "keywords": [
+        "科研",
+        "选题",
+        "头脑风暴",
+        "brainstorm"
+      ]
+    },
+    {
+      "id": "openai/skills/skills/.curated/pdf",
+      "title": "PDF 处理",
+      "summary": "读取、创建和检查 PDF，结合页面渲染核对版式。",
+      "reason": "为当前 Codex 使用场景优先展示；其他 PDF 实现可展开比较。",
+      "keywords": [
+        "PDF",
+        "文档",
+        "排版",
+        "提取"
+      ]
+    },
+    {
+      "id": "anthropics/skills/skills/docx",
+      "title": "Word 文档",
+      "summary": "创建、读取与修改 Word 文档和模板。",
+      "reason": "适合文档交付与模板编辑；实际依赖按上游说明配置。",
+      "keywords": [
+        "Word",
+        "docx",
+        "文档",
+        "模板"
+      ]
+    },
+    {
+      "id": "anthropics/skills/skills/pptx",
+      "title": "PowerPoint 演示文稿",
+      "summary": "创建、修改与检查 PPTX 幻灯片。",
+      "reason": "适合需要可编辑演示文稿的任务。",
+      "keywords": [
+        "PPT",
+        "PowerPoint",
+        "幻灯片",
+        "演示"
+      ]
+    },
+    {
+      "id": "anthropics/skills/skills/xlsx",
+      "title": "表格与电子表格",
+      "summary": "读取、清理和生成电子表格文件。",
+      "reason": "适合以表格文件为主要输入或输出的任务。",
+      "keywords": [
+        "Excel",
+        "xlsx",
+        "表格",
+        "数据"
+      ]
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/scientific-slides",
+      "title": "科研汇报",
+      "summary": "组织研究报告、学术演讲与答辩幻灯片。",
+      "reason": "适合研究叙事与学术展示规划。",
+      "keywords": [
+        "科研",
+        "答辩",
+        "汇报",
+        "幻灯片"
+      ]
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/markdown-mermaid-writing",
+      "title": "Markdown 与流程图",
+      "summary": "编写科学文档和 Mermaid 流程、关系与结构图。",
+      "reason": "适合文档内的流程解释与结构梳理。",
+      "keywords": [
+        "Markdown",
+        "Mermaid",
+        "流程图",
+        "结构图"
+      ]
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/market-research-reports",
+      "title": "市场研究",
+      "summary": "整理可追溯的市场证据、竞争格局与规模假设。",
+      "reason": "适合产品研究与市场报告。",
+      "keywords": [
+        "市场",
+        "调研",
+        "竞品",
+        "TAM"
+      ]
+    },
+    {
+      "id": "sickn33/agentic-awesome-skills/skills/customer-research",
+      "title": "用户研究",
+      "summary": "开展、分析和综合用户研究。",
+      "reason": "适合产品需求与用户访谈材料整理。",
+      "keywords": [
+        "用户",
+        "调研",
+        "访谈",
+        "customer",
+        "research"
+      ]
+    },
+    {
+      "id": "sickn33/agentic-awesome-skills/skills/customer-psychographic-profiler",
+      "title": "用户动机与顾虑",
+      "summary": "依据证据整理用户动机、顾虑、身份与信任障碍。",
+      "reason": "适合定位与文案前的受众分析。",
+      "keywords": [
+        "用户",
+        "画像",
+        "动机",
+        "心理"
+      ]
+    },
+    {
+      "id": "sickn33/agentic-awesome-skills/skills/jobs-to-be-done-analyst",
+      "title": "用户购买与使用动机",
+      "summary": "分析用户希望完成的任务、触发因素与替代方案。",
+      "reason": "适合梳理需求、产品定位与转换原因。",
+      "keywords": [
+        "JTBD",
+        "需求",
+        "用户",
+        "产品"
+      ]
+    },
+    {
+      "id": "sickn33/agentic-awesome-skills/skills/copywriting-psychologist",
+      "title": "产品文案",
+      "summary": "根据受众需求与可信证据修改转化文案。",
+      "reason": "适合在用户研究之后组织卖点与表达。",
+      "keywords": [
+        "文案",
+        "营销",
+        "产品",
+        "写作"
+      ]
+    },
+    {
+      "id": "cloudflare/security-audit-skill/skills/security-audit",
+      "title": "代码安全审计",
+      "summary": "检查代码漏洞，独立复查问题是否存在，并输出有依据的报告。",
+      "reason": "本周明确收录；完整下载已验证，运行审计需满足上游条件。",
+      "keywords": [
+        "安全",
+        "审计",
+        "漏洞",
+        "security",
+        "audit"
+      ]
+    },
+    {
+      "id": "obra/superpowers/skills/systematic-debugging",
+      "title": "系统排错",
+      "summary": "围绕问题证据与根因进行调试。",
+      "reason": "适合先定位原因，再验证修复。",
+      "keywords": [
+        "debug",
+        "调试",
+        "排错",
+        "bug"
+      ]
+    },
+    {
+      "id": "obra/superpowers/skills/writing-plans",
+      "title": "实施计划",
+      "summary": "把明确需求转成可执行、可检查的实施步骤。",
+      "reason": "适合多步骤开发任务的准备。",
+      "keywords": [
+        "计划",
+        "开发",
+        "规划",
+        "plan"
+      ]
+    },
+    {
+      "id": "obra/superpowers/skills/verification-before-completion",
+      "title": "交付前验证",
+      "summary": "在宣告完成前执行与结果相关的验证。",
+      "reason": "适合检查修复、实现与交付声明是否有证据。",
+      "keywords": [
+        "验证",
+        "测试",
+        "完成",
+        "检查"
+      ]
+    },
+    {
+      "id": "obra/superpowers/skills/requesting-code-review",
+      "title": "代码评审准备",
+      "summary": "组织代码评审请求与实现检查。",
+      "reason": "适合功能交付前准备评审材料。",
+      "keywords": [
+        "代码",
+        "审查",
+        "评审",
+        "review"
+      ]
+    },
+    {
+      "id": "openai/skills/skills/.curated/gh-fix-ci",
+      "title": "修复 GitHub 检查",
+      "summary": "查看 GitHub Actions 失败并定位、修复 CI 问题。",
+      "reason": "适合代码仓库的自动检查故障。",
+      "keywords": [
+        "GitHub",
+        "Actions",
+        "CI",
+        "检查",
+        "失败"
+      ]
+    },
+    {
+      "id": "anthropics/skills/skills/frontend-design",
+      "title": "网页界面设计",
+      "summary": "为网页和应用界面组织视觉方向、排版与组件。",
+      "reason": "适合新界面或已有页面的视觉调整。",
+      "keywords": [
+        "网页",
+        "前端",
+        "UI",
+        "设计",
+        "frontend"
+      ]
+    },
+    {
+      "id": "anthropics/skills/skills/webapp-testing",
+      "title": "网页功能测试",
+      "summary": "使用 Playwright 检查本地网页交互与行为。",
+      "reason": "适合验证页面流程和前端功能。",
+      "keywords": [
+        "网页",
+        "测试",
+        "浏览器",
+        "playwright"
+      ]
+    },
+    {
+      "id": "openai/skills/skills/.curated/jupyter-notebook",
+      "title": "研究笔记本",
+      "summary": "创建、整理与修改 Jupyter 实验和分析笔记本。",
+      "reason": "适合交互式实验与数据分析记录。",
+      "keywords": [
+        "Jupyter",
+        "ipynb",
+        "笔记本",
+        "实验"
+      ]
+    },
+    {
+      "id": "openai/skills/skills/.curated/transcribe",
+      "title": "音频转写",
+      "summary": "将音频转成文字，可按需区分说话人。",
+      "reason": "适合录音资料与视频音轨整理；需配置相应服务。",
+      "keywords": [
+        "音频",
+        "视频",
+        "转写",
+        "字幕",
+        "transcript"
+      ]
+    },
+    {
+      "id": "remotion-dev/skills/skills/remotion-create",
+      "title": "程序化视频制作",
+      "summary": "用 Remotion 创建新的视频项目。",
+      "reason": "适合以代码组织动画与视频内容。",
+      "keywords": [
+        "视频",
+        "动画",
+        "Remotion",
+        "制作"
+      ]
+    },
+    {
+      "id": "remotion-dev/skills/skills/remotion-render",
+      "title": "Remotion 视频导出",
+      "summary": "将 Remotion 项目渲染为视频。",
+      "reason": "适合已有项目完成后的导出步骤。",
+      "keywords": [
+        "视频",
+        "动画",
+        "Remotion",
+        "导出",
+        "render"
+      ]
+    },
+    {
+      "id": "loopx-project/loopx/skills/loopx-project",
+      "title": "长期任务接续",
+      "summary": "管理 LoopX 项目、目标和跨会话状态。",
+      "reason": "适合需要持久状态的长期项目；需安装版本匹配的 LoopX 运行时。",
+      "keywords": [
+        "LoopX",
+        "长任务",
+        "接续",
+        "目标",
+        "agent"
+      ]
+    },
+    {
+      "id": "sickn33/agentic-awesome-skills/skills/data-storytelling",
+      "title": "数据结论与图表叙事",
+      "summary": "先讲清结论和适用条件，再用数据与图表解释依据。",
+      "reason": "改善报告信息层次；不是数据正确性的自动认证。",
+      "keywords": [
+        "数据",
+        "图表",
+        "报告",
+        "叙事",
+        "storytelling"
+      ]
+    },
+    {
+      "id": "sickn33/agentic-awesome-skills/skills/frontend-slides",
+      "title": "浏览器演示文稿",
+      "summary": "制作可在浏览器逐页播放的 HTML 演示文稿。",
+      "reason": "适合明确需要逐页讲解的任务；连续阅读报告按任务另选。",
+      "keywords": [
+        "幻灯片",
+        "演示",
+        "网页",
+        "slides",
+        "presentation"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "members": [
+        "obra/superpowers/skills/systematic-debugging",
+        "sickn33/agentic-awesome-skills/skills/debugging-strategies"
+      ],
+      "reason": "同为定位并验证代码故障的用途候选；已核对复现、提出假设、缩小范围与修复验证流程。各自资源和适用条件仍分别检查。"
+    }
+  ],
+  "reviews": {
+    "K-Dense-AI/scientific-agent-skills/skills/literature-review": {
+      "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "bundle_sha": "abbd5cd9f06e1fb4fae66345a4df790cc34d2ad8",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "K-Dense-AI/scientific-agent-skills/skills/scientific-writing": {
+      "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "bundle_sha": "2fb90f9b84226432129a2cbd999857cc6eb98018",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "K-Dense-AI/scientific-agent-skills/skills/citation-management": {
+      "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "bundle_sha": "e838e1d0c96096867587bc116f2eec0ff925cbce",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "K-Dense-AI/scientific-agent-skills/skills/peer-review": {
+      "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "bundle_sha": "c490df78961197e52fd2f1649853e62568b429ca",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "K-Dense-AI/scientific-agent-skills/skills/experimental-design": {
+      "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "bundle_sha": "c4bc6dfbccdcc8452d6ea8ab9d7ce4e47b11f8b3",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "K-Dense-AI/scientific-agent-skills/skills/statistical-analysis": {
+      "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "bundle_sha": "d952f1decb93143a120f963d95fdd210a8a681d1",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "K-Dense-AI/scientific-agent-skills/skills/statistical-power": {
+      "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "bundle_sha": "a40da7de71f939c5f7f134c776894f8080b63792",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "K-Dense-AI/scientific-agent-skills/skills/scientific-visualization": {
+      "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "bundle_sha": "292eaa2adb46c1ee678f090efec7780c50b91419",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "K-Dense-AI/scientific-agent-skills/skills/scientific-critical-thinking": {
+      "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "bundle_sha": "a658236e69d700577a095bccf8d87fe7391bd22d",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "K-Dense-AI/scientific-agent-skills/skills/hypothesis-generation": {
+      "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "bundle_sha": "4ad4a8776adf382204473a26d3b9967541409e85",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "K-Dense-AI/scientific-agent-skills/skills/scientific-brainstorming": {
+      "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "bundle_sha": "79691529803f49d952985de98a30f67861b19007",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "openai/skills/skills/.curated/pdf": {
+      "commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "bundle_sha": "4cffaac4541278a5b142f9773e8a83ccbabc9231",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "anthropics/skills/skills/docx": {
+      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "bundle_sha": "6e6f5b95c1de6e803cc07b214f5059b074d64e0c",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "anthropics/skills/skills/pptx": {
+      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "bundle_sha": "64529c8b3f35fe632b7256bd2f6d46e4b40160ce",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "anthropics/skills/skills/xlsx": {
+      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "bundle_sha": "fe6471cc9b5b97aae0b576ccb92ffd9b0207589d",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "K-Dense-AI/scientific-agent-skills/skills/scientific-slides": {
+      "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "bundle_sha": "f869d3ccf27fa9ea3aba731ec58ff70a23c074c4",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "K-Dense-AI/scientific-agent-skills/skills/markdown-mermaid-writing": {
+      "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "bundle_sha": "d508ec54bda898c0b850cfee89c1db4622121b43",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "K-Dense-AI/scientific-agent-skills/skills/market-research-reports": {
+      "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "bundle_sha": "72e48d55eb064ffa80b0fdd0edc4fd7256afad45",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "sickn33/agentic-awesome-skills/skills/customer-research": {
+      "commit": "a3072641b750a1fb2f6ce695a5f984ea3d4c3ec1",
+      "bundle_sha": "05cfbeb75bf076f20fb638759cafd22b39af1293",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "sickn33/agentic-awesome-skills/skills/customer-psychographic-profiler": {
+      "commit": "a3072641b750a1fb2f6ce695a5f984ea3d4c3ec1",
+      "bundle_sha": "685238eec349b1744fd62372cdcfeabb3d18b27e",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "sickn33/agentic-awesome-skills/skills/jobs-to-be-done-analyst": {
+      "commit": "a3072641b750a1fb2f6ce695a5f984ea3d4c3ec1",
+      "bundle_sha": "32c48389a020164e5a0c3b1d5d30e7ae423ed627",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "sickn33/agentic-awesome-skills/skills/copywriting-psychologist": {
+      "commit": "a3072641b750a1fb2f6ce695a5f984ea3d4c3ec1",
+      "bundle_sha": "9a79e9e4b7dcca7e161e3da4aabea3e0102a5a0a",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "obra/superpowers/skills/systematic-debugging": {
+      "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+      "bundle_sha": "108961c080a6837ad8a188a553e593cc5e6df62d",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "obra/superpowers/skills/writing-plans": {
+      "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+      "bundle_sha": "cc97fa00eb2ccd4f283e34eb2ba06a48e1e679f7",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "obra/superpowers/skills/verification-before-completion": {
+      "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+      "bundle_sha": "a4cb0b69aaefeab540947a7f1642bdaad810e37a",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "obra/superpowers/skills/requesting-code-review": {
+      "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+      "bundle_sha": "f4a6749898702895ea4fd57c7f186cf43205b99a",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "openai/skills/skills/.curated/gh-fix-ci": {
+      "commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "bundle_sha": "3f99938c9464393f27cc4cc00e4ba17387517803",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "anthropics/skills/skills/frontend-design": {
+      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "bundle_sha": "d79e2a5bb4df4a386c2adcdd9ab8709bba28c3f6",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "anthropics/skills/skills/webapp-testing": {
+      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "bundle_sha": "5ffb7dc66b9fd4c25c3e400a4c00da99a349b714",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "openai/skills/skills/.curated/jupyter-notebook": {
+      "commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "bundle_sha": "ed23a98404260af659ef6bae9cb734bcfb0ca6c2",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "openai/skills/skills/.curated/transcribe": {
+      "commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "bundle_sha": "5a9cab05591b6b36131c2cf1d7df257df6901e14",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "remotion-dev/skills/skills/remotion-create": {
+      "commit": "7ba4dcf8ebe1626b00baa41e1f2478113719b60b",
+      "bundle_sha": "640ddd5ac3be0740b3475d8c35ef9bb2bd2c1675",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "remotion-dev/skills/skills/remotion-render": {
+      "commit": "7ba4dcf8ebe1626b00baa41e1f2478113719b60b",
+      "bundle_sha": "4a4dd0abe624298638152343a4dc4abb677608b8",
+      "level": "metadata_reviewed",
+      "date": "2026-10-23",
+      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+    },
+    "loopx-project/loopx/skills/loopx-project": {
+      "commit": "d3c79a68979da8a61f92398a9984229d60fc6c1a",
+      "bundle_sha": "6f3ffb2fc741c21a4d4e79b5d9272bd61bf2db08",
+      "level": "download_verified",
+      "date": "2026-10-23",
+      "note": "已实际下载并校验该版本的 10 个技能文件，约 100 KB；未启动 LoopX 或执行长期任务。"
+    },
+    "cloudflare/security-audit-skill/skills/security-audit": {
+      "commit": "c1c8a8c1471069fb0e188eeaff69b8e8db6564a8",
+      "bundle_sha": "ccbc33ed119b28c3ef7b44a7e2081ab191ad63af",
+      "level": "download_verified",
+      "date": "2026-10-25",
+      "note": "已完整下载并校验 20 个文件及许可告示；未执行审计。"
+    },
+    "sickn33/agentic-awesome-skills/skills/data-storytelling": {
+      "commit": "a3072641b750a1fb2f6ce695a5f984ea3d4c3ec1",
+      "bundle_sha": "7849155f47017e0eb3a6fbf74c32c978af76c056",
+      "level": "metadata_reviewed",
+      "date": "2026-10-25",
+      "note": "已阅读该版本用途说明及配套目录；未执行任务。"
+    },
+    "sickn33/agentic-awesome-skills/skills/frontend-slides": {
+      "commit": "a3072641b750a1fb2f6ce695a5f984ea3d4c3ec1",
+      "bundle_sha": "7d6ac4d2d82a3c98e60999de45cfd3844d93f055",
+      "level": "metadata_reviewed",
+      "date": "2026-10-25",
+      "note": "已阅读该版本用途说明及配套目录；未执行任务。"
+    },
+    "sickn33/agentic-awesome-skills/skills/debugging-strategies": {
+      "commit": "a3072641b750a1fb2f6ce695a5f984ea3d4c3ec1",
+      "bundle_sha": "f4a250f4dd181ff5abd99fa7977619218169cc8c",
+      "level": "metadata_reviewed",
+      "date": "2026-10-25",
+      "note": "已阅读排错步骤与运行信号要求，保留与 systematic-debugging 的候选比较；未执行任务。"
+    }
+  },
+  "policy": {
+    "featured_limit": 40,
+    "review_days": 30,
+    "candidate_days": 30,
+    "high_star_threshold": 10000,
+    "signals_max_age_days": 30
+  },
+  "lifecycle": {
+    "ComposioHQ/awesome-claude-skills/document-skills/pdf": {
+      "state": "archived",
+      "changed_on": "2026-10-25",
+      "reason": "同用途已选择当前核对过的发布者入口，旧集合版本转入备选归档，减少默认重复；不声称文件或能力完全相同。",
+      "replaced_by": "openai/skills/skills/.curated/pdf"
+    },
+    "ComposioHQ/awesome-claude-skills/document-skills/docx": {
+      "state": "archived",
+      "changed_on": "2026-10-25",
+      "reason": "同用途已选择当前核对过的发布者入口，旧集合版本转入备选归档，减少默认重复；不声称文件或能力完全相同。",
+      "replaced_by": "anthropics/skills/skills/docx"
+    },
+    "ComposioHQ/awesome-claude-skills/document-skills/pptx": {
+      "state": "archived",
+      "changed_on": "2026-10-25",
+      "reason": "同用途已选择当前核对过的发布者入口，旧集合版本转入备选归档，减少默认重复；不声称文件或能力完全相同。",
+      "replaced_by": "anthropics/skills/skills/pptx"
+    },
+    "ComposioHQ/awesome-claude-skills/document-skills/xlsx": {
+      "state": "archived",
+      "changed_on": "2026-10-25",
+      "reason": "同用途已选择当前核对过的发布者入口，旧集合版本转入备选归档，减少默认重复；不声称文件或能力完全相同。",
+      "replaced_by": "anthropics/skills/skills/xlsx"
+    }
+  }
+}

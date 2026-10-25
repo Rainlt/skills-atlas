@@ -13,7 +13,7 @@ import re
 import sys
 import subprocess
 import urllib.error
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import atlas
@@ -394,6 +394,8 @@ def main():
     if old.get("snapshot") != snapshot:
         write_json(ROOT / "data/changes.json", {"previous_snapshot": old.get("snapshot"), "snapshot": snapshot, **delta})
     render_catalog(data, taxonomy)
+    from scripts.curate import generate as generate_curation
+    generate_curation(data, as_of=datetime.now(timezone(timedelta(hours=8))).date().isoformat())
     from scripts.render import generate
     generate(data, taxonomy)
     print(json.dumps(data["stats"], ensure_ascii=False, indent=2))
