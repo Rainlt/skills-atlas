@@ -14,6 +14,9 @@
     {"repo":"K-Dense-AI/scientific-agent-skills","aliases":["K-Dense-AI/claude-scientific-skills"],"kind":"specialist","priority":15,"include":["skills/"],"note_zh":"科学计算、文献、生物医药与研究工作流。"},
     {"repo":"ComposioHQ/awesome-claude-skills","kind":"collection","priority":30,"include":[""],"exclude":[".github/"],"note_zh":"用户指定；同时含实际技能和外部导航链接。"},
     {"repo":"sickn33/agentic-awesome-skills","aliases":["sickn33/antigravity-awesome-skills"],"kind":"collection","priority":40,"include":["skills/"],"note_zh":"用户指定；仅收录 skills/ 主目录，跳过插件分发副本。"},
-    {"repo":"loopx-project/loopx","kind":"specialist","priority":15,"include":["skills/"],"note_zh":"长期目标与 Agent 工作流；仅索引主技能目录，需配套运行时。","compatibility":"需要安装 LoopX 运行时及版本匹配的配套技能；按上游 workflow-skills 安装。单独下载目录不等于可运行，父级文档与共享资源以官方安装为准。"}
+    {"repo":"loopx-project/loopx","kind":"specialist","priority":15,"include":["skills/"],"note_zh":"长期目标与 Agent 工作流；仅索引主技能目录，需配套运行时。","compatibility":"需要安装 LoopX 运行时及版本匹配的配套技能；按上游 workflow-skills 安装。单独下载目录不等于可运行，父级文档与共享资源以官方安装为准。"},
+    {"repo":"Adkid-Zephyr/oral-paper-skill","kind":"specialist","priority":15,"include":["skills/oral-paper-skill/"],"note_zh":"从顶会论文案例梳理贡献与证据；摘要级提炼，不等于全文评审。","compatibility":"技能本身无需额外依赖；仓库未发现明确许可证，保留上游授权待核实状态，不把可下载等同于允许再分发。"},
+    {"repo":"larashero3-dotcom/lieflat-less-ai-tone","kind":"specialist","priority":15,"include":[""],"note_zh":"中文成稿清理：按明确规则减少模板化表达，保留事实、结构及原作者风格。","compatibility":"SKILL.md 位于仓库根目录；核心改写无需额外运行程序。统计脚本仅在需要重算研究时按上游要求使用。"},
+    {"repo":"Panniantong/Agent-Reach","kind":"specialist","priority":15,"include":["agent_reach/skill/"],"note_zh":"资料获取补充：平台正文、字幕与搜索，优先现有公开读取工具。","compatibility":"索引中的 SKILL.md 是含版本与渠道占位符的发布模板；不能单独下载后当作已配置。实际使用需官方 Agent Reach 运行程序、生成的技能和所需渠道依赖，部分功能需本人登录或密钥。"}
   ]
 }

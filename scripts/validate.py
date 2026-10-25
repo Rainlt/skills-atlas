@@ -28,7 +28,10 @@ def main():
         for location in skill["locations"]:
             assert re.fullmatch(r"[0-9a-f]{40}", location["commit"])
             assert location["bundle_sha"] == bundle
-            atlas.safe_relative(location["path"])
+            if location["path"] != ".":
+                atlas.safe_relative(location["path"])
+            else:
+                assert skill["id"] == location["repo"] or location["repo"] in skill["aliases"]
             assert location["url"].startswith("https://github.com/")
             assert location["commit"] in location["url"]
         manifest = manifests[bundle]

@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "snapshot": "43a53de8a9d827e0",
-  "generated_at": "2026-10-25T05:03:02.894975+00:00",
+  "snapshot": "198aa2b53b487992",
+  "generated_at": "2026-10-25T09:18:37.182728+00:00",
   "stats": {
-    "sources": 14,
-    "scanned_skills": 3957,
-    "unique_bundles": 3957,
+    "sources": 17,
+    "scanned_skills": 3960,
+    "unique_bundles": 3960,
     "exact_duplicates_removed": 0,
     "same_name_families": 97,
     "excluded_identical_distribution_copies": 5226,
@@ -277,9 +277,108 @@
       "url": "https://github.com/loopx-project/loopx",
       "excluded_skill_files": 4,
       "excluded_identical_distribution_copies": 0
+    },
+    {
+      "repo": "Adkid-Zephyr/oral-paper-skill",
+      "kind": "specialist",
+      "priority": 15,
+      "include": [
+        "skills/oral-paper-skill/"
+      ],
+      "note_zh": "从顶会论文案例梳理贡献与证据；摘要级提炼，不等于全文评审。",
+      "compatibility": "技能本身无需额外依赖；仓库未发现明确许可证，保留上游授权待核实状态，不把可下载等同于允许再分发。",
+      "commit": "a2c4bc41b3aa6946b2ccce1c844ce9936ef83308",
+      "tree_sha": "658730abbac3ec7f9075ff328677f0f4f78ab12a",
+      "branch": "main",
+      "archived": false,
+      "repository_license": "UNKNOWN",
+      "skills_scanned": 1,
+      "url": "https://github.com/Adkid-Zephyr/oral-paper-skill",
+      "excluded_skill_files": 0,
+      "excluded_identical_distribution_copies": 0
+    },
+    {
+      "repo": "larashero3-dotcom/lieflat-less-ai-tone",
+      "kind": "specialist",
+      "priority": 15,
+      "include": [
+        ""
+      ],
+      "note_zh": "中文成稿清理：按明确规则减少模板化表达，保留事实、结构及原作者风格。",
+      "compatibility": "SKILL.md 位于仓库根目录；核心改写无需额外运行程序。统计脚本仅在需要重算研究时按上游要求使用。",
+      "commit": "27d29232f10124db904ca9c0536d0b67cb3b2833",
+      "tree_sha": "ccc5c9ffd4c415e2e021ba869ae40c254e498d2f",
+      "branch": "main",
+      "archived": false,
+      "repository_license": "MIT",
+      "skills_scanned": 1,
+      "url": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone",
+      "excluded_skill_files": 0,
+      "excluded_identical_distribution_copies": 0
+    },
+    {
+      "repo": "Panniantong/Agent-Reach",
+      "kind": "specialist",
+      "priority": 15,
+      "include": [
+        "agent_reach/skill/"
+      ],
+      "note_zh": "资料获取补充：平台正文、字幕与搜索，优先现有公开读取工具。",
+      "compatibility": "索引中的 SKILL.md 是含版本与渠道占位符的发布模板；不能单独下载后当作已配置。实际使用需官方 Agent Reach 运行程序、生成的技能和所需渠道依赖，部分功能需本人登录或密钥。",
+      "commit": "14c213405669414492bda0f8d52cc6531d062c45",
+      "tree_sha": "9d6dcd007ea01662245a9f66235a2c16cb47b686",
+      "branch": "main",
+      "archived": false,
+      "repository_license": "MIT",
+      "skills_scanned": 1,
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "excluded_skill_files": 0,
+      "excluded_identical_distribution_copies": 0
     }
   ],
   "skills": [
+    {
+      "id": "Adkid-Zephyr/oral-paper-skill/skills/oral-paper-skill",
+      "name": "oral-paper-skill",
+      "description": "Help authors learn from exemplary ICLR, ICML, and NeurIPS papers through source-linked manuscript comparisons, concrete writing and experiment suggestions, and guided reflection. Use for research storytelling, contribution framing, paper comparison, figure planning, or research retrospectives. Not an acceptance predictor or a routine grammar/citation formatter.",
+      "categories": [
+        "engineering",
+        "research",
+        "writing"
+      ],
+      "tags_zh": [
+        "科研、文献与科学计算",
+        "写作、翻译与知识管理",
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "Adkid-Zephyr/oral-paper-skill",
+          "path": "skills/oral-paper-skill",
+          "commit": "a2c4bc41b3aa6946b2ccce1c844ce9936ef83308",
+          "bundle_sha": "fa260d9489083cc5bd10fde947a7a2cfac10a216",
+          "skill_sha": "41552226f2feff91fa87258d853ce41a3da1d45d",
+          "url": "https://github.com/Adkid-Zephyr/oral-paper-skill/tree/a2c4bc41b3aa6946b2ccce1c844ce9936ef83308/skills/oral-paper-skill",
+          "priority": 15,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "UNKNOWN",
+            "content_hint": "UNKNOWN",
+            "review_required": true,
+            "url": "https://github.com/Adkid-Zephyr/oral-paper-skill/tree/a2c4bc41b3aa6946b2ccce1c844ce9936ef83308/skills/oral-paper-skill"
+          },
+          "notices": []
+        }
+      ],
+      "instruction_sha256": "4e4f34f43ad9fa5fdd46a6600eac30cb66c26f13bdb52f1c90fd64715ac1ed51",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "技能本身无需额外依赖；仓库未发现明确许可证，保留上游授权待核实状态，不把可下载等同于允许再分发。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
     {
       "id": "ComposioHQ/awesome-claude-skills/artifacts-builder",
       "name": "artifacts-builder",
@@ -43407,6 +43506,52 @@
       "format_issues": []
     },
     {
+      "id": "Panniantong/Agent-Reach/agent_reach/skill",
+      "name": "agent-reach",
+      "description": "只读读取各平台内容：搜索、读帖、看评论、取字幕、查行情和职位。 Use when 用户提到或贴出链接：小红书/xiaohongshu、B站/bilibili、Twitter/X、Reddit、 YouTube（字幕、转录）、GitHub、V2EX、雪球/股票行情、LinkedIn/Boss直聘 职位、 Instagram、Facebook、小宇宙播客；或说\"帮我搜/看看/读一下这个链接\"而自带网页搜索/读取不可用、失败或拿不到正文； 或要安装、加上/去掉某个平台、登录/退出、看状态、更新、卸载 Agent Reach。 不做：发帖、评论、点赞、私信等任何写操作；不替用户登录、不索要密码。 公开内容优先用 Agent 自带工具，Reach 补缺口。",
+      "categories": [
+        "ai"
+      ],
+      "tags_zh": [
+        "AI、模型与智能体"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "Panniantong/Agent-Reach",
+          "path": "agent_reach/skill",
+          "commit": "14c213405669414492bda0f8d52cc6531d062c45",
+          "bundle_sha": "b971a826555f7ba2dc1bfda79c5e1120a64bad0a",
+          "skill_sha": "b16129cccb2bb0a79339f923b4dceb2e108622f4",
+          "url": "https://github.com/Panniantong/Agent-Reach/tree/14c213405669414492bda0f8d52cc6531d062c45/agent_reach/skill",
+          "priority": 15,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "MIT",
+            "content_hint": "MIT",
+            "review_required": true,
+            "url": "https://github.com/Panniantong/Agent-Reach/tree/14c213405669414492bda0f8d52cc6531d062c45/agent_reach/skill"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "85cfac9168cbcc87f55dc3939311e7f612e5c648",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "db3bf9e061ce9df0facd337c08c093319d5e5875cf42d95715b39ddc513d9cdb",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "索引中的 SKILL.md 是含版本与渠道占位符的发布模板；不能单独下载后当作已配置。实际使用需官方 Agent Reach 运行程序、生成的技能和所需渠道依赖，部分功能需本人登录或密钥。",
+      "has_external_refs": false,
+      "format_issues": [
+        "name_directory_mismatch"
+      ]
+    },
+    {
       "id": "anthropics/skills/skills/academy-guide",
       "name": "academy-guide",
       "description": "Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product — it recommends matching courses, tutorials, and use cases from Claude Academy (academy.claude.com), Anthropic's learning hub. Trigger on: \"how do I\", \"how can I\", \"getting started with\", \"what can Claude do\", \"teach me\", \"learn to use\"; questions about artifacts, projects, skills, plugins, connectors, MCP; requests about rolling Claude out to a team, class, or organization; and any ask for training materials, onboarding content, or learning resources. Use it when the user is learning how to use a feature or product — not when they are mid-task and just want the task done. This skill composes with other skills: after consulting product documentation to answer how a Claude feature works, also check here for a matching course or tutorial — a docs-grounded answer and an Academy recommendation belong together. Only recommend on a strong match; never invent Academy content.",
@@ -45701,6 +45846,46 @@
       "upstream_category": null,
       "declared_risk": null,
       "compatibility": "未验证；请阅读上游要求",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "larashero3-dotcom/lieflat-less-ai-tone",
+      "name": "lieflat-less-ai-tone",
+      "description": "按 SKILL.md 明确列出的规则识别并改写写作中的 AI 痕迹。只能处理清单内的问题；未命中规则的文字必须原样保留，也不能改变文章框架。适用于写作完成后的成稿清理。 Remove AI writing tells using an explicit whitelist of rules; leaves unmatched text untouched.",
+      "categories": [
+        "engineering",
+        "writing"
+      ],
+      "tags_zh": [
+        "写作、翻译与知识管理",
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "larashero3-dotcom/lieflat-less-ai-tone",
+          "path": ".",
+          "commit": "27d29232f10124db904ca9c0536d0b67cb3b2833",
+          "bundle_sha": "ccc5c9ffd4c415e2e021ba869ae40c254e498d2f",
+          "skill_sha": "6d07d49649c676619f8ca53f09014665109f51ba",
+          "url": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone/tree/27d29232f10124db904ca9c0536d0b67cb3b2833/.",
+          "priority": 15,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "MIT",
+            "content_hint": "MIT",
+            "review_required": true,
+            "url": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone/tree/27d29232f10124db904ca9c0536d0b67cb3b2833/."
+          },
+          "notices": []
+        }
+      ],
+      "instruction_sha256": "5de1d7c12ba75684500e7f452d7d6429108044ca88f9a16bb19a3ca4d10f019a",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "SKILL.md 位于仓库根目录；核心改写无需额外运行程序。统计脚本仅在需要重算研究时按上游要求使用。",
       "has_external_refs": false,
       "format_issues": []
     },

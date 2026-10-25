@@ -462,6 +462,34 @@
         "slides",
         "presentation"
       ]
+    },
+    {
+      "id": "Adkid-Zephyr/oral-paper-skill/skills/oral-paper-skill",
+      "title": "论文贡献与证据梳理",
+      "summary": "对照相关顶会案例，检查问题、贡献和证据，并列出可执行的修改。",
+      "reason": "科研工具箱的默认贡献梳理入口；摘要级案例有迁移限制，固定版本许可待核实，不镜像正文。",
+      "keywords": [
+        "论文",
+        "贡献",
+        "oral",
+        "paper",
+        "证据",
+        "实验"
+      ]
+    },
+    {
+      "id": "larashero3-dotcom/lieflat-less-ai-tone",
+      "title": "中文成稿清理",
+      "summary": "按明确规则减少套路表达，保留原意、结构和目标作者风格。",
+      "reason": "科研工具箱的中文表达清理入口，避免把去 AI 味变成改动科学含义。",
+      "keywords": [
+        "中文",
+        "润色",
+        "AI味",
+        "去AI",
+        "lieflat",
+        "写作"
+      ]
     }
   ],
   "groups": [
@@ -477,44 +505,44 @@
     "K-Dense-AI/scientific-agent-skills/skills/literature-review": {
       "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
       "bundle_sha": "abbd5cd9f06e1fb4fae66345a4df790cc34d2ad8",
-      "level": "metadata_reviewed",
-      "date": "2026-10-23",
-      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+      "level": "download_verified",
+      "date": "2026-10-25",
+      "note": "科研工具箱已完整下载并校验该版本的技能文件与配套目录；未完成真实科研任务验证。"
     },
     "K-Dense-AI/scientific-agent-skills/skills/scientific-writing": {
       "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
       "bundle_sha": "2fb90f9b84226432129a2cbd999857cc6eb98018",
-      "level": "metadata_reviewed",
-      "date": "2026-10-23",
-      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+      "level": "download_verified",
+      "date": "2026-10-25",
+      "note": "科研工具箱已完整下载并校验该版本的技能文件与配套目录；未完成真实科研任务验证。"
     },
     "K-Dense-AI/scientific-agent-skills/skills/citation-management": {
       "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
       "bundle_sha": "e838e1d0c96096867587bc116f2eec0ff925cbce",
-      "level": "metadata_reviewed",
-      "date": "2026-10-23",
-      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+      "level": "download_verified",
+      "date": "2026-10-25",
+      "note": "科研工具箱已完整下载并校验该版本的技能文件与配套目录；未完成真实科研任务验证。"
     },
     "K-Dense-AI/scientific-agent-skills/skills/peer-review": {
       "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
       "bundle_sha": "c490df78961197e52fd2f1649853e62568b429ca",
-      "level": "metadata_reviewed",
-      "date": "2026-10-23",
-      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+      "level": "download_verified",
+      "date": "2026-10-25",
+      "note": "科研工具箱已完整下载并校验该版本的技能文件与配套目录；未完成真实科研任务验证。"
     },
     "K-Dense-AI/scientific-agent-skills/skills/experimental-design": {
       "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
       "bundle_sha": "c4bc6dfbccdcc8452d6ea8ab9d7ce4e47b11f8b3",
-      "level": "metadata_reviewed",
-      "date": "2026-10-23",
-      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+      "level": "download_verified",
+      "date": "2026-10-25",
+      "note": "科研工具箱已完整下载并校验该版本的技能文件与配套目录；未完成真实科研任务验证。"
     },
     "K-Dense-AI/scientific-agent-skills/skills/statistical-analysis": {
       "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
       "bundle_sha": "d952f1decb93143a120f963d95fdd210a8a681d1",
-      "level": "metadata_reviewed",
-      "date": "2026-10-23",
-      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+      "level": "download_verified",
+      "date": "2026-10-25",
+      "note": "科研工具箱已完整下载并校验该版本的技能文件与配套目录；未完成真实科研任务验证。"
     },
     "K-Dense-AI/scientific-agent-skills/skills/statistical-power": {
       "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
@@ -526,9 +554,9 @@
     "K-Dense-AI/scientific-agent-skills/skills/scientific-visualization": {
       "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
       "bundle_sha": "292eaa2adb46c1ee678f090efec7780c50b91419",
-      "level": "metadata_reviewed",
-      "date": "2026-10-23",
-      "note": "核对了该固定版本的用途说明、来源和完整目录清单；未执行实际任务。"
+      "level": "download_verified",
+      "date": "2026-10-25",
+      "note": "科研工具箱已完整下载并校验该版本的技能文件与配套目录；未完成真实科研任务验证。"
     },
     "K-Dense-AI/scientific-agent-skills/skills/scientific-critical-thinking": {
       "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
@@ -739,6 +767,27 @@
       "level": "metadata_reviewed",
       "date": "2026-10-25",
       "note": "已阅读排错步骤与运行信号要求，保留与 systematic-debugging 的候选比较；未执行任务。"
+    },
+    "Adkid-Zephyr/oral-paper-skill/skills/oral-paper-skill": {
+      "commit": "a2c4bc41b3aa6946b2ccce1c844ce9936ef83308",
+      "bundle_sha": "fa260d9489083cc5bd10fde947a7a2cfac10a216",
+      "level": "download_verified",
+      "date": "2026-10-25",
+      "note": "科研工具箱已完整下载并校验该版本的技能文件与配套目录；未完成真实科研任务验证。"
+    },
+    "larashero3-dotcom/lieflat-less-ai-tone": {
+      "commit": "27d29232f10124db904ca9c0536d0b67cb3b2833",
+      "bundle_sha": "ccc5c9ffd4c415e2e021ba869ae40c254e498d2f",
+      "level": "download_verified",
+      "date": "2026-10-25",
+      "note": "科研工具箱已完整下载并校验该版本的技能文件与配套目录；未完成真实科研任务验证。"
+    },
+    "Panniantong/Agent-Reach/agent_reach/skill": {
+      "commit": "14c213405669414492bda0f8d52cc6531d062c45",
+      "bundle_sha": "b971a826555f7ba2dc1bfda79c5e1120a64bad0a",
+      "level": "metadata_reviewed",
+      "date": "2026-10-25",
+      "note": "已核对发布模板、渠道与运行时要求；未安装或测试平台读取。"
     }
   },
   "policy": {
@@ -772,6 +821,11 @@
       "changed_on": "2026-10-25",
       "reason": "同用途已选择当前核对过的发布者入口，旧集合版本转入备选归档，减少默认重复；不声称文件或能力完全相同。",
       "replaced_by": "anthropics/skills/skills/xlsx"
+    },
+    "Panniantong/Agent-Reach/agent_reach/skill": {
+      "state": "candidate",
+      "entered_on": "2026-10-25",
+      "reason": "资料获取的条件性补充；模板需官方程序生成配置，待实际资料获取任务验证。"
     }
   }
 }

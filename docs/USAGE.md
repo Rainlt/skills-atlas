@@ -48,6 +48,8 @@ python3 atlas.py download obra/superpowers/skills/systematic-debugging --dest ./
 
 下载器获取索引指定 commit 下的整个技能目录，以及祖先目录中的许可告示，逐个校验文件。已有目标不会被覆盖。来源、版本和下载信息记录在 `.atlas-receipt.json`。
 
+技能也可以位于仓库根目录，例如 `python3 atlas.py show larashero3-dotcom/lieflat-less-ai-tone`。此时完整 ID 为仓库名，详情中的目录为 `.`；下载包含该版本根目录下的全部文件及许可，仍只准备文件，不运行上游脚本。
+
 ## 安装到指定目录
 
 `install` 将文件下载到指定位置。下面的 `.agents/skills` 是目录示例，实际位置按客户端说明填写：

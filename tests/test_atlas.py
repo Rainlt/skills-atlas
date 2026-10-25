@@ -50,6 +50,16 @@ class DownloadTests(unittest.TestCase):
             self.assertFalse(dest.exists())
             self.assertFalse(list(root.glob(".atlas-*")))
 
+    def test_repository_root_download_uses_exact_remote_file(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            skill, data = self.fixture(root)
+            skill['locations'][0]['path'] = '.'
+            with patch.object(atlas, 'ROOT', root), patch.object(atlas, 'fetch', return_value=data) as fetch:
+                atlas.download(skill, root / 'result')
+            fetch.assert_called_once_with('https://raw.githubusercontent.com/example/repo/' + '1' * 40 + '/SKILL.md')
+            self.assertEqual((root / 'result/SKILL.md').read_bytes(), data)
+
     def test_symlinks_refused(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -108,6 +118,32 @@ class DeduplicationTests(unittest.TestCase):
         metadata, _, issue = self.update.frontmatter("---\nname: !!python/object/apply:os.system ['echo unsafe']\n---\nbody")
         self.assertEqual(issue, "invalid_frontmatter")
         self.assertEqual(metadata, {})
+
+    def test_root_skill_scan_preserves_complete_tree_and_license(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / 'taxonomy.json').write_text(json.dumps({'categories': []}))
+            cache = root / 'cache/sources'
+            cache.mkdir(parents=True)
+            payload = b'---\nname: repo\ndescription: root skill\n---\nRoot skill.'
+            blobs = {'SKILL.md': payload, 'LICENSE': b'MIT', 'references/note.md': b'Reference'}
+            items = [{'path': p, 'sha': atlas.blob_sha(b), 'mode': '100644', 'type': 'blob'} for p, b in blobs.items()]
+            tree_sha = atlas.manifest_tree_sha(items)
+            state = {'commit': '1' * 40, 'meta': {'full_name': 'example/repo', 'default_branch': 'main',
+                     'html_url': 'https://github.com/example/repo', 'archived': False, 'license': {'spdx_id': 'MIT'}},
+                     'tree': {'sha': tree_sha, 'tree': items, 'truncated': False}}
+            (cache / 'example--repo.json').write_text(json.dumps(state))
+            with patch.object(self.update, 'ROOT', root), patch.object(self.update, 'CACHE', root / 'cache'), \
+                 patch.object(self.update, 'cached_blob', side_effect=lambda repo, commit, path, sha: blobs[path]):
+                rows, source, _, _ = self.update.scan_source({'repo': 'example/repo', 'include': [''],
+                            'kind': 'specialist', 'priority': 15}, [], offline=True)
+            self.assertEqual(len(rows), 1)
+            self.assertEqual(rows[0]['variant_id'], 'example/repo')
+            self.assertEqual(rows[0]['location']['path'], '.')
+            self.assertEqual(atlas.manifest_tree_sha(rows[0]['manifest']), tree_sha)
+            self.assertEqual({f['path'] for f in rows[0]['manifest']}, set(blobs))
+            self.assertEqual(rows[0]['format_issues'], [])
+            self.assertEqual(source['skills_scanned'], 1)
 
     def test_offline_cache_cannot_erase_reviewed_license_for_same_commit(self):
         state = {'commit': 'pinned', 'meta': {'full_name': 'example/repo', 'default_branch': 'HEAD',

@@ -172,8 +172,11 @@ def scan_source(source, taxonomy, offline=False, seed_dir=None):
     commit = state["commit"]
     items = tree["tree"]
     by_path = {x["path"]: x for x in items}
+    # A repository can itself be the skill directory (for example Lieflat).
+    # Represent that boundary explicitly; file paths remain strictly relative.
+    by_path["."] = {"sha": tree["sha"], "type": "tree", "path": "."}
     notice_items = [x for x in items if x["type"] == "blob" and notice_file(x["path"])]
-    paths = [x for x in items if x["type"] == "blob" and x["path"].endswith("/SKILL.md")
+    paths = [x for x in items if x["type"] == "blob" and PurePosixPath(x["path"]).name == "SKILL.md"
              and any(x["path"].startswith(p) for p in source["include"])
              and not any(x["path"].startswith(p) for p in source.get("exclude", []))]
     if not paths:
@@ -186,7 +189,8 @@ def scan_source(source, taxonomy, offline=False, seed_dir=None):
         for parent in PurePosixPath(item["path"]).parents:
             directory = str(parent)
             if directory in manifests:
-                manifests[directory].append({"path": item["path"][len(directory)+1:], "sha": item["sha"], "mode": item["mode"], "type": item["type"]})
+                relative = item["path"] if directory == "." else item["path"][len(directory)+1:]
+                manifests[directory].append({"path": relative, "sha": item["sha"], "mode": item["mode"], "type": item["type"]})
     included_by_sha = {by_path[d]["sha"]: d for d in sorted(directories)}
     distribution_groups = collections.defaultdict(list)
     excluded = [x for x in items if x["path"].endswith("/SKILL.md") and str(PurePosixPath(x["path"]).parent) not in directories]
@@ -212,7 +216,7 @@ def scan_source(source, taxonomy, offline=False, seed_dir=None):
         text = cached_blob(repo, commit, path, item["sha"]).decode("utf-8", errors="replace")
         meta_skill, body, issue = frontmatter(text)
         directory = str(PurePosixPath(path).parent)
-        fallback_name = PurePosixPath(directory).name
+        fallback_name = repo.rsplit("/", 1)[-1] if directory == "." else PurePosixPath(directory).name
         name = str(meta_skill.get("name") or fallback_name).strip()
         description = str(meta_skill.get("description") or "").strip()
         problems = [issue] if issue else []
@@ -224,7 +228,7 @@ def scan_source(source, taxonomy, offline=False, seed_dir=None):
             problems.append("name_directory_mismatch")
         bundle_sha = by_path[directory]["sha"]
         local_license = str(meta_skill.get("license") or "").strip()
-        notices = ancestor_notices(directory, notice_items)
+        notices = [] if directory == "." else ancestor_notices(directory, notice_items)
         # Preserve declarations as evidence, without treating a repository code license as
         # the license of copied third-party content or of individual skill instructions.
         repository_license = (meta.get("license") or {}).get("spdx_id") or "UNKNOWN"
@@ -239,7 +243,7 @@ def scan_source(source, taxonomy, offline=False, seed_dir=None):
         metadata = meta_skill.get("metadata") if isinstance(meta_skill.get("metadata"), dict) else {}
         risk = meta_skill.get("risk") or metadata.get("risk")
         # Small descriptions are indexed, full instructions are neither mirrored nor published.
-        return {"variant_id": repo + "/" + directory, "name": name, "manifest": manifests[directory], "upstream_category": upstream_category,
+        return {"variant_id": repo if directory == "." else repo + "/" + directory, "name": name, "manifest": manifests[directory], "upstream_category": upstream_category,
                 "description": description, "categories": categories,
                 "instruction_sha256": hashlib.sha256(normalized.encode()).hexdigest(),
                 "has_external_refs": bool(re.search(r"(?:\.\./|\$\{?(?:CLAUDE_PLUGIN_ROOT|CODEX_HOME)|\$\{?SKILL_ROOT)", body)),
