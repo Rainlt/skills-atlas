@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "toolboxes": [
+    {
+      "id": "research-toolbox",
+      "name": "科研工具箱",
+      "summary": "从一个研究问题，到可核查的论文稿件；按已有材料进入当前环节。",
+      "example": "已有实验表格时，直接计算结果、制作图表并写结果段落，不重新从文献检索开始。",
+      "stages": [
+        "调研",
+        "定题与研究方案",
+        "实验",
+        "分析",
+        "写作",
+        "复核交付"
+      ],
+      "helpers": [
+        "引用核查",
+        "绘图",
+        "中文清理"
+      ],
+      "keywords": [
+        "科研",
+        "研究",
+        "论文",
+        "文献",
+        "调研",
+        "实验",
+        "统计",
+        "分析",
+        "写作",
+        "投稿",
+        "research",
+        "paper",
+        "scientific"
+      ],
+      "primary_count": 6,
+      "component_count": 9,
+      "canonical_version": "2026-10-25.2",
+      "canonical_commit": "4bc869a504b22179ee49776c01f82b487f351f8b",
+      "guide_url": "https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/research-toolbox",
+      "entry_url": "https://github.com/Rainlt/methods-atlas/blob/main/toolboxes/research-toolbox/SKILL.md",
+      "access": "private",
+      "verification": "流程与文件校验通过；真实科研效果待实践",
+      "checked_on": "2026-10-25",
+      "state": "active",
+      "reason": "同用途一个默认技能，衔接现有技能并共享来源、证据与结果。",
+      "invoke": "使用我的科研工具箱，根据当前材料选择环节并执行。先读取 Rainlt/methods-atlas 的 toolboxes/research-toolbox/SKILL.md；仅按需准备当前技能。"
+    }
+  ]
+}

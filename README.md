@@ -2,11 +2,23 @@
 
 先查少量精选用途，再比较同用途候选。支持中文搜索、来源仓库 Star 提示、独立技能仓库标亮和单项下载。
 
-[在线搜索](https://rainlt.github.io/skills-atlas/) · [精选速查](SHORTLIST.md) · [完整目录](CATALOG.md) · [下载工具](https://rainlt.github.io/skills-atlas/skills-atlas-tools.zip)
+[工具箱](toolboxes/README.md) · [在线搜索](https://rainlt.github.io/skills-atlas/) · [精选速查](SHORTLIST.md) · [完整目录](CATALOG.md) · [下载工具](https://rainlt.github.io/skills-atlas/skills-atlas-tools.zip)
 
 <!-- STATS:START -->
 目前收录 17 个来源、3,960 个技能目录，分为 17 类。默认展示 39 个精选用途，相近候选收拢为 3,829 个入口。
 <!-- STATS:END -->
+
+## 工具箱 · 从技能库提炼的工作线
+
+把同类技能整理成一套能衔接执行的工具，按当前材料进入，只调用当前需要的部分。后续新增的领域工具箱统一收在[工具箱板块](toolboxes/README.md)，[在线查看](https://rainlt.github.io/skills-atlas/#toolboxes)。
+
+目前已有 **[科研工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/research-toolbox)**：调研 → 定题与研究方案 → 实验 → 分析 → 写作 → 复核交付；引用、绘图与中文清理按需嵌入。例如已有实验结果，可以直接分析、出图并写结果段落。
+
+正文在私有个人方法库中统一维护，需有访问权限；本库保留轻量索引与核对版本，不重复维护上游全文，也不占单项技能精选名额。
+
+```bash
+python3 atlas.py toolboxes 科研 --json
+```
 
 ## 使用
 

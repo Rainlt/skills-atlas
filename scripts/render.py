@@ -8,6 +8,9 @@ sys.path.insert(0, str(ROOT))
 
 
 def generate(data, taxonomy):
+    from toolbox_index import load as load_toolboxes, markdown as toolbox_markdown
+    toolboxes = load_toolboxes(ROOT)
+    (ROOT / 'toolboxes/README.md').write_text(toolbox_markdown(toolboxes), encoding='utf-8')
     from scripts.curate import generate as generate_curation
     editorial = generate_curation(data)
     stats = data["stats"]
@@ -43,6 +46,7 @@ def generate(data, taxonomy):
                                "external": s["has_external_refs"], "risk": s["declared_risk"],
                                "compatibility": s["compatibility"], "format_issues": s["format_issues"]})
     slim.update({k: v for k, v in editorial.items() if k not in ('schema_version', 'snapshot')})
+    slim['toolboxes'] = toolboxes['toolboxes']
     payload = json.dumps(slim, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
     template = (ROOT / "web/catalog.template.html").read_text(encoding="utf-8")
     model = (ROOT / 'web/catalog-model.js').read_text(encoding='utf-8')

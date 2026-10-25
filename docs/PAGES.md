@@ -20,3 +20,9 @@
 GitHub Pages 的发布源设置为 **GitHub Actions**。发布工作流只读取仓库，部署任务具有 Pages 发布和身份验证所需权限，不修改源代码，也不读取个人令牌。
 
 本地打包预览：`python3 scripts/build_pages.py --output ./_site`。修改模板后，先执行 `python3 scripts/render.py` 更新 `browse.html`。
+
+## 工具箱板块
+
+首页 `#toolboxes` 独立展示从技能库提炼的工作线，与下方单项技能分开。卡片由 `toolboxes/index.json` 生成，同时生成 `toolboxes/README.md`；正文与实际调用入口仍指向方法库。新增工具箱只需按相同格式增加索引项并重新生成。
+
+页面打包核对嵌入工具箱与当前索引一致；轻量工具包同时携带 `toolbox_index.py` 和 `toolboxes/index.json`，支持不加载全量目录的 `atlas.py toolboxes` 查询。发布不包含私有方法库正文、上游缓存或本机安装信息。

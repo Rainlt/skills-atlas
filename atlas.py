@@ -219,6 +219,10 @@ def download(skill, dest, *, variant=0, dry_run=False, as_zip=False):
 def main():
     parser = argparse.ArgumentParser(description="Skills Atlas：搜索索引、查看来源、仅下载选中的技能")
     sub = parser.add_subparsers(dest="command", required=True)
+    p = sub.add_parser("toolboxes", help="先找从技能库提炼的工具箱，默认最多 3 项")
+    p.add_argument("query", nargs="?", default="")
+    p.add_argument("--json", action="store_true")
+    p.add_argument("--include-archived", action="store_true")
     p = sub.add_parser("search", help="先查精选，未命中再扩展；默认只返回 5 个用途")
     p.add_argument("query", nargs="?", default="")
     p.add_argument("--category")
@@ -242,6 +246,16 @@ def main():
             p.add_argument("--zip", action="store_true")
     args = parser.parse_args()
     try:
+        if args.command == 'toolboxes':
+            from toolbox_index import find
+            result = find(ROOT, args.query, args.include_archived)
+            if args.json:
+                print(json.dumps(result, ensure_ascii=False, indent=2))
+            else:
+                for row in result['results']:
+                    print('{} · {}\n  {}\n  {}\n  {}'.format(row['id'], row['name'], row['summary'], ' → '.join(row['stages']), row['guide_url']))
+                print(result['next'])
+            return 0
         if args.command == "search":
             if not args.raw and (ROOT / 'data/shortlist.json').exists():
                 from catalog_model import recommend

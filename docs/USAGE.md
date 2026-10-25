@@ -61,3 +61,15 @@ python3 atlas.py install obra/superpowers/skills/systematic-debugging --target .
 脚本只写入文件。技能需要的 Python 包、外部工具、MCP 服务或密钥，按其 `SKILL.md` 配置。包含父目录引用或插件根目录变量的技能，可能还需要上游插件的共享资源。
 
 参数帮助：`python3 atlas.py --help`，或 `python3 atlas.py download --help`。
+
+## 先找工具箱
+
+多环节任务可以先查从技能库提炼的组合，默认最多 3 项：
+
+```bash
+python3 atlas.py toolboxes 科研 --json
+python3 atlas.py toolboxes
+python3 atlas.py toolboxes --include-archived --json
+```
+
+这只查询轻量工具箱索引，不读取整个技能目录或执行技能。按返回入口访问唯一正文；当前科研工具箱正文在私有方法库，需有访问权限。普通单项任务继续使用 `search`、`show`、`download`。
