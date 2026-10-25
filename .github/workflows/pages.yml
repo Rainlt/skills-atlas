@@ -6,6 +6,8 @@ on:
       - 'browse.html'
       - 'atlas.py'
       - 'catalog_model.py'
+      - 'toolbox_index.py'
+      - 'toolboxes/index.json'
       - 'taxonomy.json'
       - 'data/catalog.json'
       - 'data/manifests.json'

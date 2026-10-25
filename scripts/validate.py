@@ -9,6 +9,8 @@ import atlas
 
 
 def main():
+    from toolbox_index import load as load_toolboxes
+    load_toolboxes(atlas.ROOT)
     data = atlas.catalog()
     manifests = json.loads((atlas.ROOT / "data/manifests.json").read_text(encoding="utf-8"))
     taxonomy = json.loads((atlas.ROOT / "taxonomy.json").read_text(encoding="utf-8"))["categories"]
