@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-25",
+  "as_of": "2026-10-26",
   "missing_featured": [],
   "items": [
     {
@@ -33,6 +33,222 @@
       "next_review_at": null,
       "changed_on": "2026-10-25",
       "replaced_by": "anthropics/skills/skills/xlsx"
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/citation-management",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-24",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/experimental-design",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-24",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/hypothesis-generation",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-22",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/literature-review",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-24",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/markdown-mermaid-writing",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-22",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/market-research-reports",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-22",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/peer-review",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-24",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/scientific-brainstorming",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-22",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/scientific-critical-thinking",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-22",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/scientific-slides",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-22",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/scientific-visualization",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-24",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/scientific-writing",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-24",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/statistical-analysis",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-24",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills/skills/statistical-power",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-22",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "loopx-project/loopx/skills/loopx-project",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-22",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "obra/superpowers/skills/requesting-code-review",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-22",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "obra/superpowers/skills/systematic-debugging",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-22",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "obra/superpowers/skills/verification-before-completion",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-22",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "obra/superpowers/skills/writing-plans",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-22",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "remotion-dev/skills/skills/remotion-create",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-22",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "remotion-dev/skills/skills/remotion-render",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-22",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "sickn33/agentic-awesome-skills/skills/copywriting-psychologist",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-22",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "sickn33/agentic-awesome-skills/skills/customer-psychographic-profiler",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-22",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "sickn33/agentic-awesome-skills/skills/customer-research",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-22",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "sickn33/agentic-awesome-skills/skills/data-storytelling",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-24",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "sickn33/agentic-awesome-skills/skills/frontend-slides",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-24",
+      "changed_on": null,
+      "replaced_by": null
+    },
+    {
+      "id": "sickn33/agentic-awesome-skills/skills/jobs-to-be-done-analyst",
+      "state": "watch",
+      "reason": "缺少当前版本的核对记录，退出精选等待复核。",
+      "next_review_at": "2026-11-22",
+      "changed_on": null,
+      "replaced_by": null
     }
   ]
 }
