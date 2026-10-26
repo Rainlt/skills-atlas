@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-23T14:32:35.013281+00:00",
+  "checked_at": "2026-10-26T06:13:52.681795+00:00",
   "status": "complete",
   "searches": [
     {
       "query": "topic:agent-skills stars:>=100 archived:false",
-      "total_count": 1012,
+      "total_count": 1035,
       "returned": 20,
       "results": [
         "morluto/rea",
@@ -20,8 +20,8 @@
         "career-ops-hq/career-ops",
         "cathrynlavery/diagram-design",
         "blader/humanizer",
-        "hesreallyhim/awesome-claude-code",
         "coreyhaines31/marketingskills",
+        "hesreallyhim/awesome-claude-code",
         "K-Dense-AI/scientific-agent-skills",
         "VoltAgent/awesome-openclaw-skills",
         "CherryHQ/cherry-studio",
@@ -32,7 +32,7 @@
     },
     {
       "query": "\"research\" skill in:name,description stars:>=100 archived:false",
-      "total_count": 211,
+      "total_count": 213,
       "returned": 20,
       "results": [
         "affaan-m/ECC",
@@ -50,16 +50,16 @@
         "0xNyk/awesome-hermes-agent",
         "aipoch/open-science",
         "zLanqing/codex-claude-academic-skills",
-        "brycewang-stanford/Auto-Empirical-Research-Skills",
         "ScrapeCreators/social-media-research-skills",
-        "muxuuu/serenity-skill",
+        "brycewang-stanford/Auto-Empirical-Research-Skills",
         "Leonxlnx/unlazy",
+        "muxuuu/serenity-skill",
         "gadievron/raptor"
       ]
     },
     {
       "query": "\"long-horizon\" agent in:name,description archived:false",
-      "total_count": 1091,
+      "total_count": 1095,
       "returned": 20,
       "results": [
         "cocoindex-io/cocoindex",
@@ -75,30 +75,31 @@
         "cayu-dev/cayu",
         "WooooDyy/AgentGym-RL",
         "RUC-NLPIR/Awesome-Long-Horizon-Agents",
-        "SAIL-Research-Lab/cheetahclaws",
         "verl-project/uni-agent",
         "ksenxx/kiss_ai",
         "Omni-Interaction-Gander/Omni-Interaction-Agent",
         "scaleapi/SWE-bench_Pro-os",
         "hkust-nlp/Toolathlon",
-        "PV-Bhat/vibe-check-mcp-server"
+        "PV-Bhat/vibe-check-mcp-server",
+        "alexisfox7/PRO-LONG"
       ]
     },
     {
       "query": "\"long-running\" agent in:name,description stars:>=10 archived:false",
-      "total_count": 112,
+      "total_count": 116,
       "returned": 20,
       "results": [
         "OthmanAdi/planning-with-files",
         "PrimeIntellect-ai/prime-agent",
+        "loopx-project/loopx",
         "agentscope-ai/agentscope-java",
         "golutra/golutra",
         "gotalab/cc-sdd",
         "moazbuilds/CodeMachine-CLI",
         "durable-workflow/workflow",
         "polyuiislab/infiAgent",
-        "voyag-commits/Open-Source-Astra-Alternative",
         "mims-harvard/AutoScientists",
+        "voyag-commits/Open-Source-Astra-Alternative",
         "anthropics/cwc-long-running-agents",
         "ekailabs/contexto",
         "pizza-bot-app/pizza-bot",
@@ -107,8 +108,7 @@
         "Intelligent-Internet/zenith",
         "PageAI-Pro/ralph-loop",
         "mkurman/zorai",
-        "arcee-ai/nac",
-        "graniet/kheish"
+        "arcee-ai/nac"
       ]
     }
   ],
@@ -119,20 +119,20 @@
     "OthmanAdi/planning-with-files",
     "DietrichGebert/ponytail",
     "bytedance/deer-flow",
-    "loopx-project/loopx",
+    "microsoft/CUAWright",
     "PrimeIntellect-ai/prime-agent",
     "addyosmani/agent-skills",
     "mvanhorn/last30days-skill",
-    "microsoft/CUAWright",
+    "datacurve-ai/deep-swe",
     "agentscope-ai/agentscope-java",
     "paperclipai/paperclip",
     "Imbad0202/academic-research-skills",
-    "datacurve-ai/deep-swe",
+    "AMAP-ML/LongHorizon-Harness",
     "golutra/golutra",
-    "0xNyk/awesome-hermes-agent",
-    "0xsarwagya/ontoly",
-    "1NickPappas/move-code-quality-skill",
-    "263311487-ux/falsify"
+    "274326424/video-content-extractor",
+    "2slides/slides-generation-2slides-skills",
+    "5dive-ai/skills",
+    "70v-Yoyo/md2video-audio-skill"
   ],
   "errors": [],
   "limits": {
@@ -143,8 +143,5 @@
     "skill_samples": 3
   },
   "scope": "按检索式、排序和预算抽样，不代表覆盖全部 GitHub",
-  "acceptance": {
-    "required_repo": "loopx-project/loopx",
-    "passed": true
-  }
+  "acceptance": null
 }

@@ -2,120 +2,120 @@
   "schema_version": 1,
   "repositories": {
     "anthropics/skills": {
-      "stars": 183602,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 183823,
+      "captured_at": "2026-10-26T06:14:11.541073+00:00",
       "archived": false,
       "pushed_at": "2026-10-09T18:45:52Z",
       "url": "https://github.com/anthropics/skills"
     },
     "openai/skills": {
-      "stars": 28291,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 28310,
+      "captured_at": "2026-10-26T06:14:11.541073+00:00",
       "archived": false,
       "pushed_at": "2026-09-08T20:35:26Z",
       "url": "https://github.com/openai/skills"
     },
     "vercel-labs/agent-skills": {
-      "stars": 32978,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 33026,
+      "captured_at": "2026-10-26T06:14:11.541073+00:00",
       "archived": false,
       "pushed_at": "2026-10-14T17:58:45Z",
       "url": "https://github.com/vercel-labs/agent-skills"
     },
     "huggingface/skills": {
-      "stars": 11210,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 11212,
+      "captured_at": "2026-10-26T06:14:11.541073+00:00",
       "archived": false,
       "pushed_at": "2026-10-23T09:08:05Z",
       "url": "https://github.com/huggingface/skills"
     },
     "google-gemini/gemini-skills": {
-      "stars": 4333,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 4341,
+      "captured_at": "2026-10-26T06:14:11.541073+00:00",
       "archived": false,
       "pushed_at": "2026-10-13T17:41:39Z",
       "url": "https://github.com/google-gemini/gemini-skills"
     },
     "supabase/agent-skills": {
-      "stars": 2928,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 2932,
+      "captured_at": "2026-10-26T06:14:11.541073+00:00",
       "archived": false,
       "pushed_at": "2026-10-02T12:34:51Z",
       "url": "https://github.com/supabase/agent-skills"
     },
     "remotion-dev/skills": {
-      "stars": 5663,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 5713,
+      "captured_at": "2026-10-26T06:14:11.541073+00:00",
       "archived": false,
       "pushed_at": "2026-10-22T15:31:18Z",
       "url": "https://github.com/remotion-dev/skills"
     },
     "obra/superpowers": {
-      "stars": 304758,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 305176,
+      "captured_at": "2026-10-26T06:14:11.541073+00:00",
       "archived": false,
       "pushed_at": "2026-10-23T03:48:57Z",
       "url": "https://github.com/obra/superpowers"
     },
     "trailofbits/skills": {
-      "stars": 7791,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 7803,
+      "captured_at": "2026-10-26T06:14:11.541073+00:00",
       "archived": false,
       "pushed_at": "2026-10-24T01:53:03Z",
       "url": "https://github.com/trailofbits/skills"
     },
     "cloudflare/security-audit-skill": {
-      "stars": 45498,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 47329,
+      "captured_at": "2026-10-26T06:14:11.541073+00:00",
       "archived": false,
       "pushed_at": "2026-09-14T19:29:02Z",
       "url": "https://github.com/cloudflare/security-audit-skill"
     },
     "K-Dense-AI/scientific-agent-skills": {
-      "stars": 54493,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 54624,
+      "captured_at": "2026-10-26T06:14:11.541073+00:00",
       "archived": false,
       "pushed_at": "2026-10-19T09:33:57Z",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
     },
     "ComposioHQ/awesome-claude-skills": {
-      "stars": 77875,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 77955,
+      "captured_at": "2026-10-26T06:14:11.541073+00:00",
       "archived": false,
       "pushed_at": "2026-09-18T07:16:11Z",
       "url": "https://github.com/ComposioHQ/awesome-claude-skills"
     },
     "sickn33/agentic-awesome-skills": {
-      "stars": 48472,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 48507,
+      "captured_at": "2026-10-26T06:14:11.541073+00:00",
       "archived": false,
       "pushed_at": "2026-10-24T21:31:58Z",
       "url": "https://github.com/sickn33/agentic-awesome-skills"
     },
     "loopx-project/loopx": {
-      "stars": 6421,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 6428,
+      "captured_at": "2026-10-26T06:14:11.541073+00:00",
       "archived": false,
-      "pushed_at": "2026-10-25T09:19:31Z",
+      "pushed_at": "2026-10-26T06:06:35Z",
       "url": "https://github.com/loopx-project/loopx"
     },
     "Adkid-Zephyr/oral-paper-skill": {
-      "stars": 451,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 456,
+      "captured_at": "2026-10-26T06:14:11.541073+00:00",
       "archived": false,
       "pushed_at": "2026-09-17T22:32:29Z",
       "url": "https://github.com/Adkid-Zephyr/oral-paper-skill"
     },
     "larashero3-dotcom/lieflat-less-ai-tone": {
-      "stars": 4046,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 4105,
+      "captured_at": "2026-10-26T06:14:11.541073+00:00",
       "archived": false,
       "pushed_at": "2026-08-24T06:57:13Z",
       "url": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone"
     },
     "Panniantong/Agent-Reach": {
-      "stars": 102065,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 102628,
+      "captured_at": "2026-10-26T06:14:11.541073+00:00",
       "archived": false,
       "pushed_at": "2026-10-25T04:37:26Z",
       "url": "https://github.com/Panniantong/Agent-Reach"

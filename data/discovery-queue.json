@@ -1,7 +1,7 @@
 [
   {
     "repo": "0xNyk/awesome-hermes-agent",
-    "stars": 5883,
+    "stars": 5901,
     "origins": [
       "search:\"research\" skill in:name,description stars:>=100 archived:false"
     ],
@@ -142,29 +142,140 @@
   {
     "repo": "274326424/video-content-extractor",
     "discovered_in": "sickn33/agentic-awesome-skills",
-    "status": "unverified_reference",
+    "status": "verified_candidate",
     "origins": [
       "collection:sickn33/agentic-awesome-skills"
-    ]
+    ],
+    "canonical_repo": "274326424/video-content-extractor",
+    "commit": "00631a5529483b78e5c24fde69c4440406227b9c",
+    "repository_license": "MIT",
+    "skill_paths": [
+      "skills/video-content-extractor/SKILL.md"
+    ],
+    "samples": [
+      {
+        "path": "skills/video-content-extractor/SKILL.md",
+        "blob_sha": "3c0dc0aa4bbd9d035055c925c3e8790e0120f54a",
+        "name": "video-content-extractor",
+        "description": "Extract key frames and text content from video files using ffmpeg and Tesseract OCR.",
+        "frontmatter_issue": null,
+        "external_references": false
+      }
+    ],
+    "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
+    "checked_at": "2026-10-26T06:13:52.681795+00:00"
   },
   {
     "repo": "2slides/slides-generation-2slides-skills",
     "discovered_in": "sickn33/agentic-awesome-skills",
-    "status": "unverified_reference",
+    "status": "verified_candidate",
     "origins": [
       "collection:sickn33/agentic-awesome-skills"
-    ]
+    ],
+    "canonical_repo": "2slides/slides-generation-2slides-skills",
+    "commit": "a8b986a556b27d8006b42ae6cded2e822e150674",
+    "repository_license": "UNKNOWN",
+    "skill_paths": [
+      "SKILL.md"
+    ],
+    "samples": [
+      {
+        "path": "SKILL.md",
+        "blob_sha": "44ba04c6459e3ef1bfa5f2ef62e16253b1fd28f7",
+        "name": "2slides",
+        "description": "AI-powered presentation generation using 2slides API. Create slides from text content, match reference image styles, or summarize documents into presentations. Use when users request to \"create a presentation\", \"make slides\", \"generate a deck\", \"create slides from this content/document/image\", or any presentation creation task. Supports theme selection, multiple languages, and both synchronous and asynchronous generation modes.",
+        "frontmatter_issue": null,
+        "external_references": false
+      }
+    ],
+    "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
+    "checked_at": "2026-10-26T06:13:52.681795+00:00"
   },
   {
     "repo": "5dive-ai/skills",
     "discovered_in": "sickn33/agentic-awesome-skills",
-    "status": "unverified_reference",
+    "status": "verified_candidate",
     "origins": [
       "collection:sickn33/agentic-awesome-skills"
-    ]
+    ],
+    "canonical_repo": "5dive-ai/skills",
+    "commit": "a3e54d5813bdfcd7016f7aa246709e00fa627095",
+    "repository_license": "MIT",
+    "skill_paths": [
+      "5dive-cli-extras/SKILL.md",
+      "5dive-cli/SKILL.md",
+      "ad-creative/SKILL.md",
+      "caveman-marketing/SKILL.md",
+      "code-review/SKILL.md",
+      "compile-knowledge/SKILL.md",
+      "copywriting/SKILL.md",
+      "deep-research/SKILL.md",
+      "diagnose/SKILL.md",
+      "find-loops/SKILL.md",
+      "loops/SKILL.md",
+      "no-ai-slop/SKILL.md",
+      "openagent/SKILL.md",
+      "playwright-e2e/SKILL.md",
+      "verify/SKILL.md",
+      "zero-human-dev-team/SKILL.md"
+    ],
+    "samples": [
+      {
+        "path": "5dive-cli-extras/SKILL.md",
+        "blob_sha": "63dd84db624c22892dee2ae8c6642db63faf109a",
+        "name": "5dive-cli-extras",
+        "description": "Administer the local 5dive runtime beyond everyday delegation: accounts and auth recovery, declarative fleets and remote boxes, every seat's live screen at once, loops and goal DAGs, governance, memory and wiki writes, plugins and host remediation. Use when runtime administration itself is the task; `5dive-cli` already covers spawning agents, messaging them and the shared task queue.",
+        "frontmatter_issue": null,
+        "external_references": false
+      },
+      {
+        "path": "5dive-cli/SKILL.md",
+        "blob_sha": "c764d00671ccadb955ec8e6e95000bf1ec5fd73f",
+        "name": "5dive-cli",
+        "description": "Operate the local 5dive runtime: coordinate sibling agents and inspect or update shared tasks. Use for delegation, inter-agent messaging and task-queue operations; use `5dive-cli-extras` for runtime administration beyond those.",
+        "frontmatter_issue": null,
+        "external_references": false
+      },
+      {
+        "path": "ad-creative/SKILL.md",
+        "blob_sha": "9d6810c815dcb7a0d55e8664513c29264088fb38",
+        "name": "ad-creative",
+        "description": "Generate and iterate paid-ad creative at scale — headlines, descriptions, primary text and full ad variations for any advertising platform. Use when producing or refining the ad copy itself; for campaign strategy and targeting see `ads`, for page copy see `copywriting`.",
+        "frontmatter_issue": null,
+        "external_references": true
+      }
+    ],
+    "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
+    "checked_at": "2026-10-26T06:13:52.681795+00:00"
   },
   {
     "repo": "70v-Yoyo/md2video-audio-skill",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "verified_candidate",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ],
+    "canonical_repo": "70v-Yoyo/md2video-audio-skill",
+    "commit": "8629a219574442657031b727ca69e2aad4d6ef9f",
+    "repository_license": "Apache-2.0",
+    "skill_paths": [
+      "SKILL.md"
+    ],
+    "samples": [
+      {
+        "path": "SKILL.md",
+        "blob_sha": "15168e6b9af178b5fef4b975d3f77f3fb4205978",
+        "name": "md2video-audio",
+        "description": "将指定Markdown文件一键转换为带真人配音和讲解画面的 MP4 视频。当用户要求把 markdown 转成视频、制作口播视频或音视频合成时自动触发。",
+        "frontmatter_issue": null,
+        "external_references": false
+      }
+    ],
+    "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
+    "checked_at": "2026-10-26T06:13:52.681795+00:00"
+  },
+  {
+    "repo": "a4a-network/a4a",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
     "origins": [
@@ -195,7 +306,7 @@
       "collection:sickn33/agentic-awesome-skills",
       "search:topic:agent-skills stars:>=100 archived:false"
     ],
-    "stars": 109837,
+    "stars": 110566,
     "canonical_repo": "addyosmani/agent-skills",
     "commit": "aeac41d4d005999432bb7312f7ff06383a91d59d",
     "repository_license": "MIT",
@@ -253,7 +364,7 @@
       }
     ],
     "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
-    "checked_at": "2026-10-23T14:32:35.013281+00:00"
+    "checked_at": "2026-10-26T06:13:52.681795+00:00"
   },
   {
     "repo": "adelaidasofia/ai-brain-starter",
@@ -265,13 +376,13 @@
   },
   {
     "repo": "affaan-m/ECC",
-    "stars": 287022,
+    "stars": 289017,
     "origins": [
       "search:\"research\" skill in:name,description stars:>=100 archived:false"
     ],
     "status": "verified_candidate",
     "canonical_repo": "affaan-m/ECC",
-    "commit": "90606c8315ee09cafc303515c5f33024db6b9882",
+    "commit": "25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b",
     "repository_license": "MIT",
     "skill_paths": [
       "skills/accessibility/SKILL.md",
@@ -1364,7 +1475,7 @@
       }
     ],
     "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
-    "checked_at": "2026-10-23T14:32:35.013281+00:00"
+    "checked_at": "2026-10-26T06:13:52.681795+00:00"
   },
   {
     "repo": "affaan-m/everything-claude-code",
@@ -1408,13 +1519,13 @@
   },
   {
     "repo": "agentscope-ai/agentscope-java",
-    "stars": 6098,
+    "stars": 6118,
     "origins": [
       "search:\"long-running\" agent in:name,description stars:>=10 archived:false"
     ],
     "status": "verified_candidate",
     "canonical_repo": "agentscope-ai/agentscope-java",
-    "commit": "07c5f3078d682da30f29e96b6d76f68242cbc2e1",
+    "commit": "1ac8c83045bf21c3683acdc6f01e1c48b65238c6",
     "repository_license": "Apache-2.0",
     "skill_paths": [
       "SKILL.md",
@@ -1470,7 +1581,7 @@
       }
     ],
     "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
-    "checked_at": "2026-10-23T14:32:35.013281+00:00"
+    "checked_at": "2026-10-26T06:13:52.681795+00:00"
   },
   {
     "repo": "AgriciDaniel/claude-seo",
@@ -1481,8 +1592,16 @@
     ]
   },
   {
+    "repo": "Aident-AI/aident-skill",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "aipoch/open-science",
-    "stars": 5350,
+    "stars": 5366,
     "origins": [
       "search:\"research\" skill in:name,description stars:>=100 archived:false"
     ],
@@ -1503,6 +1622,14 @@
     "origins": [
       "collection:sickn33/agentic-awesome-skills"
     ]
+  },
+  {
+    "repo": "alexisfox7/PRO-LONG",
+    "stars": 459,
+    "origins": [
+      "search:\"long-horizon\" agent in:name,description archived:false"
+    ],
+    "status": "unverified_reference"
   },
   {
     "repo": "alexprivalov/boost-asio-skill",
@@ -1538,7 +1665,7 @@
   },
   {
     "repo": "alibaba/open-code-review",
-    "stars": 48137,
+    "stars": 48285,
     "origins": [
       "search:topic:agent-skills stars:>=100 archived:false"
     ],
@@ -1552,7 +1679,7 @@
       "collection:sickn33/agentic-awesome-skills",
       "search:\"research\" skill in:name,description stars:>=100 archived:false"
     ],
-    "stars": 28588
+    "stars": 28727
   },
   {
     "repo": "AlmogBaku/debug-skill",
@@ -1563,12 +1690,62 @@
     ]
   },
   {
+    "repo": "AltoRank/altorank",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "AMAP-ML/LongHorizon-Harness",
-    "stars": 1767,
+    "stars": 1779,
     "origins": [
       "search:\"long-horizon\" agent in:name,description archived:false"
     ],
-    "status": "unverified_reference"
+    "status": "verified_candidate",
+    "canonical_repo": "AMAP-ML/LongHorizon-Harness",
+    "commit": "d53df0aa11e8506dfc9518ef63620c62baee04d3",
+    "repository_license": "MIT",
+    "skill_paths": [
+      "eval/OSWorldv2-harness/OSWorld-V2/.claude/skills/analyze-task/SKILL.md",
+      "eval/OSWorldv2-harness/OSWorld-V2/.claude/skills/analyze-traj/SKILL.md",
+      "eval/OSWorldv2-harness/OSWorld-V2/.claude/skills/migrate-osworld-agent/SKILL.md",
+      "eval/OSWorldv2-harness/OSWorld-V2/.claude/skills/setup-osworld/SKILL.md",
+      "eval/OSWorldv2-harness/OSWorld-V2/.codex/skills/analyze-task/SKILL.md",
+      "eval/OSWorldv2-harness/OSWorld-V2/.codex/skills/analyze-traj/SKILL.md",
+      "eval/OSWorldv2-harness/OSWorld-V2/.codex/skills/migrate-osworld-agent/SKILL.md",
+      "eval/OSWorldv2-harness/OSWorld-V2/.codex/skills/setup-osworld/SKILL.md",
+      "eval/WeaveBench-harness/skills/weavebench-cua-reproduce/SKILL.md"
+    ],
+    "samples": [
+      {
+        "path": "eval/OSWorldv2-harness/OSWorld-V2/.claude/skills/analyze-task/SKILL.md",
+        "blob_sha": "e66b2aed0015fb5e1a195c119e90526f22514a35",
+        "name": "analyze-task",
+        "description": "Check OSWorld tasks. Validate the evaluation function, verify that the instruction is feasible given the task setup and agent-visible files, inspect setup artifacts when needed, and produce both markdown and structured JSON reports.",
+        "frontmatter_issue": null,
+        "external_references": false
+      },
+      {
+        "path": "eval/OSWorldv2-harness/OSWorld-V2/.claude/skills/analyze-traj/SKILL.md",
+        "blob_sha": "e8ecf21c8fdff85d95b6f6b1d5dce7967363109f",
+        "name": "analyze-traj",
+        "description": "Analyze OSWorld-V2 agent trajectory logs and task results to produce actionable insights. Use this skill whenever the user wants to understand agent performance on OSWorld tasks — including analyzing trajectories, reviewing task results, finding error patterns, comparing code vs GUI strategies, identifying which tools/commands the agent used, or deciding which task types to scale up in the benchmark.",
+        "frontmatter_issue": null,
+        "external_references": false
+      },
+      {
+        "path": "eval/OSWorldv2-harness/OSWorld-V2/.claude/skills/migrate-osworld-agent/SKILL.md",
+        "blob_sha": "7e5b36c48bf94de51896c4a42d6c04f004b6da36",
+        "name": "migrate-osworld-agent",
+        "description": "Migrate an agent from upstream OSWorld into this OSWorld-V2 repository, add matching evaluation entrypoints, and verify the integration.",
+        "frontmatter_issue": null,
+        "external_references": false
+      }
+    ],
+    "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
+    "checked_at": "2026-10-26T06:13:52.681795+00:00"
   },
   {
     "repo": "amartelr/antigravity-workspace-manager",
@@ -1652,7 +1829,7 @@
   },
   {
     "repo": "anthropics/cwc-long-running-agents",
-    "stars": 704,
+    "stars": 722,
     "origins": [
       "search:\"long-running\" agent in:name,description stars:>=10 archived:false"
     ],
@@ -1709,7 +1886,7 @@
   },
   {
     "repo": "arcee-ai/nac",
-    "stars": 285,
+    "stars": 291,
     "origins": [
       "search:\"long-running\" agent in:name,description stars:>=10 archived:false"
     ],
@@ -1748,6 +1925,14 @@
     ]
   },
   {
+    "repo": "assaylabdesk-sudo/assay-lite",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "atdy/maoxuan-product-agent",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
@@ -1765,7 +1950,7 @@
   },
   {
     "repo": "AutoTrustAI/PaperGuru-Benchmark",
-    "stars": 1328,
+    "stars": 1327,
     "origins": [
       "search:\"long-horizon\" agent in:name,description archived:false"
     ],
@@ -1828,6 +2013,14 @@
     ]
   },
   {
+    "repo": "beatra-ai/ai-audiobook-generator-skill",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "beatra-ai/ai-headshot-generator-skill",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
@@ -1837,6 +2030,14 @@
   },
   {
     "repo": "beatra-ai/ai-image-generator-skill",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "beatra-ai/ai-image-realism-skill",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
     "origins": [
@@ -1885,6 +2086,14 @@
   },
   {
     "repo": "beatra-ai/ai-product-photography-skill",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "beatra-ai/ai-storyboard-generator-skill",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
     "origins": [
@@ -1964,6 +2173,30 @@
     ]
   },
   {
+    "repo": "beatra-ai/wechat-article-cover-skill",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "beatra-ai/xiaohongshu-copywriter-skill",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "beatra-ai/xiaohongshu-cover-maker-skill",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "bekservice/Famulor-Skill",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
@@ -1989,7 +2222,7 @@
   },
   {
     "repo": "blader/humanizer",
-    "stars": 59884,
+    "stars": 60678,
     "origins": [
       "search:topic:agent-skills stars:>=100 archived:false"
     ],
@@ -2037,7 +2270,7 @@
   },
   {
     "repo": "brycewang-stanford/Auto-Empirical-Research-Skills",
-    "stars": 4742,
+    "stars": 4781,
     "origins": [
       "search:\"research\" skill in:name,description stars:>=100 archived:false"
     ],
@@ -2069,13 +2302,13 @@
   },
   {
     "repo": "bytedance/deer-flow",
-    "stars": 84328,
+    "stars": 84428,
     "origins": [
       "search:\"research\" skill in:name,description stars:>=100 archived:false"
     ],
     "status": "verified_candidate",
     "canonical_repo": "bytedance/deer-flow",
-    "commit": "195bf358ca70cbb5431a3da328e5d0238b830e0e",
+    "commit": "4b1e06bbf9a06d67c43c76dde6027e5192883c1a",
     "repository_license": "MIT",
     "skill_paths": [
       "skills/public/academic-paper-review/SKILL.md",
@@ -2131,7 +2364,7 @@
       },
       {
         "path": "skills/public/chart-visualization/SKILL.md",
-        "blob_sha": "d7c6358d89e0e8e56c91300bb530c0222864e18c",
+        "blob_sha": "661add59fd14592568f03a7af70c888d644d79aa",
         "name": "chart-visualization",
         "description": "This skill should be used when the user wants to visualize data. It intelligently selects the most suitable chart type from 26 available options, extracts parameters based on detailed specifications, and generates a chart image using a JavaScript script.",
         "frontmatter_issue": null,
@@ -2139,7 +2372,7 @@
       }
     ],
     "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
-    "checked_at": "2026-10-23T14:32:35.013281+00:00"
+    "checked_at": "2026-10-26T06:13:52.681795+00:00"
   },
   {
     "repo": "career-ops-hq/career-ops",
@@ -2149,11 +2382,11 @@
       "collection:sickn33/agentic-awesome-skills",
       "search:topic:agent-skills stars:>=100 archived:false"
     ],
-    "stars": 76754
+    "stars": 77350
   },
   {
     "repo": "cathrynlavery/diagram-design",
-    "stars": 60259,
+    "stars": 61130,
     "origins": [
       "search:topic:agent-skills stars:>=100 archived:false"
     ],
@@ -2161,11 +2394,27 @@
   },
   {
     "repo": "cayu-dev/cayu",
-    "stars": 925,
+    "stars": 929,
     "origins": [
       "search:\"long-horizon\" agent in:name,description archived:false"
     ],
     "status": "unverified_reference"
+  },
+  {
+    "repo": "cclank/lanshu-create-ai-presenter-video",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "ces107/agent-forge",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
   },
   {
     "repo": "ch040602/mdpr-skill",
@@ -2193,7 +2442,7 @@
   },
   {
     "repo": "CherryHQ/cherry-studio",
-    "stars": 52912,
+    "stars": 52985,
     "origins": [
       "search:topic:agent-skills stars:>=100 archived:false"
     ],
@@ -2232,6 +2481,22 @@
     ]
   },
   {
+    "repo": "cis2042/ux3-product-design-harness",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "clagoss/claude-code-para-disenadores",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "CloudAI-X/threejs-skills",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
@@ -2257,13 +2522,13 @@
   },
   {
     "repo": "cocoindex-io/cocoindex",
-    "stars": 11744,
+    "stars": 11754,
     "origins": [
       "search:\"long-horizon\" agent in:name,description archived:false"
     ],
     "status": "verified_candidate",
     "canonical_repo": "cocoindex-io/cocoindex",
-    "commit": "7d311e6c50ac760e18d9254d840fd9375fa2eb70",
+    "commit": "bcc8b61ee8e7182b01539f33dd397fb307d3bd05",
     "repository_license": "Apache-2.0",
     "skill_paths": [
       "skills/cocoindex/SKILL.md",
@@ -2298,7 +2563,7 @@
       }
     ],
     "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
-    "checked_at": "2026-10-23T14:32:35.013281+00:00"
+    "checked_at": "2026-10-26T06:13:52.681795+00:00"
   },
   {
     "repo": "codegiveness/kernel-prompt",
@@ -2445,6 +2710,14 @@
     ]
   },
   {
+    "repo": "cooper-email/cooper-email",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "coreyhaines31/marketingskills",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
@@ -2452,7 +2725,7 @@
       "collection:sickn33/agentic-awesome-skills",
       "search:topic:agent-skills stars:>=100 archived:false"
     ],
-    "stars": 56180
+    "stars": 56561
   },
   {
     "repo": "CosmoBlk/email-marketing-bible",
@@ -2504,7 +2777,7 @@
   },
   {
     "repo": "datacurve-ai/deep-swe",
-    "stars": 1860,
+    "stars": 1867,
     "origins": [
       "search:\"long-horizon\" agent in:name,description archived:false"
     ],
@@ -2515,7 +2788,15 @@
     "skill_paths": [],
     "samples": [],
     "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
-    "checked_at": "2026-10-23T14:32:35.013281+00:00"
+    "checked_at": "2026-10-26T06:13:52.681795+00:00"
+  },
+  {
+    "repo": "datawebot/datawebot-mcp",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
   },
   {
     "repo": "davidondrej/skills",
@@ -2543,7 +2824,7 @@
   },
   {
     "repo": "DietrichGebert/ponytail",
-    "stars": 174473,
+    "stars": 176339,
     "origins": [
       "search:topic:agent-skills stars:>=100 archived:false"
     ],
@@ -2592,10 +2873,26 @@
       }
     ],
     "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
-    "checked_at": "2026-10-23T14:32:35.013281+00:00"
+    "checked_at": "2026-10-26T06:13:52.681795+00:00"
   },
   {
     "repo": "Dimillian/Skills",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "doomsday-network/doom-pay",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "doomsday-network/doomsday",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
     "origins": [
@@ -2620,7 +2917,7 @@
   },
   {
     "repo": "durable-workflow/workflow",
-    "stars": 1255,
+    "stars": 1254,
     "origins": [
       "search:\"long-running\" agent in:name,description stars:>=10 archived:false"
     ],
@@ -2644,6 +2941,14 @@
   },
   {
     "repo": "elementalsouls/Claude-BugHunter",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "eli-alvarado/us-watchlist-alerts",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
     "origins": [
@@ -2699,7 +3004,31 @@
     ]
   },
   {
+    "repo": "f-o-x11/deed-page-skill",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "f/awesome-chatgpt-prompts",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "faberlang/faber",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "fclairamb/solidping-plugin",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
     "origins": [
@@ -2764,7 +3093,7 @@
   },
   {
     "repo": "gadievron/raptor",
-    "stars": 3936,
+    "stars": 3943,
     "origins": [
       "search:\"research\" skill in:name,description stars:>=100 archived:false"
     ],
@@ -2772,7 +3101,7 @@
   },
   {
     "repo": "GaosCode/PlanWeave",
-    "stars": 420,
+    "stars": 423,
     "origins": [
       "search:\"long-running\" agent in:name,description stars:>=10 archived:false"
     ],
@@ -2780,6 +3109,14 @@
   },
   {
     "repo": "Genefold/arrowspace-skills",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "getchordlabs/chord",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
     "origins": [
@@ -2823,7 +3160,7 @@
     "skill_paths": [],
     "samples": [],
     "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
-    "checked_at": "2026-10-23T14:32:35.013281+00:00"
+    "checked_at": "2026-10-26T06:13:52.681795+00:00"
   },
   {
     "repo": "gongdear/cline-pilot",
@@ -2859,7 +3196,7 @@
   },
   {
     "repo": "gotalab/cc-sdd",
-    "stars": 3736,
+    "stars": 3739,
     "origins": [
       "search:\"long-running\" agent in:name,description stars:>=10 archived:false"
     ],
@@ -2906,6 +3243,46 @@
     ]
   },
   {
+    "repo": "harshmaur/apify-facebook-ads-library-scraper",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "harshmaur/apify-linkedin-jobs-scraper",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "harshmaur/apify-reddit-scraper-skill",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "harshmaur/apify-tiktok-scraper",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "harshmaur/apify-youtube-transcript-scraper",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "HasData/hasdata-cli",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
@@ -2939,7 +3316,7 @@
   },
   {
     "repo": "hesreallyhim/awesome-claude-code",
-    "stars": 56318,
+    "stars": 56559,
     "origins": [
       "search:topic:agent-skills stars:>=100 archived:false"
     ],
@@ -2955,7 +3332,7 @@
   },
   {
     "repo": "hkust-nlp/Toolathlon",
-    "stars": 504,
+    "stars": 507,
     "origins": [
       "search:\"long-horizon\" agent in:name,description archived:false"
     ],
@@ -2971,6 +3348,14 @@
   },
   {
     "repo": "huifer/WellAlly-health",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "huyanxius/logo-to-stickers",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
     "origins": [
@@ -3002,14 +3387,30 @@
     ]
   },
   {
+    "repo": "igamingsychov/second-deposit-igaming",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "igamingsychov/watch-igaming",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "Imbad0202/academic-research-skills",
-    "stars": 53570,
+    "stars": 53903,
     "origins": [
       "search:\"research\" skill in:name,description stars:>=100 archived:false"
     ],
     "status": "verified_candidate",
     "canonical_repo": "Imbad0202/academic-research-skills",
-    "commit": "5a1a5a687602c79c31b1ab8603ebcf8de65a9579",
+    "commit": "1ec249df98728682dfbbdfb940a658338bfd6f80",
     "repository_license": "NOASSERTION",
     "skill_paths": [
       "academic-paper-reviewer/SKILL.md",
@@ -3021,7 +3422,7 @@
     "samples": [
       {
         "path": "academic-paper-reviewer/SKILL.md",
-        "blob_sha": "c277a392721272688a5ba1133b5428e7df66a349",
+        "blob_sha": "e18873a80a3015f3f915dd9c3e13e6dc826320e6",
         "name": "academic-paper-reviewer",
         "description": "Multi-perspective academic paper review with dynamic reviewer personas. Runs a 5-seat, role-separated review panel (Journal-Fit Reviewer + 3 peer-review roles + Devil's Advocate) with field-specific expertise; role separation is not a claim of independent error processes. Supports full review, re-review (verification), quick assessment, methodology focus, Socratic guided, and calibration modes. Triggers on: review paper, peer review, manuscript review, referee report, review my paper, critique paper, simulate review, editorial review, calibrate reviewer, reviewer calibration, measure reviewer accuracy, 審查論文, 論文審查, 模擬審查, 同儕審查, 幫我審這篇, 以審查人角度評估, 審查者校準, 논문 심사, 동료 심사, 모의 심사, 심사자 관점에서 평가, 심사자 보정, revisar artículo, revisión entre pares, revisión de manuscrito, informe de árbitro, revisa mi artículo, criticar artículo, simular revisión, revisión editorial, calibrar revisor.",
         "frontmatter_issue": null,
@@ -3037,7 +3438,7 @@
       },
       {
         "path": "academic-pipeline/SKILL.md",
-        "blob_sha": "63a277b8c9681d7d5c55bd3ce8352da21025600f",
+        "blob_sha": "3f244209e5c5bfa1313e57fd43d41dfe2e5bc206",
         "name": "academic-pipeline",
         "description": "Orchestrator for the full academic research pipeline: research -> write -> integrity check -> review -> revise -> re-review -> re-revise -> final integrity check -> finalize. Coordinates deep-research, academic-paper, and academic-paper-reviewer into a seamless 10-stage workflow with mandatory, coverage-bounded integrity checks, two-stage peer review, and auditable quality-assurance artifacts. Triggers on: academic pipeline, research to paper, full paper workflow, paper pipeline, end-to-end paper, research-to-publication, complete paper workflow, 연구부터 논문까지, 연구 주제 설정부터 논문 완성까지, 논문 전체 워크플로, flujo de trabajo académico, investigación a artículo, flujo completo de artículo, pipeline de investigación completa, publicación de investigación, flujo de trabajo completo del artículo.",
         "frontmatter_issue": null,
@@ -3045,11 +3446,11 @@
       }
     ],
     "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
-    "checked_at": "2026-10-23T14:32:35.013281+00:00"
+    "checked_at": "2026-10-26T06:13:52.681795+00:00"
   },
   {
     "repo": "Imbad0202/academic-research-skills-codex",
-    "stars": 13393,
+    "stars": 13493,
     "origins": [
       "search:\"research\" skill in:name,description stars:>=100 archived:false"
     ],
@@ -3073,7 +3474,7 @@
   },
   {
     "repo": "Intelligent-Internet/zenith",
-    "stars": 375,
+    "stars": 378,
     "origins": [
       "search:\"long-running\" agent in:name,description stars:>=10 archived:false"
     ],
@@ -3081,7 +3482,7 @@
   },
   {
     "repo": "InternScience/InternAgent",
-    "stars": 1457,
+    "stars": 1458,
     "origins": [
       "search:\"long-horizon\" agent in:name,description archived:false"
     ],
@@ -3209,6 +3610,14 @@
     ]
   },
   {
+    "repo": "kasovy/neverapply-mcp",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "Kench001/antigravity-awesome-skills",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
@@ -3218,6 +3627,14 @@
   },
   {
     "repo": "kepano/obsidian-skills",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "kevinmmiddleton/unpaid-intern",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
     "origins": [
@@ -3241,8 +3658,16 @@
     ]
   },
   {
+    "repo": "Krexa-xyz/skills",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "ksenxx/kiss_ai",
-    "stars": 562,
+    "stars": 561,
     "origins": [
       "search:\"long-horizon\" agent in:name,description archived:false"
     ],
@@ -3288,11 +3713,11 @@
       "collection:sickn33/agentic-awesome-skills",
       "search:topic:agent-skills stars:>=100 archived:false"
     ],
-    "stars": 101451
+    "stars": 102605
   },
   {
     "repo": "Leonxlnx/unlazy",
-    "stars": 4072,
+    "stars": 4136,
     "origins": [
       "search:\"research\" skill in:name,description stars:>=100 archived:false"
     ],
@@ -3427,7 +3852,7 @@
   },
   {
     "repo": "Master-cai/Research-Paper-Writing-Skills",
-    "stars": 7741,
+    "stars": 7796,
     "origins": [
       "search:\"research\" skill in:name,description stars:>=100 archived:false"
     ],
@@ -3515,7 +3940,7 @@
   },
   {
     "repo": "microsoft/CUAWright",
-    "stars": 6067,
+    "stars": 6070,
     "origins": [
       "search:\"long-horizon\" agent in:name,description archived:false"
     ],
@@ -3537,7 +3962,7 @@
       }
     ],
     "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
-    "checked_at": "2026-10-23T14:32:35.013281+00:00"
+    "checked_at": "2026-10-26T06:13:52.681795+00:00"
   },
   {
     "repo": "microsoft/skills",
@@ -3557,7 +3982,7 @@
   },
   {
     "repo": "mims-harvard/AutoScientists",
-    "stars": 780,
+    "stars": 784,
     "origins": [
       "search:\"long-running\" agent in:name,description stars:>=10 archived:false"
     ],
@@ -3580,8 +4005,16 @@
     ]
   },
   {
+    "repo": "mksd0398/nitrogen",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "mkurman/zorai",
-    "stars": 325,
+    "stars": 326,
     "origins": [
       "search:\"long-running\" agent in:name,description stars:>=10 archived:false"
     ],
@@ -3597,7 +4030,7 @@
   },
   {
     "repo": "moazbuilds/CodeMachine-CLI",
-    "stars": 2515,
+    "stars": 2514,
     "origins": [
       "search:\"long-running\" agent in:name,description stars:>=10 archived:false"
     ],
@@ -3644,6 +4077,46 @@
     ]
   },
   {
+    "repo": "moooai/movie-coupon",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "moooai/obtain-coupons-all-in-one",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "moooai/parcel-coupon",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "moooai/takeout-coupon",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "moooai/trip-coupon",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "morluto/rea",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "verified_candidate",
@@ -3651,9 +4124,9 @@
       "collection:sickn33/agentic-awesome-skills",
       "search:topic:agent-skills stars:>=100 archived:false"
     ],
-    "stars": 370917,
+    "stars": 386161,
     "canonical_repo": "morluto/rea",
-    "commit": "99d2d7ad22bcbd780919760008aba6a88e7d1077",
+    "commit": "ba7ac7908db2c2a8e05b75df032cb175ab069669",
     "repository_license": "MIT",
     "skill_paths": [
       ".agents/skills/rea-analysis-optimization/SKILL.md",
@@ -3673,7 +4146,7 @@
       },
       {
         "path": ".agents/skills/rea-changelog-update/SKILL.md",
-        "blob_sha": "d45f226383eb7c12ff2b39e54b387266b034455a",
+        "blob_sha": "215204d8290c31f1ba1ab16776b1a9f21f7c90a8",
         "name": "rea-changelog-update",
         "description": "Prepare or rewrite REA release changelogs and GitHub release notes from pinned Git history, with verified contributor thanks and Release Please synchronization.",
         "frontmatter_issue": null,
@@ -3689,7 +4162,7 @@
       }
     ],
     "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
-    "checked_at": "2026-10-23T14:32:35.013281+00:00"
+    "checked_at": "2026-10-26T06:13:52.681795+00:00"
   },
   {
     "repo": "morsechimwai/lemmaly",
@@ -3741,7 +4214,7 @@
   },
   {
     "repo": "muxuuu/serenity-skill",
-    "stars": 4119,
+    "stars": 4118,
     "origins": [
       "search:\"research\" skill in:name,description stars:>=100 archived:false"
     ],
@@ -3749,13 +4222,13 @@
   },
   {
     "repo": "mvanhorn/last30days-skill",
-    "stars": 65186,
+    "stars": 65488,
     "origins": [
       "search:\"research\" skill in:name,description stars:>=100 archived:false"
     ],
     "status": "verified_candidate",
     "canonical_repo": "mvanhorn/last30days-skill",
-    "commit": "f3cd06a620e385ce15109ed6d3b70fc20c89eccc",
+    "commit": "6f9052cca8fcafad9055c438b7b3f9112f2ee20f",
     "repository_license": "MIT",
     "skill_paths": [
       "skills/last30days/SKILL.md"
@@ -3771,7 +4244,7 @@
       }
     ],
     "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
-    "checked_at": "2026-10-23T14:32:35.013281+00:00"
+    "checked_at": "2026-10-26T06:13:52.681795+00:00"
   },
   {
     "repo": "mycelos-ai/bumblebee-skill",
@@ -3831,7 +4304,7 @@
   },
   {
     "repo": "nexu-io/open-design",
-    "stars": 103526,
+    "stars": 104006,
     "origins": [
       "search:topic:agent-skills stars:>=100 archived:false"
     ],
@@ -3847,6 +4320,14 @@
   },
   {
     "repo": "njerschow/textme",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "noamshorts22-prog/usage-engineer",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
     "origins": [
@@ -3967,6 +4448,14 @@
     ]
   },
   {
+    "repo": "openhook-dev/openhook-inbox",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "openweb-org/openweb",
     "discovered_in": "ComposioHQ/awesome-claude-skills",
     "status": "unverified_reference",
@@ -3984,7 +4473,7 @@
   },
   {
     "repo": "Orchestra-Research/AI-Research-SKILLs",
-    "stars": 13875,
+    "stars": 13951,
     "origins": [
       "search:\"research\" skill in:name,description stars:>=100 archived:false"
     ],
@@ -4000,13 +4489,13 @@
   },
   {
     "repo": "OthmanAdi/planning-with-files",
-    "stars": 27604,
+    "stars": 27649,
     "origins": [
       "search:\"long-running\" agent in:name,description stars:>=10 archived:false"
     ],
     "status": "verified_candidate",
     "canonical_repo": "OthmanAdi/planning-with-files",
-    "commit": "de837a95cc845b6341a6cbfd902a89a8190c568e",
+    "commit": "dcdfb278de53fdb69b2067ea173dbb1de45345a3",
     "repository_license": "MIT",
     "skill_paths": [
       "skills/i18n/planning-with-files-ar/SKILL.md",
@@ -4031,7 +4520,7 @@
     "samples": [
       {
         "path": "skills/i18n/planning-with-files-ar/SKILL.md",
-        "blob_sha": "278570bd4a7b6da371b6046f4fb88b41d9cc5759",
+        "blob_sha": "9b1d008548e6f355c47a1f603418a8bc920f6510",
         "name": "planning-with-files-ar",
         "description": "تخطيط مستمر قائم على الملفات لعمل وكلاء الذكاء الاصطناعي متعدد الخطوات. يحتفظ بملفات task_plan.md و findings.md و progress.md على القرص، وتحقن خطافات دورة الحياة سياق التخطيط المحدد للمشروع. تقرأ الاستعادة التلقائية ملفات تخطيط المشروع فقط. يمكن للأمر الصريح session-catchup.py --metadata فحص بيانات وصفية لجلسات الوكيل المحلية التابعة للمشروع نفسه، بينما قد يصدر --replay مقتطفات محدودة مؤطرة بقيمة nonce. يمكن للوضع المحكوم الاختياري طلب المتابعة فقط عندما يدعمه المضيف، ولا ينفذ أبدًا أوامر معلنة في Markdown. لا تتضمن المهارة مسارًا لرفع البيانات عبر الشبكة. تُستخدم للبحث أو العمل الذي يحتاج إلى 5 استدعاءات أدوات أو أكثر.",
         "frontmatter_issue": null,
@@ -4039,7 +4528,7 @@
       },
       {
         "path": "skills/i18n/planning-with-files-de/SKILL.md",
-        "blob_sha": "d5db26a0326378f6f14c9d069620775cc0a0a07b",
+        "blob_sha": "018c8f62c8bdd193d9a595378f5b80d5f96139a8",
         "name": "planning-with-files-de",
         "description": "Persistente dateibasierte Planung für mehrstufige Arbeit mit KI-Agenten. Hält task_plan.md, findings.md und progress.md auf dem Datenträger; Lebenszyklus-Hooks speisen ausgewählten Planungskontext des Projekts ein. Die automatische Wiederherstellung liest nur die Planungsdateien des Projekts. Nur ein ausdrücklicher Aufruf von session-catchup.py --metadata darf lokale Sitzungsmetadaten desselben Projekts prüfen; --replay darf begrenzte, nonce-gerahmte Auszüge ausgeben. Der optionale Gate-Modus kann nur bei Unterstützung durch den Host eine Fortsetzung anfordern und führt niemals in Markdown angegebene Befehle aus. Der Skill hat keinen Netzwerk-Uploadpfad. Verwenden für Forschung oder Arbeit mit mehr als 5 Tool-Aufrufen.",
         "frontmatter_issue": null,
@@ -4047,7 +4536,7 @@
       },
       {
         "path": "skills/i18n/planning-with-files-es/SKILL.md",
-        "blob_sha": "fd0ef6e2a1b3c959f29c4eeac4b71096ad2dda54",
+        "blob_sha": "f6a9fd292b31ef3e10e71002a1c30441d3cce4d2",
         "name": "planning-with-files-es",
         "description": "Planificación persistente basada en archivos para tareas multipaso de agentes de IA. Mantiene task_plan.md, findings.md y progress.md en disco; los hooks del ciclo de vida inyectan contexto seleccionado de planificación del proyecto. La recuperación automática solo lee los archivos de planificación del proyecto. session-catchup.py --metadata, solicitado de forma explícita, puede inspeccionar metadatos locales de sesiones del mismo proyecto; --replay puede emitir extractos limitados y enmarcados con nonce. El modo con gate opcional solo puede solicitar que el host continúe si este lo admite y nunca ejecuta comandos declarados en Markdown. El skill no tiene ninguna ruta de carga por red. Úsalo para investigación o trabajo que requiera 5 o más llamadas a herramientas.",
         "frontmatter_issue": null,
@@ -4055,25 +4544,41 @@
       }
     ],
     "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
-    "checked_at": "2026-10-23T14:32:35.013281+00:00"
+    "checked_at": "2026-10-26T06:13:52.681795+00:00"
+  },
+  {
+    "repo": "Outreachgenie/outreachgenie-linkedin-mcp",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
   },
   {
     "repo": "PageAI-Pro/ralph-loop",
-    "stars": 328,
+    "stars": 329,
     "origins": [
       "search:\"long-running\" agent in:name,description stars:>=10 archived:false"
     ],
     "status": "unverified_reference"
   },
   {
+    "repo": "pangolin-spg/openclaw-skills",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "paperclipai/paperclip",
-    "stars": 106449,
+    "stars": 107384,
     "origins": [
       "search:topic:agent-skills stars:>=100 archived:false"
     ],
     "status": "verified_candidate",
     "canonical_repo": "paperclipai/paperclip",
-    "commit": "3bd709df8b83aa855dbf300dcc57383b03ec1c88",
+    "commit": "1fbbef45a8d399771add7a27a04b12f3a20e264c",
     "repository_license": "MIT",
     "skill_paths": [
       "skills/agentmail/SKILL.md",
@@ -4186,11 +4691,11 @@
       }
     ],
     "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
-    "checked_at": "2026-10-23T14:32:35.013281+00:00"
+    "checked_at": "2026-10-26T06:13:52.681795+00:00"
   },
   {
     "repo": "pat-jj/harness-1",
-    "stars": 1023,
+    "stars": 1024,
     "origins": [
       "search:\"long-horizon\" agent in:name,description archived:false"
     ],
@@ -4221,8 +4726,16 @@
     ]
   },
   {
+    "repo": "pixeltable/pixeltable-skill",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "pizza-bot-app/pizza-bot",
-    "stars": 516,
+    "stars": 523,
     "origins": [
       "search:\"long-running\" agent in:name,description stars:>=10 archived:false"
     ],
@@ -4238,7 +4751,7 @@
   },
   {
     "repo": "polyuiislab/infiAgent",
-    "stars": 1188,
+    "stars": 1187,
     "origins": [
       "search:\"long-running\" agent in:name,description stars:>=10 archived:false"
     ],
@@ -4262,13 +4775,13 @@
   },
   {
     "repo": "PrimeIntellect-ai/prime-agent",
-    "stars": 22281,
+    "stars": 22333,
     "origins": [
       "search:\"long-running\" agent in:name,description stars:>=10 archived:false"
     ],
     "status": "verified_candidate",
     "canonical_repo": "PrimeIntellect-ai/prime-agent",
-    "commit": "71beca9478f552dc6fc898bba9685f9ce00515cf",
+    "commit": "c4c238ca025e382d96fb5f37e6328ca77fb82ef3",
     "repository_license": "NOASSERTION",
     "skill_paths": [
       "skills/agent-message/SKILL.md",
@@ -4312,7 +4825,7 @@
       }
     ],
     "scope": "完整目录树与有限说明抽样；未执行、安装或验证运行兼容性",
-    "checked_at": "2026-10-23T14:32:35.013281+00:00"
+    "checked_at": "2026-10-26T06:13:52.681795+00:00"
   },
   {
     "repo": "prisma/skills",
@@ -4388,7 +4901,7 @@
   },
   {
     "repo": "reactive-resume/reactive-resume",
-    "stars": 44754,
+    "stars": 44860,
     "origins": [
       "search:topic:agent-skills stars:>=100 archived:false"
     ],
@@ -4460,7 +4973,7 @@
   },
   {
     "repo": "RUC-NLPIR/Awesome-Long-Horizon-Agents",
-    "stars": 845,
+    "stars": 849,
     "origins": [
       "search:\"long-horizon\" agent in:name,description archived:false"
     ],
@@ -4476,7 +4989,7 @@
   },
   {
     "repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
-    "stars": 6704,
+    "stars": 7283,
     "origins": [
       "search:\"research\" skill in:name,description stars:>=100 archived:false"
     ],
@@ -4557,7 +5070,7 @@
   },
   {
     "repo": "scaleapi/SWE-bench_Pro-os",
-    "stars": 550,
+    "stars": 552,
     "origins": [
       "search:\"long-horizon\" agent in:name,description archived:false"
     ],
@@ -4581,7 +5094,7 @@
   },
   {
     "repo": "ScrapeCreators/social-media-research-skills",
-    "stars": 4579,
+    "stars": 4800,
     "origins": [
       "search:\"research\" skill in:name,description stars:>=100 archived:false"
     ],
@@ -4613,6 +5126,14 @@
   },
   {
     "repo": "sergebulaev/linkedin-skills",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "SergiuPogor/curlshot-mcp",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
     "origins": [
@@ -4868,6 +5389,14 @@
     ]
   },
   {
+    "repo": "target1m/footval-mcp",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "target1m/traderspy-mcp",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
@@ -4916,6 +5445,14 @@
     ]
   },
   {
+    "repo": "timini/agentic-verification",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "timwukp/agent-skills-best-practice",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
@@ -4949,11 +5486,19 @@
   },
   {
     "repo": "tt-a1i/archify",
-    "stars": 88162,
+    "stars": 89351,
     "origins": [
       "search:topic:agent-skills stars:>=100 archived:false"
     ],
     "status": "unverified_reference"
+  },
+  {
+    "repo": "tuantqse90/moltnode-mcp",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
   },
   {
     "repo": "tubeagentkit/youtube-transcript-skills",
@@ -4980,7 +5525,23 @@
     ]
   },
   {
+    "repo": "uiverify/uiverify",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "uizze/uizze",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "UmarSiddiqui/obsess",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
     "origins": [
@@ -5062,7 +5623,7 @@
   },
   {
     "repo": "verl-project/uni-agent",
-    "stars": 691,
+    "stars": 693,
     "origins": [
       "search:\"long-horizon\" agent in:name,description archived:false"
     ],
@@ -5110,7 +5671,7 @@
   },
   {
     "repo": "VoltAgent/awesome-openclaw-skills",
-    "stars": 53284,
+    "stars": 53352,
     "origins": [
       "search:topic:agent-skills stars:>=100 archived:false"
     ],
@@ -5150,7 +5711,7 @@
   },
   {
     "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
-    "stars": 17963,
+    "stars": 18080,
     "origins": [
       "search:\"research\" skill in:name,description stars:>=100 archived:false"
     ],
@@ -5158,6 +5719,14 @@
   },
   {
     "repo": "warmskull/idea-darwin",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "wassim-azi/agy-powerline",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
     "origins": [
@@ -5254,6 +5823,14 @@
   },
   {
     "repo": "wrsmith108/varlock-claude-skill",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
+    "repo": "wu736139669/goal-instruction-writer",
     "discovered_in": "sickn33/agentic-awesome-skills",
     "status": "unverified_reference",
     "origins": [
@@ -5397,6 +5974,14 @@
     ]
   },
   {
+    "repo": "yumaheymans/carejobs-mcp",
+    "discovered_in": "sickn33/agentic-awesome-skills",
+    "status": "unverified_reference",
+    "origins": [
+      "collection:sickn33/agentic-awesome-skills"
+    ]
+  },
+  {
     "repo": "yusufkaraaslan/Skill_Seekers",
     "discovered_in": "ComposioHQ/awesome-claude-skills",
     "status": "unverified_reference",
@@ -5476,7 +6061,7 @@
       "collection:sickn33/agentic-awesome-skills",
       "search:\"research\" skill in:name,description stars:>=100 archived:false"
     ],
-    "stars": 43109
+    "stars": 43388
   },
   {
     "repo": "zircote/.claude",
@@ -5488,7 +6073,7 @@
   },
   {
     "repo": "zLanqing/codex-claude-academic-skills",
-    "stars": 5221,
+    "stars": 5310,
     "origins": [
       "search:\"research\" skill in:name,description stars:>=100 archived:false"
     ],
