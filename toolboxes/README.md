@@ -6,7 +6,7 @@
 
 | 工具箱 | 能完成什么 / 例子 | 工作线 | 状态 |
 |---|---|---|---|
-| [科研工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/research-toolbox) | 从一个研究问题，到可核查的论文稿件；按已有材料进入当前环节。 例如：已有实验表格时，直接计算结果、制作图表并写结果段落，不重新从文献检索开始。 | 调研 → 定题与研究方案 → 实验 → 分析 → 写作 → 复核交付 | active；流程与文件校验通过；真实科研效果待实践 |
+| [科研工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/research-toolbox) | 从一个研究问题，到可核查的论文稿件；按已有材料进入当前环节。 例如：已有实验表格时，直接计算结果、制作图表并写结果段落，不重新从文献检索开始。 | 调研 → 定题与研究方案 → 实验 → 分析 → 写作 → 复核交付 | active；流程与文件校验通过；SVG 框图单例已跑通，其他科研效果待实践 |
 | [动画制作工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/animation-toolbox) | 把论文、讲稿或知识点做成动画；用 vibe 方法和 AI 协作，默认 HyperFrames，已有 Remotion 工程则复用。 例如：把一篇论文的方法做成 30 秒动画：让输入依次经过模块，用箭头和变化说明处理过程，最后导出视频。 | 材料核对 → 讲稿与分镜 → 动画小样 → 导出与检查 | active；方法与固定说明已核对；渲染环境及真实论文样片待验证 |
 
 ## 调用与维护

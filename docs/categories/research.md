@@ -1,6 +1,6 @@
 # 科研、文献与科学计算
 
-[返回总目录](../../CATALOG.md) · 220 个条目 · 分类为规则初分，欢迎纠错。
+[返回总目录](../../CATALOG.md) · 221 个条目 · 分类为规则初分，欢迎纠错。
 
 复制完整 ID 后运行 `python3 atlas.py download <ID> --dest ./downloads/<目录名>`。
 
@@ -184,6 +184,7 @@
 | [waypoint-bio](https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/waypoint-bio) | Supports work with Outpost Bio's open microbiome foundation models - the Waypoint checkpoints (Waypoint-6m, Waypoint-45m, Waypoint-170m), the Atlas pretraining corpus, the Compass eight-task benchmark, or the `waypoint`  | `K-Dense-AI/scientific-agent-skills/skills/waypoint-bio` |
 | [what-if-oracle](https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/what-if-oracle) | Supports structured what-if scenario analysis for research planning, experimental contingencies, and scientific project decisions. Explores favorable, reference, adverse, wild-card, contrarian, and second-order scenarios | `K-Dense-AI/scientific-agent-skills/skills/what-if-oracle` |
 | [zarr-python](https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/zarr-python) | Stores and queries chunked N-D scientific arrays with Zarr-Python 3, including codecs, sharding, S3/GCS storage, and NumPy/Dask/Xarray integration. Use for array layout, bounded I/O, format migration, or scientific metad | `K-Dense-AI/scientific-agent-skills/skills/zarr-python` |
+| [image-to-editable-svg](https://github.com/Rainlt/skills-atlas/tree/143d4ef3dda0f2225f3e4415207e10d4b9f5ccd6/skills/image-to-editable-svg) | 将已有 PNG、JPEG、WebP 科研框图或示意图重建为可编辑 SVG，助手核对文字与位置，本地 VTracer 描摹图形并恢复真正文本。适合修改原图标签、颜色和路径；已有 SVG 直接编辑，有原始数据的统计图用数据绘图流程。 | `Rainlt/skills-atlas/skills/image-to-editable-svg` |
 | [loopx-doc-registry](https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-doc-registry) | Use when a connected LoopX project is asked to read, remember, record, index, register, or use a durable project material such as a Lark/wiki/design doc, research note, SOP, owner packet, migration report, benchmark pape | `loopx-project/loopx/skills/loopx-doc-registry` |
 | [loopx-material](https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-material) | Operate an explicitly activated LoopX Material Lifecycle for a connected project. Use for material-store inventory, lossless migration, candidate/archive transitions, exact-read-backed ranking, ranked-entry rebuilds, bou | `loopx-project/loopx/skills/loopx-material` |
 | [notion-research-documentation](https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/notion-research-documentation) | Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations. | `openai/skills/skills/.curated/notion-research-documentation` |
