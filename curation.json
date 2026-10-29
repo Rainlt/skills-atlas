@@ -492,19 +492,18 @@
       ]
     },
     {
-      "id": "yrui-cmd/cell_su7/plugins/cell_su7/skills/cell_su7",
-      "title": "科研图片转可编辑图",
-      "summary": "把现有科研图片重建为可编辑的 PPTX 或 Illustrator 图形与文字；例如把论文 PNG 框图改成可修改的版本。路径识别需付费 API。",
-      "reason": "用户明确要求收录；适合现有图片可编辑化，保留收费、配套依赖与 Mac 未实测说明，未替换工具箱默认组件。",
+      "id": "Rainlt/skills-atlas/skills/image-to-editable-svg",
+      "title": "图片转可编辑 SVG",
+      "summary": "助手核对科研框图文字，用本地描摹恢复可改字、颜色与路径的 SVG；例如修改论文 PNG 框图，不用小描付费接口。",
+      "reason": "用户要求的本地默认路线，已在一张科研框图上跑通。与小描方案合并浏览用途，保留原方案的独立来源、收费和平台限制。",
       "keywords": [
-        "cell_su7",
-        "cell su7",
-        "图片转PPT",
+        "image-to-editable-svg",
         "图片转可编辑",
-        "图片矢量化",
+        "图片转SVG",
         "科研框图",
-        "可编辑",
-        "illustrator",
+        "本地描摹",
+        "不用小描",
+        "VTracer",
         "vectorization"
       ]
     }
@@ -516,6 +515,13 @@
         "sickn33/agentic-awesome-skills/skills/debugging-strategies"
       ],
       "reason": "同为定位并验证代码故障的用途候选；已核对复现、提出假设、缩小范围与修复验证流程。各自资源和适用条件仍分别检查。"
+    },
+    {
+      "members": [
+        "Rainlt/skills-atlas/skills/image-to-editable-svg",
+        "yrui-cmd/cell_su7/plugins/cell_su7/skills/cell_su7"
+      ],
+      "reason": "同为科研图片重建为可编辑图的用途，默认采用助手核对文字和本地描摹的 SVG 路线；小描 API 的 PPTX/Illustrator 路线保留为独立备选，不声称两者效果或格式等价。"
     }
   ],
   "reviews": {
@@ -812,6 +818,13 @@
       "level": "metadata_reviewed",
       "date": "2026-10-29",
       "note": "已核对固定版本 README、SKILL.md、图片入口与平台说明，并校验目录清单。核心识别使用第三方付费 API，未安装、未上传图片、未执行真实转换。"
+    },
+    "Rainlt/skills-atlas/skills/image-to-editable-svg": {
+      "commit": "143d4ef3dda0f2225f3e4415207e10d4b9f5ccd6",
+      "bundle_sha": "e05ef829e25834c581cad291c4838f2146914c1d",
+      "level": "task_verified",
+      "date": "2026-10-29",
+      "note": "仅平整背景 Transformer 框图实测：360 路径、51 行真正文本、0 嵌图，通用脚本重跑与改字/颜色预览通过；另有不同尺寸合成图。字体近似，复合路径和复杂背景限制保留，不代表全部图片已验证。"
     }
   },
   "policy": {

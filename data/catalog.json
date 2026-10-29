@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "snapshot": "223e14067759a1d5",
-  "generated_at": "2026-10-29T03:23:59.527780+00:00",
+  "snapshot": "1a0750e71ce009d7",
+  "generated_at": "2026-10-29T05:01:48.588115+00:00",
   "stats": {
-    "sources": 18,
-    "scanned_skills": 3961,
-    "unique_bundles": 3961,
+    "sources": 19,
+    "scanned_skills": 3962,
+    "unique_bundles": 3962,
     "exact_duplicates_removed": 0,
     "same_name_families": 97,
     "excluded_identical_distribution_copies": 5226,
@@ -352,6 +352,27 @@
       "skills_scanned": 1,
       "url": "https://github.com/yrui-cmd/cell_su7",
       "excluded_skill_files": 1,
+      "excluded_identical_distribution_copies": 0
+    },
+    {
+      "repo": "Rainlt/skills-atlas",
+      "kind": "collection",
+      "discover_references": false,
+      "priority": 15,
+      "include": [
+        "skills/image-to-editable-svg/"
+      ],
+      "pinned_commit": "143d4ef3dda0f2225f3e4415207e10d4b9f5ccd6",
+      "note_zh": "科研框图图片转可编辑 SVG：助手核对文字，本地描摹路径，不用小描付费识别接口。",
+      "compatibility": "Python 3.11+ with requirements.txt pins in an isolated environment; an SVG renderer/browser and assistant visual review. No paid recognition API. Flat-background diagrams; not pixel-perfect reconstruction or native PPTX export.",
+      "commit": "143d4ef3dda0f2225f3e4415207e10d4b9f5ccd6",
+      "tree_sha": "905511f2d63b16dfaa041585d38db352774a5776",
+      "branch": "main",
+      "archived": false,
+      "repository_license": "MIT",
+      "skills_scanned": 1,
+      "url": "https://github.com/Rainlt/skills-atlas",
+      "excluded_skill_files": 0,
       "excluded_identical_distribution_copies": 0
     }
   ],
@@ -43569,6 +43590,54 @@
       "format_issues": [
         "name_directory_mismatch"
       ]
+    },
+    {
+      "id": "Rainlt/skills-atlas/skills/image-to-editable-svg",
+      "name": "image-to-editable-svg",
+      "description": "将已有 PNG、JPEG、WebP 科研框图或示意图重建为可编辑 SVG，助手核对文字与位置，本地 VTracer 描摹图形并恢复真正文本。适合修改原图标签、颜色和路径；已有 SVG 直接编辑，有原始数据的统计图用数据绘图流程。",
+      "categories": [
+        "research",
+        "media",
+        "documents"
+      ],
+      "tags_zh": [
+        "文档、表格与演示",
+        "科研、文献与科学计算",
+        "设计、图像、音频与视频"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "Rainlt/skills-atlas",
+          "path": "skills/image-to-editable-svg",
+          "commit": "143d4ef3dda0f2225f3e4415207e10d4b9f5ccd6",
+          "bundle_sha": "e05ef829e25834c581cad291c4838f2146914c1d",
+          "skill_sha": "704611f9ebe2b1bbd06d1a13b9b50e5f447b43ca",
+          "url": "https://github.com/Rainlt/skills-atlas/tree/143d4ef3dda0f2225f3e4415207e10d4b9f5ccd6/skills/image-to-editable-svg",
+          "priority": 15,
+          "kind": "collection",
+          "license": {
+            "declared": "MIT",
+            "repository": "MIT",
+            "content_hint": "MIT",
+            "review_required": false,
+            "url": "https://github.com/Rainlt/skills-atlas/tree/143d4ef3dda0f2225f3e4415207e10d4b9f5ccd6/skills/image-to-editable-svg"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "2d5d857a968ec3ec82f7eb87eff5feb80bd4c99a",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "5143ceb5010e35e19e3aac1698c06d53c8406882baf775d416a626331af5931a",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Python 3.11+ with requirements.txt pins in an isolated environment; an SVG renderer/browser and assistant visual review. No paid recognition API. Flat-background diagrams; not pixel-perfect reconstruction or native PPTX export.",
+      "has_external_refs": false,
+      "format_issues": []
     },
     {
       "id": "anthropics/skills/skills/academy-guide",

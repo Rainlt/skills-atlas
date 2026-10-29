@@ -43,4 +43,4 @@
 | 浏览器演示文稿 | `sickn33/agentic-awesome-skills/skills/frontend-slides` | 用途与结构已核对 | 2026-11-24 |
 | 论文贡献与证据梳理 | `Adkid-Zephyr/oral-paper-skill/skills/oral-paper-skill` | 下载已验证 | 2026-11-24 |
 | 中文成稿清理 | `larashero3-dotcom/lieflat-less-ai-tone` | 下载已验证 | 2026-11-24 |
-| 科研图片转可编辑图 | `yrui-cmd/cell_su7/plugins/cell_su7/skills/cell_su7` | 用途与结构已核对 | 2026-11-28 |
+| 图片转可编辑 SVG | `Rainlt/skills-atlas/skills/image-to-editable-svg` | 任务已跑通 | 2026-11-28 |

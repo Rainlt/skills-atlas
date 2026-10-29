@@ -21111,6 +21111,62 @@
       "type": "blob"
     }
   ],
+  "e05ef829e25834c581cad291c4838f2146914c1d": [
+    {
+      "path": "LICENSE",
+      "sha": "2d5d857a968ec3ec82f7eb87eff5feb80bd4c99a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "704611f9ebe2b1bbd06d1a13b9b50e5f447b43ca",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha": "dfd3d9b99c5b89882957bd7b1a81690b6658ad49",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/manifest.md",
+      "sha": "41bc70db2388a5be941f0a6b75938f53fa2707d9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/validation.md",
+      "sha": "f8dce33076910a5c2682840d5014898951223349",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "requirements.txt",
+      "sha": "e570b0a3091f0376514bbf8778fa2a3bde843c87",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/prepare_runtime.py",
+      "sha": "7c0387900114fcf917a5b18a1f5bba430e8b2fae",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/render.cjs",
+      "sha": "c549499d2cfd18a3eeb1be754751bd42d87543ff",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/vectorize.py",
+      "sha": "e61f5f53d21281834607fe4e0b0cbf44a1bd608c",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "baddb91c315ea384f9191615054ba8026eb57ba2": [
     {
       "path": "LICENSE.txt",

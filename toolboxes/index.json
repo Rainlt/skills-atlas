@@ -17,7 +17,8 @@
       "helpers": [
         "引用核查",
         "绘图",
-        "中文清理"
+        "中文清理",
+        "图片转可编辑 SVG"
       ],
       "keywords": [
         "科研",
@@ -32,19 +33,22 @@
         "投稿",
         "research",
         "paper",
-        "scientific"
+        "scientific",
+        "图片转SVG",
+        "可编辑SVG",
+        "科研框图"
       ],
       "primary_count": 6,
-      "component_count": 9,
-      "canonical_version": "2026-10-25.2",
-      "canonical_commit": "4bc869a504b22179ee49776c01f82b487f351f8b",
+      "component_count": 10,
+      "canonical_version": "2026-10-29.1",
+      "canonical_commit": "1a98f70c5368775610c7d0be09faa717711eaa16",
       "guide_url": "https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/research-toolbox",
       "entry_url": "https://github.com/Rainlt/methods-atlas/blob/main/toolboxes/research-toolbox/SKILL.md",
       "access": "private",
-      "verification": "流程与文件校验通过；真实科研效果待实践",
-      "checked_on": "2026-10-25",
+      "verification": "流程与文件校验通过；SVG 框图单例已跑通，其他科研效果待实践",
+      "checked_on": "2026-10-29",
       "state": "active",
-      "reason": "同用途一个默认技能，衔接现有技能并共享来源、证据与结果。",
+      "reason": "同用途一个默认技能；现有图片转 SVG 使用本地描摹与助手文字核对，真实数据绘图保持独立。",
       "invoke": "使用我的科研工具箱，根据当前材料选择环节并执行。先读取 Rainlt/methods-atlas 的 toolboxes/research-toolbox/SKILL.md；仅按需准备当前技能。"
     },
     {

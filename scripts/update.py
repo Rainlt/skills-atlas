@@ -27,10 +27,12 @@ CACHE = Path(os.environ.get("ATLAS_CACHE_DIR", str(ROOT / ".cache")))
 OFFLINE = False
 
 
-def git_snapshot(repo, existing_meta=None):
+def git_snapshot(repo, existing_meta=None, pinned_commit=None):
     """Fetch commit/tree objects only; skill files are fetched individually below."""
     if not re.fullmatch(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+", repo):
         raise ValueError("来源仓库名不合法")
+    if pinned_commit is not None and not re.fullmatch(r'[0-9a-f]{40}', pinned_commit):
+        raise ValueError('pinned_commit must be a full lowercase commit SHA')
     folder = CACHE / "git" / (repo.replace("/", "--") + ".git")
     folder.parent.mkdir(parents=True, exist_ok=True)
     def git(*args):
@@ -38,8 +40,10 @@ def git_snapshot(repo, existing_meta=None):
                                        stderr=subprocess.PIPE, timeout=180).decode()
     if not folder.exists():
         subprocess.run(["git", "init", "--bare", str(folder)], check=True, capture_output=True)
-    git("fetch", "--depth=1", "--filter=blob:none", "--no-tags", "https://github.com/" + repo + ".git", "HEAD")
+    git("fetch", "--depth=1", "--filter=blob:none", "--no-tags", "https://github.com/" + repo + ".git", pinned_commit or "HEAD")
     commit = git("rev-parse", "FETCH_HEAD").strip()
+    if pinned_commit and commit != pinned_commit:
+        raise ValueError('Fetched commit differs from source pin')
     tree_sha = git("rev-parse", "FETCH_HEAD^{tree}").strip()
     rows = git("ls-tree", "-r", "-t", "--full-tree", "-z", "FETCH_HEAD").split("\0")
     items = []
@@ -154,17 +158,22 @@ def retain_published_metadata(state, previous_sources):
 
 def scan_source(source, taxonomy, offline=False, seed_dir=None):
     repo = source["repo"]
+    pin = source.get('pinned_commit')
+    if pin is not None and not re.fullmatch(r'[0-9a-f]{40}', pin):
+        raise ValueError('pinned_commit must be a full lowercase commit SHA')
     key = repo.replace("/", "--")
     state_path = CACHE / "sources" / (key + ".json")
     if offline:
         state = json.loads(state_path.read_text(encoding="utf-8"))
+        if pin and state['commit'] != pin:
+            raise ValueError('Offline source cache differs from pinned commit: ' + repo)
         published = ROOT / 'data/catalog.json'
         if published.exists():
             state = retain_published_metadata(state, json.loads(published.read_text(encoding='utf-8'))['sources'])
     else:
         seed = seed_dir / (key + ".json") if seed_dir else state_path
         previous_meta = json.loads(seed.read_text(encoding="utf-8"))["meta"] if seed.exists() else None
-        state = git_snapshot(repo, previous_meta)
+        state = git_snapshot(repo, previous_meta, pinned_commit=pin) if pin else git_snapshot(repo, previous_meta)
         write_json(state_path, state)
     meta, tree = state["meta"], state["tree"]
     if tree.get("truncated"):
@@ -279,7 +288,7 @@ def scan_source(source, taxonomy, offline=False, seed_dir=None):
     source_state["excluded_identical_distribution_copies"] = sum(len(x["excluded_paths"]) for x in distribution)
     # README references are a discovery queue, not presumed installable or trusted skills.
     references = []
-    if source["kind"] == "collection":
+    if source["kind"] == "collection" and source.get('discover_references', True):
         readme = by_path.get("README.md")
         if readme:
             text = cached_blob(repo, commit, "README.md", readme["sha"]).decode("utf-8", "replace")
