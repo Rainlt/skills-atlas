@@ -1,10 +1,10 @@
 {
-  "previous_snapshot": "223e14067759a1d5",
-  "snapshot": "1a0750e71ce009d7",
-  "added": [
-    "Rainlt/skills-atlas/skills/image-to-editable-svg"
+  "previous_snapshot": "1a0750e71ce009d7",
+  "snapshot": "63492fc4adfc7273",
+  "added": [],
+  "removed": [
+    "yrui-cmd/cell_su7/plugins/cell_su7/skills/cell_su7"
   ],
-  "removed": [],
   "updated": [],
   "reclassified": []
 }

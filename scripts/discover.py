@@ -17,14 +17,17 @@ from scripts.update import frontmatter, markdown_cell
 ROOT = atlas.ROOT
 
 
-def merge_queue(previous, incoming, configured=()):
+def merge_queue(previous, incoming, configured=(), excluded=()):
     """Retain inspection evidence and all discovery origins, including old README rows."""
     merged = {}
+    excluded = {r.lower() for r in excluded}
     for item in [*previous, *incoming]:
         repo = item['repo']
         if not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', repo):
             continue
         key = repo.lower()
+        if key in excluded:
+            continue
         old = merged.get(key, {})
         origins = set(old.get('origins', [])) | set(item.get('origins', []))
         if item.get('discovered_in'):
@@ -43,6 +46,7 @@ def merge_queue(previous, incoming, configured=()):
 def search_candidates(config, configured, api=atlas.api):
     searches, groups = [], []
     configured = {r.lower() for r in configured}
+    configured.update(r.lower() for r in config.get('excluded_repositories', []))
     for query in config['queries']:
         response = api('search/repositories?' + urllib.parse.urlencode({
             'q': query, 'sort': 'stars', 'order': 'desc', 'per_page': config['results_per_query']}))
@@ -99,7 +103,7 @@ def inspect_repository(repo, sample_count=3, api=atlas.api, fetch=atlas.fetch):
 def run(config, previous, configured, api=atlas.api, fetch=atlas.fetch):
     # Complete every search first. A failed search cannot be published as a successful run.
     searches, incoming, order = search_candidates(config, configured, api)
-    queue = merge_queue(previous, incoming, configured)
+    queue = merge_queue(previous, incoming, configured, config.get('excluded_repositories', []))
     by_repo = {r['repo'].lower(): r for r in queue}
     indexed = {r.lower() for r in configured}
     selected = order[:config['search_inspections']]

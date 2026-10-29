@@ -85,6 +85,19 @@ class DiscoveryTests(unittest.TestCase):
             api=lambda p: {'tree': [], 'truncated': False} if '/git/trees/' in p else api(p), fetch=lambda u: payload)
         self.assertEqual(row['status'], 'no_skill_files')
 
+    def test_explicit_exclusions_skip_search_and_old_queue_inspections(self):
+        api, payload = self.fixture()
+        config = {**self.config(), 'excluded_repositories': ['POPULAR/CATALOG', 'queue/oldest']}
+        queue, report = discover.run(config, [{'repo': 'queue/oldest', 'status': 'verified_candidate'}],
+                                     [], api, lambda url: payload)
+        self.assertEqual([row['repo'] for row in queue], ['new/durable'])
+        self.assertEqual(report['inspected'], ['new/durable'])
+
+    def test_collection_links_cannot_restore_an_excluded_source(self):
+        rows = discover.merge_queue([{'repo': 'removed/tool', 'status': 'indexed'}],
+            [{'repo': 'REMOVED/tool', 'discovered_in': 'collection/seed'}], excluded=['Removed/Tool'])
+        self.assertEqual(rows, [])
+
     def test_unsafe_yaml_does_not_become_verified_candidate(self):
         api, _ = self.fixture()
         payload = b"---\nname: !!python/object/apply:os.system ['echo unsafe']\n---\nbody"

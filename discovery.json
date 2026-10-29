@@ -1,5 +1,6 @@
 {
   "schema_version": 1,
+  "excluded_repositories": ["yrui-cmd/cell_su7"],
   "queries": [
     "topic:agent-skills stars:>=100 archived:false",
     "\"research\" skill in:name,description stars:>=100 archived:false",
