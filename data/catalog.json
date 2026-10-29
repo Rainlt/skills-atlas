@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot": "1a0750e71ce009d7",
-  "generated_at": "2026-10-29T05:01:48.588115+00:00",
+  "snapshot": "63492fc4adfc7273",
+  "generated_at": "2026-10-29T06:11:24.528504+00:00",
   "stats": {
-    "sources": 19,
-    "scanned_skills": 3962,
-    "unique_bundles": 3962,
+    "sources": 18,
+    "scanned_skills": 3961,
+    "unique_bundles": 3961,
     "exact_duplicates_removed": 0,
     "same_name_families": 97,
     "excluded_identical_distribution_copies": 5226,
-    "excluded_noncanonical_skill_files": 5610,
+    "excluded_noncanonical_skill_files": 5609,
     "identical_instruction_groups": 6
   },
   "sources": [
@@ -333,25 +333,6 @@
       "skills_scanned": 1,
       "url": "https://github.com/Panniantong/Agent-Reach",
       "excluded_skill_files": 0,
-      "excluded_identical_distribution_copies": 0
-    },
-    {
-      "repo": "yrui-cmd/cell_su7",
-      "kind": "specialist",
-      "priority": 15,
-      "include": [
-        "plugins/cell_su7/skills/cell_su7/"
-      ],
-      "note_zh": "将已有科研图片重建为可编辑 PPTX 或 Illustrator 图形与文字；核心路径识别依赖小描付费 API。",
-      "compatibility": "这是含脚本和服务依赖的 Skill；核心图片路径识别需小描 API Key 与额度，并非完全本地免费。图像去字由当前助手和可用图像编辑模型完成。官方安装还包含独立 cell_no_ai 依赖，并会同步其主分支；额外处理按需且另行计费。只下载主技能目录不等于完整安装。Mac PPTX 与 Illustrator 路线缺少真实桌面验证；按官方平台说明核对。收录不安装、不自动更新依赖、不调用付费接口。",
-      "commit": "95dce2b972d8b93f36a95e7f045f4d3910a44313",
-      "tree_sha": "95dce2b972d8b93f36a95e7f045f4d3910a44313",
-      "branch": "main",
-      "archived": false,
-      "repository_license": "MIT",
-      "skills_scanned": 1,
-      "url": "https://github.com/yrui-cmd/cell_su7",
-      "excluded_skill_files": 1,
       "excluded_identical_distribution_copies": 0
     },
     {
@@ -190350,56 +190331,6 @@
       "compatibility": "未验证；请阅读上游要求",
       "has_external_refs": false,
       "format_issues": []
-    },
-    {
-      "id": "yrui-cmd/cell_su7/plugins/cell_su7/skills/cell_su7",
-      "name": "cell_su7",
-      "description": "Reconstruct image-based scientific figures as editable PowerPoint or Adobe Illustrator artwork, recording text, removing lettering with an available image-editing model while preserving graphics, and restoring live editable text. Use for cell_su7, scientific diagrams, reference-image reconstruction and approved vector SVGs.",
-      "categories": [
-        "research",
-        "media",
-        "documents"
-      ],
-      "tags_zh": [
-        "文档、表格与演示",
-        "科研、文献与科学计算",
-        "设计、图像、音频与视频"
-      ],
-      "aliases": [],
-      "locations": [
-        {
-          "repo": "yrui-cmd/cell_su7",
-          "path": "plugins/cell_su7/skills/cell_su7",
-          "commit": "95dce2b972d8b93f36a95e7f045f4d3910a44313",
-          "bundle_sha": "2df39275c69b7b65d19ecd9f5210b60fd3a77f42",
-          "skill_sha": "0f9f83efe6724265ab73207822a71de7dafaa8a7",
-          "url": "https://github.com/yrui-cmd/cell_su7/tree/95dce2b972d8b93f36a95e7f045f4d3910a44313/plugins/cell_su7/skills/cell_su7",
-          "priority": 15,
-          "kind": "specialist",
-          "license": {
-            "declared": null,
-            "repository": "MIT",
-            "content_hint": "MIT",
-            "review_required": true,
-            "url": "https://github.com/yrui-cmd/cell_su7/tree/95dce2b972d8b93f36a95e7f045f4d3910a44313/plugins/cell_su7/skills/cell_su7"
-          },
-          "notices": [
-            {
-              "path": "LICENSE",
-              "sha": "ea7ac1c660f6af97ecb4f3b2dc863ffeddd50e95",
-              "mode": "100644"
-            }
-          ]
-        }
-      ],
-      "instruction_sha256": "2c47c01800137b50a704dddd78cdc0ea9bc7479a90220b03939b795790ee4a30",
-      "upstream_category": null,
-      "declared_risk": null,
-      "compatibility": "这是含脚本和服务依赖的 Skill；核心图片路径识别需小描 API Key 与额度，并非完全本地免费。图像去字由当前助手和可用图像编辑模型完成。官方安装还包含独立 cell_no_ai 依赖，并会同步其主分支；额外处理按需且另行计费。只下载主技能目录不等于完整安装。Mac PPTX 与 Illustrator 路线缺少真实桌面验证；按官方平台说明核对。收录不安装、不自动更新依赖、不调用付费接口。",
-      "has_external_refs": false,
-      "format_issues": [
-        "nonstandard_name"
-      ]
     }
   ]
 }

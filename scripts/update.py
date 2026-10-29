@@ -402,7 +402,9 @@ def main():
     from scripts.discover import merge_queue
     queue_path = ROOT / "data/discovery-queue.json"
     previous_queue = json.loads(queue_path.read_text(encoding="utf-8")) if queue_path.exists() else []
-    write_json(queue_path, merge_queue(previous_queue, references, [s["repo"] for s in sources]))
+    discovery = json.loads((ROOT / 'discovery.json').read_text(encoding='utf-8'))
+    write_json(queue_path, merge_queue(previous_queue, references, [s["repo"] for s in sources],
+                                       discovery.get('excluded_repositories', [])))
     # A no-op run should not replace the last meaningful change report.
     if old.get("snapshot") != snapshot:
         write_json(ROOT / "data/changes.json", {"previous_snapshot": old.get("snapshot"), "snapshot": snapshot, **delta})

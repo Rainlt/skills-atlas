@@ -1,5 +1,7 @@
 # cell_su7 收录与服务依赖核对
 
+**已于 2026-10-29 按用户明确要求移除，不再收录或作为备选。** 用户不使用小描服务，图片重建采用 [image-to-editable-svg](../skills/image-to-editable-svg/SKILL.md)。来源、技能目录与下载清单均已退出当前索引。以下仅为当时的历史核对记录，不表示仍可从本库下载；不据此认定上游失效。
+
 核对日期：2026-10-29。用户明确要求加入技能库。来源为 [yrui-cmd/cell_su7](https://github.com/yrui-cmd/cell_su7/tree/95dce2b972d8b93f36a95e7f045f4d3910a44313)，本次仅索引 `plugins/cell_su7/skills/cell_su7/` 的主技能，保留真实的下划线名称。
 
 ## 用途与核对范围
