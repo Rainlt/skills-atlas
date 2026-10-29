@@ -1,0 +1,4 @@
+interface:
+  display_name: "图片转可编辑 SVG（本地）"
+  short_description: "从科研框图恢复可编辑路径和文字，使用本地描摹并逐项核对，无需小描接口"
+  default_prompt: "使用 $image-to-editable-svg，把这张科研框图转成可编辑 SVG，保留原图并检查文字和几何。"
