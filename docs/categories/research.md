@@ -1,6 +1,6 @@
 # 科研、文献与科学计算
 
-[返回总目录](../../CATALOG.md) · 219 个条目 · 分类为规则初分，欢迎纠错。
+[返回总目录](../../CATALOG.md) · 220 个条目 · 分类为规则初分，欢迎纠错。
 
 复制完整 ID 后运行 `python3 atlas.py download <ID> --dest ./downloads/<目录名>`。
 
@@ -225,3 +225,4 @@
 | [survey-generator](https://github.com/sickn33/agentic-awesome-skills/tree/a3072641b750a1fb2f6ce695a5f984ea3d4c3ec1/skills/survey-generator) | Generate source-backed AI/ML survey paper artifacts with curated bibliographies and Fireworks/Kimi HTML rendering. | `sickn33/agentic-awesome-skills/skills/survey-generator` |
 | [sympy](https://github.com/sickn33/agentic-awesome-skills/tree/a3072641b750a1fb2f6ce695a5f984ea3d4c3ec1/skills/sympy) | SymPy is a Python library for symbolic mathematics that enables exact computation using mathematical symbols rather than numerical approximations. | `sickn33/agentic-awesome-skills/skills/sympy` |
 | [youtube-transcript](https://github.com/sickn33/agentic-awesome-skills/tree/a3072641b750a1fb2f6ce695a5f984ea3d4c3ec1/skills/youtube-transcript) | Fetch YouTube transcripts through DeepAPI or local fallback tooling and save clean text output. | `sickn33/agentic-awesome-skills/skills/youtube-transcript` |
+| [cell_su7](https://github.com/yrui-cmd/cell_su7/tree/95dce2b972d8b93f36a95e7f045f4d3910a44313/plugins/cell_su7/skills/cell_su7) | Reconstruct image-based scientific figures as editable PowerPoint or Adobe Illustrator artwork, recording text, removing lettering with an available image-editing model while preserving graphics, and restoring live edita | `yrui-cmd/cell_su7/plugins/cell_su7/skills/cell_su7` |

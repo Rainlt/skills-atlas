@@ -539,6 +539,7 @@
     }
   ],
   "name_overrides": {
+    "cell_su7": ["research", "media", "documents"],
     "loopx-performance-diagnosis": ["engineering", "testing"],
     "loopx-project": ["automation", "engineering"],
     "loopx-self-repair": ["automation", "engineering"],
