@@ -490,6 +490,23 @@
         "lieflat",
         "写作"
       ]
+    },
+    {
+      "id": "yrui-cmd/cell_su7/plugins/cell_su7/skills/cell_su7",
+      "title": "科研图片转可编辑图",
+      "summary": "把现有科研图片重建为可编辑的 PPTX 或 Illustrator 图形与文字；例如把论文 PNG 框图改成可修改的版本。路径识别需付费 API。",
+      "reason": "用户明确要求收录；适合现有图片可编辑化，保留收费、配套依赖与 Mac 未实测说明，未替换工具箱默认组件。",
+      "keywords": [
+        "cell_su7",
+        "cell su7",
+        "图片转PPT",
+        "图片转可编辑",
+        "图片矢量化",
+        "科研框图",
+        "可编辑",
+        "illustrator",
+        "vectorization"
+      ]
     }
   ],
   "groups": [
@@ -788,6 +805,13 @@
       "level": "metadata_reviewed",
       "date": "2026-10-25",
       "note": "已核对发布模板、渠道与运行时要求；未安装或测试平台读取。"
+    },
+    "yrui-cmd/cell_su7/plugins/cell_su7/skills/cell_su7": {
+      "commit": "95dce2b972d8b93f36a95e7f045f4d3910a44313",
+      "bundle_sha": "2df39275c69b7b65d19ecd9f5210b60fd3a77f42",
+      "level": "metadata_reviewed",
+      "date": "2026-10-29",
+      "note": "已核对固定版本 README、SKILL.md、图片入口与平台说明，并校验目录清单。核心识别使用第三方付费 API，未安装、未上传图片、未执行真实转换。"
     }
   },
   "policy": {

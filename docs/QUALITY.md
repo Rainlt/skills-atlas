@@ -4,8 +4,8 @@
 
 | 指标 | 条目数 |
 |---|---:|
-| 缺少技能级许可声明，需核实具体授权 | 2782 |
-| 名称、目录或 frontmatter 等格式问题 | 99 |
+| 缺少技能级许可声明，需核实具体授权 | 2783 |
+| 名称、目录或 frontmatter 等格式问题 | 100 |
 | 含父目录引用或插件根目录变量等依赖线索 | 175 |
 | 有上游自报 risk 字段 | 2690 |
 
@@ -114,3 +114,4 @@
 | `vercel-labs/agent-skills/skills/react-best-practices` | name_directory_mismatch |
 | `vercel-labs/agent-skills/skills/react-native-skills` | name_directory_mismatch |
 | `vercel-labs/agent-skills/skills/react-view-transitions` | name_directory_mismatch |
+| `yrui-cmd/cell_su7/plugins/cell_su7/skills/cell_su7` | nonstandard_name |
