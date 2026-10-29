@@ -22,7 +22,7 @@
 | [larashero3-dotcom/lieflat-less-ai-tone](https://github.com/larashero3-dotcom/lieflat-less-ai-tone) | specialist | 1 | [27d29232f101](https://github.com/larashero3-dotcom/lieflat-less-ai-tone/commit/27d29232f10124db904ca9c0536d0b67cb3b2833) | MIT |
 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | specialist | 1 | [14c213405669](https://github.com/Panniantong/Agent-Reach/commit/14c213405669414492bda0f8d52cc6531d062c45) | MIT |
 | [yrui-cmd/cell_su7](https://github.com/yrui-cmd/cell_su7) | specialist | 1 | [95dce2b972d8](https://github.com/yrui-cmd/cell_su7/commit/95dce2b972d8b93f36a95e7f045f4d3910a44313) | MIT |
-| [Rainlt/skills-atlas](https://github.com/Rainlt/skills-atlas) | specialist | 1 | [143d4ef3dda0](https://github.com/Rainlt/skills-atlas/commit/143d4ef3dda0f2225f3e4415207e10d4b9f5ccd6) | MIT |
+| [Rainlt/skills-atlas](https://github.com/Rainlt/skills-atlas) | collection | 1 | [143d4ef3dda0](https://github.com/Rainlt/skills-atlas/commit/143d4ef3dda0f2225f3e4415207e10d4b9f5ccd6) | MIT |
 
 仓库级许可证只是线索，不覆盖技能中的单独授权；UNKNOWN 表示未被 GitHub 识别。
 

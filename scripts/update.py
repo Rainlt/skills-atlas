@@ -288,7 +288,7 @@ def scan_source(source, taxonomy, offline=False, seed_dir=None):
     source_state["excluded_identical_distribution_copies"] = sum(len(x["excluded_paths"]) for x in distribution)
     # README references are a discovery queue, not presumed installable or trusted skills.
     references = []
-    if source["kind"] == "collection":
+    if source["kind"] == "collection" and source.get('discover_references', True):
         readme = by_path.get("README.md")
         if readme:
             text = cached_blob(repo, commit, "README.md", readme["sha"]).decode("utf-8", "replace")

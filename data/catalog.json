@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "snapshot": "040dd991e6012b2d",
-  "generated_at": "2026-10-29T04:58:06.195806+00:00",
+  "snapshot": "1a0750e71ce009d7",
+  "generated_at": "2026-10-29T05:01:48.588115+00:00",
   "stats": {
     "sources": 19,
     "scanned_skills": 3962,
@@ -356,7 +356,8 @@
     },
     {
       "repo": "Rainlt/skills-atlas",
-      "kind": "specialist",
+      "kind": "collection",
+      "discover_references": false,
       "priority": 15,
       "include": [
         "skills/image-to-editable-svg/"
@@ -43614,7 +43615,7 @@
           "skill_sha": "704611f9ebe2b1bbd06d1a13b9b50e5f447b43ca",
           "url": "https://github.com/Rainlt/skills-atlas/tree/143d4ef3dda0f2225f3e4415207e10d4b9f5ccd6/skills/image-to-editable-svg",
           "priority": 15,
-          "kind": "specialist",
+          "kind": "collection",
           "license": {
             "declared": "MIT",
             "repository": "MIT",
