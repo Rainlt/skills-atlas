@@ -10,7 +10,7 @@
 | [创意故事动画工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/creative-animation-toolbox) | 从一句想法、小故事或视觉创意进入故事、分镜、镜头、代码动画与实际视频，不要求先有讲稿或 PPT。 例如：把月亮追星星的点子发展成无声短故事 | 想法与故事 → 分镜与镜头 → 动画实现 → 导出与检查 | active；固定来源和共享环境已准备；两秒无声合成渲染通过，真实故事待验证 |
 | [科研动画工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/scientific-animation-toolbox) | 从论文、方法图、公式、实验结果或科学原理进入证据核对、机制分镜、动画和科学复核交付，旁白与 PPT 按需。 例如：从方法图找出需呈现的输入、关键处理与输出 | 材料与证据 → 机制与分镜 → 动画实现 → 科学复核与导出 | active；固定来源和共享环境已准备；两秒无声机制示意渲染通过，真实科研效果待验证 |
 | [动画共享能力与旧入口](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/animation-toolbox) | 共享资源与旧名分流；不代表第三套创作组合 例如：一句小故事直接进入创意，论文方法图直接进入科研动画 | 按材料选择一套动画工具箱 | archived；路由与两个合成渲染已检查，真实作品待验证 |
-| [汇报工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/reporting-toolbox) | 围绕已有工作共用结论与证据，按阅读、现场演示或继续编辑的目标选择一条汇报制作路线。 例如：把实验记录做成组会 PPTX；把论文机制做成图解网页；做一份瑞士风现场演示。 | 组织内容与证据 → 选择一种交付制作 → 核对并交付 | active；固定来源、格式与调用匹配已检查；两条中文 HTML 路线完成最小后台验证，真实汇报待实践 |
+| [汇报工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/reporting-toolbox) | 围绕已有工作共用结论与证据，按阅读、现场演示或继续编辑的目标选择一条汇报制作路线。 例如：把实验记录做成组会 PPTX；把论文机制做成图解网页；做一份瑞士风现场演示。 | 组织内容与证据 → 选择一种交付制作 → 核对并交付 | active；公开论文三份6页同题样例与匿名成品复核已完成；网页编辑操作通过，PPTX导出/候选完整流程限制见私有正文；未做真实听众测试 |
 
 ## 调用与维护
 

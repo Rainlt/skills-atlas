@@ -205,7 +205,8 @@
       "helpers": [
         "数据绘图按需复用科研箱",
         "图片转 SVG 按需调用",
-        "动态片段按需交科研动画箱"
+        "动态片段按需交科研动画箱",
+        "需手动拖改网页时按需切换可编辑HTML"
       ],
       "keywords": [
         "汇报",
@@ -227,19 +228,21 @@
         "slide deck",
         "visual-explainer",
         "guizang",
-        "归藏"
+        "归藏",
+        "可编辑网页汇报",
+        "frontend-slides-editable"
       ],
       "primary_count": 3,
-      "component_count": 8,
-      "canonical_version": "2026-11-02.1",
-      "canonical_commit": "ba4b4a53b137f58e4b75e154337fdd2427b6848c",
+      "component_count": 9,
+      "canonical_version": "2026-11-02.2",
+      "canonical_commit": "946c77d58dc24b34fc95ba7b6c98e544974ed1cb",
       "guide_url": "https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/reporting-toolbox",
       "entry_url": "https://github.com/Rainlt/methods-atlas/blob/main/toolboxes/reporting-toolbox/SKILL.md",
       "access": "private",
-      "verification": "固定来源、格式与调用匹配已检查；两条中文 HTML 路线完成最小后台验证，真实汇报待实践",
+      "verification": "公开论文三份6页同题样例与匿名成品复核已完成；网页编辑操作通过，PPTX导出/候选完整流程限制见私有正文；未做真实听众测试",
       "checked_on": "2026-11-02",
       "state": "active",
-      "reason": "用户要求把 visual-explainer、归藏 PPT 与现有工具整理为专门用于汇报的组合；按产物分工，减少同用途重复调用。",
+      "reason": "同题制作后加强叙事、图文证据与实际导出验收；网页手动编辑为条件能力，三项默认保持单一，不因单样例宣布稳定排名。",
       "invoke": "使用 $reporting-toolbox，根据材料和受众选择图解网页、网页幻灯片或可编辑 PPTX。"
     }
   ]
