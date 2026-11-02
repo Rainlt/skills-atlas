@@ -191,6 +191,56 @@
         "creative-animation-toolbox",
         "scientific-animation-toolbox"
       ]
+    },
+    {
+      "id": "reporting-toolbox",
+      "name": "汇报工具箱",
+      "summary": "围绕已有工作共用结论与证据，按阅读、现场演示或继续编辑的目标选择一条汇报制作路线。",
+      "example": "把实验记录做成组会 PPTX；把论文机制做成图解网页；做一份瑞士风现场演示。",
+      "stages": [
+        "组织内容与证据",
+        "选择一种交付制作",
+        "核对并交付"
+      ],
+      "helpers": [
+        "数据绘图按需复用科研箱",
+        "图片转 SVG 按需调用",
+        "动态片段按需交科研动画箱"
+      ],
+      "keywords": [
+        "汇报",
+        "科研汇报",
+        "论文汇报",
+        "组会",
+        "答辩",
+        "进展汇报",
+        "项目汇报",
+        "汇报工具箱",
+        "图解汇报",
+        "演示",
+        "幻灯片",
+        "PPT",
+        "PPTX",
+        "PowerPoint",
+        "presentation",
+        "reporting",
+        "slide deck",
+        "visual-explainer",
+        "guizang",
+        "归藏"
+      ],
+      "primary_count": 3,
+      "component_count": 8,
+      "canonical_version": "2026-11-02.1",
+      "canonical_commit": "ba4b4a53b137f58e4b75e154337fdd2427b6848c",
+      "guide_url": "https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/reporting-toolbox",
+      "entry_url": "https://github.com/Rainlt/methods-atlas/blob/main/toolboxes/reporting-toolbox/SKILL.md",
+      "access": "private",
+      "verification": "固定来源、格式与调用匹配已检查；两条中文 HTML 路线完成最小后台验证，真实汇报待实践",
+      "checked_on": "2026-11-02",
+      "state": "active",
+      "reason": "用户要求把 visual-explainer、归藏 PPT 与现有工具整理为专门用于汇报的组合；按产物分工，减少同用途重复调用。",
+      "invoke": "使用 $reporting-toolbox，根据材料和受众选择图解网页、网页幻灯片或可编辑 PPTX。"
     }
   ]
 }
