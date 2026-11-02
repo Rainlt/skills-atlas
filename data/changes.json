@@ -1,10 +1,10 @@
 {
-  "previous_snapshot": "1a0750e71ce009d7",
-  "snapshot": "63492fc4adfc7273",
+  "previous_snapshot": "ed61f53399faad64",
+  "snapshot": "1fe02b439becdfaf",
   "added": [],
-  "removed": [
-    "yrui-cmd/cell_su7/plugins/cell_su7/skills/cell_su7"
-  ],
+  "removed": [],
   "updated": [],
-  "reclassified": []
+  "reclassified": [
+    "D4Vinci/Scrapling/agent-skill/Scrapling-Skill"
+  ]
 }

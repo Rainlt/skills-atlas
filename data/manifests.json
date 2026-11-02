@@ -8575,6 +8575,158 @@
       "type": "blob"
     }
   ],
+  "6532eff055c1edecbad805afa85289396d940f19": [
+    {
+      "path": "LICENSE.txt",
+      "sha": "41615aad07eb42df7f09997f207950098e853a68",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "b1e58179f7c8b83ce71aaba22f8611691a71685b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "examples/01_fetcher_session.py",
+      "sha": "d1b3ece1095fcb1e00a2e54b45daa2ec581e10cc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "examples/02_browser_session.py",
+      "sha": "baf6c9d598254fd81cad78fe084494fbab2163a6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "examples/03_stealthy_session.py",
+      "sha": "c3c68eb306b95e54fab243d1827f868fab93f1b0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "examples/04_spider.py",
+      "sha": "c4640075c90c951b4eba9e9189bbd210f4eff789",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "examples/README.md",
+      "sha": "002ed8fbe7647c7ac65924c974057181fd47dc8a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/building-rag-systems.md",
+      "sha": "4d83051c3d21788e0a5b82f4f41278a9035e5763",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/fetching/choosing.md",
+      "sha": "049c7e4f0b5807b03e38e61a058f31cba93b13be",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/fetching/static.md",
+      "sha": "fb4687fa094f6b8854bb4d2e93929600a677655a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/fetching/stealthy.md",
+      "sha": "3834b5d1423412648c7c9120811f9024f518080d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/integrations/scrapy.md",
+      "sha": "efcb2da7d34b68f4b4443f1d3d71ed3faf934b3a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/mcp-server.md",
+      "sha": "c90f826ce7b30a91fde4bcaa1e9ca83bd3ad76d8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/migrating_from_beautifulsoup.md",
+      "sha": "1a929f6c1e0ce1c5e33d3764f5aad8fc56ecc38f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/parsing/adaptive.md",
+      "sha": "502992015988f167b20c6dcd711846befb8a2759",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/parsing/main_classes.md",
+      "sha": "90841d27da328bd2afb33eab6b73d944a2aa770b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/parsing/selection.md",
+      "sha": "7bccd4b12c6b17b3a9b67d8901bf8b0c9a1e369e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/spiders/advanced.md",
+      "sha": "c393990939ff0a7ba0604c6664c6a3760fd741a6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/spiders/architecture.md",
+      "sha": "8d640d8d39afa99d61777b199a23f39a8026274b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/spiders/generic-templates.md",
+      "sha": "83e368d6590b4fd47f6fc38126ddeb35d9749f19",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/spiders/getting-started.md",
+      "sha": "f7d4df925f20f6849fa5b5ed04ebf3c4d6e7314d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/spiders/platform-templates.md",
+      "sha": "2f21cd8a22e57f1168d03f4a6ed0a34522fabf90",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/spiders/proxy-blocking.md",
+      "sha": "0f0631f016ec49c8ee1a151f96d34b7ee5c977d8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/spiders/requests-responses.md",
+      "sha": "edc9d22ac169fb0f1726e7a5726cf7f752c85efe",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/spiders/sessions.md",
+      "sha": "277e13e5f3cd469c2b2d0543780b4aaa1ecf2f50",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "a38bb268e9585963d2e8e0eac62c8085cbfc6886": [
     {
       "path": "SKILL.md",

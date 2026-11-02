@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "snapshot": "63492fc4adfc7273",
-  "generated_at": "2026-10-29T06:11:24.528504+00:00",
+  "snapshot": "1fe02b439becdfaf",
+  "generated_at": "2026-11-02T06:12:37.885840+00:00",
   "stats": {
-    "sources": 18,
-    "scanned_skills": 3961,
-    "unique_bundles": 3961,
+    "sources": 19,
+    "scanned_skills": 3962,
+    "unique_bundles": 3962,
     "exact_duplicates_removed": 0,
     "same_name_families": 97,
     "excluded_identical_distribution_copies": 5226,
@@ -353,6 +353,26 @@
       "repository_license": "MIT",
       "skills_scanned": 1,
       "url": "https://github.com/Rainlt/skills-atlas",
+      "excluded_skill_files": 0,
+      "excluded_identical_distribution_copies": 0
+    },
+    {
+      "repo": "D4Vinci/Scrapling",
+      "kind": "specialist",
+      "priority": 15,
+      "include": [
+        "agent-skill/Scrapling-Skill/"
+      ],
+      "pinned_commit": "95cf9019ab5a5d6f3e9654b7ef1c6a26e29dc5c0",
+      "note_zh": "用户选定的本地批量网页采集主工具；仅收录官方 Skill，保留许可与配套参考。",
+      "compatibility": "需要 Python 3.10+ 与版本匹配的 Scrapling 运行程序；浏览器采集另需浏览器依赖。Skill 文件不包含已安装运行时。普通请求与规则提取可本地完成，代理、模型或云服务按需单独核对。当前未安装、未实测；官方 API/RSS 与现有读取工具适用时优先。",
+      "commit": "95cf9019ab5a5d6f3e9654b7ef1c6a26e29dc5c0",
+      "tree_sha": "70cdf1252111fa021ece4f69827b900cdc7afdf1",
+      "branch": "main",
+      "archived": false,
+      "repository_license": "BSD-3-Clause",
+      "skills_scanned": 1,
+      "url": "https://github.com/D4Vinci/Scrapling",
       "excluded_skill_files": 0,
       "excluded_identical_distribution_copies": 0
     }
@@ -35249,6 +35269,54 @@
       "compatibility": "未验证；请阅读上游要求",
       "has_external_refs": false,
       "format_issues": []
+    },
+    {
+      "id": "D4Vinci/Scrapling/agent-skill/Scrapling-Skill",
+      "name": "scrapling-official",
+      "description": "Scrape web pages using Scrapling with HTTP requests, stealth browsers, JavaScript rendering, browser actions, API response capture, concurrent spiders, and adaptive parsing. Use when asked to scrape, crawl, or extract data from websites; web_fetch fails; the site has anti-bot protections; write Python code to scrape/crawl; or write spiders.",
+      "categories": [
+        "automation",
+        "data"
+      ],
+      "tags_zh": [
+        "数据分析与可视化",
+        "办公、应用集成与自动化"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "D4Vinci/Scrapling",
+          "path": "agent-skill/Scrapling-Skill",
+          "commit": "95cf9019ab5a5d6f3e9654b7ef1c6a26e29dc5c0",
+          "bundle_sha": "6532eff055c1edecbad805afa85289396d940f19",
+          "skill_sha": "b1e58179f7c8b83ce71aaba22f8611691a71685b",
+          "url": "https://github.com/D4Vinci/Scrapling/tree/95cf9019ab5a5d6f3e9654b7ef1c6a26e29dc5c0/agent-skill/Scrapling-Skill",
+          "priority": 15,
+          "kind": "specialist",
+          "license": {
+            "declared": "Complete terms in LICENSE.txt",
+            "repository": "BSD-3-Clause",
+            "content_hint": "BSD-3-Clause",
+            "review_required": false,
+            "url": "https://github.com/D4Vinci/Scrapling/tree/95cf9019ab5a5d6f3e9654b7ef1c6a26e29dc5c0/agent-skill/Scrapling-Skill"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "41615aad07eb42df7f09997f207950098e853a68",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "a07e186eeed66095ba75f1e452f53bf0c854d3e41349d6630942e72c2af699b5",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "需要 Python 3.10+ 与版本匹配的 Scrapling 运行程序；浏览器采集另需浏览器依赖。Skill 文件不包含已安装运行时。普通请求与规则提取可本地完成，代理、模型或云服务按需单独核对。当前未安装、未实测；官方 API/RSS 与现有读取工具适用时优先。",
+      "has_external_refs": false,
+      "format_issues": [
+        "name_directory_mismatch"
+      ]
     },
     {
       "id": "K-Dense-AI/scientific-agent-skills/skills/13c-metabolic-flux",

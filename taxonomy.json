@@ -584,6 +584,7 @@
     "raffle-winner-picker": [
       "automation"
     ],
-    "image-to-editable-svg": ["research", "media", "documents"]
+    "image-to-editable-svg": ["research", "media", "documents"],
+    "scrapling-official": ["automation", "data"]
   }
 }
