@@ -40,31 +40,126 @@
       ],
       "primary_count": 6,
       "component_count": 10,
-      "canonical_version": "2026-10-29.1",
-      "canonical_commit": "28294c62bd79398816969b87f251e83288e0d0e9",
+      "canonical_version": "2026-11-02.1",
+      "canonical_commit": "903cb9474b352d3d1dcfae4c2c60c83d4f540cbc",
       "guide_url": "https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/research-toolbox",
       "entry_url": "https://github.com/Rainlt/methods-atlas/blob/main/toolboxes/research-toolbox/SKILL.md",
       "access": "private",
       "verification": "流程与文件校验通过；SVG 框图单例已跑通，其他科研效果待实践",
-      "checked_on": "2026-10-29",
+      "checked_on": "2026-11-02",
       "state": "active",
       "reason": "同用途一个默认技能；现有图片转 SVG 使用本地描摹与助手文字核对，真实数据绘图保持独立。",
       "invoke": "使用我的科研工具箱，根据当前材料选择环节并执行。先读取 Rainlt/methods-atlas 的 toolboxes/research-toolbox/SKILL.md；仅按需准备当前技能。"
     },
     {
-      "id": "animation-toolbox",
-      "name": "动画制作工具箱",
-      "summary": "把论文、讲稿或知识点做成动画；用 vibe 方法和 AI 协作，默认 HyperFrames，已有 Remotion 工程则复用。",
-      "example": "把一篇论文的方法做成 30 秒动画：让输入依次经过模块，用箭头和变化说明处理过程，最后导出视频。",
+      "id": "creative-animation-toolbox",
+      "name": "创意故事动画工具箱",
+      "summary": "从一句想法、小故事或视觉创意进入故事、分镜、镜头、代码动画与实际视频，不要求先有讲稿或 PPT。",
+      "example": "把月亮追星星的点子发展成无声短故事",
       "stages": [
-        "材料核对",
-        "讲稿与分镜",
-        "动画小样",
+        "想法与故事",
+        "分镜与镜头",
+        "动画实现",
         "导出与检查"
       ],
       "helpers": [
-        "视觉素材",
-        "旁白与音频"
+        "按需补充角色或背景",
+        "按需安排声音与同步"
+      ],
+      "keywords": [
+        "动画",
+        "创意",
+        "故事",
+        "小故事",
+        "故事动画",
+        "创意动画",
+        "角色动画",
+        "视觉创意",
+        "宣传片",
+        "产品演示",
+        "video-shotcraft",
+        "vibe动画",
+        "Remotion",
+        "creative animation",
+        "story animation"
+      ],
+      "primary_count": 4,
+      "component_count": 6,
+      "canonical_version": "2026-11-02.1",
+      "canonical_commit": "903cb9474b352d3d1dcfae4c2c60c83d4f540cbc",
+      "guide_url": "https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/creative-animation-toolbox",
+      "entry_url": "https://github.com/Rainlt/methods-atlas/blob/main/toolboxes/creative-animation-toolbox/SKILL.md",
+      "access": "private",
+      "verification": "固定来源和共享环境已准备；两秒无声合成渲染通过，真实故事待验证",
+      "checked_on": "2026-11-02",
+      "state": "active",
+      "reason": "用户明确提出两类需求：从小想法或小故事直接创作动画，以及科研用途；并要求重组两套工具箱，与原有能力合并优化。旧箱偏向论文和讲稿，不能继续把这些材料作为所有动画的前提。",
+      "invoke": "使用 $creative-animation-toolbox; 从一句想法、小故事或视觉创意进入故事、分镜、镜头、代码动画与实际视频，不要求先有讲稿或 PPT。"
+    },
+    {
+      "id": "scientific-animation-toolbox",
+      "name": "科研动画工具箱",
+      "summary": "从论文、方法图、公式、实验结果或科学原理进入证据核对、机制分镜、动画和科学复核交付，旁白与 PPT 按需。",
+      "example": "从方法图找出需呈现的输入、关键处理与输出",
+      "stages": [
+        "材料与证据",
+        "机制与分镜",
+        "动画实现",
+        "科学复核与导出"
+      ],
+      "helpers": [
+        "按需增强镜头表达",
+        "按需制作配音科普解说",
+        "按需安排声音与同步"
+      ],
+      "keywords": [
+        "动画",
+        "科研动画",
+        "论文动画",
+        "论文转动画",
+        "论文做成动画",
+        "论文方法图",
+        "方法图",
+        "机制动画",
+        "公式动画",
+        "实验结果动画",
+        "科学原理",
+        "科普视频",
+        "anything2explainer",
+        "video-shotcraft",
+        "scientific animation",
+        "paper animation",
+        "论文",
+        "科研",
+        "机制",
+        "公式",
+        "实验结果",
+        "Remotion"
+      ],
+      "primary_count": 4,
+      "component_count": 7,
+      "canonical_version": "2026-11-02.1",
+      "canonical_commit": "903cb9474b352d3d1dcfae4c2c60c83d4f540cbc",
+      "guide_url": "https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/scientific-animation-toolbox",
+      "entry_url": "https://github.com/Rainlt/methods-atlas/blob/main/toolboxes/scientific-animation-toolbox/SKILL.md",
+      "access": "private",
+      "verification": "固定来源和共享环境已准备；两秒无声机制示意渲染通过，真实科研效果待验证",
+      "checked_on": "2026-11-02",
+      "state": "active",
+      "reason": "用户明确提出两类需求：从小想法或小故事直接创作动画，以及科研用途；并要求重组两套工具箱，与原有能力合并优化。旧箱偏向论文和讲稿，不能继续把这些材料作为所有动画的前提。",
+      "invoke": "使用 $scientific-animation-toolbox; 从论文、方法图、公式、实验结果或科学原理进入证据核对、机制分镜、动画和科学复核交付，旁白与 PPT 按需。"
+    },
+    {
+      "id": "animation-toolbox",
+      "name": "动画共享能力与旧入口",
+      "summary": "共享资源与旧名分流；不代表第三套创作组合",
+      "example": "一句小故事直接进入创意，论文方法图直接进入科研动画",
+      "stages": [
+        "按材料选择一套动画工具箱"
+      ],
+      "helpers": [
+        "共享版本缓存",
+        "共享渲染与检查"
       ],
       "keywords": [
         "动画",
@@ -80,18 +175,22 @@
         "animation",
         "paper-to-video"
       ],
-      "primary_count": 4,
-      "component_count": 6,
-      "canonical_version": "2026-10-25.1",
-      "canonical_commit": "208a071c1b5bf6a9afa6305d4d474e7cf58d209b",
+      "primary_count": 1,
+      "component_count": 1,
+      "canonical_version": "2026-11-02.1",
+      "canonical_commit": "903cb9474b352d3d1dcfae4c2c60c83d4f540cbc",
       "guide_url": "https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/animation-toolbox",
       "entry_url": "https://github.com/Rainlt/methods-atlas/blob/main/toolboxes/animation-toolbox/SKILL.md",
       "access": "private",
-      "verification": "方法与固定说明已核对；渲染环境及真实论文样片待验证",
-      "checked_on": "2026-10-25",
-      "state": "active",
-      "reason": "复用论文转动画与 vibe 方法；默认评估 HyperFrames，已有 Remotion 工程优先复用；共用分镜、出处与时间安排。",
-      "invoke": "使用我的动画制作工具箱，把提供的论文或讲稿制作成动画。先读取 Rainlt/methods-atlas 的 toolboxes/animation-toolbox/SKILL.md，从已有材料进入；按需选择 HyperFrames 或复用已有 Remotion 工程，完成所要求的预览或视频。"
+      "verification": "路由与两个合成渲染已检查，真实作品待验证",
+      "checked_on": "2026-11-02",
+      "state": "archived",
+      "reason": "用户明确提出两类需求：从小想法或小故事直接创作动画，以及科研用途；并要求重组两套工具箱，与原有能力合并优化。旧箱偏向论文和讲稿，不能继续把这些材料作为所有动画的前提。",
+      "invoke": "创意材料转 creative-animation-toolbox，科研材料转 scientific-animation-toolbox",
+      "replacements": [
+        "creative-animation-toolbox",
+        "scientific-animation-toolbox"
+      ]
     }
   ]
 }
