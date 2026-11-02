@@ -22,6 +22,7 @@
 | [larashero3-dotcom/lieflat-less-ai-tone](https://github.com/larashero3-dotcom/lieflat-less-ai-tone) | specialist | 1 | [27d29232f101](https://github.com/larashero3-dotcom/lieflat-less-ai-tone/commit/27d29232f10124db904ca9c0536d0b67cb3b2833) | MIT |
 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | specialist | 1 | [14c213405669](https://github.com/Panniantong/Agent-Reach/commit/14c213405669414492bda0f8d52cc6531d062c45) | MIT |
 | [Rainlt/skills-atlas](https://github.com/Rainlt/skills-atlas) | collection | 1 | [143d4ef3dda0](https://github.com/Rainlt/skills-atlas/commit/143d4ef3dda0f2225f3e4415207e10d4b9f5ccd6) | MIT |
+| [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | specialist | 1 | [95cf9019ab5a](https://github.com/D4Vinci/Scrapling/commit/95cf9019ab5a5d6f3e9654b7ef1c6a26e29dc5c0) | BSD-3-Clause |
 
 仓库级许可证只是线索，不覆盖技能中的单独授权；UNKNOWN 表示未被 GitHub 识别。
 

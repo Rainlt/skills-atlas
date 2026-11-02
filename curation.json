@@ -451,16 +451,21 @@
       ]
     },
     {
-      "id": "sickn33/agentic-awesome-skills/skills/frontend-slides",
-      "title": "浏览器演示文稿",
-      "summary": "制作可在浏览器逐页播放的 HTML 演示文稿。",
-      "reason": "适合明确需要逐页讲解的任务；连续阅读报告按任务另选。",
+      "id": "D4Vinci/Scrapling/agent-skill/Scrapling-Skill",
+      "title": "批量网页采集",
+      "summary": "本地提取网页正文与指定字段；例如把公开会议论文列表整理成标题、作者和链接表格。",
+      "reason": "用户比较后选定的批量采集主方案；官方 Skill 与程序同源。仅完成用途、结构与许可核对，未安装或实测。",
       "keywords": [
-        "幻灯片",
-        "演示",
-        "网页",
-        "slides",
-        "presentation"
+        "爬虫",
+        "网页抓取",
+        "网页采集",
+        "批量采集",
+        "资料获取",
+        "网页正文",
+        "scraping",
+        "scrape",
+        "crawl",
+        "Scrapling"
       ]
     },
     {
@@ -811,6 +816,13 @@
       "level": "task_verified",
       "date": "2026-10-29",
       "note": "仅平整背景 Transformer 框图实测：360 路径、51 行真正文本、0 嵌图，通用脚本重跑与改字/颜色预览通过；另有不同尺寸合成图。字体近似，复合路径和复杂背景限制保留，不代表全部图片已验证。"
+    },
+    "D4Vinci/Scrapling/agent-skill/Scrapling-Skill": {
+      "commit": "95cf9019ab5a5d6f3e9654b7ef1c6a26e29dc5c0",
+      "bundle_sha": "6532eff055c1edecbad805afa85289396d940f19",
+      "level": "metadata_reviewed",
+      "date": "2026-11-02",
+      "note": "核对官方 SKILL.md、配套参考与 BSD-3-Clause 许可，并与 Crawl4AI、Firecrawl、Apify 比较用途和依赖；未安装运行时、未完成真实网页采集验证。"
     }
   },
   "policy": {
@@ -849,6 +861,11 @@
       "state": "candidate",
       "entered_on": "2026-10-25",
       "reason": "资料获取的条件性补充；模板需官方程序生成配置，待实际资料获取任务验证。"
+    },
+    "sickn33/agentic-awesome-skills/skills/frontend-slides": {
+      "state": "catalog",
+      "changed_on": "2026-11-02",
+      "reason": "浏览器汇报现由已建立的 reporting-toolbox 按格式统一选择；为维持 40 个精选用途，将旧浏览器演示入口退回全库，原文件与来源继续保留，不判定失效。替代工作入口见工具箱板块的汇报工具箱。"
     }
   }
 }

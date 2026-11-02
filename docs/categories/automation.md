@@ -1,6 +1,6 @@
 # 办公、应用集成与自动化
 
-[返回总目录](../../CATALOG.md) · 1127 个条目 · 分类为规则初分，欢迎纠错。
+[返回总目录](../../CATALOG.md) · 1128 个条目 · 分类为规则初分，欢迎纠错。
 
 复制完整 ID 后运行 `python3 atlas.py download <ID> --dest ./downloads/<目录名>`。
 
@@ -841,6 +841,7 @@
 | [invoice-organizer](https://github.com/ComposioHQ/awesome-claude-skills/tree/be2a406907dbc61b73e6827ded415c96139d13a2/invoice-organizer) | Automatically organizes invoices and receipts for tax preparation by reading messy files, extracting key information, renaming them consistently, and sorting them into logical folders. Turns hours of manual bookkeeping i | `ComposioHQ/awesome-claude-skills/invoice-organizer` |
 | [meeting-insights-analyzer](https://github.com/ComposioHQ/awesome-claude-skills/tree/be2a406907dbc61b73e6827ded415c96139d13a2/meeting-insights-analyzer) | Analyzes meeting transcripts and recordings to uncover behavioral patterns, communication insights, and actionable feedback. Identifies when you avoid conflict, use filler words, dominate conversations, or miss opportuni | `ComposioHQ/awesome-claude-skills/meeting-insights-analyzer` |
 | [raffle-winner-picker](https://github.com/ComposioHQ/awesome-claude-skills/tree/be2a406907dbc61b73e6827ded415c96139d13a2/raffle-winner-picker) | Picks random winners from lists, spreadsheets, or Google Sheets for giveaways, raffles, and contests. Ensures fair, unbiased selection with transparency. | `ComposioHQ/awesome-claude-skills/raffle-winner-picker` |
+| [scrapling-official](https://github.com/D4Vinci/Scrapling/tree/95cf9019ab5a5d6f3e9654b7ef1c6a26e29dc5c0/agent-skill/Scrapling-Skill) | Scrape web pages using Scrapling with HTTP requests, stealth browsers, JavaScript rendering, browser actions, API response capture, concurrent spiders, and adaptive parsing. Use when asked to scrape, crawl, or extract da | `D4Vinci/Scrapling/agent-skill/Scrapling-Skill` |
 | [loopx-change-quality](https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-change-quality) | Qualify the exact final diff for a LoopX-managed goal. Use when goal policy enables change_quality_qualification, before a non-trivial delivery or merge, and when producing or repairing an exact-scope quality receipt. Th | `loopx-project/loopx/skills/loopx-change-quality` |
 | [loopx-pr-merge](https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-pr-merge) | Optional maintainer workflow for the approval, merge-readiness, or authorized self-merge decision on a LoopX pull request. Requires the exact-head review evidence from `loopx pr-review`. Review depth, verdicts, review co | `loopx-project/loopx/skills/loopx-pr-merge` |
 | [loopx-project](https://github.com/loopx-project/loopx/tree/d3c79a68979da8a61f92398a9984229d60fc6c1a/skills/loopx-project) | Use for LoopX project lifecycle work: connect or configure a project/Goal, repair project-local state or stale dashboard status, sync registry entries, or diagnose CLI/PATH/status/history routing. In an already bound Goa | `loopx-project/loopx/skills/loopx-project` |
