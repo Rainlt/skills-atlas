@@ -1,6 +1,6 @@
 # 文档、表格与演示
 
-[返回总目录](../../CATALOG.md) · 31 个条目 · 分类为规则初分，欢迎纠错。
+[返回总目录](../../CATALOG.md) · 32 个条目 · 分类为规则初分，欢迎纠错。
 
 复制完整 ID 后运行 `python3 atlas.py download <ID> --dest ./downloads/<目录名>`。
 
@@ -10,6 +10,7 @@
 | [pdf](https://github.com/ComposioHQ/awesome-claude-skills/tree/be2a406907dbc61b73e6827ded415c96139d13a2/document-skills/pdf) | Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or | `ComposioHQ/awesome-claude-skills/document-skills/pdf` |
 | [pptx](https://github.com/ComposioHQ/awesome-claude-skills/tree/be2a406907dbc61b73e6827ded415c96139d13a2/document-skills/pptx) | Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comment | `ComposioHQ/awesome-claude-skills/document-skills/pptx` |
 | [xlsx](https://github.com/ComposioHQ/awesome-claude-skills/tree/be2a406907dbc61b73e6827ded415c96139d13a2/document-skills/xlsx) | Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Crea | `ComposioHQ/awesome-claude-skills/document-skills/xlsx` |
+| [house-plan-designer](https://github.com/ZWD11/house-plan-designer/tree/b94183f9ce2215db9a178da89a90d2ecefb18497/.) | 把用户给的户型图（图片：酷家乐/贝壳/房天下户型图、售楼处户型图、手绘带尺寸的平面图；CAD 图纸：设计院 / 装修公司导出的矢量 PDF、DXF、原始结构图、建筑平面图，黑底 CAD 截图）自动还原成可交互的装修设计器网页（单文件 HTML，2D 平面 + 3D 鸟瞰/漫游 + 家具布置 + 水电/吊顶/铺装/拆改图层 + 电路 / 水管 / 网线自动排布 + 报价 + PDF 施工图），初始户型就是这张图。触发词：户型图生成设计器、 | `ZWD11/house-plan-designer` |
 | [docx](https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/docx) | Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', or | `anthropics/skills/skills/docx` |
 | [pdf](https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/pdf) | Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding w | `anthropics/skills/skills/pdf` |
 | [pptx](https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/pptx) | Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or | `anthropics/skills/skills/pptx` |

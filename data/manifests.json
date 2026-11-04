@@ -21319,6 +21319,578 @@
       "type": "blob"
     }
   ],
+  "2225bc985b4a824d5505b387613cce26de9005ed": [
+    {
+      "path": ".gitignore",
+      "sha": "a1801c6733be2b1728ae642e09e15ba225c51cea",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "7aed2710fbc43732b7570cbc1190f759b12e5426",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "README.md",
+      "sha": "660a6fec7f32e6a28e9b76a096dd81de296796c5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "ffe2cd0c5c617126eeefa267f23bac2f2f756cc9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/icon.png",
+      "sha": "2cd9fe123c9ebba1e30ef6edb20b1e4434b5d4ed",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/template.html",
+      "sha": "6b3a752406242cbce441bdd843965dbf794cc5b9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/cad-conventions.md",
+      "sha": "cb0a62ebc47cd30b5a7bdccb26a970781a03059d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/catalog-sizes.json",
+      "sha": "07c35c9c92186749539a6b4ca98c1ba3ca6299b5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/delivery.md",
+      "sha": "c3639e4b879d02562e638cd5e84521dea829804e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/env-cloud.md",
+      "sha": "dcee4de1e63af69d062f261f528624debfd6a1f0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-3d.png",
+      "sha": "642a2822a7497e1cd6e484d99a81111bc08aa6fe",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-gen-building.py",
+      "sha": "ee4338688bd4c1ea69704736a88a5668ceafdfb2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-gen-cad.py",
+      "sha": "fd15332f9b71972dfaf54ceed43cb34000e9b4e5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-gen-duplex.py",
+      "sha": "251ba09aeddd5e13003945e5837ba0ca50f68dd7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-gen-furnished.py",
+      "sha": "2080b4d60effe62b6e7d9c0c73946a92467f2717",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-gen-office-dxf.py",
+      "sha": "0e794efd16520c055d03467896f78dbbd0c71d26",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-gen-precise.py",
+      "sha": "e4fa2f016818beda04e3bc95e0896b492378bee3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-gen-villa.py",
+      "sha": "13c312b73898807baf76b58330491fd50252daf1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-gen.py",
+      "sha": "6e7ba151a896357ed2672686fc04109b84637443",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-input.jpg",
+      "sha": "fa4e71160083d222607f6470846b783ea24f533a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-library.jpg",
+      "sha": "290c8e3a8ca16258abec42cc2d029481aec29ce1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-mep-edit.jpg",
+      "sha": "067955a9100c5de5129e35097901ce376c4acc01",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-mep2d.jpg",
+      "sha": "6e8ae6006307e7c6deefb6bd8ffb77ddb3cdddc3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-mep3d.jpg",
+      "sha": "5900b42f66b84bbfdf25794d47abdfdcb1dc315e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-office-3d.jpg",
+      "sha": "3930c51a8a9fcea8aa3204b60c4d7973547647a5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-office-hall.jpg",
+      "sha": "289237a78b0e71eec5401e2877aff4971729a942",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-office-wc.jpg",
+      "sha": "b870a47344acf835b6227b9f8a84e26a96ce0860",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-overlay.png",
+      "sha": "5e84aed1c9ea7c99602862418a56763198166c1a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-pathtraced.jpg",
+      "sha": "fe29d4c9600f862bc3066b39a73b27ee429ab007",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-plan2d.png",
+      "sha": "98a2aca969ffada6cf5b499e02fdcc934467deba",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-resize.jpg",
+      "sha": "a26c6ae00aee73fb7d08f2798a5fc6fa5cfd7670",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-smart.jpg",
+      "sha": "2892d35e8783384836f89caa64b3108f8242fbca",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-spec.json",
+      "sha": "7c44cc188a4968377654f224a0aaf0ca78ec1723",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-style.jpg",
+      "sha": "3977c16bdf0c5ccc8b7211253e9942db15d8ae65",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-villa-diorama.jpg",
+      "sha": "dfd92065f856ad82e322380d6d71a3eae2dde073",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-villa-night.jpg",
+      "sha": "1f0b83a419e7ccdcf87411983ac5cfe0a828f39b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-walk-cam.jpg",
+      "sha": "cfb80577bb18dbeb3ba043cd383eaa1bfcce7049",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-walk-markers.jpg",
+      "sha": "e63eea204ea5e1ed363c0b0beb7695e706b55439",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/example-walk-route.json",
+      "sha": "ce7f07f09548c14fb5977552a96b4d7b8270de47",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/furnishing.md",
+      "sha": "1ac6acba1b07e23a27960ada2ed752a35d8383e6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/mep-rules.md",
+      "sha": "f28a2063bb4929e9d021e458bfdcb6702c291570",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/route-building.md",
+      "sha": "e98afecb8584203c338d5632e227ca751a875d18",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/route-cad.md",
+      "sha": "dc959aa0a0debab5b5349818ffd78538e02cbaa0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/route-dual.md",
+      "sha": "ee5c71d999c40157628cdb15c91c0e4e8acce1c8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/route-dxf-layout.md",
+      "sha": "c9e50bc6259a7b5c6fcc25076a5f641b9f6a479c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/route-image.md",
+      "sha": "4d59397d17e72f0124a7f18df9bbffc934390ba3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/route-office.md",
+      "sha": "6b2aa9c4f952f86ce571657d4242b757d5c03b0d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/route-villa.md",
+      "sha": "4d649473d39ff273424480404f75941674d47e26",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/spec-format.md",
+      "sha": "199421c94a0ca11fa129f8c5eff9e5f8cb69066b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "reference/workflow-check.md",
+      "sha": "8e1e30a4160dee442b310efd908a6e8c19cc58a3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/align2.py",
+      "sha": "f0e31ec02a1b247cf70e0f6d326b8109bc2893ee",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/analyze.py",
+      "sha": "1842f244f369920ab9e277ce83107529b84b4c89",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/axismap.py",
+      "sha": "c899f384b980ae4aa077964c64af965a5c55f71a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/browser.mjs",
+      "sha": "f74440a98c38f43a038094aed58bb7b69aa8d189",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/build.py",
+      "sha": "312116ee00c1e29ccfe7c6952d92679f61a3281c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/cadpair.py",
+      "sha": "983cf2d9aa73a3d9143c12dec50212306fd374c5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/cadshot.py",
+      "sha": "41fd6191dee1b4262ca12c6ed65c1763d966f7ec",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/cadsplit.py",
+      "sha": "d1f5141626c52c59fb30542212d59d8f82db3543",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/cadvec.py",
+      "sha": "b3fb70aef72deeecd03fa444d116d4eb7031bdbf",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/check.mjs",
+      "sha": "03e9a629163932f205a4c4a9d0f73f6b23afbd50",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/clicktest.mjs",
+      "sha": "9235e399a6272255e7790edac63b10dd076a7f26",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/closeup.mjs",
+      "sha": "f1170ccb1f9bb9c62ff452e7fe492399826d64ad",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dev/birdshot.mjs",
+      "sha": "66a3933dd1ba56a16a9f9758ce9365ab010d9604",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dev/compare.py",
+      "sha": "94d08f6d68a40eb4089b76c88c7b58da2e869918",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dev/dumprooms.mjs",
+      "sha": "4ac3a498678652a9e9a2a99978dd9bff472d7d48",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dev/eval.mjs",
+      "sha": "bea30f04a04dbc7f5bfcaa002932e244a7623bb7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dev/fps.mjs",
+      "sha": "2ee637ca53b3b3e81e1f0768287cf5804bf35dc9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dev/grab.mjs",
+      "sha": "882396209d4044b2bed0773beb1f2055228e545e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dev/libshot.mjs",
+      "sha": "d97b3d054cccede6b638ba96d174c9621499fd1b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dev/make_test_dxf.py",
+      "sha": "65440e6c3a1e8d0893e1a7588b4fe28e675e0674",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dev/mk_dxf_template.py",
+      "sha": "676583b80466cc822a49033fcf33f7c5dbf80fe2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dev/ptshots.mjs",
+      "sha": "781566839d2a9c59e02e55c7368abb653e9fcffa",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dev/shot3d.mjs",
+      "sha": "d65d3fd9563db427ee535b7fdd20b3b9bce1d54a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dev/swinfo.mjs",
+      "sha": "1b97977e65fa042bc09ac7e2f8cde53683024e3b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dev/swwall.mjs",
+      "sha": "a120244e9122b527611f3d6eaf95503f2f961d85",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dev/uitest.mjs",
+      "sha": "f26dd304f4ff615da9656cbdbd88da992e723a44",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dev/walk_lights.mjs",
+      "sha": "f3f7a3b2413e7dd3eefcef78c5fd5196687474a3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dimocr.py",
+      "sha": "d39e44c047fda15c8cca5c67dd1491b7db36074d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dimtext.py",
+      "sha": "366e22315cde36d7e97a7d4c087ef3d5ff912f50",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dimticks.py",
+      "sha": "229752a8c92f8a1fed062d5c4c062d0ea6d8def5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dxf_prepare.py",
+      "sha": "01c44364b46e46692d571812b1fbe3c5ac13d1b6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dxfaudit.py",
+      "sha": "116b35bd485b056faa5c0dc20bee9ea7f75fb18e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/dxfinventory.py",
+      "sha": "343ff2592d8b1666f1b8f0e70975588b80fc9138",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/furnoverlay.py",
+      "sha": "77acd268ac44d7043d8084f0de78397d107375f9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/gridmm.py",
+      "sha": "e05b8884c73957b0c1019b6828034364dd8b8180",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/imgio.py",
+      "sha": "259c183a46ff87136f6a82a728cfa8e5d1c760aa",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/package-lock.json",
+      "sha": "a598ef052dfbd6794469de3ea53771f3aa9207b8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/package.json",
+      "sha": "78837d8aea3bf384a8d1366499f526ba2bf61a7c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/qa.mjs",
+      "sha": "686f040823305c03294b3ab77d7eebc9aa476ffc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/qa_files.py",
+      "sha": "c5c60f766ed70c8aaff7c7892056c68fd1431c90",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/qa_furniture.mjs",
+      "sha": "6eb3d3f4cb38d81a062a0eda529221017cfbf196",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/qa_styles.mjs",
+      "sha": "3f4938495a0b594d1276c164a6bf44138fb7b7b4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/walktest.mjs",
+      "sha": "cbe50136f710a729313094c28d0faa031be99674",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/wallaudit.py",
+      "sha": "1ae8075f5f46d374f1c921a79f25fb5f5b3ad620",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/wallfit.py",
+      "sha": "064327ac1c55403436c68856379e475f4c78f5db",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "baddb91c315ea384f9191615054ba8026eb57ba2": [
     {
       "path": "LICENSE.txt",

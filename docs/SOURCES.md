@@ -23,6 +23,7 @@
 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | specialist | 1 | [14c213405669](https://github.com/Panniantong/Agent-Reach/commit/14c213405669414492bda0f8d52cc6531d062c45) | MIT |
 | [Rainlt/skills-atlas](https://github.com/Rainlt/skills-atlas) | collection | 1 | [143d4ef3dda0](https://github.com/Rainlt/skills-atlas/commit/143d4ef3dda0f2225f3e4415207e10d4b9f5ccd6) | MIT |
 | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | specialist | 1 | [95cf9019ab5a](https://github.com/D4Vinci/Scrapling/commit/95cf9019ab5a5d6f3e9654b7ef1c6a26e29dc5c0) | BSD-3-Clause |
+| [ZWD11/house-plan-designer](https://github.com/ZWD11/house-plan-designer) | specialist | 1 | [b94183f9ce22](https://github.com/ZWD11/house-plan-designer/commit/b94183f9ce2215db9a178da89a90d2ecefb18497) | MIT |
 
 仓库级许可证只是线索，不覆盖技能中的单独授权；UNKNOWN 表示未被 GitHub 识别。
 
