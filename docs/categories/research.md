@@ -1,12 +1,13 @@
 # 科研、文献与科学计算
 
-[返回总目录](../../CATALOG.md) · 220 个条目 · 分类为规则初分，欢迎纠错。
+[返回总目录](../../CATALOG.md) · 221 个条目 · 分类为规则初分，欢迎纠错。
 
 复制完整 ID 后运行 `python3 atlas.py download <ID> --dest ./downloads/<目录名>`。
 
 | 名称与来源 | 用途（上游原文） | 完整 ID |
 |---|---|---|
 | [content-research-writer](https://github.com/ComposioHQ/awesome-claude-skills/tree/be2a406907dbc61b73e6827ded415c96139d13a2/content-research-writer) | Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort | `ComposioHQ/awesome-claude-skills/content-research-writer` |
+| [wechat-article-reader](https://github.com/Githun1314/agent-wechat-reader/tree/0d5b167239f135934dced0411b0fb887d35bf9be/skills/wechat-article-reader) | Automatically read one or more public WeChat Official Account articles whenever user input contains exact-host https://mp.weixin.qq.com URLs, including a lone URL or a batch of links, without requiring a fixed prompt or  | `Githun1314/agent-wechat-reader/skills/wechat-article-reader` |
 | [13c-metabolic-flux](https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/13c-metabolic-flux) | Estimates intracellular metabolic fluxes from steady-state carbon-13 isotope-tracing measurements using validated atom maps, mfapy isotope simulation, constrained multistart fitting, and flux-profile diagnostics. Use for | `K-Dense-AI/scientific-agent-skills/skills/13c-metabolic-flux` |
 | [adaptyv](https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/adaptyv) | Uses the Adaptyv Bio Foundry API and Python SDK to design protein characterization experiments, estimate costs, submit sequences, monitor laboratory progress, and retrieve results. Applies to Adaptyv Foundry, its target  | `K-Dense-AI/scientific-agent-skills/skills/adaptyv` |
 | [aeon](https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/aeon) | This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use when working with temporal data, | `K-Dense-AI/scientific-agent-skills/skills/aeon` |

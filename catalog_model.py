@@ -7,7 +7,7 @@ def relevance(skill, group, terms, categories):
     name, identifier = skill['name'].lower(), skill['id'].lower()
     editorial = ' '.join([group['title'], group['summary'], *group['keywords']]).lower()
     names = {c['id']: c['name_zh'] for c in categories}
-    text = ' '.join([identifier, name, skill['description'], *skill['categories'],
+    text = ' '.join([identifier, name, skill['description'], *skill.get('search_aliases', []), *skill['categories'],
                      *(names.get(c, c) for c in skill['categories']), editorial]).lower()
     score = 0
     for t in terms:

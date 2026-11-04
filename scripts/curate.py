@@ -24,6 +24,10 @@ def build(data, selection, manifests, signals=None, as_of='2026-10-25'):
     skills = data['skills']; by_id = {s['id']: s for s in skills}
     if len(by_id) != len(skills):
         raise ValueError('重复技能 ID')
+    search_aliases = selection.get('search_aliases', {})
+    if any(key not in by_id or not isinstance(values, list) or any(not isinstance(v, str) or not v.strip() for v in values)
+           for key, values in search_aliases.items()):
+        raise ValueError('检索别名需要有效技能 ID 和非空字符串列表')
     parents = {s['id']: s['id'] for s in skills}
     def find(key):
         while parents[key] != key:
@@ -103,6 +107,7 @@ def build(data, selection, manifests, signals=None, as_of='2026-10-25'):
                      'archived': signal.get('archived', origin.get('archived'))}
         integration = bool(re.search(r'rube\s+mcp|composio', (s['name'] + ' ' + s['description']).lower()))
         slim.append({'id': s['id'], 'name': s['name'], 'description': s['description'],
+                     **({'search_aliases': search_aliases[s['id']]} if s['id'] in search_aliases else {}),
                      'categories': s['categories'], 'aliases': s['aliases'],
                      'sources': list(dict.fromkeys(x['repo'] for x in s['locations'])),
                      'url': loc['url'], 'commit': loc['commit'], 'license': loc['license'],

@@ -7,7 +7,7 @@ function createAtlasModel(data) {
   const rank=s=>[-s.verification.rank,-Number(s.repository.kind==='standalone'),-Number(s.repository.high_star),-Number(known(s)),-Number(s.file_count>1),s.source_priority,s.id];
   function relevance(s,g,terms){
     const name=s.name.toLowerCase(),id=s.id.toLowerCase(),editorial=[g.title,g.summary,...g.keywords].join(' ').toLowerCase();
-    const text=[id,name,s.description,...s.categories,...s.categories.map(c=>names[c]),editorial].join(' ').toLowerCase();let score=0;
+    const text=[id,name,s.description,...(s.search_aliases||[]),...s.categories,...s.categories.map(c=>names[c]),editorial].join(' ').toLowerCase();let score=0;
     for(const t of terms){if(t===name||t===id)score+=100;else if(name.includes(t))score+=40;else if(g.title.toLowerCase().includes(t))score+=35;else if(editorial.includes(t))score+=25;else if(id.includes(t))score+=20;else if(text.includes(t))score+=8;
       else {const exp=data.categories.filter(c=>c.queries_zh.includes(t)||c.name_zh===t).flatMap(c=>[c.id,...c.keywords]);if(!exp.some(x=>text.includes(x.toLowerCase())))return -1;score++}}
     return score;
