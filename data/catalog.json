@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "snapshot": "1fe02b439becdfaf",
-  "generated_at": "2026-11-02T06:12:37.885840+00:00",
+  "snapshot": "e79d9fe7d009705d",
+  "generated_at": "2026-11-04T04:07:53.895561+00:00",
   "stats": {
-    "sources": 19,
-    "scanned_skills": 3962,
-    "unique_bundles": 3962,
+    "sources": 20,
+    "scanned_skills": 3963,
+    "unique_bundles": 3963,
     "exact_duplicates_removed": 0,
     "same_name_families": 97,
     "excluded_identical_distribution_copies": 5226,
@@ -373,6 +373,27 @@
       "repository_license": "BSD-3-Clause",
       "skills_scanned": 1,
       "url": "https://github.com/D4Vinci/Scrapling",
+      "excluded_skill_files": 0,
+      "excluded_identical_distribution_copies": 0
+    },
+    {
+      "repo": "ZWD11/house-plan-designer",
+      "kind": "specialist",
+      "priority": 25,
+      "include": [
+        "SKILL.md"
+      ],
+      "pinned_commit": "b94183f9ce2215db9a178da89a90d2ecefb18497",
+      "discover_references": false,
+      "note_zh": "户型图片或CAD图纸转可编辑2D/3D装修设计网页；用户选用，完整固定源已核对，验证与调用条件见私有工具库。",
+      "compatibility": "Python及numpy/Pillow/OpenCV/PyMuPDF/ezdxf/pypdf，Node与puppeteer-core，Chrome/Edge/Chromium；设计器核心以打包HTML提供。受控单层样例已做人工纠错后验证；不是全自动读图或施工合规证明。复杂CAD、多层、管线和导出应按当前任务单独验收。",
+      "commit": "b94183f9ce2215db9a178da89a90d2ecefb18497",
+      "tree_sha": "2225bc985b4a824d5505b387613cce26de9005ed",
+      "branch": "main",
+      "archived": false,
+      "repository_license": "MIT",
+      "skills_scanned": 1,
+      "url": "https://github.com/ZWD11/house-plan-designer",
       "excluded_skill_files": 0,
       "excluded_identical_distribution_copies": 0
     }
@@ -43685,6 +43706,48 @@
       "upstream_category": null,
       "declared_risk": null,
       "compatibility": "Python 3.11+ with requirements.txt pins in an isolated environment; an SVG renderer/browser and assistant visual review. No paid recognition API. Flat-background diagrams; not pixel-perfect reconstruction or native PPTX export.",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "ZWD11/house-plan-designer",
+      "name": "house-plan-designer",
+      "description": "把用户给的户型图（图片：酷家乐/贝壳/房天下户型图、售楼处户型图、手绘带尺寸的平面图；CAD 图纸：设计院 / 装修公司导出的矢量 PDF、DXF、原始结构图、建筑平面图，黑底 CAD 截图）自动还原成可交互的装修设计器网页（单文件 HTML，2D 平面 + 3D 鸟瞰/漫游 + 家具布置 + 水电/吊顶/铺装/拆改图层 + 电路 / 水管 / 网线自动排布 + 报价 + PDF 施工图），初始户型就是这张图。触发词：户型图生成设计器、户型图转 3D、把户型图做成网页、CAD 图纸转设计器、DXF/PDF 户型图、原始结构图、户型还原、做一个装修设计网页、户型图 2D/3D 展示、电路布线图、水电管线排布、floor plan to 3D。",
+      "categories": [
+        "documents",
+        "frontend",
+        "media"
+      ],
+      "tags_zh": [
+        "文档、表格与演示",
+        "前端、界面与体验",
+        "设计、图像、音频与视频"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "ZWD11/house-plan-designer",
+          "path": ".",
+          "commit": "b94183f9ce2215db9a178da89a90d2ecefb18497",
+          "bundle_sha": "2225bc985b4a824d5505b387613cce26de9005ed",
+          "skill_sha": "ffe2cd0c5c617126eeefa267f23bac2f2f756cc9",
+          "url": "https://github.com/ZWD11/house-plan-designer/tree/b94183f9ce2215db9a178da89a90d2ecefb18497/.",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "MIT",
+            "content_hint": "MIT",
+            "review_required": true,
+            "url": "https://github.com/ZWD11/house-plan-designer/tree/b94183f9ce2215db9a178da89a90d2ecefb18497/."
+          },
+          "notices": []
+        }
+      ],
+      "instruction_sha256": "8aacbbffcc2c842e21886a4c82e40ce6aebe2ced88cf961948ca3adc248c374d",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Python及numpy/Pillow/OpenCV/PyMuPDF/ezdxf/pypdf，Node与puppeteer-core，Chrome/Edge/Chromium；设计器核心以打包HTML提供。受控单层样例已做人工纠错后验证；不是全自动读图或施工合规证明。复杂CAD、多层、管线和导出应按当前任务单独验收。",
       "has_external_refs": false,
       "format_issues": []
     },

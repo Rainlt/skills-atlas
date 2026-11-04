@@ -823,6 +823,13 @@
       "level": "metadata_reviewed",
       "date": "2026-11-02",
       "note": "核对官方 SKILL.md、配套参考与 BSD-3-Clause 许可，并与 Crawl4AI、Firecrawl、Apify 比较用途和依赖；未安装运行时、未完成真实网页采集验证。"
+    },
+    "ZWD11/house-plan-designer": {
+      "commit": "b94183f9ce2215db9a178da89a90d2ecefb18497",
+      "bundle_sha": "2225bc985b4a824d5505b387613cce26de9005ed",
+      "level": "download_verified",
+      "date": "2026-11-04",
+      "note": "完整95文件固定源逐文件核验。独立受控单层图经助手纠错后，尺寸链、4房间面积及2D/3D生成通过；官方lite/quick功能验收104/105，22个导出文件读回通过。串联管线检查1项失败，干净状态删线告警复测通过，原因未定位；双线窗墙体对账有误报。PDF、光线追踪及真实复杂CAD未验证；详见私有工具库。"
     }
   },
   "policy": {
