@@ -31,6 +31,14 @@ class CurationTests(unittest.TestCase):
         d,c=self.make();r=filter_catalog(d,c,query='collection/skills/skills/pdf')
         self.assertEqual(r['cards'][0]['representative']['sources'],['collection/skills'])
         self.assertNotEqual(compact(r['cards'][0])['summary'],'读取和检查文档')
+    def test_localized_alias_finds_unfeatured_english_skill(self):
+        raw,selection,signals,categories=self.fixture();identifier=raw['skills'][2]['id']
+        selection['search_aliases']={identifier:['公众号文章读取']}
+        data=build(raw,selection,{},signals,'2026-10-25')
+        result=filter_catalog(data,categories,query='公众号文章',scope='all')
+        self.assertEqual([c['representative']['id'] for c in result['cards']],[identifier])
+        self.assertEqual(data['curation']['featured_groups'],1)
+        self.assertEqual(next(s for s in data['skills'] if s['id']==identifier)['description'],raw['skills'][2]['description'])
     def test_repository_star_does_not_override_relevance_or_review(self):
         d,c=self.make();r=filter_catalog(d,c,query='pdf')
         self.assertEqual(r['cards'][0]['representative']['repository']['repo'],'publisher/pdf')
@@ -94,9 +102,10 @@ class CurationTests(unittest.TestCase):
             self.assertTrue(result['expanded_to_all']);self.assertEqual(result['results'][0]['id'],'publisher/more/skills/unusual')
             self.assertNotIn('locations',result['results'][0]);self.assertNotIn('manifest',result['results'][0])
     def test_models_rank_and_filter_identically(self):
-        d,c=self.make();d['categories']=c
+        raw,selection,signals,c=self.fixture();selection['search_aliases']={raw['skills'][2]['id']:['公众号文章读取']}
+        d=build(raw,selection,{},signals,'2026-10-25');d['categories']=c
         script="const {createAtlasModel}=require('./web/catalog-model.js');const fs=require('fs');let x=JSON.parse(fs.readFileSync(0,'utf8'));console.log(JSON.stringify(createAtlasModel(x.data).filter(x.options).cards.map(c=>[c.representative.id,c.variants.map(s=>s.id)])));"
-        for options in [{},{'scope':'all'},{'query':'pdf'},{'source':'collection'},{'sort':'stars','scope':'all'},{'query':'publisher/more/skills/unusual','scope':'all'},{'grouped':False,'scope':'all'}]:
+        for options in [{},{'scope':'all'},{'query':'pdf'},{'source':'collection'},{'sort':'stars','scope':'all'},{'query':'publisher/more/skills/unusual','scope':'all'},{'query':'公众号文章','scope':'all'},{'grouped':False,'scope':'all'}]:
             result=filter_catalog(d,c,**options)
             expected=[[x['representative']['id'],[s['id'] for s in x['variants']]] for x in result['cards']]
             actual=json.loads(subprocess.check_output(['node','-e',script],input=json.dumps({'data':d,'options':options}),text=True,cwd=Path(__file__).resolve().parents[1]))

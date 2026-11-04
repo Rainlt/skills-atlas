@@ -830,6 +830,13 @@
       "level": "download_verified",
       "date": "2026-11-04",
       "note": "完整95文件固定源逐文件核验。独立受控单层图经助手纠错后，尺寸链、4房间面积及2D/3D生成通过；官方lite/quick功能验收104/105，22个导出文件读回通过。串联管线检查1项失败，干净状态删线告警复测通过，原因未定位；双线窗墙体对账有误报。PDF、光线追踪及真实复杂CAD未验证；详见私有工具库。"
+    },
+    "Githun1314/agent-wechat-reader/skills/wechat-article-reader": {
+      "commit": "0d5b167239f135934dced0411b0fb887d35bf9be",
+      "bundle_sha": "02eaa9b872927313c8a1bfaadf4ec194be7e50e1",
+      "level": "download_verified",
+      "date": "2026-11-04",
+      "note": "完整固定源7文件与技能目录3文件核验通过。官方自测与独立离线检查完成：10项中7项通过，嵌套引用、GFM表格和网络退出码说明3项存在限制。无真实网站抓取，不把解析用例当成功率验证；图片仅保留远程引用，不含下载或OCR。"
     }
   },
   "policy": {
@@ -874,5 +881,16 @@
       "changed_on": "2026-11-02",
       "reason": "浏览器汇报现由已建立的 reporting-toolbox 按格式统一选择；为维持 40 个精选用途，将旧浏览器演示入口退回全库，原文件与来源继续保留，不判定失效。替代工作入口见工具箱板块的汇报工具箱。"
     }
+  },
+  "search_aliases": {
+    "Githun1314/agent-wechat-reader/skills/wechat-article-reader": [
+      "微信公众号文章读取",
+      "公众号文章",
+      "公众号正文",
+      "公众号阅读",
+      "微信文章",
+      "微信公号",
+      "wechat article reader"
+    ]
   }
 }

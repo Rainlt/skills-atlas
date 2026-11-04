@@ -1,10 +1,10 @@
 {
-  "previous_snapshot": "1fe02b439becdfaf",
-  "snapshot": "e79d9fe7d009705d",
-  "added": [
-    "ZWD11/house-plan-designer"
-  ],
+  "previous_snapshot": "f4a4dde3aec7b38a",
+  "snapshot": "ee8e348ac6050655",
+  "added": [],
   "removed": [],
   "updated": [],
-  "reclassified": []
+  "reclassified": [
+    "Githun1314/agent-wechat-reader/skills/wechat-article-reader"
+  ]
 }

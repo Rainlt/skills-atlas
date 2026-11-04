@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "snapshot": "e79d9fe7d009705d",
-  "generated_at": "2026-11-04T04:07:53.895561+00:00",
+  "snapshot": "ee8e348ac6050655",
+  "generated_at": "2026-11-04T05:46:06.348535+00:00",
   "stats": {
-    "sources": 20,
-    "scanned_skills": 3963,
-    "unique_bundles": 3963,
+    "sources": 21,
+    "scanned_skills": 3964,
+    "unique_bundles": 3964,
     "exact_duplicates_removed": 0,
     "same_name_families": 97,
     "excluded_identical_distribution_copies": 5226,
@@ -394,6 +394,27 @@
       "repository_license": "MIT",
       "skills_scanned": 1,
       "url": "https://github.com/ZWD11/house-plan-designer",
+      "excluded_skill_files": 0,
+      "excluded_identical_distribution_copies": 0
+    },
+    {
+      "repo": "Githun1314/agent-wechat-reader",
+      "kind": "specialist",
+      "priority": 15,
+      "include": [
+        "skills/wechat-article-reader/"
+      ],
+      "pinned_commit": "0d5b167239f135934dced0411b0fb887d35bf9be",
+      "discover_references": false,
+      "note_zh": "公开公众号文章的轻量阅读入口，提取正文、元信息与读取状态；固定源与离线行为评估已完成，真实站点成功率未验证。",
+      "compatibility": "Python 3.9+标准库，无账号/API Key/浏览器运行时。保留图片URL，不下载图片或做OCR。受控离线测试发现嵌套引用、表格格式和退出码说明差异；以article.json与trace为准。当前会话明确的站点安全拒绝仍需遵守，不能以安装此工具绕过。",
+      "commit": "0d5b167239f135934dced0411b0fb887d35bf9be",
+      "tree_sha": "99a2dd137a9ed563d15cc69eec8c654277669e2b",
+      "branch": "main",
+      "archived": false,
+      "repository_license": "MIT",
+      "skills_scanned": 1,
+      "url": "https://github.com/Githun1314/agent-wechat-reader",
       "excluded_skill_files": 0,
       "excluded_identical_distribution_copies": 0
     }
@@ -35338,6 +35359,52 @@
       "format_issues": [
         "name_directory_mismatch"
       ]
+    },
+    {
+      "id": "Githun1314/agent-wechat-reader/skills/wechat-article-reader",
+      "name": "wechat-article-reader",
+      "description": "Automatically read one or more public WeChat Official Account articles whenever user input contains exact-host https://mp.weixin.qq.com URLs, including a lone URL or a batch of links, without requiring a fixed prompt or the skill name. Use for reading, summarizing, extracting, analyzing, comparing, quoting, archiving, or transforming those articles; when no operation is stated, ingest each WeChat link and return its title, author, status, and a concise summary. For mixed-domain link lists, apply this skill only to the WeChat URLs. Save clean Markdown plus metadata and a trace, with verification-page detection and bounded retry but no cookies, credentials, browser control, or third-party reader services.",
+      "categories": [
+        "research",
+        "automation"
+      ],
+      "tags_zh": [
+        "科研、文献与科学计算",
+        "办公、应用集成与自动化"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "Githun1314/agent-wechat-reader",
+          "path": "skills/wechat-article-reader",
+          "commit": "0d5b167239f135934dced0411b0fb887d35bf9be",
+          "bundle_sha": "02eaa9b872927313c8a1bfaadf4ec194be7e50e1",
+          "skill_sha": "1066b41e16c76e5c911173e049dc2f499d43795d",
+          "url": "https://github.com/Githun1314/agent-wechat-reader/tree/0d5b167239f135934dced0411b0fb887d35bf9be/skills/wechat-article-reader",
+          "priority": 15,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "MIT",
+            "content_hint": "MIT",
+            "review_required": true,
+            "url": "https://github.com/Githun1314/agent-wechat-reader/tree/0d5b167239f135934dced0411b0fb887d35bf9be/skills/wechat-article-reader"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "02b639587478e6b0f0edf3ebd374eddee59d182d",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "c92d112f9ae852976d8efa2bca1612147e9b87b5e0f6a8c17712df07b7dd4100",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Python 3.9+标准库，无账号/API Key/浏览器运行时。保留图片URL，不下载图片或做OCR。受控离线测试发现嵌套引用、表格格式和退出码说明差异；以article.json与trace为准。当前会话明确的站点安全拒绝仍需遵守，不能以安装此工具绕过。",
+      "has_external_refs": false,
+      "format_issues": []
     },
     {
       "id": "K-Dense-AI/scientific-agent-skills/skills/13c-metabolic-flux",
