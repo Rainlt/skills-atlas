@@ -811,11 +811,11 @@
       "note": "已核对发布模板、渠道与运行时要求；未安装或测试平台读取。"
     },
     "Rainlt/skills-atlas/skills/image-to-editable-svg": {
-      "commit": "143d4ef3dda0f2225f3e4415207e10d4b9f5ccd6",
+      "commit": "3953b134e810780681b734ab70e3e902c3d5924c",
       "bundle_sha": "e05ef829e25834c581cad291c4838f2146914c1d",
       "level": "task_verified",
       "date": "2026-10-29",
-      "note": "仅平整背景 Transformer 框图实测：360 路径、51 行真正文本、0 嵌图，通用脚本重跑与改字/颜色预览通过；另有不同尺寸合成图。字体近似，复合路径和复杂背景限制保留，不代表全部图片已验证。"
+      "note": "仅平整背景 Transformer 框图实测：360 路径、51 行真正文本、0 嵌图，通用脚本重跑与改字/颜色预览通过；另有不同尺寸合成图。字体近似，复合路径和复杂背景限制保留，不代表全部图片已验证。 2026-11-04 来源pin随新增自有技能前移；本技能完整目录指纹未变，原验证范围不扩大。"
     },
     "D4Vinci/Scrapling/agent-skill/Scrapling-Skill": {
       "commit": "95cf9019ab5a5d6f3e9654b7ef1c6a26e29dc5c0",
@@ -837,6 +837,13 @@
       "level": "download_verified",
       "date": "2026-11-04",
       "note": "完整固定源7文件与技能目录3文件核验通过。官方自测与独立离线检查完成：10项中7项通过，嵌套引用、GFM表格和网络退出码说明3项存在限制。无真实网站抓取，不把解析用例当成功率验证；图片仅保留远程引用，不含下载或OCR。"
+    },
+    "Rainlt/skills-atlas/skills/paper-narrative": {
+      "commit": "3953b134e810780681b734ab70e3e902c3d5924c",
+      "bundle_sha": "e035a19322ec1f7086466bcfbfe3156dd732f63a",
+      "level": "download_verified",
+      "date": "2026-11-04",
+      "note": "完整4文件固定源、技能格式与3项独立行为试用已核对：证据不足不写根因、保留任务退步与未测范围、单句润色不扩展流程。真实论文及科研效果待实践；六种视角为启发式，不代表获奖因果规律。"
     }
   },
   "policy": {
@@ -891,6 +898,14 @@
       "微信文章",
       "微信公号",
       "wechat article reader"
+    ],
+    "Rainlt/skills-atlas/skills/paper-narrative": [
+      "论文叙事",
+      "论文主线",
+      "论文故事",
+      "贡献梳理",
+      "摘要引言",
+      "story is all you need"
     ]
   }
 }

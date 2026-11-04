@@ -6,7 +6,7 @@
 
 | 工具箱 | 能完成什么 / 例子 | 工作线 | 状态 |
 |---|---|---|---|
-| [科研工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/research-toolbox) | 从一个研究问题，到可核查的论文稿件；按已有材料进入当前环节。 例如：已有实验表格时，直接计算结果、制作图表并写结果段落，不重新从文献检索开始。 | 调研 → 定题与研究方案 → 实验 → 分析 → 写作 → 复核交付 | active；流程与文件校验通过；SVG 框图单例已跑通，其他科研效果待实践 |
+| [科研工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/research-toolbox) | 从一个研究问题，到可核查的论文稿件；按已有材料进入当前环节。 例如：已有结果但主线不清时，选择证据支持的贡献，串起实验并改写摘要；不会把单次涨点写成根因。 | 调研 → 定题与研究方案 → 实验 → 分析 → 写作 → 复核交付 | active；文件与接线校验通过；SVG单例实测、论文主线三项合成行为试用；真实整篇论文待实践 |
 | [创意故事动画工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/creative-animation-toolbox) | 从一句想法、小故事或视觉创意进入故事、分镜、镜头、代码动画与实际视频，不要求先有讲稿或 PPT。 例如：把月亮追星星的点子发展成无声短故事 | 想法与故事 → 分镜与镜头 → 动画实现 → 导出与检查 | active；固定源、原有合成接线及中文12秒连续机制示意已验证；完整作品与自动内容检测限制见私有正文 |
 | [科研动画工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/scientific-animation-toolbox) | 从论文、方法图、公式、实验结果或科学原理进入证据核对、机制分镜、动画和科学复核交付，旁白与 PPT 按需。 例如：从方法图找出需呈现的输入、关键处理与输出 | 材料与证据 → 机制与分镜 → 动画实现 → 科学复核与导出 | active；固定源、原有合成接线及中文12秒连续机制示意已验证；完整作品与自动内容检测限制见私有正文 |
 | [动画共享能力与旧入口](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/animation-toolbox) | 共享资源与旧名分流；不代表第三套创作组合 例如：一句小故事直接进入创意，论文方法图直接进入科研动画 | 按材料选择一套动画工具箱 | archived；两套分流与共享连续组件接线已检查，旧名仍只作兼容入口 |

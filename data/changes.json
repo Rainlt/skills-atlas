@@ -1,10 +1,10 @@
 {
-  "previous_snapshot": "f4a4dde3aec7b38a",
-  "snapshot": "ee8e348ac6050655",
-  "added": [],
+  "previous_snapshot": "ee8e348ac6050655",
+  "snapshot": "0826a593f58c4353",
+  "added": [
+    "Rainlt/skills-atlas/skills/paper-narrative"
+  ],
   "removed": [],
   "updated": [],
-  "reclassified": [
-    "Githun1314/agent-wechat-reader/skills/wechat-article-reader"
-  ]
+  "reclassified": []
 }

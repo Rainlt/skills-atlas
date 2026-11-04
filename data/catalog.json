@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "snapshot": "ee8e348ac6050655",
-  "generated_at": "2026-11-04T05:46:06.348535+00:00",
+  "snapshot": "0826a593f58c4353",
+  "generated_at": "2026-11-04T06:35:00.580862+00:00",
   "stats": {
     "sources": 21,
-    "scanned_skills": 3964,
-    "unique_bundles": 3964,
+    "scanned_skills": 3965,
+    "unique_bundles": 3965,
     "exact_duplicates_removed": 0,
     "same_name_families": 97,
     "excluded_identical_distribution_copies": 5226,
@@ -341,17 +341,18 @@
       "discover_references": false,
       "priority": 15,
       "include": [
-        "skills/image-to-editable-svg/"
+        "skills/image-to-editable-svg/",
+        "skills/paper-narrative/"
       ],
-      "pinned_commit": "143d4ef3dda0f2225f3e4415207e10d4b9f5ccd6",
-      "note_zh": "科研框图图片转可编辑 SVG：助手核对文字，本地描摹路径，不用小描付费识别接口。",
-      "compatibility": "Python 3.11+ with requirements.txt pins in an isolated environment; an SVG renderer/browser and assistant visual review. No paid recognition API. Flat-background diagrams; not pixel-perfect reconstruction or native PPTX export.",
-      "commit": "143d4ef3dda0f2225f3e4415207e10d4b9f5ccd6",
-      "tree_sha": "905511f2d63b16dfaa041585d38db352774a5776",
+      "pinned_commit": "3953b134e810780681b734ab70e3e902c3d5924c",
+      "note_zh": "自有技能：科研框图转可编辑SVG，以及从证据组织论文主线。只索引明确白名单。",
+      "compatibility": "按技能区分：image-to-editable-svg 需 Python 3.11+ 与固定本地描摹依赖；paper-narrative 为纯指导，无额外运行时或付费接口。",
+      "commit": "3953b134e810780681b734ab70e3e902c3d5924c",
+      "tree_sha": "fce75812546f086eb9a4b2a8efed07adc272f1fb",
       "branch": "main",
       "archived": false,
       "repository_license": "MIT",
-      "skills_scanned": 1,
+      "skills_scanned": 2,
       "url": "https://github.com/Rainlt/skills-atlas",
       "excluded_skill_files": 0,
       "excluded_identical_distribution_copies": 0
@@ -43747,10 +43748,10 @@
         {
           "repo": "Rainlt/skills-atlas",
           "path": "skills/image-to-editable-svg",
-          "commit": "143d4ef3dda0f2225f3e4415207e10d4b9f5ccd6",
+          "commit": "3953b134e810780681b734ab70e3e902c3d5924c",
           "bundle_sha": "e05ef829e25834c581cad291c4838f2146914c1d",
           "skill_sha": "704611f9ebe2b1bbd06d1a13b9b50e5f447b43ca",
-          "url": "https://github.com/Rainlt/skills-atlas/tree/143d4ef3dda0f2225f3e4415207e10d4b9f5ccd6/skills/image-to-editable-svg",
+          "url": "https://github.com/Rainlt/skills-atlas/tree/3953b134e810780681b734ab70e3e902c3d5924c/skills/image-to-editable-svg",
           "priority": 15,
           "kind": "collection",
           "license": {
@@ -43758,7 +43759,7 @@
             "repository": "MIT",
             "content_hint": "MIT",
             "review_required": false,
-            "url": "https://github.com/Rainlt/skills-atlas/tree/143d4ef3dda0f2225f3e4415207e10d4b9f5ccd6/skills/image-to-editable-svg"
+            "url": "https://github.com/Rainlt/skills-atlas/tree/3953b134e810780681b734ab70e3e902c3d5924c/skills/image-to-editable-svg"
           },
           "notices": [
             {
@@ -43772,7 +43773,53 @@
       "instruction_sha256": "5143ceb5010e35e19e3aac1698c06d53c8406882baf775d416a626331af5931a",
       "upstream_category": null,
       "declared_risk": null,
-      "compatibility": "Python 3.11+ with requirements.txt pins in an isolated environment; an SVG renderer/browser and assistant visual review. No paid recognition API. Flat-background diagrams; not pixel-perfect reconstruction or native PPTX export.",
+      "compatibility": "按技能区分：image-to-editable-svg 需 Python 3.11+ 与固定本地描摹依赖；paper-narrative 为纯指导，无额外运行时或付费接口。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "Rainlt/skills-atlas/skills/paper-narrative",
+      "name": "paper-narrative",
+      "description": "根据已有研究材料、实验结果或论文初稿，选择有证据支持的论文主线，梳理问题、贡献、实验与章节的对应关系，并改写摘要、引言或论证。用于论文故事不清、贡献零散、结果像流水账或需要规划验证证据；纯语言润色、翻译和格式修改不启动此流程，已有专项论文规范优先。",
+      "categories": [
+        "research",
+        "writing"
+      ],
+      "tags_zh": [
+        "科研、文献与科学计算",
+        "写作、翻译与知识管理"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "Rainlt/skills-atlas",
+          "path": "skills/paper-narrative",
+          "commit": "3953b134e810780681b734ab70e3e902c3d5924c",
+          "bundle_sha": "e035a19322ec1f7086466bcfbfe3156dd732f63a",
+          "skill_sha": "59dcfda3f6c3bc576da13630c5a26b374c3b1d1a",
+          "url": "https://github.com/Rainlt/skills-atlas/tree/3953b134e810780681b734ab70e3e902c3d5924c/skills/paper-narrative",
+          "priority": 15,
+          "kind": "collection",
+          "license": {
+            "declared": "MIT",
+            "repository": "MIT",
+            "content_hint": "MIT",
+            "review_required": false,
+            "url": "https://github.com/Rainlt/skills-atlas/tree/3953b134e810780681b734ab70e3e902c3d5924c/skills/paper-narrative"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "2d5d857a968ec3ec82f7eb87eff5feb80bd4c99a",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "a223bc8722358b522e1f22a98b3d18a63eefafd5af5ef631bf04f336be5eec39",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "按技能区分：image-to-editable-svg 需 Python 3.11+ 与固定本地描摹依赖；paper-narrative 为纯指导，无额外运行时或付费接口。",
       "has_external_refs": false,
       "format_issues": []
     },
