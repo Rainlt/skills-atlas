@@ -21339,6 +21339,32 @@
       "type": "blob"
     }
   ],
+  "e035a19322ec1f7086466bcfbfe3156dd732f63a": [
+    {
+      "path": "LICENSE",
+      "sha": "2d5d857a968ec3ec82f7eb87eff5feb80bd4c99a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "59dcfda3f6c3bc576da13630c5a26b374c3b1d1a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha": "8be734d3f301e2bf0a1b0c373a999604f54dd43b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/narrative-patterns.md",
+      "sha": "0b154966c5480143cc1640dbed4b6b5bc8253604",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "2225bc985b4a824d5505b387613cce26de9005ed": [
     {
       "path": ".gitignore",

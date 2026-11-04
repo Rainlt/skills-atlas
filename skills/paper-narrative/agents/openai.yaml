@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文主线与证据组织"
+  short_description: "从已有研究证据选择论文主线，串联问题、贡献与实验并改写摘要引言"
+  default_prompt: "使用 $paper-narrative，根据我的论文材料和实验结果梳理主线，指出必要的证据缺口，并完成所需段落的改写。"

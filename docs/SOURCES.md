@@ -21,7 +21,7 @@
 | [Adkid-Zephyr/oral-paper-skill](https://github.com/Adkid-Zephyr/oral-paper-skill) | specialist | 1 | [a2c4bc41b3aa](https://github.com/Adkid-Zephyr/oral-paper-skill/commit/a2c4bc41b3aa6946b2ccce1c844ce9936ef83308) | UNKNOWN |
 | [larashero3-dotcom/lieflat-less-ai-tone](https://github.com/larashero3-dotcom/lieflat-less-ai-tone) | specialist | 1 | [27d29232f101](https://github.com/larashero3-dotcom/lieflat-less-ai-tone/commit/27d29232f10124db904ca9c0536d0b67cb3b2833) | MIT |
 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | specialist | 1 | [14c213405669](https://github.com/Panniantong/Agent-Reach/commit/14c213405669414492bda0f8d52cc6531d062c45) | MIT |
-| [Rainlt/skills-atlas](https://github.com/Rainlt/skills-atlas) | collection | 1 | [143d4ef3dda0](https://github.com/Rainlt/skills-atlas/commit/143d4ef3dda0f2225f3e4415207e10d4b9f5ccd6) | MIT |
+| [Rainlt/skills-atlas](https://github.com/Rainlt/skills-atlas) | collection | 2 | [3953b134e810](https://github.com/Rainlt/skills-atlas/commit/3953b134e810780681b734ab70e3e902c3d5924c) | MIT |
 | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | specialist | 1 | [95cf9019ab5a](https://github.com/D4Vinci/Scrapling/commit/95cf9019ab5a5d6f3e9654b7ef1c6a26e29dc5c0) | BSD-3-Clause |
 | [ZWD11/house-plan-designer](https://github.com/ZWD11/house-plan-designer) | specialist | 1 | [b94183f9ce22](https://github.com/ZWD11/house-plan-designer/commit/b94183f9ce2215db9a178da89a90d2ecefb18497) | MIT |
 | [Githun1314/agent-wechat-reader](https://github.com/Githun1314/agent-wechat-reader) | specialist | 1 | [0d5b167239f1](https://github.com/Githun1314/agent-wechat-reader/commit/0d5b167239f135934dced0411b0fb887d35bf9be) | MIT |

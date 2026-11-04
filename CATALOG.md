@@ -1,13 +1,13 @@
 # 技能分类目录
 
-索引快照：`ee8e348ac6050655`。主分类用于下表计数；交叉标签可在命令行筛选。
+索引快照：`0826a593f58c4353`。主分类用于下表计数；交叉标签可在命令行筛选。
 
 搜索：`python3 atlas.py search '科研'`。查看条目：`python3 atlas.py show <ID>`。
 
 | 分类 | 去重后条目 |
 |---|---:|
 | [文档、表格与演示](docs/categories/documents.md) | 32 |
-| [科研、文献与科学计算](docs/categories/research.md) | 221 |
+| [科研、文献与科学计算](docs/categories/research.md) | 222 |
 | [数据分析与可视化](docs/categories/data.md) | 66 |
 | [AI、模型与智能体](docs/categories/ai.md) | 294 |
 | [前端、界面与体验](docs/categories/frontend.md) | 131 |
