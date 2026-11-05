@@ -258,6 +258,74 @@
       "state": "active",
       "reason": "同题制作后加强叙事、图文证据与实际导出验收；网页手动编辑为条件能力，三项默认保持单一，不因单样例宣布稳定排名。",
       "invoke": "使用 $reporting-toolbox，根据材料和受众选择图解网页、网页幻灯片或可编辑 PPTX。"
+    },
+    {
+      "id": "software-development-toolbox",
+      "name": "软件开发工具箱",
+      "summary": "从想法到可运行软件，合并需求与计划，按需组织接口、分步实现、验证、复核和交付；前端与网页测试有需要才加入。",
+      "example": "把论文阅读工具的保存、筛选与完成条件写在一份记录里",
+      "stages": [
+        "需求与计划",
+        "架构与接口",
+        "分步实现",
+        "验证",
+        "复核",
+        "交付"
+      ],
+      "helpers": [
+        "界面实现",
+        "网页交互验收"
+      ],
+      "keywords": [
+        "软件",
+        "软件开发",
+        "软件工具箱",
+        "应用",
+        "应用开发",
+        "网站",
+        "网页",
+        "网页应用",
+        "CLI",
+        "命令行工具",
+        "桌面软件",
+        "桌面应用",
+        "开发功能",
+        "科研软件",
+        "科研工具",
+        "Python工具",
+        "脚本",
+        "编程",
+        "software development",
+        "build an app",
+        "software-development-toolbox",
+        "数据分析",
+        "开发软件",
+        "从头开发"
+      ],
+      "requires_any": [
+        "开发",
+        "构建",
+        "做一个",
+        "实现",
+        "新增功能",
+        "编程",
+        "软件工具箱",
+        "software development",
+        "build an app",
+        "software-development-toolbox"
+      ],
+      "primary_count": 6,
+      "component_count": 8,
+      "canonical_version": "2026-11-05.1",
+      "canonical_commit": "2a8dab4e4034811702813afca216ffe2d2a96e1e",
+      "guide_url": "https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/software-development-toolbox",
+      "entry_url": "https://github.com/Rainlt/methods-atlas/blob/main/toolboxes/software-development-toolbox/SKILL.md",
+      "access": "private",
+      "verification": "固定文件与按需入口已准备；受控本地网页9项行为通过，正式软件/生产发布待验证",
+      "checked_on": "2026-11-05",
+      "state": "active",
+      "reason": "从想法到可运行软件，合并需求与计划，按需组织接口、分步实现、验证、复核和交付；前端与网页测试有需要才加入。",
+      "invoke": "使用 $software-development-toolbox，把我的软件想法整理成最小可用版本并继续实现和验证。"
     }
   ]
 }
