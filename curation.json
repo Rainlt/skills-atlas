@@ -844,6 +844,13 @@
       "level": "download_verified",
       "date": "2026-11-04",
       "note": "完整4文件固定源、技能格式与3项独立行为试用已核对：证据不足不写根因、保留任务退步与未测范围、单句润色不扩展流程。真实论文及科研效果待实践；六种视角为启发式，不代表获奖因果规律。"
+    },
+    "larashero3-dotcom/lieflat-gongwen": {
+      "commit": "c9cdbd432713ca7eb9367bea22e6d2ee5c1cdab2",
+      "bundle_sha": "ad0428d2984aa3e15cc8e8ce63c78443b082e13c",
+      "level": "download_verified",
+      "date": "2026-11-05",
+      "note": "固定源与完整目录已核验；规则审阅及6项有限脚本用例完成。3种官方合成示例通过；发现全角％漏检、要求词子串误计及小样本硬规则过度泛化。按单位模板及真实事实适配，不以参数替代内容核查；用户真实材料效果待实践。"
     }
   },
   "policy": {
@@ -906,6 +913,15 @@
       "贡献梳理",
       "摘要引言",
       "story is all you need"
+    ],
+    "larashero3-dotcom/lieflat-gongwen": [
+      "公文写作",
+      "公文材料",
+      "公文写作DNA",
+      "调研报告",
+      "工作方案",
+      "经验材料",
+      "领导讲话"
     ]
   }
 }

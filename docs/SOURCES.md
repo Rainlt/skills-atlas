@@ -25,6 +25,7 @@
 | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | specialist | 1 | [95cf9019ab5a](https://github.com/D4Vinci/Scrapling/commit/95cf9019ab5a5d6f3e9654b7ef1c6a26e29dc5c0) | BSD-3-Clause |
 | [ZWD11/house-plan-designer](https://github.com/ZWD11/house-plan-designer) | specialist | 1 | [b94183f9ce22](https://github.com/ZWD11/house-plan-designer/commit/b94183f9ce2215db9a178da89a90d2ecefb18497) | MIT |
 | [Githun1314/agent-wechat-reader](https://github.com/Githun1314/agent-wechat-reader) | specialist | 1 | [0d5b167239f1](https://github.com/Githun1314/agent-wechat-reader/commit/0d5b167239f135934dced0411b0fb887d35bf9be) | MIT |
+| [larashero3-dotcom/lieflat-gongwen](https://github.com/larashero3-dotcom/lieflat-gongwen) | specialist | 1 | [c9cdbd432713](https://github.com/larashero3-dotcom/lieflat-gongwen/commit/c9cdbd432713ca7eb9367bea22e6d2ee5c1cdab2) | UNKNOWN |
 
 仓库级许可证只是线索，不覆盖技能中的单独授权；UNKNOWN 表示未被 GitHub 识别。
 

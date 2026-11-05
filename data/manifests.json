@@ -25797,6 +25797,338 @@
       "type": "blob"
     }
   ],
+  "ad0428d2984aa3e15cc8e8ce63c78443b082e13c": [
+    {
+      "path": ".gitignore",
+      "sha": "2348c91f7a198200e6bba5fdbb4386917bbb542b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "1a71cb64397535482ff19542d1093c0d4a6442d0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "README.md",
+      "sha": "04cce5e78bfcd8136715a43fcf5fe96c9a1227b2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "1c85b10532bd43127673827a37febef020a84d74",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/README.md",
+      "sha": "db4b66e0b4c8857b600138b8e56b396544b1eb5d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/gongwen-dna-hero-zh.jpg",
+      "sha": "1dfdd73c7d5019a9202e41fb0cd3cdd89b92b01f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/hero.html",
+      "sha": "1f19a0e66d47ec26a1cda6191fcbb62fd03aaf49",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/rain.js",
+      "sha": "cace778be812d0ff0dbc6cc7255976c2b0219e75",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/shoot.mjs",
+      "sha": "8ce494f11cbf74d0d2d438d27596aa10434c9977",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/check_params.py",
+      "sha": "29bd69b770de35ae01802b53b7b48039432a87b7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/strip_meta.py",
+      "sha": "11dc7f3cfc192c5b12bd4952b2bbf9cc557084ef",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "党建语料/_meta/l2_struct.json",
+      "sha": "745c8569eb038d8c014efb7df164967ac2ce9529",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "党建语料/党建DNA.md",
+      "sha": "2c0bc3eda1b7b5f864c65eed16e7f4cd807bf5a3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "党建语料/写作视角与认知框架.md",
+      "sha": "02cf9d18b3fa7d94486786fd1fdc31c672968344",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "党建语料/文章结构模板.md",
+      "sha": "fec8cc2c55a72f5955b4778bfd4feaa54bbf7070",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "公文语料/_meta/all_pieces.json",
+      "sha": "af772b5677ead3ab365100a8f044442b8d883495",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "公文语料/_meta/by_genre.json",
+      "sha": "c2cb46e0a86b4767a998ec5894e1120f40f326d0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "公文语料/写作视角与认知框架.md",
+      "sha": "38bdbfd5bb2261c2281361b0fd04f41d0903e10c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "公文语料/文章结构模板.md",
+      "sha": "acc79f2a4a9a5025fabad53f7ea880a27695961c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "公文语料/结构全量统计.md",
+      "sha": "4a31688b8eb7e9d7887066428a28ed34c88c4290",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "公文语料/语言DNA.md",
+      "sha": "915da01608492acbf034bc0394d4cd137aec43b3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "参数卡.md",
+      "sha": "868fe7f4512a7337a39e87aa2280af7bcee76a1e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "参考/法定公文样例/README.md",
+      "sha": "fbb0d57de51566a7ae10789a442e019fb8658c25",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "参考/法定公文样例/决定_国务院关于修改和废止部分行政法规的决定.txt",
+      "sha": "cb71f0f1205bfabebe4456b64e606296999a2161",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "参考/法定公文样例/复函_国务院办公厅关于重点林区_十五五_期间森林年采伐限额的复函_林业.txt",
+      "sha": "5deded934a80edcce4533b67a73991ba58a9af74",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "参考/法定公文样例/批复_国务院关于同意将山东省潍坊市列为国家历史文化名城的批复_文化.txt",
+      "sha": "6a32278c4962059fccaae410de1935bd0bbd2e85",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "参考/法定公文样例/条例_国务院关于出境入境管理的规定_外交_外事.txt",
+      "sha": "f00450566ee838d0dc8082cbd373823ee44f1f2c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "参考/法定公文样例/条例_集成电路布图设计保护条例_信息产业_含电信_.txt",
+      "sha": "3ef4cc8fb659e0d42288f3db5e2fdcb10967102f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "参考/法定公文样例/通知_国务院关于印发_知识产权保护和运用_十五五_规划_的通知_知识产权.txt",
+      "sha": "84fd1133475d825c45e8535b8e1e53864214093d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "参考/法定公文样例/通知_国务院办公厅印发_关于国务院行政复议案件处理程序的若干规定_的通知.txt",
+      "sha": "ff54c0b12f7f6fd1b3c38933a06ffe15e3e69d6c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "句子对照库.md",
+      "sha": "4dab1a0ce7bdaf28a6020cb8c40376c32b08d3a0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "标题技法库.md",
+      "sha": "4dd7d13cdf6ad06effbcf73b9c40f5bb3a9d758c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/README.md",
+      "sha": "27a803605d95fd7233794382a78e53f73404e5b9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/党建经验材料_把组织优势转化为发展胜势.md",
+      "sha": "fb5d3cccdb8aeaf01633b91ed66bd8af944a12a4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/党建经验材料_流动党员离乡不离党的三张网.md",
+      "sha": "403aa6ecd6fd372374c33be80e6c9f63b3d0e2ed",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/党建经验材料_银发力量激活社区治理.md",
+      "sha": "fcbc384f51e5ebd07ee98aa51bcb2cd4fc3b9f52",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/工作意见_优化城乡社区岗位吸纳高校毕业生就业的实施意见.md",
+      "sha": "003940de3e8644d6d2c486e28ab51193219c85ca",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/工作意见_政务服务一件事一次办改革的意见.md",
+      "sha": "dd327e87af192f31a80ef0f59db23f6d4d9309ea",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/工作方案_低空经济应用场景培育工作方案.md",
+      "sha": "a6722797aa384559d91434658220a7f1fb5398a0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/工作方案_电动自行车充停设施补建和隐患整治攻坚方案.md",
+      "sha": "11a8a43b4080e4285da7c34c8dc2f26fce947aee",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/报告_2026世界机器人大会举办情况的报告.md",
+      "sha": "4a095df1346ad36bf31ec76f85efdb72dc3880e2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/报告_落实免费学前教育政策情况的报告.md",
+      "sha": "0a9f01275b0cfcb400fcdedb9f85dc24d59c364f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/短经验材料_流动服务队便民做法.md",
+      "sha": "ef10a351a1e1eda4c57861c1d02bc5fde7107122",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/短经验材料_错时服务让上班族不再请假办事.md",
+      "sha": "d43c997b675dcf735985eb5a3057cd57ccbf6df5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/短经验材料_驿站里多问一句骑手参保少跑一趟.md",
+      "sha": "3ff818fd73d65f3cd23cba74629c2c53432b785c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/经验总结_农村人居环境整治工作交流材料.md",
+      "sha": "42d732b47892d3c855117eeb88115da1621c471a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/经验总结_老旧小区改造工作交流材料.md",
+      "sha": "5defda78eb5be0e0cd7e8b83c2d694da3c731df6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/经验材料_矛盾纠纷调解一站式化解.md",
+      "sha": "bf25923d0bf99ce756456e11cb1525276b324a22",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/经验材料_社区助餐与居家养老服务.md",
+      "sha": "79d60d09d0e81507dba53e9d2a92e705c31881a7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/经验材料_育儿补贴免申即享的做法和启示.md",
+      "sha": "0dee0176cb7a8d6a09f9f6d28dcb454dc0fc3eed",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/调研报告_2026世界机器人大会考察报告.md",
+      "sha": "67c9a60fad0b579f7d943a578402b87e73b03d89",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/调研报告_制造业人工智能应用情况调研报告.md",
+      "sha": "177c0874ec9be3d807d07668db7d2ca51edadb12",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/领导讲话_全市乡村振兴观摩推进会上的讲话.md",
+      "sha": "9acac6c875fe2217f63eabbbcfeed0c5edf88b21",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/领导讲话_全市安全生产工作会议上的讲话.md",
+      "sha": "211d6859176f5abca773197b621a027fc5a8f698",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "示例/领导讲话_全市灾后重建工作推进会议上的讲话.md",
+      "sha": "8cb75d79b215737fdbb9b56ddca049a86f4c4b62",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "ccc5c9ffd4c415e2e021ba869ae40c254e498d2f": [
     {
       "path": ".gitignore",

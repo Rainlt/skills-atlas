@@ -587,6 +587,7 @@
     "image-to-editable-svg": ["research", "media", "documents"],
     "scrapling-official": ["automation", "data"],
     "wechat-article-reader": ["research", "automation"],
-    "paper-narrative": ["research", "writing"]
+    "paper-narrative": ["research", "writing"],
+    "lieflat-gongwen": ["writing", "documents"]
   }
 }
