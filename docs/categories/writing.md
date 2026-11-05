@@ -1,6 +1,6 @@
 # 写作、翻译与知识管理
 
-[返回总目录](../../CATALOG.md) · 101 个条目 · 分类为规则初分，欢迎纠错。
+[返回总目录](../../CATALOG.md) · 102 个条目 · 分类为规则初分，欢迎纠错。
 
 复制完整 ID 后运行 `python3 atlas.py download <ID> --dest ./downloads/<目录名>`。
 
@@ -11,6 +11,7 @@
 | [tailored-resume-generator](https://github.com/ComposioHQ/awesome-claude-skills/tree/be2a406907dbc61b73e6827ded415c96139d13a2/tailored-resume-generator) | Analyzes job descriptions and generates tailored resumes that highlight relevant experience, skills, and achievements to maximize interview chances | `ComposioHQ/awesome-claude-skills/tailored-resume-generator` |
 | [doc-coauthoring](https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/doc-coauthoring) | Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users ef | `anthropics/skills/skills/doc-coauthoring` |
 | [internal-comms](https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/internal-comms) | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status  | `anthropics/skills/skills/internal-comms` |
+| [lieflat-gongwen](https://github.com/larashero3-dotcom/lieflat-gongwen/tree/c9cdbd432713ca7eb9367bea22e6d2ee5c1cdab2/.) | 基于真实公文全量统计的公文写作 skill。分公文族与党建族两族，覆盖调研报告/领导讲话/工作意见/经验材料/工作方案/经验总结六类公文族文体，加千字级党建/基层经验材料一类，提供可验收的数值参数、骨架公式、标题技法和自动化自检脚本。触发场景："写一篇调研报告""起草领导讲话""写份工作意见""写篇党建经验材料""把材料写成经验总结""让这篇稿子更有公文味""检查这篇公文的参数对不对"。 | `larashero3-dotcom/lieflat-gongwen` |
 | [writing-plans](https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/writing-plans) | Use when you have a spec or requirements for a multi-step task, before touching code | `obra/superpowers/skills/writing-plans` |
 | [agent-memory-discipline](https://github.com/sickn33/agentic-awesome-skills/tree/a3072641b750a1fb2f6ce695a5f984ea3d4c3ec1/skills/agent-memory-discipline) | Rules for when an agent should recall from long-term memory before acting and when it should save decisions, corrections and failures afterwards. Works with any memory backend. | `sickn33/agentic-awesome-skills/skills/agent-memory-discipline` |
 | [app-store-changelog](https://github.com/sickn33/agentic-awesome-skills/tree/a3072641b750a1fb2f6ce695a5f984ea3d4c3ec1/skills/app-store-changelog) | Generate user-facing App Store release notes from git history since the last tag. | `sickn33/agentic-awesome-skills/skills/app-store-changelog` |

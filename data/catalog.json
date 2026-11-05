@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "snapshot": "0826a593f58c4353",
-  "generated_at": "2026-11-04T06:35:00.580862+00:00",
+  "snapshot": "0ee109d806b58259",
+  "generated_at": "2026-11-05T01:39:50.154438+00:00",
   "stats": {
-    "sources": 21,
-    "scanned_skills": 3965,
-    "unique_bundles": 3965,
+    "sources": 22,
+    "scanned_skills": 3966,
+    "unique_bundles": 3966,
     "exact_duplicates_removed": 0,
     "same_name_families": 97,
     "excluded_identical_distribution_copies": 5226,
@@ -416,6 +416,27 @@
       "repository_license": "MIT",
       "skills_scanned": 1,
       "url": "https://github.com/Githun1314/agent-wechat-reader",
+      "excluded_skill_files": 0,
+      "excluded_identical_distribution_copies": 0
+    },
+    {
+      "repo": "larashero3-dotcom/lieflat-gongwen",
+      "kind": "specialist",
+      "priority": 15,
+      "include": [
+        "SKILL.md"
+      ],
+      "pinned_commit": "c9cdbd432713ca7eb9367bea22e6d2ee5c1cdab2",
+      "discover_references": false,
+      "note_zh": "公文写作DNA：调研报告、方案与经验材料的结构、范文及参数自检。规则与有限脚本样例已评估，真实公文待实践。",
+      "compatibility": "核心指导无外部服务；自检脚本仅需Python标准库。参数不等于单位规范，经验总结百分比硬规则过窄，全角％漏检、要求词存在子串误计；按任务保留真实问题。PolyForm Noncommercial 1.0.0。",
+      "commit": "c9cdbd432713ca7eb9367bea22e6d2ee5c1cdab2",
+      "tree_sha": "ad0428d2984aa3e15cc8e8ce63c78443b082e13c",
+      "branch": "HEAD",
+      "archived": null,
+      "repository_license": "UNKNOWN",
+      "skills_scanned": 1,
+      "url": "https://github.com/larashero3-dotcom/lieflat-gongwen",
       "excluded_skill_files": 0,
       "excluded_identical_distribution_copies": 0
     }
@@ -46160,6 +46181,46 @@
       "upstream_category": null,
       "declared_risk": null,
       "compatibility": "未验证；请阅读上游要求",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "larashero3-dotcom/lieflat-gongwen",
+      "name": "lieflat-gongwen",
+      "description": "基于真实公文全量统计的公文写作 skill。分公文族与党建族两族，覆盖调研报告/领导讲话/工作意见/经验材料/工作方案/经验总结六类公文族文体，加千字级党建/基层经验材料一类，提供可验收的数值参数、骨架公式、标题技法和自动化自检脚本。触发场景：\"写一篇调研报告\"\"起草领导讲话\"\"写份工作意见\"\"写篇党建经验材料\"\"把材料写成经验总结\"\"让这篇稿子更有公文味\"\"检查这篇公文的参数对不对\"。",
+      "categories": [
+        "writing",
+        "documents"
+      ],
+      "tags_zh": [
+        "文档、表格与演示",
+        "写作、翻译与知识管理"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "larashero3-dotcom/lieflat-gongwen",
+          "path": ".",
+          "commit": "c9cdbd432713ca7eb9367bea22e6d2ee5c1cdab2",
+          "bundle_sha": "ad0428d2984aa3e15cc8e8ce63c78443b082e13c",
+          "skill_sha": "1c85b10532bd43127673827a37febef020a84d74",
+          "url": "https://github.com/larashero3-dotcom/lieflat-gongwen/tree/c9cdbd432713ca7eb9367bea22e6d2ee5c1cdab2/.",
+          "priority": 15,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "UNKNOWN",
+            "content_hint": "UNKNOWN",
+            "review_required": true,
+            "url": "https://github.com/larashero3-dotcom/lieflat-gongwen/tree/c9cdbd432713ca7eb9367bea22e6d2ee5c1cdab2/."
+          },
+          "notices": []
+        }
+      ],
+      "instruction_sha256": "0e739b2be9e6e7ac51034a9a7240bbe7bfd8c3d65b8785741ada7b7b2233e8ff",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "核心指导无外部服务；自检脚本仅需Python标准库。参数不等于单位规范，经验总结百分比硬规则过窄，全角％漏检、要求词存在子串误计；按任务保留真实问题。PolyForm Noncommercial 1.0.0。",
       "has_external_refs": false,
       "format_issues": []
     },
