@@ -7,9 +7,9 @@
 | 工具箱 | 能完成什么 / 例子 | 工作线 | 状态 |
 |---|---|---|---|
 | [科研工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/research-toolbox) | 从一个研究问题，到可核查的论文稿件；按已有材料进入当前环节。 例如：已有结果但主线不清时，选择证据支持的贡献，串起实验并改写摘要；不会把单次涨点写成根因。 | 调研 → 定题与研究方案 → 实验 → 分析 → 写作 → 复核交付 | active；文件与接线校验通过；SVG单例实测、论文主线三项合成行为试用；真实整篇论文待实践 |
-| [创意故事动画工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/creative-animation-toolbox) | 从一句想法、小故事或视觉创意进入故事、分镜、镜头、代码动画与实际视频，不要求先有讲稿或 PPT。 例如：把月亮追星星的点子发展成无声短故事 | 想法与故事 → 分镜与镜头 → 动画实现 → 导出与检查 | active；中文12秒连续机制与onetake同题比较已完成；吸收文字可读性与检查覆盖经验，保留默认引擎/组件；完整作品待验证 |
-| [科研动画工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/scientific-animation-toolbox) | 从论文、方法图、公式、实验结果或科学原理进入证据核对、机制分镜、动画和科学复核交付，旁白与 PPT 按需。 例如：从方法图找出需呈现的输入、关键处理与输出 | 材料与证据 → 机制与分镜 → 动画实现 → 科学复核与导出 | active；中文12秒连续机制与onetake同题比较已完成；吸收文字可读性与检查覆盖经验，保留默认引擎/组件；完整作品待验证 |
-| [动画共享能力与旧入口](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/animation-toolbox) | 共享资源与旧名分流；不代表第三套创作组合 例如：一句小故事直接进入创意，论文方法图直接进入科研动画 | 按材料选择一套动画工具箱 | archived；旧名继续只作兼容分流；共享指南已补中文可读性与自动评分覆盖边界 |
+| [创意故事动画工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/creative-animation-toolbox) | 从一句想法、小故事或视觉创意进入故事、分镜、镜头、代码动画与实际视频，不要求先有讲稿或 PPT。 动作或转场音效按需调用。 例如：故事里的纸卡滑入时配短滑动声，已有声音直接沿用 | 想法与故事 → 分镜与镜头 → 动画实现 → 导出与检查 | active；中文12秒机制与onetake比较已有记录；新增CC0音效搜索/下载和两处同步测量通过，未试听，完整作品/旁白待验证 |
+| [科研动画工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/scientific-animation-toolbox) | 从论文、方法图、公式、实验结果或科学原理进入证据核对、机制分镜、动画和科学复核交付，旁白与 PPT 按需。 动作或转场音效按需调用。 例如：数据块更新时配轻短提示，声音服务机制理解，不暗示真实计算耗时 | 材料与证据 → 机制与分镜 → 动画实现 → 科学复核与导出 | active；中文12秒机制与onetake比较已有记录；新增CC0音效搜索/下载和两处同步测量通过，未试听，完整作品/旁白待验证 |
+| [动画共享能力与旧入口](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/animation-toolbox) | 共享资源与旧名分流；不代表第三套创作组合 例如：一句小故事直接进入创意，论文方法图直接进入科研动画 | 按材料选择一套动画工具箱 | archived；旧名继续只作兼容分流；共用声音选材、时间对齐与来源记录指南，默认组件不增加 |
 | [汇报工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/reporting-toolbox) | 围绕已有工作共用结论与证据，按阅读、现场演示或继续编辑的目标选择一条汇报制作路线。 例如：把实验记录做成组会 PPTX；把论文机制做成图解网页；做一份瑞士风现场演示。 | 组织内容与证据 → 选择一种交付制作 → 核对并交付 | active；公开论文三份6页同题样例与匿名成品复核已完成；网页编辑操作通过，PPTX导出/候选完整流程限制见私有正文；未做真实听众测试 |
 | [软件开发工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/software-development-toolbox) | 从想法到可运行软件，合并需求与计划，按需组织接口、分步实现、验证、复核和交付；前端与网页测试有需要才加入。 例如：把论文阅读工具的保存、筛选与完成条件写在一份记录里 | 需求与计划 → 架构与接口 → 分步实现 → 验证 → 复核 → 交付 | active；固定文件与按需入口已准备；受控本地网页9项行为通过，正式软件/生产发布待验证 |
 
