@@ -11,6 +11,7 @@
 | [科研动画工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/scientific-animation-toolbox) | 从论文、方法图、公式、实验结果或科学原理进入证据核对、机制分镜、动画和科学复核交付，旁白与 PPT 按需。 例如：从方法图找出需呈现的输入、关键处理与输出 | 材料与证据 → 机制与分镜 → 动画实现 → 科学复核与导出 | active；中文12秒连续机制与onetake同题比较已完成；吸收文字可读性与检查覆盖经验，保留默认引擎/组件；完整作品待验证 |
 | [动画共享能力与旧入口](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/animation-toolbox) | 共享资源与旧名分流；不代表第三套创作组合 例如：一句小故事直接进入创意，论文方法图直接进入科研动画 | 按材料选择一套动画工具箱 | archived；旧名继续只作兼容分流；共享指南已补中文可读性与自动评分覆盖边界 |
 | [汇报工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/reporting-toolbox) | 围绕已有工作共用结论与证据，按阅读、现场演示或继续编辑的目标选择一条汇报制作路线。 例如：把实验记录做成组会 PPTX；把论文机制做成图解网页；做一份瑞士风现场演示。 | 组织内容与证据 → 选择一种交付制作 → 核对并交付 | active；公开论文三份6页同题样例与匿名成品复核已完成；网页编辑操作通过，PPTX导出/候选完整流程限制见私有正文；未做真实听众测试 |
+| [软件开发工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/software-development-toolbox) | 从想法到可运行软件，合并需求与计划，按需组织接口、分步实现、验证、复核和交付；前端与网页测试有需要才加入。 例如：把论文阅读工具的保存、筛选与完成条件写在一份记录里 | 需求与计划 → 架构与接口 → 分步实现 → 验证 → 复核 → 交付 | active；固定文件与按需入口已准备；受控本地网页9项行为通过，正式软件/生产发布待验证 |
 
 ## 调用与维护
 
