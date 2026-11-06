@@ -858,6 +858,27 @@
       "level": "metadata_reviewed",
       "date": "2026-11-06",
       "note": "核对README、router用途与按引擎/任务分流、固定来源及目录结构；用户要求仅收录，未安装、未运行游戏或上游代码。"
+    },
+    "alchaincyf/darwin-skill": {
+      "commit": "8a8b66258e3c45d6ae4aea39719468c6428fcb0a",
+      "bundle_sha": "7763cff02c78b3fbd54d424a0bb6392d2f0035fa",
+      "level": "metadata_reviewed",
+      "date": "2026-11-06",
+      "note": "Skill有限优化与同题成品对照；已复现原版版本配对和平局保留边界，采用方法融入现有toolbox-builder，不运行自动Git优化循环。；具体执行与限制见私有方法库记录，不据此标为完整任务已验证。"
+    },
+    "alchaincyf/huashu-design": {
+      "commit": "b2460b031c33ff32d2bf3b97263527daa231e4de",
+      "bundle_sha": "ade3656c17e054fdb69062e02a671bb28c209e0b",
+      "level": "metadata_reviewed",
+      "date": "2026-11-06",
+      "note": "内容导向视觉参考与渲染事实体检；已测缺图/低对比/小字及依赖缺失边界，只吸收方法，不替换现有设计默认项。；具体执行与限制见私有方法库记录，不据此标为完整任务已验证。"
+    },
+    "alchaincyf/huashu-art-motion": {
+      "commit": "8a0d7d72ca65fcce6f8ba82c4a6c8dfe35b8422c",
+      "bundle_sha": "7ca1ca96927cb86e689cf0e7cfe8f99bd836d128",
+      "level": "metadata_reviewed",
+      "date": "2026-11-06",
+      "note": "参数化艺术动效与白板场景；8秒中文片段已导出，文字审计存在动态遮挡边界，运动/颜色阈值需按用途解释，不替换现有动画默认引擎。；具体执行与限制见私有方法库记录，不据此标为完整任务已验证。"
     }
   },
   "policy": {
@@ -937,6 +958,27 @@
       "游戏工具箱",
       "角色移动",
       "关卡设计"
+    ],
+    "alchaincyf/darwin-skill": [
+      "darwin",
+      "技能优化",
+      "skill精简",
+      "技能对比",
+      "改进技能"
+    ],
+    "alchaincyf/huashu-design": [
+      "huashu design",
+      "花叔设计",
+      "设计体检",
+      "字体对比度",
+      "视觉设计"
+    ],
+    "alchaincyf/huashu-art-motion": [
+      "art-motion",
+      "花叔动画",
+      "白板动画",
+      "手绘动画",
+      "动效检查"
     ]
   }
 }

@@ -1,6 +1,6 @@
 # 通用开发与工程方法
 
-[返回总目录](../../CATALOG.md) · 401 个条目 · 分类为规则初分，欢迎纠错。
+[返回总目录](../../CATALOG.md) · 402 个条目 · 分类为规则初分，欢迎纠错。
 
 复制完整 ID 后运行 `python3 atlas.py download <ID> --dest ./downloads/<目录名>`。
 
@@ -11,6 +11,7 @@
 | [skill-share](https://github.com/ComposioHQ/awesome-claude-skills/tree/be2a406907dbc61b73e6827ded415c96139d13a2/skill-share) | A skill that creates new Claude skills and automatically shares them on Slack using Rube for seamless team collaboration and skill discovery. | `ComposioHQ/awesome-claude-skills/skill-share` |
 | [template-skill](https://github.com/ComposioHQ/awesome-claude-skills/tree/be2a406907dbc61b73e6827ded415c96139d13a2/template-skill) | Replace with description of the skill and when Claude should use it. | `ComposioHQ/awesome-claude-skills/template-skill` |
 | [twitter-algorithm-optimizer](https://github.com/ComposioHQ/awesome-claude-skills/tree/be2a406907dbc61b73e6827ded415c96139d13a2/twitter-algorithm-optimizer) | Analyze and optimize tweets for maximum reach using Twitter's open-source algorithm insights. Rewrite and edit user tweets to improve engagement and visibility based on how the recommendation system ranks content. | `ComposioHQ/awesome-claude-skills/twitter-algorithm-optimizer` |
+| [darwin-skill](https://github.com/alchaincyf/darwin-skill/tree/8a8b66258e3c45d6ae4aea39719468c6428fcb0a/.) | Darwin Skill 2.0 (达尔文.skill 2.0): autonomous skill optimizer, v2.0 integrates Microsoft Research SkillLens (arXiv 2605.23899) 9-dim rubric + SkillOpt (arXiv 2605.23904) validation-gated design + human-in-the-loop checkpo | `alchaincyf/darwin-skill` |
 | [discernment-nudge](https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/discernment-nudge) | After you give a substantive answer or draft that the user may act on — advice or recommendations, drafted artifacts such as goals, plans, pitches, proposals, or emails, estimates or projections, analysis or interpretati | `anthropics/skills/skills/discernment-nudge` |
 | [skill-creator](https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/skill-creator) | Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill pe | `anthropics/skills/skills/skill-creator` |
 | [game-ai](https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/game-ai) | Design NPC and enemy decision-making with finite state machines, behavior trees, steering behaviors, and A* pathfinding — engine-neutral algorithms that pair with the detected engine's navigation API. Use when building e | `gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/game-ai` |

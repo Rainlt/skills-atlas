@@ -21937,6 +21937,5934 @@
       "type": "blob"
     }
   ],
+  "7763cff02c78b3fbd54d424a0bb6392d2f0035fa": [
+    {
+      "path": ".gitignore",
+      "sha": "f93e89bdba30d4fe78cfd0d895a875eae51d9c54",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "60797866e4ebc7b608a87e590eba4f3a817511a3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "README.md",
+      "sha": "6dfbb1db14b30314abdac08cd70f4ab99b534a75",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "README_EN.md",
+      "sha": "828c8e4edb4844e1e130f9f7d28bbe73931efaa6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "40edb0b9196d65ffb9296bd5d9ef443565dee080",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/aso-hero.png",
+      "sha": "ee993c7e49fbcee4829ae9a48701c11bd3671d91",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/banner-check.png",
+      "sha": "0a0e3759bee35e766600302c143aa7c05a1dd790",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/banner-en-check.png",
+      "sha": "e2410a1741ca7effdb948dc610693c764d16f18a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/banner-en.svg",
+      "sha": "3e7c0ecf79d25bd1bd117c1fbb325367a76954ad",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/banner.svg",
+      "sha": "ad4e909dfdb322c1a58b92d7b9540a69dcaed1c6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/chart-loop-en.html",
+      "sha": "27e0061dcaf16a02ec06f0c444ba77b7d1f7e3c7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/chart-loop-en.png",
+      "sha": "cc002dd8754829b337f0f227604dc1b1b7ebff63",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/chart-loop.html",
+      "sha": "b53ebbd29c84d36d6993ccc25ceabe2855bef13d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/chart-loop.png",
+      "sha": "b86dc39a3f3ceb390d5278c7b2808c9d888df1aa",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/chart-phases-en.html",
+      "sha": "212958efdbe05326d0aca6765bfa18be8f5d6230",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/chart-phases-en.png",
+      "sha": "32233448f1c41d0a847f69db2abd0952ee251489",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/chart-phases.html",
+      "sha": "bc3afbcc776a6264fb3a28295a1b9bc42233eccf",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/chart-phases.png",
+      "sha": "c71bccd3009644db354db3c81fe64aed6cc3103d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/chart-ratchet-en.html",
+      "sha": "ee5cd83713718bc994e222e1a8f95486ee14a77c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/chart-ratchet-en.png",
+      "sha": "c3ae3d026def19a4ec29abd2b754806ccc60874d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/chart-ratchet.html",
+      "sha": "f427a8fcb1527258308ab8c2d8f7903cb4adeb64",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/chart-ratchet.png",
+      "sha": "fdd737061339f491c89f94042d99c92784f7fd5e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/chart-rubric-en.html",
+      "sha": "869c61ea0d4fd2212e21b7b471ab3dcd59febe33",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/chart-rubric-en.png",
+      "sha": "b010f62c987045223fff2d769d71d7e52a922b3c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/chart-rubric.html",
+      "sha": "5ecfbafd7f45cea28e803ac41379d4951bacbb5a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/chart-rubric.png",
+      "sha": "0548ab8af39078bb50a71fe08ce0a78636ac9475",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/hero.gif",
+      "sha": "c7c7cf819950d068ec988ac8f69824e3494a277e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/result-card-example.png",
+      "sha": "94557121e9030a75e42d3345e182bdbf837c48dc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "docs/index.html",
+      "sha": "167c05fda9771e47e41a2c16e329782f263f99b1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/runtime-neutrality.md",
+      "sha": "7fe8a7dde146b40dfd1e36d8f1f12cd4d270d0bb",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/skilllens-evidence.md",
+      "sha": "b76863a4e2e5c10242368b4439454a2812f3bab4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/screenshot.mjs",
+      "sha": "9530374aee2d762fc13af7898bf2e11215130c32",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "showcase.html",
+      "sha": "167c05fda9771e47e41a2c16e329782f263f99b1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "templates/result-card-dark.html",
+      "sha": "939016697f1f9f1b6ed876f453ffa848a2276da6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "templates/result-card-white.html",
+      "sha": "510c314e4397f25d3ee12140ccea7aa19b7d6e5e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "templates/result-card.html",
+      "sha": "da6732f9b4d5be56294fab9aa1ae6f7a867213f1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "templates/result-card.png",
+      "sha": "94557121e9030a75e42d3345e182bdbf837c48dc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "test-prompts.json",
+      "sha": "7dbe5b793bb6721db2aac0e59f0bd98cc79831b3",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "7ca1ca96927cb86e689cf0e7cfe8f99bd836d128": [
+    {
+      "path": ".github/workflows/tests.yml",
+      "sha": "b1f4db143d63a9a38270b277efaef900c399305a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": ".gitignore",
+      "sha": "b8f8fa40a91d2714418a03cd1be0512c9e84044c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha": "9403eedcdd5635576fcc821f7feb3e022dc9ca30",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha": "4cf71c00a98f54dea72a0cbc5ad44b556d2dce3d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "ed67368a2a79ed7be97b2a4852330cdac5b8b12a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "README.en.md",
+      "sha": "cc7256b605dcfbabc391f36c1a87012f729998a9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "README.md",
+      "sha": "dd4c850be3822567ee5445963bb59ee039dcfa17",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "73f2248675f92a2b1928fa0d35e8369a3ea2292a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcase/clawd-clips.md",
+      "sha": "056af58ced26610a25c4a45443132fb06a3fe0a1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcase/clawd-dawn.gif",
+      "sha": "c8d061705d1f8400cc9cd859cb6a0d5460a951e3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcase/clawd-trex.gif",
+      "sha": "bfd1cae6340dc21e0e4894d020314f8a14dda69d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcase/clawd-vangogh.gif",
+      "sha": "07e25083376cf7fbfb37c02c110c274eec9e1d52",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcase/egypt.gif",
+      "sha": "fac4f54e69bbd4f0aba510846beb8a29ff910386",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcase/hero.png",
+      "sha": "1caac91f2de63bdba028aeb2695e02a1fa8f35d4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcase/mario-claude.gif",
+      "sha": "4d949644aed9e962a12a465342bec0b0dc069023",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcase/mario-clips.md",
+      "sha": "b7f7df7fce8f9a29bf2f2265c1fff6eab977a095",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcase/mario-combo.gif",
+      "sha": "331e39379e54b8d83b4e4cda53676477f67ed42c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcase/mario-pipe.gif",
+      "sha": "26521430234320d227f4e6ec219ea1f7fd76e808",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcase/monet.gif",
+      "sha": "9a70a6f0a2d843f5254eea1bd677a74bc0724f4b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcase/pixel.gif",
+      "sha": "1e6568d98df0b3454decabeadcd039fce7fa80d7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/全风格总览.jpg",
+      "sha": "9f834ab2eb4a6f99680765114fe057b734e28556",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/动画语法/t1_3b1b_总览.jpg",
+      "sha": "822f07d52d2a7af536a481946aec8aca7cd2f367",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/动画语法/t2_keynote_ui_总览.jpg",
+      "sha": "2db960251fb00bc8d33f5ccc1f93f9c9b754f0f4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/动画语法/t3_finance_chart_总览.jpg",
+      "sha": "8ae77d02479d189782885f29ab7949875bda427b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/动画语法/y1_kurzgesagt_总览.jpg",
+      "sha": "df0f5dea278bffeccc6e3b42fc723d22d7c45597",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/动画语法/y2_vox_总览.jpg",
+      "sha": "92f6230119af65813eafb808a27571b3a207302b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/动画语法/y3_whiteboard_总览.jpg",
+      "sha": "0e19c2cb4605da1b140c9600bd9d3205d90cb610",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/动画语法/y4_storytime_总览.jpg",
+      "sha": "b2d9dedbc8677869b86bcdbe749853e39039e041",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/动画语法/y5_kinetic_type_总览.jpg",
+      "sha": "b1a547c25039f489a2594b683fb7659b3e3e6671",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/新风格v2_证据/38_giotto.jpg",
+      "sha": "a2c4d42555097591351d32deaa22e5cc098d858a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/新风格v2_证据/40_raphael.jpg",
+      "sha": "24b37de5cedd73017a11983cc0b759a8e9df79b8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/新风格v2_证据/41_michelangelo.jpg",
+      "sha": "8f833f4a8f58d952bd482fdca88b859883522405",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/新风格v2_证据/43_lorenzetti.jpg",
+      "sha": "7ba37029c0a6c7b151b9f21bf81a4e621d908efb",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/新风格v2_证据/44_cortona.jpg",
+      "sha": "2d54093e6a1b7bdb92fda78f6a5c4f5a693406e8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/新风格v2_证据/46_pissarro.jpg",
+      "sha": "b9a4ae6036ca4e0b014020e56ad62be530d181e2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/新风格v2_证据/47_sisley.jpg",
+      "sha": "8d553e83b900911e27eae4df4ed9342acd43dfe0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/新风格v2_证据/48_gauguin.jpg",
+      "sha": "b0b4aefdc8d6068570f97fcb0f2270b2c57f9db5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/新风格v2_证据/50_ma_yuan.jpg",
+      "sha": "8ebe70225f3512892b1d6b1c36cd289a2c449823",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/新风格v2_证据/51_persian_miniature.jpg",
+      "sha": "477988a7c4e30c6355906e41b117fba0925d5234",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/新风格v2_证据/总览.jpg",
+      "sha": "42845352791fa88f27399b91b371b656e55ae870",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/角色/花叔形象_对比.jpg",
+      "sha": "5460db2eb48e87ae288b1cec3c8260821aaf80c4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/长卷穿越_总览.jpg",
+      "sha": "26c83738d1eceb34859fc12b7b17a0a21ccd93ab",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "defaults/media.json",
+      "sha": "a04ecc4dc9f0d2121a68d7edb080c88ef66812f8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/01-拆解.md",
+      "sha": "0133872dddf70e4a428a1e567455aba233a9e6ad",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/02-机制.md",
+      "sha": "316567657b107b1af2dffbb91e88ec9d7acce5a4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/03-一帧先行四条路线.md",
+      "sha": "e459acd1fc7647d9f8e03cd64c99bca81c932c1f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/04-纯代码绘制.md",
+      "sha": "832d59eddb107a1197c6ac27a62f962a11ddc8c0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/05-节奏与配乐.md",
+      "sha": "27b893f68b791fba84de07ef069dd41243e40be8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/06-口播驱动的艺术短片.md",
+      "sha": "d575b989ab3cb7aa42618316120945ad984bbc2b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/07-正面经验.md",
+      "sha": "8740be767957e0db7a64fb46b4a3c1e957e9cc3a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/08-风格作者规范.md",
+      "sha": "88a1f31b770b4e3165e2d930aff99313510e0354",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/09-视频动画语法.md",
+      "sha": "0ecd580c1667a0ad6cbf2bec97d3b28230a76257",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/10-角色.md",
+      "sha": "f6bd1a94d8ce2723f181c759866319f174819cf5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/11-长卷穿越片.md",
+      "sha": "f1c22d0dab835a874e9fc89df2e2d304a454546a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/12-口播整片与经验回流.md",
+      "sha": "0ad71ec640a57f6e1934fe68b087f46f40aa605e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/13-口播与语音复刻.md",
+      "sha": "56fc1521502ca3f9e13d4609f00c9a0d2dc13042",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/15-跨场景风格提炼.md",
+      "sha": "0d5b0cb60beeb3929fc7133b0922b8378daab5be",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/16-风格演示95分协议.md",
+      "sha": "1dffc895f5924d0e96099fd79e02172ebe72e25e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/about-author.md",
+      "sha": "171ab35fc0ae4c8aa42248416168106b8892c71c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/capabilities.md",
+      "sha": "35a8872afe414d6dc5ed456600251487ffba3731",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/compatibility.md",
+      "sha": "9d0d9e3268b549285e14838d24c505d2af1a0302",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/images.md",
+      "sha": "78fbb82b06b696752b0a4ba6bb2f7238e5dcff72",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/voice-model-review.md",
+      "sha": "01a3dc174cb7aedb2b0a600a3472f93e35118238",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/动画语法/t1_3b1b.md",
+      "sha": "9d65e7586641c3b4ce929aa99078d37bea43c9e1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/动画语法/t2_keynote_ui.md",
+      "sha": "d923fd02db4ae0d8de50f6c20a7cd353746bd8ca",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/动画语法/t3_finance_chart.md",
+      "sha": "e340c36a81af2721bbd1799330416dd42237ad18",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/动画语法/y1_kurzgesagt.md",
+      "sha": "facfc8228b10cca1c4cb24b3c412de578db04a17",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/动画语法/y2_vox.md",
+      "sha": "ffcdb0c8a7047452aa4289263c43bebd4787a726",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/动画语法/y3_whiteboard.md",
+      "sha": "1ceef5f8176276b57e434e1c3a85f487d09357d4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/动画语法/y4_storytime.md",
+      "sha": "6e99470145c510ceee4f28b4cba96474345d082b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/动画语法/y5_kinetic_type.md",
+      "sha": "5583e154912cfd3d07bd37bd8e8439ce239adc93",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/动画语法/y6_presenter_explainer.md",
+      "sha": "94a88fcbc122bec2d8abf0daa553394ec683c7bc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/口播API.md",
+      "sha": "c3177bd8c791495c02e9de8ad10e29375b439d7e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/色板.md",
+      "sha": "78e7759a5c67d38c39b76ee8c2837d4cf844f202",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/角色精细度.md",
+      "sha": "8a7222d074c6582e9d943ef99739481cedd01e4a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/镜头表模板.md",
+      "sha": "e0e565b817ac5c75ad97fc5aba222216981fae37",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/镜头语言.md",
+      "sha": "8d6d7e7ccd5cc8106bc0e683c8e9d4f19095416d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/01_cave.md",
+      "sha": "281849af2ec23f0dfe9379bd4382c479602be848",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/02_egypt.md",
+      "sha": "0816d71077f573a2194c75abbc738bfee336d84a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/03_greek.md",
+      "sha": "a4b3e6c7fd1ec88d5c2c28da1b80cc5b9539982a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/04_roman.md",
+      "sha": "7131869ee44abd191680a23d4e6b6f70a57b7a47",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/05_gothic.md",
+      "sha": "0ed79e239d6edf7da7e1fd8259149ed5c1971f25",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/06_renaissance.md",
+      "sha": "8405bcd6bea31e56be7dc6929cf402c25bceae9a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/08_impressionism.md",
+      "sha": "a2593e5103152fe2af2dac0f10f28e9b80acaa9a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/09_postimp.md",
+      "sha": "50d7c8d8711fd19c46cd101742d36fc071f92457",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/10_nouveau.md",
+      "sha": "71ac0d6a18dc0f248821e7e749c450c1fafd7795",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/11_cubism.md",
+      "sha": "40a647b8cc1a2980517fb9bea319f8166f47f2d4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/12_bauhaus.md",
+      "sha": "cbc2298776594978409e539b321d1ee35f08a667",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/13_pop.md",
+      "sha": "a940e8512e82383be22f0605f3950adbfa378a72",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/14_8bit.md",
+      "sha": "042c11185a9d4007572ff0a0b4a3ef83364de95e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/15_raytrace.md",
+      "sha": "2a1638c282defbd8c089ee382d553b143c8d28a5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/16_2026.md",
+      "sha": "e092f569a849dc774fd7cd37d4e8a96f2f6ac3b4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/17_ink.md",
+      "sha": "6a8e4c4188211cb16c0a71205f42cf08250f994b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/18_klimt.md",
+      "sha": "29178ca219f622ea7cbf06db0b29f8d768397d50",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/19_munch.md",
+      "sha": "09111285f852c039616afdf081c46fc8b6e71faa",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/20_dunhuang.md",
+      "sha": "cd301f2fab6d9b817daeddee9cde9ea8a708584d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/21_kusama.md",
+      "sha": "b95a193aa1b64e88e6631bc444420a892c4d9454",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/22_constructivism.md",
+      "sha": "ea5e95da0a2d2f35a450ed5670501bf81fbf963b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/23_dali.md",
+      "sha": "4b4a54a86479e30c6f8d85fca80e55a04961f0af",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/24_hopper.md",
+      "sha": "b48b743d9a5dd73c948a9e15b83e0ac7c19eb605",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/25_ghibli.md",
+      "sha": "b7af3b709818dbfd24c1e887a857714d4246d209",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/26_vaporwave.md",
+      "sha": "1087ae6cf953930c875229296c5f28a31bf6bfd0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/27_kirby.md",
+      "sha": "d213d6e2eadb60dad124a8ed8e5cab299daf88c6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/28_monet.md",
+      "sha": "cef93afef28257b46fadf2963b672ca180cea615",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/29_seurat.md",
+      "sha": "5b5cf9405b6f1967379fcd07c1e979021bf59ec4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/30_matisse.md",
+      "sha": "2f9ada95b11f46fe98cacbe4970c5e93c74d0ea7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/31_haring.md",
+      "sha": "147e6969b8c1a93139b9c64e41f99ed60f0df005",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/32_rembrandt.md",
+      "sha": "80793558e729c97b7290f733a01ab6287e78345c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/33_rubberhose.md",
+      "sha": "a2e4c90725a2ff06e221b8aedeb9cb1c85dc044d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/34_shadowpuppet.md",
+      "sha": "2fe632891b668d13354893a9767029943c8c647b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/35_shinkai.md",
+      "sha": "584b6c653e83651f87885347b2af6e54a2d6b380",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/36_picasso_blue.md",
+      "sha": "fa017a3cb04a4ba54fb13bcfb0ad83eb0abef41a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/37_rick_morty.md",
+      "sha": "6dccdb9dfbc7dde13a946aa06e29be12d3baee59",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/38_giotto.md",
+      "sha": "53a0568f2ec5fee019ecbde859a036db10a7aa21",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/39_piero.md",
+      "sha": "0c5f6291c195c6b6e99e5a8ae31bda561e98b978",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/40_raphael.md",
+      "sha": "7a546c9f1d06aa9d0fca90b5705688bf9ddbb6c2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/41_michelangelo.md",
+      "sha": "8517df15c3d0412ad8c8253a5b73b841f1280b6c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/42_guardi.md",
+      "sha": "015c11990f7887917949f280ca173ef91c5b4d60",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/43_lorenzetti.md",
+      "sha": "9541f2a8fb089f6fb20bb4cefdda7c47d535b1e7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/44_cortona.md",
+      "sha": "1f3d66ffafce88b428ebd44b97a912bbb86c7741",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/45_renoir.md",
+      "sha": "7f87cc6a77a2bd518c38062bbb016b313d450b6c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/46_pissarro.md",
+      "sha": "c2fffa92ff4549e781a1f251237b9f0101e990f7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/47_sisley.md",
+      "sha": "2c227901c701006bab039017cadf65749f2d66a6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/48_gauguin.md",
+      "sha": "781e1022b40f70558bb4c8663400e41d8e53b678",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/49_chagall.md",
+      "sha": "5a668e8f8917d9079143c85f1ceeef86c41ffff4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/50_ma_yuan.md",
+      "sha": "d94b1343ee902a58d525486de0cfef9162a1fa45",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/51_persian_miniature.md",
+      "sha": "f70e8334aa1016f7f07f393bfab2c12582fb9192",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/52_south_park.md",
+      "sha": "9e22a52e302522cdacb21718352ab53acb801394",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/53_pixar.md",
+      "sha": "d5c33cee0588ce94959a135a1c5c85e111657ea3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/55_dunhuang.md",
+      "sha": "d25e3f27c1a49d8bd6f61d11ad30f0d52c79d2ad",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/INDEX.md",
+      "sha": "6d0b8906c24cc334c52cb2be3dc35bf0737499ab",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/_转场_迁移测试.md",
+      "sha": "4f05627ad08f882241adebe304a7b6e7c3d1a616",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/_重做进度.md",
+      "sha": "9ceff0130cd15a79b0ae3e27637cf564a57a7ba3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/风格配方/_音轨_艺术史速通.md",
+      "sha": "070a0fe0f88bf1e49beaefd25318a543f2a811b0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "release-manifest.json",
+      "sha": "33994a4b473e47bbec643b28114da592ab7dff4e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "schemas/media.schema.json",
+      "sha": "7b88da369cb85d67ede377bf6afa4c13616dbc67",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/analyze/breakdown.py",
+      "sha": "ed52b8eb857f002abc30dd9afbb7ef39d1aaff41",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/analyze/fetch_reference.py",
+      "sha": "ef0f05969a85794e9b057260dea6009562299b46",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/analyze/regress_clips.py",
+      "sha": "9f9cca78b3d5e532d38a902a2ff9c088c899048c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/analyze/side_by_side.py",
+      "sha": "71dec5dc2bf7ca150533a18f59ec13b3d69a53a8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/analyze/stress_clip.py",
+      "sha": "c902ac1e0159d378bfcb3f40faf501e6c9568adf",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/audio/synth_艺术史速通.py",
+      "sha": "4a987fa9241f0c4b765b534e2ea56d66ad3977df",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/capabilities.py",
+      "sha": "00df4f64d2de35afe5158f097060b56c6c9e8ed0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/check_release.py",
+      "sha": "a44e47eff084eafa351865ff61332cba81056224",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/clip_lint.py",
+      "sha": "d07cf00332623d2901aadf66c6b3ec63033a7e85",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/deliver.py",
+      "sha": "19b46010824d2ba7d0b2a6fefcc60d1552d3e82d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/audit_clip.py",
+      "sha": "86531fb9729e263aea18ff3c1f2087645285a220",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/clip.html",
+      "sha": "cfe53e3700fe0d9a17a54550bebf1b195920197d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/clip.js",
+      "sha": "e0536dab8c0d1f5ce86669f15b2833b694389a11",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/clip_schema.json",
+      "sha": "b16e7e7aa087f9b29c9960f8b5e5eca0d016d20b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/clips/t1_3b1b.js",
+      "sha": "4bc656b603a341f080708c8dea2d2110c079bfa5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/clips/t2_keynote_ui.js",
+      "sha": "2a37bd961b5fed20e62c127294bcf47e3daa4300",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/clips/t3_finance_chart.js",
+      "sha": "67a378620483b762aaee1f31d6ef4383b3b2b782",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/clips/y1_kurzgesagt.js",
+      "sha": "c9d322f3fe5e4458aecae132b4f96783f9f536e6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/clips/y2_vox.js",
+      "sha": "86c516af2a2fc750187d9edddb0595e06016f26a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/clips/y3_whiteboard.js",
+      "sha": "a489f3ad4a69693eb6ce7fceafac307ceaa6f357",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/clips/y4_storytime.js",
+      "sha": "4d30c1f2368bc88bbdf66133e97701e57251dc17",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/clips/y5_kinetic_type.js",
+      "sha": "23d421c5cbbb432ec87e2864c776e1302009b598",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/compare.py",
+      "sha": "13c27ea81afff69c88775c814cbc01f31ca69219",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/_shared/hero.js",
+      "sha": "80ee1925127970f3fe16860e90d117674416bc1e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/_shared/hero/c1_0.png",
+      "sha": "47c62308a8081c74ff61b779e1c27a013fda3749",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/_shared/hero/c1_1.png",
+      "sha": "86ec86c47fb1479585c9e6fd50f8ff59889dc4e5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/_shared/hero/c1_2.png",
+      "sha": "a576008ac1d7fc6a072056581245368b2e808a4b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/_shared/hero/c3_line.png",
+      "sha": "45ae5035c2d11a471b5d09cb81d96d33a669eda5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/eras.js",
+      "sha": "6c4b39a5568ae43d08a5d943efb0688e08151a1b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_act/01.png",
+      "sha": "3ffb186c4c8deaae62511e31041a8644d958c123",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_act/02.png",
+      "sha": "f4fc4d8b948352107ad921aa6b3263764f549d27",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_act/03.png",
+      "sha": "b7e595902959f400001b91062acf9f180f65e120",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_act/04.png",
+      "sha": "9ff1e99bbeb648088bec44346aeaf54ca125aa11",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_act/05.png",
+      "sha": "f12d09d7b63e40f07319a18b51d7001deb158aea",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_act/06.png",
+      "sha": "cb8c3074c785fff766f009a965961331430d1ead",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_act/07.png",
+      "sha": "800875a88f21f294aed0c834955efba2d078fa19",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_act/08.png",
+      "sha": "b33ac72e30b5b2ea4364af19e33ada4acb4b8942",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_act/meta.json",
+      "sha": "af6de690c64170414ebe6c62c308f204cad49840",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/01.png",
+      "sha": "82a071c1fd45d24e30b86f7676de6c088995955c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/02.png",
+      "sha": "31a98062b284b3f661927c2f83428e372429437c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/03.png",
+      "sha": "73c02cfe1becb0bcfdfe8f1a4082b91a9bc869f5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/04.png",
+      "sha": "395e4072b4212adc2b48b1f0c02d946fee1b1f6a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/05.png",
+      "sha": "e60019f5959f5b07b04aa795ebe64c49b6a1c703",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/06.png",
+      "sha": "99a872edc266adcec16a8ba785fe04d27bae1d5b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/07.png",
+      "sha": "e762a2e6efc7230bf2eac7340cf294ec71a89f91",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/08.png",
+      "sha": "28d75bc79cbe258e77b59cd30893689db41f0543",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/meta.json",
+      "sha": "2181be41b069f3126fce576bba0a9a72f435e55f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/01.png",
+      "sha": "3a03ebf0b8b6ab656fb18c087176be7d802271ae",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/02.png",
+      "sha": "99def0989c87d509f4c1cc5d405cf7a409eb6c1e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/03.png",
+      "sha": "f1e7f5184f1f57cdc19a79157314cc6e7a520750",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/04.png",
+      "sha": "d275318fbf77259d157e993ecd08d84f8e4013d7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/05.png",
+      "sha": "93081fbed63baf388485f9914ed6486d4424db67",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/06.png",
+      "sha": "7e26cef3977cc0373447cd179aa7067f93757bc2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/07.png",
+      "sha": "11ab597c6ade99cc4c07b5e1ed5ceb53cbcc48bd",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/08.png",
+      "sha": "90f53c0bd6d7c40831ef1792606e29704949d2bc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/meta.json",
+      "sha": "464923c365f6438042be2964671d6165b790a033",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/01.png",
+      "sha": "029228ec696c29e69ab79a506ec987f77bd746c3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/02.png",
+      "sha": "9e3460e13f50ffb568becd478902c52a3f3f4788",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/03.png",
+      "sha": "06aaf9957cbc2fb69bdda16a8f533f7df057f4c0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/04.png",
+      "sha": "008e226d49ce38052af76684036652505a68154a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/05.png",
+      "sha": "f7cd5d996ac8a85fac45a163a6a8c0d41ed13739",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/06.png",
+      "sha": "5a78c8d4e50c8cc130b8ef18dd7f890b0f98f967",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/07.png",
+      "sha": "f565793114c35977da90901718f9e47ef53a3f0a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/08.png",
+      "sha": "79248351ee3697bdf96f3b4b156ada5ac65608ac",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/meta.json",
+      "sha": "ec779b459e70509228437dd4bb2e5c4af7bdb5fb",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_throw/01.png",
+      "sha": "e8daefbc39e39dead00740b3a4b4dbcb1a90cbad",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_throw/02.png",
+      "sha": "57e6f820273124bfe2b7dc2472e63b4ba0add232",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_throw/03.png",
+      "sha": "7a6fee67fa28c18fa56fc23db45e0795b312225a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_throw/04.png",
+      "sha": "d2462d60091aec4896a910b63b40b12ce335f479",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_throw/05.png",
+      "sha": "fd7f6e52b2aef3f9dc0a4755c100315c2072ba78",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_throw/06.png",
+      "sha": "17d345f571e817a47fde499214bb95853e891c58",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_throw/07.png",
+      "sha": "8eae301018ef92b929c6647248f0e138948ea67b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_throw/08.png",
+      "sha": "4ae33446bc859559de7d59b714cf1e549d5090ff",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_throw/meta.json",
+      "sha": "311c66442ba925be5feeb2a3af290c66608bb7c0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_walk/01.png",
+      "sha": "b291311bc60aac67cb8d0a856b88ba67b5a2ec44",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_walk/02.png",
+      "sha": "acbe8f6290b49afcf2fb9bf74547dfd801a9e783",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_walk/03.png",
+      "sha": "743ad169976631cb266126c6a7dc5d612ddd969a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_walk/04.png",
+      "sha": "83400e0c7ccc0f5af4042150c5b9e9a8b996b817",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_walk/05.png",
+      "sha": "cb83696aed33cb912177aaf33b015de42499ed9a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_walk/06.png",
+      "sha": "d5704949fc141af4a1fe56188f0ae949cad878ac",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_walk/07.png",
+      "sha": "99a7aa57ac6d63f68c4e6d969b133191fa568d42",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_walk/08.png",
+      "sha": "1a119c1dc429d4d251b75b4fb7ed293caa8db6fd",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/frames/monet_walk/meta.json",
+      "sha": "7f522f7bdfc579dcda40967f8f14c703baa2ba52",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/lib/acts.js",
+      "sha": "65e5de2549f9f2ede8de0d717a33b8ae368a5b1c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/lib/crossing.js",
+      "sha": "dbb44eb1fa99f37a63520e4dea75c38b1f17ab2d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/lib/world.js",
+      "sha": "44d28d9203eb1ce4024c411b3f977eecae0242ff",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/lib/xing2_ding.js",
+      "sha": "ae09e166392cd0aa3c1b0d459d44907c0d469d6f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/lib/xing2_jia.js",
+      "sha": "4ad47350f2ccfc73d24b728c17aebe0aa3291b01",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/lib/xing2_yi.js",
+      "sha": "03644346ded6af91442b6a44e062939403a00d88",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/segments/02_egypt.js",
+      "sha": "aeda459bc4f4dff04edb17318fd42067d6ca6f1c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/segments/14_8bit.js",
+      "sha": "f0714ec58c97f5020c381f139fcbec6c699a4ead",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/long_scroll/segments/28_monet.js",
+      "sha": "71a733f955ef0c2fd77ce838ccaa6c7473f2608a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/t1_3b1b/eras.js",
+      "sha": "704a31b8d49f70d0882b7dfff6d87283ef2a373e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/t1_3b1b/t1_s1.js",
+      "sha": "b5d0c35c211fbd766a4aef11a76f5f2a28deb33f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/t1_3b1b/t1_s2.js",
+      "sha": "ea22ea60d26087442be248e504c954784d7d948e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/t1_3b1b/t1_s3.js",
+      "sha": "7dae1a437489ae1746bbcd1113e6351081965f14",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/t2_keynote_ui/eras.js",
+      "sha": "212b967ad16069a4910e03e52f0eb17c6e46bc29",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/t2_keynote_ui/t2_s1.js",
+      "sha": "5ffed95a2d0ab252983858995e1dad5f9137bc2d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/t2_keynote_ui/t2_s2.js",
+      "sha": "8d68008d1617de268ab06908d99d401fddd1e489",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/t2_keynote_ui/t2_s3.js",
+      "sha": "37086e031372bf1f04f212c7b13595763a9345fe",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/t3_finance_chart/eras.js",
+      "sha": "0bb6853c8fa6e160d32e586b6e2003684259c435",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/t3_finance_chart/t3_s1.js",
+      "sha": "fddcf7ff08761e34375664ae6a4f079ce5d1edbe",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/t3_finance_chart/t3_s2.js",
+      "sha": "614bb2472a06cd1224ae42209068b5125bcbc436",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/t3_finance_chart/t3_s3.js",
+      "sha": "50260994769b1e293244ec664062e5089990f248",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y1_kurzgesagt/eras.js",
+      "sha": "720affa52118fd7818c073facc09307115aec512",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y1_kurzgesagt/kurzgesagt.js",
+      "sha": "c75083c4c140fa3d122c0e60201c1d039d701c91",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y2_vox/eras.js",
+      "sha": "b0d34b5a39e8f3cb7fb9e78c7f4aba1bba88fcf5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y2_vox/vox.js",
+      "sha": "b7effb124309b64fe065f6dbf8e619b18fc2f5b4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y3_whiteboard/eras.js",
+      "sha": "a42fec27845e8fb7687dfeca5d98cea3c9230a5c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y3_whiteboard/whiteboard.js",
+      "sha": "ea9ab4a7b353661b39677cb70449ee319e264650",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y4_storytime/eras.js",
+      "sha": "f7b1e4a9213f248f6db3429670dd4c0a68ae6989",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y4_storytime/s1_desk.js",
+      "sha": "6b55722c398529fb93e4815decc59853cee27611",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y4_storytime/s2_screen.js",
+      "sha": "89e79326b18fb8f5da3b37e4bdd618afd91243e1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y4_storytime/s3_react.js",
+      "sha": "db2857227cc6259d7f54c794ba0b8aa7881e64ab",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y4_storytime/s4_wide.js",
+      "sha": "f091cebe4ab09aa3fb51cbee80fdd9f73aeffdcb",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y4_storytime/s5_close.js",
+      "sha": "382abe057bef576466497db4469fbc0224743897",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y4_storytime/story.js",
+      "sha": "2c96caf62af7381f79497d78fed170c5156d1117",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y4_storytime/vo_env.js",
+      "sha": "3d6a60938f164a390c632d669c6e861a12ab7b10",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y4_storytime/world.js",
+      "sha": "d51b39da0d110234634c51785f4cfc356386c4de",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y5_kinetic_type/eras.js",
+      "sha": "87285f334f5fc1e508d8e643c54b050ab573a7df",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y5_kinetic_type/k1_title.js",
+      "sha": "e45f67771af0f04c000fbb41a703c9547aab11c9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y5_kinetic_type/k2_complete.js",
+      "sha": "1d6fedf02a1622caeadf949561f8904321353bca",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y5_kinetic_type/k3_chat.js",
+      "sha": "22c6d53ec528fda63280c7a5c6a082d1597a47a4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y5_kinetic_type/k4_agent.js",
+      "sha": "938d458b3e2f84c1daff78bd5908ade553be5a84",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/demos/y5_kinetic_type/kinetic.js",
+      "sha": "b8381d918ed91beb792baa3b0208f8b7087b32ae",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/engine.js",
+      "sha": "ee2f9dc0b7a4892ab442bf2ecab6027977a24029",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/eras.js",
+      "sha": "72e6f9f4416e838a45817acc192038ba750cbf4f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/eras_gallery.js",
+      "sha": "41342810cb0be0fc4aafaf969c83196b604b77f6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/eras_style_studies.js",
+      "sha": "0b208960645917dea11c9c3557c83a0bec97cb62",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/examples/assets/K线图_横屏.png",
+      "sha": "9e681fc782734d6ac1e2dc797cbfff11d3e93bf8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/examples/assets/终端_for循环求和.png",
+      "sha": "b2919580d11c0a3a25eb91dd5be4f7efe1a8c5df",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/examples/assets/终端_sum求和.png",
+      "sha": "4e33931eb947faf1021523c292b06f13f92326a7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/examples/assets/营收图_竖屏.png",
+      "sha": "5735ce105923d990587971456f7b10f492b00bd0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/examples/assets/财经图表_横屏.png",
+      "sha": "b001e61fc486f7a148f05c8ee23fd32a1465a685",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/examples/t1_3b1b.json",
+      "sha": "32ac81b954dcc91eab11227693b2358b7824705e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/examples/t2_fullbleed_pulse.json",
+      "sha": "7d4fd72b94e0f4cc8a4ee2162e25d7285ee56350",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/examples/t2_keynote_ui.json",
+      "sha": "c53acf6cf43f281fbfdae703ed2cb62c9a08816e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/examples/t3_finance_chart.json",
+      "sha": "d4cdc4431c269d4862d026e6ee4e03043a4aabd5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/examples/y1_kurzgesagt.json",
+      "sha": "f352ffc9e91336f1c17fb59fbc11c617df3829da",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/examples/y2_vox.json",
+      "sha": "10c2d6548027e38f961ff4b3b6cf55dc7bf66d14",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/examples/y3_whiteboard.json",
+      "sha": "fd53cae2f13e0f45ff4a327afbde54cd58044f66",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/examples/y4_storytime.json",
+      "sha": "a448fc6c316ffe1c82de6d860b6a569d417f449c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/examples/y5_kinetic_type.json",
+      "sha": "d3a57a2be7e0578a1415ecd7765407b5aeb29683",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/index.html",
+      "sha": "016a01f0d39b1c2c42b3de74d493c74c1700933b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/THREE_LICENSE.txt",
+      "sha": "d07e209686512b9ac93d7df5481a4a6f622093e7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/brush.js",
+      "sha": "1b993a940952b843cbe7c72ec3ee2e34c3c993e8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/camera.js",
+      "sha": "7b50c44db598733264c1b7ecd542d7f896d93b47",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/chart.js",
+      "sha": "e18de00ae35ab951117f9547e6b946d4094ee216",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/collage.js",
+      "sha": "f3491e46ac4040ea4951a6215df7ef61e406514a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/diagram.js",
+      "sha": "8baf28f1c084426a886bcffb98225eb13a70d583",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/finish.js",
+      "sha": "4d711d6b06f02786bcd17f110a164e4fbb2f0a41",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts.js",
+      "sha": "c96e0f285a9902824a8ff9621db2d6061c00d914",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/AlfaSlabOne-400.woff",
+      "sha": "ed5ca898aee8d6c009883b8e175749c0546d9bc5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Anton-400.woff",
+      "sha": "af925c19f8fba07fcedaa246def2ca066de8a0bc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/ArchivoBlack-400.woff",
+      "sha": "5273a9c1dd787f49f2c8259b90a14dff9e25b9b8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Bangers-400.woff",
+      "sha": "46c888483959b08f93521c80a18112b8e6e38358",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Caveat-600.woff",
+      "sha": "a9fc847617e47ab384c641e5e1bad555795f0f55",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Cinzel-400.woff",
+      "sha": "08649ede82c8d776224a015c55c90a2df4eea9c9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Cinzel-700.woff",
+      "sha": "28f02c19e71e75e823715e685ace79c88ffdd307",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/CormorantGaramond-500.woff",
+      "sha": "4dccf368b0e59fb7f6bb4dfc1d38680ef2ffa5a1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/CormorantGaramond-500i.woff",
+      "sha": "3bc493df4e4581c8dd9b8f88e5c15dfa732b9837",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/CormorantGaramond-700.woff",
+      "sha": "f1ddbfb1ce61e58120d6955d59d21742d7426872",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/EBGaramond-400.woff",
+      "sha": "7952db1dbe1b6174b7dea79dacee618c2b1b9e59",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/EBGaramond-400i.woff",
+      "sha": "f6534947ee5bea1e5d5fc8eb384a84a148c86540",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/EBGaramond-600.woff",
+      "sha": "d30aa9dc3d3acecfeeb3051ef232c30b18ee8ee5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Exo2-800i.woff",
+      "sha": "7437aeef4e45b7f321063be69359af60aed680dc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/GochiHand-400.woff",
+      "sha": "b500d9a883dbb9c829b34c97cc07648a9d65029e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/IMFellEnglish-400.woff",
+      "sha": "f9b84ad24d7df1c3de1c3ab487fad091320a26c4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/IMFellEnglish-400i.woff",
+      "sha": "6c1d5e42240d0210a583386df4e6dc4defe1fefa",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Inter-var.woff",
+      "sha": "ace36e8017be19b3c1b1bf347f09d6835466e8e6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/JosefinSans-700.woff",
+      "sha": "2e2bfbf8407c0b70e348c4155c1481f8f7065fc7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Kalam-700.woff",
+      "sha": "b31a7658b9e2d7978425ecaf1f1816660b7b4e23",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/LICENSES.md",
+      "sha": "0533deaf8ce621691fbd791c134a4e4bede9154e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/LXGWWenKai-500.woff",
+      "sha": "4f02c88fd17d3a10936351fef76596440163c805",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/LibreBaskerville-400.woff",
+      "sha": "70100bd82e15ce4df8e5e0ef2db7967326268efc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/LibreBaskerville-700.woff",
+      "sha": "1ede9e63b750769cce553c85f16215f349798a4b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/LilitaOne-400.woff",
+      "sha": "73646caa4abc54bdbecf865b1cac02e80a0b6d0b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Marcellus-400.woff",
+      "sha": "8d593988566742cb3a8fee262e4aa58743d8dd85",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/NotoSansSC-500.woff",
+      "sha": "4c7cade7f4d92173af4c3a1b6e3a44919e2636bc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/NotoSansSC-700.woff",
+      "sha": "4e5c21514f3c9c69f2571c9889390a779843d4fe",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/NotoSansSC-800.woff",
+      "sha": "056fba6424656387bd2a4a85efbc9ae3c5db1ef7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/NotoSansSC-900.woff",
+      "sha": "664a8d52cc3924e36c85599f8c26405c12797817",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/NotoSansSC-sub.woff",
+      "sha": "972a3b100fd1c74b0aa42eaaae0ab1eb6ee71edf",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/NotoSerifJP-600.woff",
+      "sha": "14163512883cb7ab9e075f16033fb7bb209a8ef4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/NotoSerifSC-sub.woff",
+      "sha": "62d4bee4dc6e53794846689996fcad1c9b8b33a2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/OFL.txt",
+      "sha": "a4670b02de28ecdaa5cafd2356b4a41b629a2e20",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/PlayfairDisplay-400i.woff",
+      "sha": "b1f80d059ff71a3a34356fe311c768946d84d441",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/PlayfairDisplay-700.woff",
+      "sha": "507012058185ee64b4f0e9a278a3836302b82c66",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/PlayfairDisplay-700i.woff",
+      "sha": "95def380ef3b56f5ae599a375c05c914ed5c8956",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Poppins-600.woff",
+      "sha": "5035ee775d447b94636e9859d3a570410b553538",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Poppins-700.woff",
+      "sha": "64fbbd9ae3c0b5d59a8757662ead23bfa7bfa2fc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Poppins-800.woff",
+      "sha": "fe74641c202b0f5f752322389894bc4f2478392b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/PressStart2P-400.woff",
+      "sha": "302418fa53e00fb032203b2be3a64ebee396b8ea",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Righteous-400.woff",
+      "sha": "59c797f127fc0d243f8586c6dbcac1afecc173a0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/RobotoCondensed-var.woff",
+      "sha": "1196643983d70c8fcfc751c9bd4177981f0a4ddc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/Rye-400.woff",
+      "sha": "66c64f2e9616104014d094ab60881e57fc1d2d96",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/UnifrakturMaguntia-400.woff",
+      "sha": "580bb9bd4e6ed3971a782f6494cb1f4c7a7cb11b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/cmunrm.woff",
+      "sha": "9efca1264afa69d5f0cd016b8c9f48f5144446f8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/cmunti.woff",
+      "sha": "122340ad48803a8682b363cc83b0e99a00c80e24",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/fonts/index.json",
+      "sha": "442742f351a2d1d53520be1ee3962b35ae0d2d92",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/kit.js",
+      "sha": "e0790d7eeafd1627794d562e81f8ded1dbddf8ef",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/media.js",
+      "sha": "5e24d18f8d59713ede791f98322f13719d685ec6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/medium.js",
+      "sha": "4b681f5c9382103180f13d428d448855897e9265",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/motion.js",
+      "sha": "6ee9cfa1f9ae84be9f812539f9badec574ec0857",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/paint.js",
+      "sha": "6fc5bedd62c6497755ccd3c7d05fd5f61c2b4828",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/palettes.js",
+      "sha": "172b2a2d9d3c52cb774603d88813189c2f66a1e2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/post.js",
+      "sha": "63b4a2c5a6063e7ba60b48e3155a0eaf30ba3a8e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/render.js",
+      "sha": "ae98ce074111733cac6af073f13312c31b70527d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/rig.js",
+      "sha": "01db1550076afef96981f89009534c801213c0f2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/rig_huashu.js",
+      "sha": "1beff1622066c92195d372bee5f244c9c71121cf",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/three.min.js",
+      "sha": "0c2f4ba351000d47f413873d8bb9c1a2f18cb37a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/toon.js",
+      "sha": "b0eae6595c3382a3afb95b35b56fa83c3118a9aa",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/typo.js",
+      "sha": "f00d3675480fe0ba302bfdfe1c1894025103abe4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/ui.js",
+      "sha": "8dbf8f16c41dd60ce3a3adad2d691d38ab776cea",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/lib/util.js",
+      "sha": "0b3db4299e12072d033b3e6418e9bdf309c2564f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/rick_morty/index.html",
+      "sha": "73036ec15a1bf469f6cbbf09ac384dfe0a548779",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/rick_morty/render.py",
+      "sha": "7a391d29d9bcb11416ce36c9c8868a5bc9f8a4b5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/rick_morty/room.js",
+      "sha": "7d9c98d01e429f4be8ff6583908224e2b4b39cac",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/rick_morty/svg-kit.js",
+      "sha": "3994f6f203a02752aff760fdee42bf2cc634bc04",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/README.md",
+      "sha": "3a8abdff7eb16dc2f7f8bd670e7a4caf55c84074",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/eras_lin.js",
+      "sha": "17603afb2de654f7e55d2c02b13a111ceb63be40",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/eras_spacex.js",
+      "sha": "9b2bac76b3f5ac819767c742698f69c70f35ae7a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/eras_vox.js",
+      "sha": "07c65965e969316274329bf705e66e71ea000cb4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/eras_wbx.js",
+      "sha": "490bc50c05e0ac53c4f86ece0ad0e19fc533a2fb",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/rockets.js",
+      "sha": "bf827caa4577b4671aa115e166f2cc834e1d96f5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s01.js",
+      "sha": "c9cc01ea1c2be7cb3f4c19f6656cb0be1395953d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s02.js",
+      "sha": "b264e0bcd0c070a549175be51c4216a36974e850",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s03.js",
+      "sha": "d41b7691b6c28ebd32faf241111da1b4e324b740",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s04.js",
+      "sha": "1273dda11e0f8aa7fef7c206381b5379a729dfd4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s05.js",
+      "sha": "ddb5e5f9654114abd4fc8c8545dafe3f53256805",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s06.js",
+      "sha": "61499bb473f94c8f5bfa03e9633d32785b2c75c2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s07.js",
+      "sha": "071d34e8e1e6ec44ab450f75a136827b02500315",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s08.js",
+      "sha": "f7d684281901fccb2766e8a502808dfff1a6b32b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s09.js",
+      "sha": "0262e7dcf8e28ccbf0ffaf01e447d377a66baef0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s10.js",
+      "sha": "2b9555ed798f8077ecba331f651fd3d6dfbba76c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s11.js",
+      "sha": "5a2cec6f0bf09e74916910fe4231f5703949e717",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/scenes/s12.js",
+      "sha": "9d86fa906088dd03c15e7a06e15e2e3028db5262",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/timing.js",
+      "sha": "aed95b06b1ac4669f121e56878ba272e7688b0a2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex/tm.js",
+      "sha": "a0014191409f5271083943bad0c8d1d3918edf04",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/common.js",
+      "sha": "90ff436aeaafb3592414fd1f16e0952808a3f2b1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/presenter_meta.js",
+      "sha": "4d4f5362a251c79a05d9b0bb376ea26d28e27848",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s01.js",
+      "sha": "5cbd1606961ba5973d3e9542b28ebde009d552ca",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s02.js",
+      "sha": "44133d041cf60fbf3736bdf567d7bb1a32a209c3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s03.js",
+      "sha": "8e42c9374656a32257cc83e71bee6d39da393ca5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s04.js",
+      "sha": "51126a8e77ff9c04a184ddb2da8330820091a5fa",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s05.js",
+      "sha": "281126f55b04b3add2adae3db0a83faf88351c62",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s06.js",
+      "sha": "e2d9f28d5444369ce5337a5161f23b878f418b1f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s07.js",
+      "sha": "b7b52991553972df22bd7c6c637ee394c5aa7e55",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s08.js",
+      "sha": "d01900b2181f4f48f5b81ce5a6404d3f01f7a78c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s09.js",
+      "sha": "c01b7bbd1875eb12412028f925fa5bde8ed4b222",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s10.js",
+      "sha": "046741d1ad0f11ed117174e4654690e197687b72",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s11.js",
+      "sha": "7ee58fed7c01ec2ffaeced9ed853a34340e910ff",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s12.js",
+      "sha": "6d5221da7d0571597cfe233ce4c8f4f8b20815bf",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_lin/tools/prep_presenter.py",
+      "sha": "892ab71d1e1f0769fcd44529e76ef0946c791a45",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/common.js",
+      "sha": "4b09a7be4882e113e7a4376acd22b6dd78aa81ec",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s01.js",
+      "sha": "ee62f128b13c57c000e2de2d6a5d761e1bfafb65",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s02.js",
+      "sha": "f793f04212cbe932ba2f40f054976bc84531cf75",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s03.js",
+      "sha": "53260a25ffc9c3ffc3142e02439e2dcaccd04042",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s04.js",
+      "sha": "4de6ccd3a1db5a8788bd00c3816ff6b088fd4fdc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s05.js",
+      "sha": "2a21c48ac81a3d8bf816cd2bc3e957c8c7d7807d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s06.js",
+      "sha": "785b2fbc35879ae2362dc4fe0843b14c1a018b16",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s07.js",
+      "sha": "a770a78dc618cc90a70c4076df0d66cd6860c777",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s08.js",
+      "sha": "2a5fff5b798eea5d679aa41daac6a937fab66d55",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s09.js",
+      "sha": "a9722d1b1f079dec1b3073d8734131bf8d03eadd",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s10.js",
+      "sha": "6ac534e4bd80a27583d1e1da2fd2a6d55bb9bd7d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s11.js",
+      "sha": "a3a8426965edbac9f34ece872f57e0c4178adc1d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s12.js",
+      "sha": "f6210fbbf42ab54f08318bc43144af16794159a0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/ARPHICPL.TXT",
+      "sha": "de7491ae3d4e485c9667d95bcde031dd54b42392",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/hand_1.png",
+      "sha": "a8146eb91ba14439c4dfdd41860a3471c5979576",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/hand_2.png",
+      "sha": "29e942086392bac5e4923f75326813c780a5403a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/hand_3.png",
+      "sha": "1a611d7f02d00c5a46ac47a1315aa3dcc286c924",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/make_hand.py",
+      "sha": "81d0b8cb217096055d86a45d35abedb54d3b75ff",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/strokes.js",
+      "sha": "a449d407a7c858e2b0fa187209c757a72d558d9c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/common.js",
+      "sha": "007a2636404b146b32852d685883e4a7b456edfe",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s01.js",
+      "sha": "643bcf0b09db46d9914ea0343932c82308aeb0f1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s02.js",
+      "sha": "795e20d7bf5f1f885e4d564dbc03b686018f91a7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s03.js",
+      "sha": "4a1b35e449e7bcd05e489e1d81d635dfc6ddf9a9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s04.js",
+      "sha": "69f23e823bf73790ee473100990f6bb346d7207a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s05.js",
+      "sha": "649bfaf67892ed690a13e1e4ce77e0a4f09567a9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s06.js",
+      "sha": "ad08d87324d206b52cb7f8821227bbbd320f2ee0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s07.js",
+      "sha": "5f4f13845c476bcd6020a1473f365b962e3d2d9a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s08.js",
+      "sha": "b2a08827fa93c69d8139417c0433d9fbb3d1ceb3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s09.js",
+      "sha": "1d3776fb8203c1538a783f734de27401bce585ff",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s10.js",
+      "sha": "0b05bb2b7e0a7d8b4e46609bcd124cd712ad882d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s11.js",
+      "sha": "4996fc9e9dfd99d99672e99fbade047e94d2bdef",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s12.js",
+      "sha": "31616baba7e0d009397d190e7d2b347ae07c5b95",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/transitions/cardFlip.js",
+      "sha": "93a219c60ef43b697bd27db06b47a4d874b0ed13",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/transitions/deskPullOut.js",
+      "sha": "3f852ea0fe1059f6c430999782427ee89f499fbd",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/transitions/kzBloom.js",
+      "sha": "0bf6c095848572e378a358af8bb3a852f1e341de",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/transitions/lin_page.js",
+      "sha": "82a9ed939196746eeec6b8b1b705c8d0f502ba0c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/transitions/paperSlide.js",
+      "sha": "ac12cade7585f9f9f8cf0859508d662f1a6c713b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/transitions/vox_pull.js",
+      "sha": "b7580da060f2d143a034449362957a60702ad092",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/reference_films/spacex/transitions/vox_slap.js",
+      "sha": "c4c128ab4a396d0e1f11b590afabd54550674881",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/render.py",
+      "sha": "1fb5dc1a7bfe2730aa27224a9946730e555059f6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/01_cave.js",
+      "sha": "d9b9dae22060f34edd8cfae1d7f95912b53d0f73",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/02_egypt.js",
+      "sha": "b562fdbdf86780c646cd7295888c05e76ba7de40",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/03_greek.js",
+      "sha": "731f61622246d98cb715024d50164477ef1fb823",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/04_roman.js",
+      "sha": "a0c813416a5517a22ef4246cbf59eb2604800552",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/05_gothic.js",
+      "sha": "5df30d9435e7f66cc38412834f96cb94942dc354",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/06_renaissance.js",
+      "sha": "d6df5f9eba6320eb588807c3be461aa3b348fcc3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/08_impressionism.js",
+      "sha": "faaf347a12cd971e769569ccf7a2ea5f53fd7fd9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/09_postimp.js",
+      "sha": "483ecbfc91661c0b047cfc329e8a5d67c46389a3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/10_nouveau.js",
+      "sha": "0cff9a9cb978a32094b6e5cd1f907fdcff429e39",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/11_cubism.js",
+      "sha": "e26e76a50c7cee2d8bbc88af4ac856f730a2b8a6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/12_bauhaus.js",
+      "sha": "feade9f50aed8055df0d7015720abd666a12ca7f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/13_pop.js",
+      "sha": "04c1fc844a9cb533a3ddb3066923ab674927e499",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/14_8bit.js",
+      "sha": "8418bef5b6ffbfaba8a1866c7a2c02b2d50c17ec",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/15_raytrace.js",
+      "sha": "11838972b0d5f6b8ff9a5707290b3ff5eafdab44",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/16_2026.js",
+      "sha": "2d344cc46db931949461c835cf366c7b69eb0036",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/17_ink.js",
+      "sha": "59cc47c3f64100b07af5b13e341189e1fb9cbf6b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/18_klimt.js",
+      "sha": "3ebe5dce8b79bd5b014d96bdfbc58bf4c53ea618",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/19_munch.js",
+      "sha": "c9d35197e3a2a1e7091c1274403a333146cf140c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/20_dunhuang.js",
+      "sha": "376bcc52c205e2a253e78ff5ebec5c1c7b89b2ef",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/21_kusama.js",
+      "sha": "a0925da636bf4299898c4cee4de20b655e0803a4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/22_constructivism.js",
+      "sha": "ca468b5cf06de5552e75a50e88e6b1b9c4775198",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/23_dali.js",
+      "sha": "2b02d6e9eb4414d08faf1c53df55782dd5988bfe",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/24_hopper.js",
+      "sha": "4f9eb1116d4905747a773c7fc58b18d46895f94c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/25_ghibli.js",
+      "sha": "bc9255fce34976211ad74ff14e31f327a65035f9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/26_vaporwave.js",
+      "sha": "02eb85d089ce592c9c52b920bc712399162440a6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/27_kirby.js",
+      "sha": "16b54bc666f3a391e49e5f31cc12a1f454b02216",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/28_monet.js",
+      "sha": "424e9a165c7094f4f0ee07a78095e257800a8d9d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/29_seurat.js",
+      "sha": "3cb8617479c06f05a598796b96422204d90c5208",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/30_matisse.js",
+      "sha": "2617fd7b55d3732a4001ac5761e89e0ad59f57e1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/31_haring.js",
+      "sha": "aca68222ae4449e21bcfdd1d94b1eebd463d2f23",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/32_rembrandt.js",
+      "sha": "264178b24fc6dd5112f7f7f867adebcdd0572dc1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/33_rubberhose.js",
+      "sha": "b434105cc667561ea5abb589db02c8e31458791d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/34_shadowpuppet.js",
+      "sha": "02d9f91148fe7792ffb1008ba28d3f74b3883a7b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/35_shinkai.js",
+      "sha": "8485c2925e4d24f3dc71ec31a7369cd6fe16d868",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/36_picasso_blue.js",
+      "sha": "5db471d78b54483971ca69ec705b7079a465b3ab",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/38_giotto.js",
+      "sha": "6f0c5fd3218187d4866b641b43715163fc815bfa",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/39_piero.js",
+      "sha": "9d9232b26193f4c4983a5665565316447ed21e32",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/40_raphael.js",
+      "sha": "4887be8ca7a8a4056d826b7fd1c5946736a21a20",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/41_michelangelo.js",
+      "sha": "b23f33f2d8896c9d76908029f7b754e72d361ec1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/42_guardi.js",
+      "sha": "d34ef1e0ea68ca85f94587d9fc7514de3c72d675",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/43_lorenzetti.js",
+      "sha": "7e8ecdf3538357dbda38f687a48b8204e5af5a40",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/44_cortona.js",
+      "sha": "96dff0b80553aecd925de20e4f42ef1c974f3af9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/45_renoir.js",
+      "sha": "20dace328bc0a4efbd4249e11d1fc3bcd2802a08",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/46_pissarro.js",
+      "sha": "25a435cf0fcaf86e06aa7d2b6c9d931f1bb92082",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/47_sisley.js",
+      "sha": "8306dfe282c3202452c49d87d0175552c172db72",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/48_gauguin.js",
+      "sha": "9e2e84c147c29d037cd0f6523b0fe64b626cd227",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/49_chagall.js",
+      "sha": "8df4273d9ebd66e1d7a9c97d9768f8207d1d213a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/50_ma_yuan.js",
+      "sha": "f23f62f41a5ca0cf2f222dcaa18dd7a9cdab85e4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/51_persian_miniature.js",
+      "sha": "1be77edb80cfd7908d7a12e48c39c816e4a167f1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/52_south_park.js",
+      "sha": "367c8b2711a643f85e32864ba5f3ad45f2c7a6a6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/53_pixar.js",
+      "sha": "98b765e2b7798451013455f8d6ab357d2d343280",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/54_ghibli_lab.js",
+      "sha": "ec61d94e7ea7f8dd27a36313f5f79356aea770cd",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/55_dunhuang.js",
+      "sha": "29c688d80bda60e0a50ffca155108617233a6a2b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/scenes/index.js",
+      "sha": "498c2b583c73638b3edf519ab72319dbec210216",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/spec_assets.py",
+      "sha": "2936dd108e314ee517480427541f7416233c9e3b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/transitions.js",
+      "sha": "b3b2520f059815ebbb8084f6ea2da2ba3a14be56",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/engine/时代作者规范.md",
+      "sha": "adb4060e051878c0df9360052ca50aca63000eda",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/film_gate.py",
+      "sha": "45cf2a2cadf0abce1271820531149981246fd90f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/font_subset.py",
+      "sha": "33614ba5b3e7007206df6d972651c07ac2f1cdc4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/images.py",
+      "sha": "839c057f7062154f7fb39f5c75a1e9667aa3d83d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/key_green.py",
+      "sha": "e2271d00820784468b1699ddf6fa04b58e6970f7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/key_split.py",
+      "sha": "357a4f25dc0f9b02b2a6c8acf0195e9540552a8f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/koubo.py",
+      "sha": "e6bbe77162b7ca8ab8e0557983dc1d6cf2b6056b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/qa.py",
+      "sha": "98758fc3c7071b584fa40cb09dd76d40332ee344",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/storyboard_lint.py",
+      "sha": "07c8e2ede01893336819dcfb4e80e947db65faa2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/subzone_gate.py",
+      "sha": "03add14ba71328b9ba3728e4e7d8d2873d726243",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/voice_review.py",
+      "sha": "c85d27c0de52204be601a250508b09ee69667c3b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "tests/fixtures/y4_storytime_test_frames.json",
+      "sha": "f9d1ec4ad69dd3dae74b0a251668d9c7c8979d66",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "tests/test_capabilities.py",
+      "sha": "ff19beaf94e14bae0fe1dc6eacfa8aa6bfb3eeef",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "tests/test_clip_theme.py",
+      "sha": "450389d12bba79765e4630f6bf9117e8e31cf74e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "tests/test_clip_world.py",
+      "sha": "e926d10264c3df8ffb9ac4828d6881f09138ac3f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "tests/test_film_gate.py",
+      "sha": "d25a80e076e5b3300bd4adef7c738da4b00542e6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "tests/test_film_gate_blank.py",
+      "sha": "c4a887b2022fd8ac8952bd57ed07c06e3d569c3f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "tests/test_film_gate_color.py",
+      "sha": "f8cceeb2c2c7db199556325acf9266c36e34eddb",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "tests/test_images.py",
+      "sha": "172b6822372b61e072f544d94a86fbb7600b1346",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "tests/test_local_server.py",
+      "sha": "28e3591e9fdcdcf55946ab021cfd8e412233260c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "tests/test_release.py",
+      "sha": "3e5d6513765d612dcec066826da12a9f90095167",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "tests/test_storyboard_lint.py",
+      "sha": "211ae80fdd3f63802f94f17e3c62f9d86a0e069c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "tests/test_voice_review.py",
+      "sha": "d70ac9d8c0f4a43fcd2535d2d76acf4c653193a4",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
+  "ade3656c17e054fdb69062e02a671bb28c209e0b": [
+    {
+      "path": ".env.example",
+      "sha": "7208e80bb0ff6131eaa96bf0c00c67877ba57114",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": ".gitignore",
+      "sha": "0aabc32f42f162dbec312c778ddfaf424b5960bc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "ed67368a2a79ed7be97b2a4852330cdac5b8b12a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "README.en.md",
+      "sha": "24a09ec546680a32d26fa89fff35ec8309478fd0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "README.md",
+      "sha": "f6e4dd8aa2b2f55d59526a3cd4b70266671575ae",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha": "63bdc478d1f579b9a455127c26894101a60cf122",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "SKILL.md",
+      "sha": "fa3139d14e2bc3d80d060e38e553d15c2dea7de9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/android_frame.jsx",
+      "sha": "86071b3ccc8f19bf0d2e8683cd2fedea6b186955",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/animations.jsx",
+      "sha": "e48a3becbf22f5fd484a8bdf8447c3c9402e25d6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/banner.svg",
+      "sha": "65f68dee7f5326ab71ae3099352f063f97e9b4ad",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/bgm-ad.mp3",
+      "sha": "8bb7a9b17aa468e294f5a9b6b91429278e24fbe8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/bgm-educational-alt.mp3",
+      "sha": "86f51e73896b3fcf858d64b34244ab8f63770611",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/bgm-educational.mp3",
+      "sha": "1ec9434058121ecc3752d9a1a4302d159f77c71d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/bgm-tech.mp3",
+      "sha": "3747c14099d4e1cb341015995b9e3da9ad4221d8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/bgm-tutorial-alt.mp3",
+      "sha": "bfba196abc7339181c9cf99a47b7dba08d30c2dd",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/bgm-tutorial.mp3",
+      "sha": "d251dd24556e3052a90d627911db5b884fa81957",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/browser_window.jsx",
+      "sha": "19c1034666ef2a33e732ec1146b0e063a692d16b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/cursor.jsx",
+      "sha": "768df32cdb5af95aabb2bf6eb3282cf59b9d02d8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/deck_index.html",
+      "sha": "62e4773738ff16393a2a50f55b5e0da844b38ca9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/deck_stage.js",
+      "sha": "916790dc566eafb473791ac4f9facb42c2c00a20",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/design_canvas.jsx",
+      "sha": "9b9140e304367eb52939b6ac420114698ffdc5d2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/director-notes-samples/launch-film-30s-sample.md",
+      "sha": "f45b546a56453d8c35ac6b27ac94725722b885f2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/ios_frame.jsx",
+      "sha": "eb0160e489e2a5112a35b716af710c11f9200485",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/macos_window.jsx",
+      "sha": "7155b98254780b2336cb90ab0db9dd3fc6e10882",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/narration_stage.jsx",
+      "sha": "ac5e56d8e60a8236d22150b389e4c5b908923d2a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/personal-asset-index.example.json",
+      "sha": "dd4b0d6e64e1fdea2213e1f75804637e3885d4fc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/container/card-flip.mp3",
+      "sha": "ebfb492352f785852357ddf2794966bb9c3caa18",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/container/card-snap.mp3",
+      "sha": "16b99d40d18ed5f4ab2703b022dd91505a608bd9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/container/modal-open.mp3",
+      "sha": "a7f96f744cca08fe438e43516f3df1f8897a5511",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/container/stack-collapse.mp3",
+      "sha": "3bac6f730492f021932493526bf37828dba1ffa9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/feedback/achievement.mp3",
+      "sha": "21536ea3226987fffcef0905f6323ca040ea9196",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/feedback/error-tone.mp3",
+      "sha": "1e3079c92b972cb152aedb06c6d3392e6780e8a3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/feedback/notification-pop.mp3",
+      "sha": "3f181b87dec8498a7b9ba2b9a0769df59a246da4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/feedback/success-chime.mp3",
+      "sha": "ffebf28f206facf953cc9bead2d1d0400c1d3d02",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/impact/brand-stamp.mp3",
+      "sha": "e5320c04f5cb2d51e51383a25838d877e50f47fe",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/impact/drop-thud.mp3",
+      "sha": "7857e3744fd2ab7d01fb6c50356c32cccc9c08e9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/impact/logo-reveal-v2.mp3",
+      "sha": "bf596ee2ce1247e550e37bf10382140294144400",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/impact/logo-reveal.mp3",
+      "sha": "bf596ee2ce1247e550e37bf10382140294144400",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/keyboard/delete-key.mp3",
+      "sha": "b4f80589c4a378f5ab8d16bb73a84cad49ae3d04",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/keyboard/enter.mp3",
+      "sha": "3262addb0e159f0376cd3edd00f7ec1228f75be2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/keyboard/space-tap.mp3",
+      "sha": "f3cce57f90009e5c021c8f0ef6216b1de6ba597f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/keyboard/type-fast.mp3",
+      "sha": "a40d64dd5def3d0c38ed3598defd673f31517edb",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/keyboard/type.mp3",
+      "sha": "94fb8fc4f6465d0c8b68883fb2390b3ecfd15c42",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/magic/ai-process.mp3",
+      "sha": "1b28d7efbd8d16d20dad2ee75dfb1a4ef9e43ab1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/magic/sparkle.mp3",
+      "sha": "51400dc211a252238f1b8c64cb50d4d857ecf936",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/magic/transform.mp3",
+      "sha": "c7094374e8e538dfb39e6414417723e896c1b254",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/progress/complete-done.mp3",
+      "sha": "fb0a856b47bea510b637fcc1b42f95fcb37de133",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/progress/generate-start.mp3",
+      "sha": "ff9bc7361ef65b6f03aed6817357d90223c654da",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/progress/loading-tick.mp3",
+      "sha": "4bc31af565bf323f14ca376a9e9cd18aa4f13701",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/terminal/command-execute.mp3",
+      "sha": "17be9e304727545ee6dfbaddc13f6645e29e55af",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/terminal/cursor-blink.mp3",
+      "sha": "6685098e2e2c9dfcddf6144e14f71e1a19611178",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/terminal/output-appear.mp3",
+      "sha": "71be2b1c0071470d49bf1239b754be04ba7142dd",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/transition/dissolve.mp3",
+      "sha": "a0abc5ab7aec25aece953b6e90cc21e8daa6873d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/transition/slide-in.mp3",
+      "sha": "c84811f4356ea60f92aaf80ae25ea6a0ca106cc3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/transition/swipe-horizontal.mp3",
+      "sha": "22beaf728832ad84d7fec4f7a01ff31c7c17c759",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/transition/whoosh-fast.mp3",
+      "sha": "6b05a2362189684411d5d4a1b65e136d127cce3f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/transition/whoosh.mp3",
+      "sha": "a85fd428a4642ef0ddfd18d82118e47b9de41e2f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/ui/click-soft.mp3",
+      "sha": "6729756298e7d6a0350cb37fffc0d8abe85f86a7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/ui/click.mp3",
+      "sha": "b0770670ac20985b66a3cd1fff55e09e5c7e21c5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/ui/focus.mp3",
+      "sha": "2b2ef15ff8d65dc204e81a8c5231d30ff60ed076",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/ui/hover-subtle.mp3",
+      "sha": "fb919e298dab89641056e72b1c6cff152f76f73b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/ui/tap-finger.mp3",
+      "sha": "bb688e795c3d63e1a4304b0e24a248d33491a4e6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/sfx/ui/toggle-on.mp3",
+      "sha": "7b2203ec2d47cdb0128550ff71a984f8fa81f679",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/INDEX.md",
+      "sha": "5a89e42ccf9379b1a98db40a0439eeadc8e6f192",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/cover/cover-build.html",
+      "sha": "25380833bdcabc776aa1efc278f1bb606c7fdb13",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/cover/cover-build.png",
+      "sha": "27a5667ea12674739cc423931a429e82c2d035ec",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/cover/cover-pentagram.html",
+      "sha": "fb54bda2e777205c50a78beb875c597e99e70aed",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/cover/cover-pentagram.png",
+      "sha": "251eaddf75f6b5288551e72dd8b375b766656b92",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/cover/cover-takram.html",
+      "sha": "20b7a18992078b92baffc71b58dcdd1c140e392a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/cover/cover-takram.png",
+      "sha": "751973ffc4d11509135184f3a11c77af3fe6efb5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/infographic/infographic-build.html",
+      "sha": "325c2fa5edcfb841c2796980d28ef8904986ce90",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/infographic/infographic-build.png",
+      "sha": "e947be8f6f6a21638cab5d6036a56b1d2a0d335a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/infographic/infographic-pentagram.html",
+      "sha": "8e9fdb889b48ffc92ad28a7bbaa4d4568924fc3d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/infographic/infographic-pentagram.png",
+      "sha": "994840c4c7ad0e5c04dc34e9cd7923260f0b6dd0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/infographic/infographic-takram.html",
+      "sha": "e55520204bdc95f48a2680f4696c4227beb161dd",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/infographic/infographic-takram.png",
+      "sha": "1ea03e40bb064294dcf771eba5988bcdbc67cb09",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/ppt/ppt-build.html",
+      "sha": "be2cbb711f897e767d344a557476c89909782a69",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/ppt/ppt-build.png",
+      "sha": "fa414414976150edb6c129b7eba5efb8df8c4e20",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/ppt/ppt-pentagram.html",
+      "sha": "cd10597135acdea9795e3e2e5efce439555a19fa",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/ppt/ppt-pentagram.png",
+      "sha": "823fdac4d8bf375728616f2db848c18dcff9f10a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/ppt/ppt-takram.html",
+      "sha": "d859cbd5a9c3344ccabdc1cbf179b2f17366356a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/ppt/ppt-takram.png",
+      "sha": "7fc4ba632a554a65d75e44cdde16edd28712987d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-ai-nav/ainav-build.html",
+      "sha": "2d9060e6954ba4a0f081be39bb75b26c1f6d2555",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-ai-nav/ainav-build.png",
+      "sha": "bd9cf08aff601df7dc3e6c205868a8daaeda2d03",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-ai-nav/ainav-pentagram.html",
+      "sha": "1bec4d244d7ac71e4c96aa5a5cab408645197208",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-ai-nav/ainav-pentagram.png",
+      "sha": "57a4bf6d7fca9cfadfaf0f4cfd1b303f9b9ca6f8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-ai-nav/ainav-takram.html",
+      "sha": "1f7581d4734b8f4ce84d068d41cb6f579d26267b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-ai-nav/ainav-takram.png",
+      "sha": "f19ef9e8d486c749164215050e7cfd359e48e845",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-ai-writing/aiwriting-build.html",
+      "sha": "908967bdc56d60104058647bb58a0a36528c1a88",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-ai-writing/aiwriting-build.png",
+      "sha": "5a04d55c854197c37cb6ee485bb661a480d1c7d8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-ai-writing/aiwriting-pentagram.html",
+      "sha": "38f702df3b70c9babfa652d7c3b68eaacb435f38",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-ai-writing/aiwriting-pentagram.png",
+      "sha": "cda81e9c25b0c61240eb3102ed53a32e0442662c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-ai-writing/aiwriting-takram.html",
+      "sha": "c3fc6b3a687118ded5f918be8fd3aab4080f310f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-ai-writing/aiwriting-takram.png",
+      "sha": "31d740566e529057aadd929a6ed53b4e1e121628",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-devdocs/devdocs-build.html",
+      "sha": "2c37afda67b91a269ed8bcec3eb914ff342bc2d1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-devdocs/devdocs-build.png",
+      "sha": "bbca28e8b3b005a1980dab0752866150c35aa1fb",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-devdocs/devdocs-pentagram.html",
+      "sha": "f05ec3a7890fa64fe5d71e5ab8ff83c702d9268b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-devdocs/devdocs-pentagram.png",
+      "sha": "345c3169054364f80d70aaced43cec707975188b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-devdocs/devdocs-takram.html",
+      "sha": "206f3b754820ab0332248d8c411b0c8fcf0ef486",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-devdocs/devdocs-takram.png",
+      "sha": "7f147267b5753e10d8c39c1d202b27aec86ab4a8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-homepage/homepage-build.html",
+      "sha": "2bfef3a43f33521201732ba71fc1f7ee1dc950fd",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-homepage/homepage-build.png",
+      "sha": "ef37605b5581c9c748a5cfb18be6f256769b0e01",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-homepage/homepage-pentagram.html",
+      "sha": "2f7580f12258b87101a463cd7006fae7650f5a3f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-homepage/homepage-pentagram.png",
+      "sha": "1af6f7936a2d2fd8081348b6e034fd23300a06e2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-homepage/homepage-takram.html",
+      "sha": "7ae174a50a1d7134c3aa4c03b7759e27d5e96c4c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-homepage/homepage-takram.png",
+      "sha": "3fb8de921a02ae6e8118a4317c0ec14673d2e898",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-saas/saas-build.html",
+      "sha": "f5d56036587933b6d797a8781687d6012b14fad6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-saas/saas-build.png",
+      "sha": "f7510932718e1d9ef2217b2017bfdfb0223479ce",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-saas/saas-pentagram.html",
+      "sha": "ccf397b9b4e0a1557ef4565c1b6d43e77370a543",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-saas/saas-pentagram.png",
+      "sha": "07e2ca18f1dcc146fe83a6e4732793738aeb8caf",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-saas/saas-takram.html",
+      "sha": "d35c6a622f7ac7fa6c740b528aeb856e961ca1a8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/showcases/website-saas/saas-takram.png",
+      "sha": "6122fda9fe5b2e1ece10f9ff82c5a0b63153858c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/01-hardware-panel.html",
+      "sha": "97d1e8f8390dc38b750b78c07ca6599bf7d4a7a7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/01-hardware-panel.jpg",
+      "sha": "66e217d43d651b24bc8dfcc3c0f140e41eda58c3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/02-liquid-glass.html",
+      "sha": "a21fe9f71cc18ef629d6fa5a808e425fc4172964",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/02-liquid-glass.jpg",
+      "sha": "5c25a5160a664877e0ec90d10e45b0cc7d613600",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/03-playful-3d.html",
+      "sha": "2ade7af0fdc07ceebe76907a28bc0175c1683922",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/03-playful-3d.jpg",
+      "sha": "8cdc359051abc2f776a78b50b8472de204579ed3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/04-friendly-fintech.html",
+      "sha": "beea5583fc75ac147fddca6215893c9f804f63c2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/04-friendly-fintech.jpg",
+      "sha": "83618198c085f427d2dc026230ba3687c8ba70ec",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/05-pro-camera.html",
+      "sha": "8e2b6d410ee0c1759228f95952f6f1c3c4926e8c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/05-pro-camera.jpg",
+      "sha": "4fc797771d50798857b377778ad96a74204c2d9f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/06-topo-outdoor.html",
+      "sha": "b935ab6b23d86a812f3b1b1c237116ef710a3705",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/06-topo-outdoor.jpg",
+      "sha": "1751d739bc807a076736d76b114b6b1f2aa09098",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/07-feed-waterfall.html",
+      "sha": "3cff14eaf5c7af96807a5c4c0c4c5c2374c51315",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/07-feed-waterfall.jpg",
+      "sha": "4d7563409e5cb1cb60b299fc516835b4c4bc5c94",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/08-command-palette.html",
+      "sha": "a85024fdbd5b5d275cf338424c560bcd0a7860fc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/08-command-palette.jpg",
+      "sha": "3558bef40b288ff4916f4ee3199cb35cd6fdb5fb",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/09-health-color-code.html",
+      "sha": "2dade3b128a3785ffb0651e662fb169f66d8f87e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/09-health-color-code.jpg",
+      "sha": "b6e8917f163bd41490fc491245080f148b145b14",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/10-native-polish.html",
+      "sha": "7972002aab7ec5d3fff3d077b0dd68f01a5e143a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/10-native-polish.jpg",
+      "sha": "e72a0ee8048aa8051bbc67b1c0ba4a752eb81999",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/11-gentle-encouraging.html",
+      "sha": "65dadf4c961f5a41e1794b3d0a75fa4111c85b92",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/11-gentle-encouraging.jpg",
+      "sha": "74bfa7503e8325dce4762f024f65a4f4b7998cfe",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/12-editorial-reader.html",
+      "sha": "1925329a51bd47e15e63d57a53b1e942b4c153f4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/app/12-editorial-reader.jpg",
+      "sha": "a057b5904a290d69c5c5183df6003bcc79f8316b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/01-lu-jingren-bookcraft.html",
+      "sha": "6d2d6491d5a0c83b37a2f18d826b4f95c5221f17",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/01-lu-jingren-bookcraft.jpg",
+      "sha": "380aed2534cd89a48f95b3fc84cceccc0dc3ada7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/02-song-block-print.html",
+      "sha": "2f748563ff6085a32fb3760fbedcd75b668d591b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/02-song-block-print.jpg",
+      "sha": "e90742f05237a414b496db0c8f4389337f513cc3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/03-republic-book-jacket.html",
+      "sha": "150694186537f8bb42a7eb9dc205f8ab54d49904",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/03-republic-book-jacket.jpg",
+      "sha": "349e3adf6da1bcfbbc09e5d4686e61c549f76f27",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/04-shanghai-deco-calendar.html",
+      "sha": "531b96ca1ccb34f9a06d29aa9a0a9f6869b6b0d2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/04-shanghai-deco-calendar.jpg",
+      "sha": "be0ef8461a303b8f4e5a6520379f1af329e3286d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/05-hanzi-experimental-poster.html",
+      "sha": "e7841ff479d8f22a266894fd5a0cba29d30e49c0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/05-hanzi-experimental-poster.jpg",
+      "sha": "ed036fc6a36953dbaf36a1e4cb1ff50fc6479212",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/06-hk-street-signs.html",
+      "sha": "9ce835ffd622787733701f52fcf6a1bdc9b6f449",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/06-hk-street-signs.jpg",
+      "sha": "e4fa23549f94da7b47f4f50b1febb0e3454733a3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/07-traditional-colors-solar-terms.html",
+      "sha": "ecc7ea4fdf1d983ce6c1676e44303c2095544976",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/07-traditional-colors-solar-terms.jpg",
+      "sha": "9fda948ae7f52d07a578ed2af885201f64a8a983",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/08-sugiura-info-mandala.html",
+      "sha": "3bfb514104d65463b12e5cd5cd791df19e5b5c7c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/08-sugiura-info-mandala.jpg",
+      "sha": "9afd319e5a2f9398035ea9bda1d726d2814e74b1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/09-tanaka-geometric-poster.html",
+      "sha": "bb9af5407a5172d6089bd5ef884ed101639c881b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/09-tanaka-geometric-poster.jpg",
+      "sha": "93277bbe3afa33b41935894409967322cc2ad035",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/10-hattori-playful-offset.html",
+      "sha": "3f75de5419c5992519661770442c568c1413cf9c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/10-hattori-playful-offset.jpg",
+      "sha": "cddc3377fb9b01b9d09056baa89df2cb5a60a6ca",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/11-sato-minimal-symbol.html",
+      "sha": "b702564209c26afc5516e2524342f4f62cfef701",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/11-sato-minimal-symbol.jpg",
+      "sha": "15b6487a2f890d710a13438e4ced2bd40aca4721",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/12-japan-magazine-dense.html",
+      "sha": "13899906132de7b2e0fcf8988b7255fef5078013",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/east/12-japan-magazine-dense.jpg",
+      "sha": "e9d4f82de1758fb386976735e7a90ffeb569e4fd",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/01-personal-annual-report.html",
+      "sha": "7bc0de1b2139522f48783681114f90e4ae2bb3aa",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/01-personal-annual-report.jpg",
+      "sha": "598f79f6cffdc8b95a1ac673da4c0a6dfa51972a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/02-explanation-graphics.html",
+      "sha": "0754f760bb94658c0cb6e67af5d3ec0084a96ba9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/02-explanation-graphics.jpg",
+      "sha": "102e892ad167e6903183a2e202ddb09f39278f08",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/03-cross-section-epic.html",
+      "sha": "39dd5cdaaae86250b055acb75cff023c01b2de88",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/03-cross-section-epic.jpg",
+      "sha": "f42ef3d40adafea385c5378d334114e5094b8d86",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/04-magazine-pop-data.html",
+      "sha": "f49f020777b5da29b0ba058ab2b3fd92c7387a8c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/04-magazine-pop-data.jpg",
+      "sha": "37107de469a8afd1f71b423566fe8e431a1d5a05",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/05-isotype.html",
+      "sha": "4c4829dda91d731184d03ab293e2178a1e12373b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/05-isotype.jpg",
+      "sha": "7e6c6a546231dadc91651897571e97acf70d8889",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/06-data-humanism.html",
+      "sha": "4c9f265e141b6210d984149e7272aff67a44ba6b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/06-data-humanism.jpg",
+      "sha": "f0ed2da6e89793a0d107deb75846f485dbb4b68a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/07-scrollytelling.html",
+      "sha": "8adf1765e9121782be237785f7056a0612e9a14a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/07-scrollytelling.jpg",
+      "sha": "8e036dc70ace6efe3dd7dc330d2cc7c162d84d49",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/08-cartographic-lead.html",
+      "sha": "de1ea3c6f66c448562a2835627c472191217ef88",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/08-cartographic-lead.jpg",
+      "sha": "7f640a79c9d1e60ead96ba55a4e2c9820eb6ae14",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/09-newsroom-chart.html",
+      "sha": "33d14f8a8e52de00bbbb5b39cfb8611a3659bc11",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/09-newsroom-chart.jpg",
+      "sha": "35b99d3228f8e1989c014f7efcd918070827d176",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/10-computational-portrait.html",
+      "sha": "9531e64200c71042882efb1705a12952fa74e10d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/10-computational-portrait.jpg",
+      "sha": "7aed9ae7533fc6de9615712d7a471899ca9b69a0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/11-beautiful-information.html",
+      "sha": "a934c9da2044e6138028d5a0b374e8700dca3820",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/11-beautiful-information.jpg",
+      "sha": "73a93f348f33095f564f5e3d52f90b7c294ef8e1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/12-open-research-data.html",
+      "sha": "63347cb250284a10ed140acf3c2dccfd4b14731f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/12-open-research-data.jpg",
+      "sha": "19d9c77c6f2c92459e1bde1d3406a98ce7493c5d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/13-speculative-tech-diagram.html",
+      "sha": "e7f649d59959e62dd52beb4501eb228e016e82dc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/13-speculative-tech-diagram.jpg",
+      "sha": "d0c714cc9493b92193985915776fd5326e726335",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/14-pictogram-system.html",
+      "sha": "d59c2d35fcc78ae1c04feeaed2f82102adc2695d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/14-pictogram-system.jpg",
+      "sha": "1c692dfd40ec4957f5604164859247fc76f5b23a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/15-small-multiples.html",
+      "sha": "3c9f67ab3cb6b6a8920f1b6de41d35b88aa99d17",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/15-small-multiples.jpg",
+      "sha": "42809370cd1b347292f53e94d70f8ff6deca0786",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/16-topological-transit-map.html",
+      "sha": "f3d9f2ecc19b8748bbec3c1ee38070c704c8550a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/16-topological-transit-map.jpg",
+      "sha": "440161fd77ed4e7f51a1b36c555eed34b84d7a2e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/17-ma-emptiness.html",
+      "sha": "59344e672d5658ebdb428d83c10f744ca1ab460e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/17-ma-emptiness.jpg",
+      "sha": "0035840a277a89568cf42d14e898bbd7b90b73bb",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/18-bookcraft-data.html",
+      "sha": "0c403204e234eb199de28ca64cd3940429780c1f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/18-bookcraft-data.jpg",
+      "sha": "3aa6f58a409ddd955db2dc2a998f8f3d49881af6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/19-scientific-figure-plate.html",
+      "sha": "ac979a7c8e4616ad5bc21d68f12b54464b2a0dbe",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/19-scientific-figure-plate.jpg",
+      "sha": "179b28c349d67900094c85fca0849189a5d9f5ce",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/20-swiss-grid-report.html",
+      "sha": "2cba994048610fc965dc93dcb56b4cc542dbfc60",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/info/20-swiss-grid-report.jpg",
+      "sha": "18e535b1dbc6b191904fcddadcbd0b246bfa3947",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/01-neo-swiss-billboard.html",
+      "sha": "8d3cb36fdc9e0281a7f5bbb0b77cb46adac48bf1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/01-neo-swiss-billboard.jpg",
+      "sha": "45a4f8422029195aab56cd9d3cc84c5d7df67eb8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/02-black-big-number-stage.html",
+      "sha": "0a3aaefb7d2743b4f67fd11c367bb74e833d1b22",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/02-black-big-number-stage.jpg",
+      "sha": "d87171e0ee833f308281f93af7ac335d5d694d9d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/03-mono-brand-type-hero.html",
+      "sha": "588ae38008bed33bae12d30e1a40f5735cea2bd5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/03-mono-brand-type-hero.jpg",
+      "sha": "ece74b82d4aa307d3ecc14d7e04ade9017ef2f88",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/04-full-bleed-gradient-manifesto.html",
+      "sha": "2f71fca5dca4d681298f6b79153acd14f7b4d20e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/04-full-bleed-gradient-manifesto.jpg",
+      "sha": "239d5ea0f81c5fbe40798665ac60e2bdd46656d7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/05-candy-lecture-stage.html",
+      "sha": "c211034f4e590120b1878b0bf2715b27c38a255d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/05-candy-lecture-stage.jpg",
+      "sha": "20c36b2982fa39b3d98e3f5c4e404ccc2ce5dfd1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/06-playful-collins-editorial.html",
+      "sha": "8cf65ad48de5f0f1fed2887f2d1ca2f7cb4e5fb2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/06-playful-collins-editorial.jpg",
+      "sha": "0ef03a58c9d37c45246544421855ffe0b6ae9d47",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/07-irreverent-pop.html",
+      "sha": "38b3a5239420aa0ab87059743bed4826da2f999c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/07-irreverent-pop.jpg",
+      "sha": "bbd2f7d5bca2bbe07f6f51c81c9a69847e8334dd",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/08-y2k-inflated-wrapped.html",
+      "sha": "99aa4199df0a78c6220aa3a1e615b354d0dfd7fc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/08-y2k-inflated-wrapped.jpg",
+      "sha": "9030c1a2f1b587ab907efaf69929e82b42b7f586",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/09-bento-grid.html",
+      "sha": "a9531cfc8a8781b34a747ac56b03cb957826f23f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/09-bento-grid.jpg",
+      "sha": "7d7f626fb9c14a7522e5c393a59ce7c2b7b7e495",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/10-dark-hairline-terminal.html",
+      "sha": "9f1f7e97db1b8bbd8596ed5530231b15243a97b1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/10-dark-hairline-terminal.jpg",
+      "sha": "7edb353bf47aec0455027ea7a247e43ad12a61a2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/11-two-font-consulting.html",
+      "sha": "6af2caa30e6b426d8a3f0696d3382d7923e4cb55",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/11-two-font-consulting.jpg",
+      "sha": "0e42d36500763aa0a851e2c6d7ebff4509dc4442",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/12-diagram-isotype.html",
+      "sha": "86157af6d13ffe3fabfd9ed08284f15800d425e4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/12-diagram-isotype.jpg",
+      "sha": "eb07875378c2021018808b32f5b9fda9ef67cfef",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/13-diagrammatic-minimalism.html",
+      "sha": "df9d317727b76ebd6cae8f0f358b1f8b74926c6f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/13-diagrammatic-minimalism.jpg",
+      "sha": "21d900aad18ce25c5b8362f16d56fdf66aa93e3b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/14-narrative-sparkline.html",
+      "sha": "3fe8fd3cd08753af76b388fc9b93cb3e8fba49e0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/14-narrative-sparkline.jpg",
+      "sha": "7a1fc73f27b29412be9635bb648c3545b072eb6f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/15-assertion-evidence.html",
+      "sha": "6653edad404241c242850fb6fcdb725f3a34d5c4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/15-assertion-evidence.jpg",
+      "sha": "5f8b46be49387c275f57321dc86af1233a87367b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/16-institutional-swiss.html",
+      "sha": "c02b024111c7ebd847ba94671a467d9325cbfb51",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/16-institutional-swiss.jpg",
+      "sha": "ca315fb0220b8af53306b5758c29f2bc70747491",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/17-editorial-longform.html",
+      "sha": "72f9173fe22b37f65562fa01828b81d0b57a27a3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/17-editorial-longform.jpg",
+      "sha": "c69402e0e7f5724812a6345df54c6d38bd30517b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/18-humanist-rounded-cards.html",
+      "sha": "4150e0d188b267c11129665a859ca709d638d21b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/18-humanist-rounded-cards.jpg",
+      "sha": "8ff05518e4d89d67e3c0ee343314eca9ae05894c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/19-dense-research-report.html",
+      "sha": "fef78ee93d3bc892ab61d77ae7ff004cb6de0d7d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/19-dense-research-report.jpg",
+      "sha": "4d8e474f4b47f2c902925589dcb15e4d68cd448d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/20-all-text-manifesto.html",
+      "sha": "1127b155abc01bcf6636fa05e40646e7ae33d22a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/ppt/20-all-text-manifesto.jpg",
+      "sha": "f6977133178b9974f3f1b41632e1f27112cecd42",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/sheet-app.jpg",
+      "sha": "01d023d0a38fa5d7e7a8d46f4505256ca29ca380",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/sheet-east.jpg",
+      "sha": "08e3f02ab7fe5c4c86981f7ef1ec987f773ef59f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/sheet-info.jpg",
+      "sha": "d712e9745465bf0dd147efb310b66ce8a6ec4b90",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/sheet-ppt.jpg",
+      "sha": "713ceba002c559e2c84aa2a8eb63279bb3080788",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/sheet-web.jpg",
+      "sha": "9bde5d974066a6e0cc9b8a7f5ecacbdcc9c152ea",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/sheet-xhs.jpg",
+      "sha": "761dd3a32943bd6d13106e01d7f13d85983e946f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/01-editorial-brutalism.html",
+      "sha": "f0d39c0616c76974d2829bd0d868b9f85cae0faa",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/01-editorial-brutalism.jpg",
+      "sha": "804c81c21b59bce6996dfd87f0512f3f3717bcc2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/02-neo-brutalism.html",
+      "sha": "54207210203946c8f889db3e405a71197862c09a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/02-neo-brutalism.jpg",
+      "sha": "2ed2614124e1f5e1a742cff27d63a3448c3ac357",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/03-memphis-maximalism.html",
+      "sha": "896d3ac0c291e07291a21950d2fd7779170e868c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/03-memphis-maximalism.jpg",
+      "sha": "fe79a22114cfd8c257faf60fb1d9f9f954b7babc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/04-friendly-candy.html",
+      "sha": "f0a86999f1bc2b61d7ad5ef547c9624686f31fb8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/04-friendly-candy.jpg",
+      "sha": "2bec8a3df9512c176ee9d9c10162807f20d32279",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/05-pure-css-art.html",
+      "sha": "1c48a978508094493b35032ca975aaa83f4a1c7c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/05-pure-css-art.jpg",
+      "sha": "464ef4b5341aae53fc8d583befe0b297d263f998",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/06-bold-big-type.html",
+      "sha": "0bdd7d1712f6cf958c3c184f328216a9d7c7f2e3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/06-bold-big-type.jpg",
+      "sha": "a6094a0041069597c65d94908f9b130d21ab4775",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/07-cosmic-retro-futurism.html",
+      "sha": "7b7d9d6594a26c6398d7317592e119ae2e2d2a6b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/07-cosmic-retro-futurism.jpg",
+      "sha": "9d58a35e48fa7ef1781321f5ba7ae0a92b5247b4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/08-cinematic-sound-viz.html",
+      "sha": "7bd1aabbd73a2c5128475f011763aa65a1c10e99",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/08-cinematic-sound-viz.jpg",
+      "sha": "2c924fb89f43d9b5c0d3534148a9dfb2055c214d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/09-pixel-side-scroller.html",
+      "sha": "4c7fbe746acf7b9d5639ad4fe77083687a050405",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/09-pixel-side-scroller.jpg",
+      "sha": "5a3906439ab50f5ee78ac08b90ef5e2b68bc306c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/10-bauhaus-geometric.html",
+      "sha": "ac22e4c8197dba046bd3c0d52450dfe5175fea76",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/10-bauhaus-geometric.jpg",
+      "sha": "02c02ba10c3116ec32ec59ec9e9dbc7b153ba929",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/11-dark-editorial.html",
+      "sha": "adf8b37014f63cbabbaf08d62973b29017b8dab7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/11-dark-editorial.jpg",
+      "sha": "5f4e0536ae47511b47779dd5db3a30cb9348db69",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/12-warm-editorial.html",
+      "sha": "d1796228bcf30d15eeff84a47ba54acbc0dafce8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/12-warm-editorial.jpg",
+      "sha": "96a278c0691f94458fa803262f1d41d278cc74be",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/13-glassmorphism-bento.html",
+      "sha": "d631a8b504a5344c32ccac4525f15a00d19222f6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/13-glassmorphism-bento.jpg",
+      "sha": "d2c6c5e28ca6a2a401e5e89976fe9e74bab884af",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/14-angled-fluid-gradient.html",
+      "sha": "cb4828a6eed619a00482761fa5015032f5dcfe6b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/14-angled-fluid-gradient.jpg",
+      "sha": "aa39e90e55b8df83aa34bf0b49f286113dec92c7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/15-utility-colorful-docs.html",
+      "sha": "0262bfbf6dce03952077f920829e73b516f296bc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/15-utility-colorful-docs.jpg",
+      "sha": "158636eee7a32d1088298a8288d967e08a8b74b8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/16-terminal-core.html",
+      "sha": "ded2a16f056f7883337b646a498ee80a79fd6647",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/16-terminal-core.jpg",
+      "sha": "3824fc3be9f2dc03d7cd46059a5277bb85522c1b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/17-functional-brutalism.html",
+      "sha": "7bf99e91c3feb49f7450bbe9492bc4b85f9bd64c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/17-functional-brutalism.jpg",
+      "sha": "c8a78f23934d578b8b4134fd6bc5cd82d9751f2f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/18-gallery-dark.html",
+      "sha": "b4a66752afa201384d22cd5d3225407ac7827915",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/18-gallery-dark.jpg",
+      "sha": "0e1164a1b12630b781e40f86e69e33af83d9438a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/19-swiss-monochrome.html",
+      "sha": "5cf2a244b920f5f1043767d42218005edda40d12",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/19-swiss-monochrome.jpg",
+      "sha": "b834e0237f5a5e31d9c549ab6b1911a1630d0eee",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/20-kenya-hara-white-gallery.html",
+      "sha": "630c796ba92202f895a217e467929480b590521b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/web/20-kenya-hara-white-gallery.jpg",
+      "sha": "a53edfb911d7008ab5b94ebe5fe9edd8f88539df",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/01-specimen-journal.html",
+      "sha": "871b040657947915315458eb3f7929bec7c94b8d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/01-specimen-journal.jpg",
+      "sha": "38636f3307ea147f41a06ee1c4d63f17c2f26422",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/02-sticker-notebook.html",
+      "sha": "93dac9af47143129efdd37092fbdbe9dbad72f02",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/02-sticker-notebook.jpg",
+      "sha": "dcc5be8a633ab070552ab86f5056f0ca182db2e1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/03-index-ink.html",
+      "sha": "96e23d7f1d1aa7cf8246e09b57896564404c7c5e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/03-index-ink.jpg",
+      "sha": "380d534390915157e993a15b797a341c9fc48fec",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/04-panorama-strip.html",
+      "sha": "aeecd37601777e9a42cfdd321b1202b2f382d848",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/04-panorama-strip.jpg",
+      "sha": "28a6c5bdcb99de0db16dc0563e7371f0d77778a3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/05-daily-paper.html",
+      "sha": "23c7cac3491db7d1ca1e9e4a900ade5d0759e371",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/05-daily-paper.jpg",
+      "sha": "3d16faf01d3a1c0347ecce9cf57e36d8391dafd1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/06-trading-cards.html",
+      "sha": "ade689464196f1d1d016caa87dc75fe15aab4233",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/06-trading-cards.jpg",
+      "sha": "ab499045301df9b283a31fa6a6d122fc6a989bb2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/07-blank-vertical.html",
+      "sha": "1263ae849fd7ea96511faa583293e5794d53e252",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/07-blank-vertical.jpg",
+      "sha": "2b544de0d44818af4170c0eb4b278bdfc3809aa9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/08-area-infographic.html",
+      "sha": "97a1c3f8365741d1074935b634e4a0d512866d1c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/08-area-infographic.jpg",
+      "sha": "34213e4e7a7fbd437f97e0316dfc060bf3cc9aac",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/README.md",
+      "sha": "cfbf8c2724ea3d333a99811827c455eb813ba84e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/birds.js",
+      "sha": "436a2e8d8ec219b1faca476b4cb5de18fd89f33d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Accipiter_nisus.webp",
+      "sha": "1084e8bf10b58499be71cea14c8a72b0dc2d5432",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Agapornis_pullarius.webp",
+      "sha": "a6ae666506e72517d9cd36dcb64dcbc9884caea2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Aix_galericulata.webp",
+      "sha": "7b1da89ae2083953b0700f49de671238811f89f1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Alcedo_atthis.webp",
+      "sha": "57dae8e025364d91c8dfa4885bd623d1d493c08b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Ara_macao.webp",
+      "sha": "3658e07e01094b0ee5c7a5f486c84a9f046e80b7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Bubo_bubo.webp",
+      "sha": "108ab6359a9d5eadd5b0c3a3048d35c21c2c2dec",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Cacatua_galerita.webp",
+      "sha": "85e9b9f630eb3305135cc92aa3e6e5b8426b577d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Calyptorhynchus_banksii.webp",
+      "sha": "4489094a711ff1d93ee7b6d7c0d3e92c9bf412a2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Carpodacus_erythrinus.webp",
+      "sha": "c65eb5845b5038818f1c5e7c61275c50bd0c80f4",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Chrysolophus_pictus.webp",
+      "sha": "4059cd68dd11a151a1508a75b32361ffcd856a49",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Coracias_caudatus.webp",
+      "sha": "8c96796e004bcab9ddcc7e0c25282cd8fc84a4a7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Ensifera_ensifera.webp",
+      "sha": "7e5b1d4cc6c30c30f3f1045a38364d176f4a74c5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Eolophus_roseicapilla.webp",
+      "sha": "8645f3dc3a133b4bd2a5e8e01957895a1178530d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Grus_japonensis.webp",
+      "sha": "39a56a76f406c60a19c620dfac107f231fe2dee5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/LICENSE.md",
+      "sha": "5ee19b9d74f525c85d3a675e0c2319ded2b950ca",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Merops_apiaster.webp",
+      "sha": "c1ba6e32f0651040b54190e5e87cfdc0fca49753",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Nestor_notabilis.webp",
+      "sha": "51b0f4a4cde737945a4a8ff462791cfff45bce40",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Platycercus_icterotis.webp",
+      "sha": "0d8cfd2a9609b4a4449aca78c22438c410dc480a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Psephotellus_chrysopterygius.webp",
+      "sha": "0bf1a86e20f4feefde01e3045f14b2fb6c8e6966",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Psittacus_erithacus.webp",
+      "sha": "b18df4152dd6dbf335ed741253cd04765ec61e1c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Trichoglossus_moluccanus.webp",
+      "sha": "4e596ab19af25a5b23deb0f55ee8b3a2c099b644",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Upupa_epops.webp",
+      "sha": "1867c04900610b23c57ac513d3bffdc3e2d5b991",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/stickers/Vini_kuhlii.webp",
+      "sha": "19490d1ff75c9c67c1a1c11a345c54cc430c1868",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/xhs.css",
+      "sha": "42ceaed5ae89955e101567a4fc3fc0c571153694",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "assets/style-specimens/xhs/_kit/xhs.js",
+      "sha": "9666b0c5904c9f0a0c918064a9d502871ea25688",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "cordis.patch.yml",
+      "sha": "ba72480ebc8f70e377b35b336b42338c32a3dcfe",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/c1-ios-prototype-en.html",
+      "sha": "df3a605ac96cf881f016e821e0f67b4fd07486f2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/c1-ios-prototype.html",
+      "sha": "fecc506f0039785b668dcf006534a722d99d1e89",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/c2-slides-pptx-en.html",
+      "sha": "b4035749422fc01a7fe72969dc7239f29f45df8c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/c2-slides-pptx.html",
+      "sha": "05e7b4ffd416d2df2a9786eacaa8dff417290104",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/c3-motion-design-en.html",
+      "sha": "ef44882fd45d0f737ec1afdf0c2f38b70424bca1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/c3-motion-design.html",
+      "sha": "79f106e448de4d358746d397932c05e735c9c03c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/c4-tweaks-en.html",
+      "sha": "284e47d3b86d53998326b93236b076438c873a4d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/c4-tweaks.html",
+      "sha": "640c41a623217cc35c6465fb89ea21dd050b1021",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/c5-infographic-en.html",
+      "sha": "c01667909f031ae829e5df8d97617fded7a4da27",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/c5-infographic.html",
+      "sha": "619e4198552aaa263515152b9d860409cd99f74e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/c6-expert-review-en.html",
+      "sha": "6471b2f5b6409c1813485ebb0475665eb951339e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/c6-expert-review.html",
+      "sha": "ab3489dc84266b2394ea2c7ea858ddeb005fdd51",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/hero-animation-v10-en.html",
+      "sha": "be8b9254db51c8000448c5c38241a970fa14f2b2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/md-html-narration/md-html-demo.html",
+      "sha": "6e6c6832b86891e02456dc4f48548300554949a3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/md-html-narration/script.md",
+      "sha": "0286852edb9396de67c205cfb35aec7db348b07d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/voiceover-demo/script.md",
+      "sha": "defb9d67074cb64059391b1ca537a4c1a2c7053a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/voiceover-demo/什么是token.html",
+      "sha": "ae8785fadc6c15e0a069d54e7b8c0a4b3c31aaaa",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/w1-brand-protocol-en.html",
+      "sha": "2eb967bbcddcf6be322a5cf4ecb9bc01a3da3873",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/w1-brand-protocol.html",
+      "sha": "dc38e4d540a716cf0c73e870699de51d55c445f6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/w2-junior-designer-en.html",
+      "sha": "88438f8d50742b640696b216d5ba96c898f163ab",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/w2-junior-designer.html",
+      "sha": "097bbb75cf68d40443adc684605f7316bf84af07",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/w3-fallback-advisor-en.html",
+      "sha": "b3363c2569002cb2b997e550df2d15b898e11c30",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "demos/w3-fallback-advisor.html",
+      "sha": "43ce90bdb820fd93358f3571c84287e032dea007",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "package-lock.json",
+      "sha": "f72209ec95bc5ed12900d891eaf5dba7f497c35c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "package.json",
+      "sha": "639212883e16f7e3abc693250cde495c24bc05f5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/about-author.md",
+      "sha": "b471e8fda7a82ea2af0bc4387f30064033cd2156",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/ai-video-review.md",
+      "sha": "a4f80a1f9f45e04cf0f20736b4176a4c89ac716e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/animation-best-practices.md",
+      "sha": "49f3e0c04403d5b7fdcafdfcf579766d0ab7a7c7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/animation-pitfalls.md",
+      "sha": "e669ccbae05af0507ccb0a35ca4901e956718ae7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/animations.md",
+      "sha": "80200adfe1d6bd1820eab3632cfee406a89b9170",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/app-prototype.md",
+      "sha": "0f4289f76c9aad16832e1641de31eea9f87f71cf",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/apple-gallery-showcase.md",
+      "sha": "63346e819343afaf2a975e1860e460924673a874",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/audio-design-rules.md",
+      "sha": "0144248e4f828a17649ed68a790ba3b0b310ceb0",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/brand-asset-protocol.md",
+      "sha": "f17e9e7e889270b009294ec4aa89e7535577bcd1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/camera-language.md",
+      "sha": "04e1769e6355975e87784062c59c6b554b875825",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/cinematic-patterns.md",
+      "sha": "b8b1dc9e6a43a53545895385edf8876887eacf7b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/content-guidelines.md",
+      "sha": "c1fa2f871924bb5fa612daa58d31901f7ab7160b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/critique-guide.md",
+      "sha": "8eb55ce9eea9bcf089c828ff5b9d021cd850da50",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/design-context.md",
+      "sha": "12adeb06d8834e0c9ba934a62b95330c39d33cd2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/design-styles.md",
+      "sha": "51da30ae5fed96cc0e206aed7b0d64ededc3f526",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/directions.md",
+      "sha": "ee1025f96cd3af4f7af055c1368d103d0b1d230a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/editable-pptx.md",
+      "sha": "7c3dfbfb73c575d7d52c3206b2b619380056874d",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/evolution.md",
+      "sha": "e93358674822d7a6c1c92dba4e883d9937086dbb",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/experience.md",
+      "sha": "8441153803b099fe9b1f38e231711d2d5a541f88",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/gsap-recipes.md",
+      "sha": "67749c62de86b425dd9d813a260d0442b3377e61",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/hero-animation-case-study.md",
+      "sha": "24abb0f7401a0a9de628c80d835681727707c996",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/hyperframes-backend.md",
+      "sha": "39f3d8b9ba13e14713ae0089401e45cdaae07787",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/launch-film-director-notes.md",
+      "sha": "8813b3a411312c49a2bbe904da5c3d812a531ddb",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/materials.md",
+      "sha": "8ddd904734d4f18645b12145106a4886655f42f1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/modules/deck.md",
+      "sha": "d22e65f74392b5f1ccc0c1cadeb06dc33069b579",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/modules/infographic.md",
+      "sha": "2bb27cb35c76847910bdea6394fa844043a341d5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/modules/motion.md",
+      "sha": "1b98fd2ff3a27a42845f65293d4c2cea809f553e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/modules/web.md",
+      "sha": "960e5c7095b034ce2fa4fe9990ed4cdb6eb15cc7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/modules/xiaohongshu.md",
+      "sha": "b9922acd01f0a9df9cc45f27d61bc9b41cc84c93",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/multi-perspective-parallel-case-study.md",
+      "sha": "2271954c38b9f8935da76c4af753d32e178b0f2a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/pptx-from-rendered-html.md",
+      "sha": "4dd19b3865f676996b7a3b95840e4cbb8d446820",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/react-setup.md",
+      "sha": "e2f56a9eb5638b612cd91dcc5d4a46b29025701e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/scene-templates.md",
+      "sha": "63ccb320ebac6f1eee99d4d21e12913e6c57ef6f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/sfx-library.md",
+      "sha": "50b23696160b98bf051d5986e83a0cbb7a3e8a28",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/slide-decks.md",
+      "sha": "c0c5d9b993e3cdd2dbb294f054619f293e4e98af",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/storyboard-basics.md",
+      "sha": "56a5f03b13e46f233605c7c16de7f5a06d633edf",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/tweaks-system.md",
+      "sha": "02062c97f9cfc6bbba1285fd32b6641a6822e8df",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/typography.md",
+      "sha": "476e0bc3254a7add1328a9d571e3d94d570e90d3",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/ui-demo-animation.md",
+      "sha": "30c0d8061f205a6f98400b9db343ce106e965a25",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/verification.md",
+      "sha": "377e0eadcfdf2e57a02b79825f47ef80c57ef4dc",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/video-export.md",
+      "sha": "5e2717dbb214a6c153fcb91c7861f28538dc363a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/voiceover-pipeline.md",
+      "sha": "c11c9978199428f8dc96d87ec2c7f784c908ab56",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/workflow.md",
+      "sha": "b437756ce839891f98b05642babe93f8da2e3882",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/add-music.sh",
+      "sha": "1a267f125c0fdd210c2edcd5fef5f46e1fab6563",
+      "mode": "100755",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/build_specimens.py",
+      "sha": "7fc288db3126ef353fca4a5b8486a22647168a67",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/capabilities.py",
+      "sha": "62efd70b904e377c4c1d6196e6beb648ff06fc3e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/cloud/ai-review-video.py",
+      "sha": "333752d0306961d7f586991e97dfe68ce6e7c40c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/cloud/tts-doubao.mjs",
+      "sha": "ce898309c6edbd0b1436e5e823282a30764fc2f6",
+      "mode": "100755",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/convert-formats.sh",
+      "sha": "7a8ed71a4741fab34518c5a7b17659a4d3b322c0",
+      "mode": "100755",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/design-gate-hook.sh",
+      "sha": "0925cfdde06dc1cca13a86d4b9ff4673f2ee5b78",
+      "mode": "100755",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/design_lint.py",
+      "sha": "6c0516928d8219edb15e4b4e547ce3ce08b7502c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/export_deck_pdf.mjs",
+      "sha": "976afe96691562e22a410bd33e0942add9c803db",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/export_deck_pptx.mjs",
+      "sha": "2754768d34187af590b2935156afde96b9f83a6b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/export_deck_stage_pdf.mjs",
+      "sha": "6dbac7975a96a3b32aa5e582b7aeb3e1c1e75ecd",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/fetch_images.py",
+      "sha": "e913b82ea65e1d1d8b0449f9a86ad260cb5b1ae2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/gen_deck_thumbs.mjs",
+      "sha": "1b3b7453312b2944156b4a4f8ef239e1dac71a1f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/html2pptx.js",
+      "sha": "330ba18766303efd0d9c9e26f6d965ab328f8e1b",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/learn.py",
+      "sha": "41e34e51f3a1ed4a2d46c0e6851d3f8769f4d3a5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/mix-voiceover.sh",
+      "sha": "ab1da5de64d2e78adf45821147f6eb8c02e7b37b",
+      "mode": "100755",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/narrate-pipeline.mjs",
+      "sha": "f7b92c1950a51b4a9de1c706e2e42fbf71c5374c",
+      "mode": "100755",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/pptx_from_rendered.py",
+      "sha": "1e04de08b17d558146826df80e64e192a94f9c59",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/ref_board.py",
+      "sha": "0035efd486e2bb9548f04aa19634b1e6266f1a85",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/render-narration.sh",
+      "sha": "9c44d8a1b164ce52864d681f377f4d69b08de1c1",
+      "mode": "100755",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/render-video-seek.js",
+      "sha": "94b18369806ed5930ce0f5c814a1d434c91fc847",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/render-video.js",
+      "sha": "36ea3819a0bb882345dfb49811d440511450e72c",
+      "mode": "100755",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/sfx-cues.sh",
+      "sha": "7fc71d58cfced9e5832330bd1525d10c5f209c94",
+      "mode": "100755",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/tests/fixtures/assets/logo.png",
+      "sha": "037b272d233b1d764c763ba49c41a912c05643d2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/tests/fixtures/lint_broken.html",
+      "sha": "25e4fd020579de9546fad51b214c0c8e040671d9",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/tests/fixtures/lint_clean.html",
+      "sha": "5595f4b7aef324b971f42b3df4abed63f38da4c2",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/tests/fixtures/lint_offline.html",
+      "sha": "c7f48e9d67196937b1603faf0709e540ae77b127",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/tests/fixtures/lint_reskin.html",
+      "sha": "ea78b410e9af43f8a9b995af1200e6a51f75c3a8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/tests/fixtures/lint_slop.html",
+      "sha": "676e7bf96dbb3c1e12fcebe6f05b22061e8cfd85",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/tests/fixtures/lint_tricky_bad.html",
+      "sha": "24ccb9753c7ea68ee412f584e8d9efb429b30930",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/tests/fixtures/lint_tricky_ok.html",
+      "sha": "6c4ba38b680422dfc9eb1a9f2d2643d9083bb417",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/tests/fixtures/mixed_text.html",
+      "sha": "c8b50a35d9d2f48f3d23b6072a40a91a74738f79",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/tests/fixtures/xhs_bad.html",
+      "sha": "7f4f0b0d2fd3fd62e80fbf9a29625597224ea175",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/tests/fixtures/xhs_ok.html",
+      "sha": "ff665d0bc1a761a2da23b3fd6e3833ef9ce14bed",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/tests/test_compare_failures.py",
+      "sha": "890708134baf262d894effbb765f63036d366282",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/tests/test_design_lint.py",
+      "sha": "530b4279d9d974381071e3e56f0e9518b0a23329",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/tests/test_pptx_from_rendered.py",
+      "sha": "fd8850bc2cf5ca97927b112f875630d3105202d5",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/tests/test_xhs_render.py",
+      "sha": "3043398da92269efbe0249c95f1a3c326bccef5c",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/verify-video.sh",
+      "sha": "e3541df119634f30754acc8e06d210c7d983e603",
+      "mode": "100755",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/verify.py",
+      "sha": "6becf2b8e1e121f4b14e1784aa6d9b8b8c8ff25a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/xhs_render.py",
+      "sha": "10f19b6bf19da51376681ae54e645cdd43d046c7",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "test-prompts.json",
+      "sha": "e9d3d13d75c7837458554527ef15d09a23d47e16",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "baddb91c315ea384f9191615054ba8026eb57ba2": [
     {
       "path": "LICENSE.txt",
