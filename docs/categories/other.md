@@ -1,11 +1,12 @@
 # 其他与待细分
 
-[返回总目录](../../CATALOG.md) · 42 个条目 · 分类为规则初分，欢迎纠错。
+[返回总目录](../../CATALOG.md) · 43 个条目 · 分类为规则初分，欢迎纠错。
 
 复制完整 ID 后运行 `python3 atlas.py download <ID> --dest ./downloads/<目录名>`。
 
 | 名称与来源 | 用途（上游原文） | 完整 ID |
 |---|---|---|
+| [huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion/tree/8a0d7d72ca65fcce6f8ba82c4a6c8dfe35b8422c/.) | 艺术与视频动画：拆解复刻动画；36种既有实做风格＋16种可迁移研究配方；9种解说动画语法，8种可按口播参数渲片段；含口播整片参考代码及框景检查；人用AI生帧；可选已有录音、系统声音与语音复刻，按需配置。 | `alchaincyf/huashu-art-motion` |
 | [dialogue-systems](https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/dialogue-systems) | Build branching dialogue and narrative — a node/choice graph with conditions, variables, and localization hooks — and choose between authoring tools Ink and Yarn Spinner or a custom data-driven runner. Engine-neutral. Us | `gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/dialogue-systems` |
 | [performance-optimization](https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/performance-optimization) | Find and fix game performance problems methodically — measure with the engine profiler first, reason about the frame-time budget, locate the CPU-vs-GPU bottleneck, then apply the right fix: object pooling, draw-call batc | `gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/performance-optimization` |
 | [save-systems](https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/save-systems) | Design save/load for game state — choosing what to serialize, file formats, save slots, atomic crash-safe writes, schema versioning and migration, and autosave. Engine-neutral. Use when the user mentions save system, sav | `gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/save-systems` |

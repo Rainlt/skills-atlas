@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "snapshot": "559cc99d4fb36d57",
-  "generated_at": "2026-11-06T01:27:41.997231+00:00",
+  "snapshot": "25215640f4bd34e8",
+  "generated_at": "2026-11-06T01:54:36.316189+00:00",
   "stats": {
-    "sources": 23,
-    "scanned_skills": 4044,
-    "unique_bundles": 4044,
+    "sources": 26,
+    "scanned_skills": 4047,
+    "unique_bundles": 4047,
     "exact_duplicates_removed": 0,
     "same_name_families": 98,
     "excluded_identical_distribution_copies": 5226,
@@ -459,6 +459,69 @@
       "repository_license": "Apache-2.0",
       "skills_scanned": 78,
       "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+      "excluded_skill_files": 0,
+      "excluded_identical_distribution_copies": 0
+    },
+    {
+      "repo": "alchaincyf/darwin-skill",
+      "kind": "specialist",
+      "priority": 25,
+      "include": [
+        "SKILL.md"
+      ],
+      "pinned_commit": "8a8b66258e3c45d6ae4aea39719468c6428fcb0a",
+      "discover_references": false,
+      "note_zh": "Skill有限优化与同题成品对照；已复现原版版本配对和平局保留边界，采用方法融入现有toolbox-builder，不运行自动Git优化循环。",
+      "compatibility": "原版完整源固定核对；源码收录不等于全局安装。只采用有限改进方法；原版会执行Git变更，基线与暂存区须另核对，不自动运行。",
+      "commit": "8a8b66258e3c45d6ae4aea39719468c6428fcb0a",
+      "tree_sha": "7763cff02c78b3fbd54d424a0bb6392d2f0035fa",
+      "branch": "master",
+      "archived": false,
+      "repository_license": "MIT",
+      "skills_scanned": 1,
+      "url": "https://github.com/alchaincyf/darwin-skill",
+      "excluded_skill_files": 0,
+      "excluded_identical_distribution_copies": 0
+    },
+    {
+      "repo": "alchaincyf/huashu-design",
+      "kind": "specialist",
+      "priority": 25,
+      "include": [
+        "SKILL.md"
+      ],
+      "pinned_commit": "b2460b031c33ff32d2bf3b97263527daa231e4de",
+      "discover_references": false,
+      "note_zh": "内容导向视觉参考与渲染事实体检；已测缺图/低对比/小字及依赖缺失边界，只吸收方法，不替换现有设计默认项。",
+      "compatibility": "原版完整源固定核对；源码收录不等于全局安装。可选体检需Python/Playwright/Pillow；缺依赖退出0不能视作通过。原版三方案确认流程按当前用户授权适配。",
+      "commit": "b2460b031c33ff32d2bf3b97263527daa231e4de",
+      "tree_sha": "ade3656c17e054fdb69062e02a671bb28c209e0b",
+      "branch": "master",
+      "archived": false,
+      "repository_license": "MIT",
+      "skills_scanned": 1,
+      "url": "https://github.com/alchaincyf/huashu-design",
+      "excluded_skill_files": 0,
+      "excluded_identical_distribution_copies": 0
+    },
+    {
+      "repo": "alchaincyf/huashu-art-motion",
+      "kind": "specialist",
+      "priority": 25,
+      "include": [
+        "SKILL.md"
+      ],
+      "pinned_commit": "8a0d7d72ca65fcce6f8ba82c4a6c8dfe35b8422c",
+      "discover_references": false,
+      "note_zh": "参数化艺术动效与白板场景；8秒中文片段已导出，文字审计存在动态遮挡边界，运动/颜色阈值需按用途解释，不替换现有动画默认引擎。",
+      "compatibility": "原版完整源固定核对；源码收录不等于全局安装。渲染需Python/Playwright/FFmpeg；film_gate另需NumPy/OpenCV。局部无声白板实测不代表全部风格或配音云服务可用。",
+      "commit": "8a0d7d72ca65fcce6f8ba82c4a6c8dfe35b8422c",
+      "tree_sha": "7ca1ca96927cb86e689cf0e7cfe8f99bd836d128",
+      "branch": "main",
+      "archived": false,
+      "repository_license": "MIT",
+      "skills_scanned": 1,
+      "url": "https://github.com/alchaincyf/huashu-art-motion",
       "excluded_skill_files": 0,
       "excluded_identical_distribution_copies": 0
     }
@@ -43905,6 +43968,126 @@
       "upstream_category": null,
       "declared_risk": null,
       "compatibility": "Python及numpy/Pillow/OpenCV/PyMuPDF/ezdxf/pypdf，Node与puppeteer-core，Chrome/Edge/Chromium；设计器核心以打包HTML提供。受控单层样例已做人工纠错后验证；不是全自动读图或施工合规证明。复杂CAD、多层、管线和导出应按当前任务单独验收。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "alchaincyf/darwin-skill",
+      "name": "darwin-skill",
+      "description": "Darwin Skill 2.0 (达尔文.skill 2.0): autonomous skill optimizer, v2.0 integrates Microsoft Research SkillLens (arXiv 2605.23899) 9-dim rubric + SkillOpt (arXiv 2605.23904) validation-gated design + human-in-the-loop checkpoints. Evaluates SKILL.md files using a 9-dimension rubric (structure + effectiveness + meta-skill blacklists), runs hill-climbing with git version control, spawns independent judge agents for blind evaluation, validates improvements through test prompts with auto-break on diminishing returns, and generates visual result cards. Use when user mentions \"优化skill\", \"skill评分\", \"自动优化\", \"auto optimize\", \"skill质量检查\", \"达尔文\", \"darwin\", \"帮我改改skill\", \"skill怎么样\", \"提升skill质量\", \"skill review\", \"skill打分\".",
+      "categories": [
+        "engineering",
+        "ai",
+        "testing"
+      ],
+      "tags_zh": [
+        "AI、模型与智能体",
+        "测试、调试与代码评审",
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "alchaincyf/darwin-skill",
+          "path": ".",
+          "commit": "8a8b66258e3c45d6ae4aea39719468c6428fcb0a",
+          "bundle_sha": "7763cff02c78b3fbd54d424a0bb6392d2f0035fa",
+          "skill_sha": "40edb0b9196d65ffb9296bd5d9ef443565dee080",
+          "url": "https://github.com/alchaincyf/darwin-skill/tree/8a8b66258e3c45d6ae4aea39719468c6428fcb0a/.",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "MIT",
+            "content_hint": "MIT",
+            "review_required": true,
+            "url": "https://github.com/alchaincyf/darwin-skill/tree/8a8b66258e3c45d6ae4aea39719468c6428fcb0a/."
+          },
+          "notices": []
+        }
+      ],
+      "instruction_sha256": "b1576ca6bb385ad2ecd735a2739ab10f928dab36bad4d77bc29247493ce5db63",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "原版完整源固定核对；源码收录不等于全局安装。只采用有限改进方法；原版会执行Git变更，基线与暂存区须另核对，不自动运行。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "alchaincyf/huashu-art-motion",
+      "name": "huashu-art-motion",
+      "description": "艺术与视频动画：拆解复刻动画；36种既有实做风格＋16种可迁移研究配方；9种解说动画语法，8种可按口播参数渲片段；含口播整片参考代码及框景检查；人用AI生帧；可选已有录音、系统声音与语音复刻，按需配置。",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "alchaincyf/huashu-art-motion",
+          "path": ".",
+          "commit": "8a0d7d72ca65fcce6f8ba82c4a6c8dfe35b8422c",
+          "bundle_sha": "7ca1ca96927cb86e689cf0e7cfe8f99bd836d128",
+          "skill_sha": "73f2248675f92a2b1928fa0d35e8369a3ea2292a",
+          "url": "https://github.com/alchaincyf/huashu-art-motion/tree/8a0d7d72ca65fcce6f8ba82c4a6c8dfe35b8422c/.",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "MIT",
+            "content_hint": "MIT",
+            "review_required": true,
+            "url": "https://github.com/alchaincyf/huashu-art-motion/tree/8a0d7d72ca65fcce6f8ba82c4a6c8dfe35b8422c/."
+          },
+          "notices": []
+        }
+      ],
+      "instruction_sha256": "50d584c939d58cc003fffb7671744379494b2fa8e01adc929a2fe23616cec324",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "原版完整源固定核对；源码收录不等于全局安装。渲染需Python/Playwright/FFmpeg；film_gate另需NumPy/OpenCV。局部无声白板实测不代表全部风格或配音云服务可用。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "alchaincyf/huashu-design",
+      "name": "huashu-design",
+      "description": "花叔Design——用HTML做高保真原型、幻灯片、动画、可视化与专家评审。任何新设计100%先出三个方向初稿给用户选（指定风格/品牌也不豁免），选定后才执行。触发词：做原型、PPT、幻灯片、动画、设计风格、评审、做个HTML页面、UI mockup、导出MP4/GIF、做个好看的。生产级Web App/需后端的系统不适用。",
+      "categories": [
+        "frontend",
+        "media"
+      ],
+      "tags_zh": [
+        "前端、界面与体验",
+        "设计、图像、音频与视频"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "alchaincyf/huashu-design",
+          "path": ".",
+          "commit": "b2460b031c33ff32d2bf3b97263527daa231e4de",
+          "bundle_sha": "ade3656c17e054fdb69062e02a671bb28c209e0b",
+          "skill_sha": "fa3139d14e2bc3d80d060e38e553d15c2dea7de9",
+          "url": "https://github.com/alchaincyf/huashu-design/tree/b2460b031c33ff32d2bf3b97263527daa231e4de/.",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "MIT",
+            "content_hint": "MIT",
+            "review_required": true,
+            "url": "https://github.com/alchaincyf/huashu-design/tree/b2460b031c33ff32d2bf3b97263527daa231e4de/."
+          },
+          "notices": []
+        }
+      ],
+      "instruction_sha256": "b3f1a31ff87c13c56e12e284cfb13ae72fe64b23bab11f5f55db303396d95c21",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "原版完整源固定核对；源码收录不等于全局安装。可选体检需Python/Playwright/Pillow；缺依赖退出0不能视作通过。原版三方案确认流程按当前用户授权适配。",
       "has_external_refs": false,
       "format_issues": []
     },

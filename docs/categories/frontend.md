@@ -1,12 +1,13 @@
 # 前端、界面与体验
 
-[返回总目录](../../CATALOG.md) · 132 个条目 · 分类为规则初分，欢迎纠错。
+[返回总目录](../../CATALOG.md) · 133 个条目 · 分类为规则初分，欢迎纠错。
 
 复制完整 ID 后运行 `python3 atlas.py download <ID> --dest ./downloads/<目录名>`。
 
 | 名称与来源 | 用途（上游原文） | 完整 ID |
 |---|---|---|
 | [artifacts-builder](https://github.com/ComposioHQ/awesome-claude-skills/tree/be2a406907dbc61b73e6827ded415c96139d13a2/artifacts-builder) | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or s | `ComposioHQ/awesome-claude-skills/artifacts-builder` |
+| [huashu-design](https://github.com/alchaincyf/huashu-design/tree/b2460b031c33ff32d2bf3b97263527daa231e4de/.) | 花叔Design——用HTML做高保真原型、幻灯片、动画、可视化与专家评审。任何新设计100%先出三个方向初稿给用户选（指定风格/品牌也不豁免），选定后才执行。触发词：做原型、PPT、幻灯片、动画、设计风格、评审、做个HTML页面、UI mockup、导出MP4/GIF、做个好看的。生产级Web App/需后端的系统不适用。 | `alchaincyf/huashu-design` |
 | [frontend-design](https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design) | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults. | `anthropics/skills/skills/frontend-design` |
 | [web-artifacts-builder](https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/web-artifacts-builder) | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or s | `anthropics/skills/skills/web-artifacts-builder` |
 | [input-systems](https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/input-systems) | Architect game input — action mapping (abstracting keys into named actions), rebinding with conflict detection and persistence, multi-device support (keyboard, gamepad, touch), analog deadzones, and feel features like in | `gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/input-systems` |
