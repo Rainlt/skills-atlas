@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "snapshot": "0ee109d806b58259",
-  "generated_at": "2026-11-05T01:39:50.154438+00:00",
+  "snapshot": "559cc99d4fb36d57",
+  "generated_at": "2026-11-06T01:27:41.997231+00:00",
   "stats": {
-    "sources": 22,
-    "scanned_skills": 3966,
-    "unique_bundles": 3966,
+    "sources": 23,
+    "scanned_skills": 4044,
+    "unique_bundles": 4044,
     "exact_duplicates_removed": 0,
-    "same_name_families": 97,
+    "same_name_families": 98,
     "excluded_identical_distribution_copies": 5226,
     "excluded_noncanonical_skill_files": 5609,
     "identical_instruction_groups": 6
@@ -437,6 +437,28 @@
       "repository_license": "UNKNOWN",
       "skills_scanned": 1,
       "url": "https://github.com/larashero3-dotcom/lieflat-gongwen",
+      "excluded_skill_files": 0,
+      "excluded_identical_distribution_copies": 0
+    },
+    {
+      "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+      "kind": "specialist",
+      "priority": 25,
+      "include": [
+        "router/",
+        "skills/"
+      ],
+      "pinned_commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "discover_references": false,
+      "note_zh": "游戏开发专项补充：按引擎与任务选择角色控制、关卡、AI、存档、手感等技能；仅收录，暂未安装或实测，不加入通用精选默认。",
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "tree_sha": "f5bfef698dd7c0701222d02d9df88d6ac6ab2043",
+      "branch": "main",
+      "archived": false,
+      "repository_license": "Apache-2.0",
+      "skills_scanned": 78,
+      "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
       "excluded_skill_files": 0,
       "excluded_identical_distribution_copies": 0
     }
@@ -44814,6 +44836,3910 @@
       "declared_risk": null,
       "compatibility": "完整审计需要支持工具调用和并行子智能体的编程助手，以及 Node.js 校验器。执行目标代码需满足上游规定的隔离运行条件；条件不足时仅核对源码，将相关问题标为待验证。单项下载包含配套说明与校验脚本，不等于已安装或完成安全验证。",
       "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/router",
+      "name": "router",
+      "description": "Routes any game-development request to the right specialized skill(s): it detects the engine (Godot, Unity, Unreal, Ebitengine, Bevy, Phaser, PixiJS, three.js, Defold, LÖVE, pygame, Roblox) and the task, then reads the chosen skill before acting. Use to make a game or to decide which skill applies — for players, levels, enemies, shaders, art direction, sprites, tiles, textures, 3D assets, UI/UX, cameras, game feel, physics, input, audio, saving, multiplayer, AI, dialogue, procedural generation, or performance, for genres (platformer, roguelike, RPG, FPS, tower-defense, card game, visual novel, survival-crafting, puzzle), and for shipping (game jam, Steam, itch). Start here when unsure which gamedev skill to use.",
+      "categories": [
+        "mobile",
+        "engineering",
+        "media"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏",
+        "设计、图像、音频与视频",
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "router",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "e51e711dc3428c7ea97c0c98dd8deac4112d6b09",
+          "skill_sha": "f19eacd9d68dbe8d4c1289032b5957db30ecc41e",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/router",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/router"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "011a63b3ab071fb7332cb9ddaf7d24dea30a541447771116edc15a259352afd2",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/ai-behavior-trees-utility-ai",
+      "name": "ai-behavior-trees-utility-ai",
+      "description": "Build a production behavior-tree runtime (Blackboard, action/condition leaves, sequence/selector/parallel composites, decorators) and a Utility AI system (response curves — linear, exponential, sigmoid, quadratic — considerations, and action evaluators), plus hybrid BT-drives-Utility agents. Use when implementing a reusable behavior-tree or utility-based decision system, or tuning enemy/NPC decisions beyond a simple FSM, or when the user mentions behavior tree, blackboard, decorator, selector, sequence, tick status, utility AI, response/scoring curve, or consideration. For choosing between FSM/BT/steering or for pathfinding, use game-ai; for Unreal's BehaviorTree/Blackboard assets, use unreal-behavior-trees.",
+      "categories": [
+        "ai",
+        "mobile"
+      ],
+      "tags_zh": [
+        "AI、模型与智能体",
+        "移动端、桌面与游戏"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/disciplines/ai-behavior-trees-utility-ai",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "a6a2496894b819aad8f7ad4bbdbc6e1f0594873e",
+          "skill_sha": "9c54c534667c59552964437ad1075f693c8c7933",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/ai-behavior-trees-utility-ai",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/ai-behavior-trees-utility-ai"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "be78dd9f916e6dc7a0b87dad3f9434977224df0112f31d3bc4f11fba33ec241b",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/audio-design",
+      "name": "audio-design",
+      "description": "Implement game audio practice — bus/mixer architecture and gain in decibels, ducking (sidechain), adaptive/dynamic music via layering and re-sequencing, SFX variation, and beat synchronization. Engine-neutral. Use when the user mentions audio mixing, audio buses, adaptive/dynamic music, ducking, SFX variation, music layers, or syncing gameplay to the beat.",
+      "categories": [
+        "media",
+        "backend"
+      ],
+      "tags_zh": [
+        "后端、API 与架构",
+        "设计、图像、音频与视频"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/disciplines/audio-design",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "972177960ddfc25d04ff0878e016b8fae6394732",
+          "skill_sha": "37996996f5d9fe438a43d39bfe58004dc0b1e6d8",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/audio-design",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/audio-design"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "75726432bd3f195c2ff010251dcf5e3056473ff34d4cbc6b65cf3b2f15753aec",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/camera-systems",
+      "name": "camera-systems",
+      "description": "Build game cameras that feel good — 2D follow with a deadzone, look-ahead, smoothing, and level-bounds clamping; 3D third-person orbit with collision and first-person look; plus multi-target framing and a shake hook. Engine-neutral techniques that pair with the engine's camera node and rigs like Unity Cinemachine or Godot Camera2D/PhantomCamera. Use when the user mentions camera follow, follow camera, deadzone, look-ahead, camera smoothing, camera bounds/ limits, third-person camera, orbit camera, first-person look, Cinemachine, or camera jitter.",
+      "categories": [
+        "mobile",
+        "media"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏",
+        "设计、图像、音频与视频"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/disciplines/camera-systems",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "8d91a4b822661f89678dbf57e43047c670f7fd11",
+          "skill_sha": "df9af28277ee78f21837f462438a09f86803dddd",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/camera-systems",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/camera-systems"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "1ccf232261fb7e347bf9222a95213420c7860eebe0db008b3192840b950b408c",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/create-game-assets",
+      "name": "create-game-assets",
+      "description": "Plan, generate, source, normalize, and validate cohesive visual game assets. Use for art direction, style bibles, sprites, tilesets, backgrounds, UI art, icons, textures, concept art, or 3D asset briefs.",
+      "categories": [
+        "media"
+      ],
+      "tags_zh": [
+        "设计、图像、音频与视频"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/disciplines/create-game-assets",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "75c20076a125f07ba5763c4d9c1be32f2ad470bf",
+          "skill_sha": "e2e6ecad398e46b0a8b4f910ec75b82885505f8b",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/create-game-assets",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/create-game-assets"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "756609472f5eba45390e628139c687f6ddaa2dd8e206868427e99e837a06f698",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/dialogue-systems",
+      "name": "dialogue-systems",
+      "description": "Build branching dialogue and narrative — a node/choice graph with conditions, variables, and localization hooks — and choose between authoring tools Ink and Yarn Spinner or a custom data-driven runner. Engine-neutral. Use when the user mentions dialogue system, branching dialogue, conversation tree, choices, Ink (.ink), Yarn Spinner (.yarn), or NPC dialogue.",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/disciplines/dialogue-systems",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "861f326ab43340220ec0c41bb6d270503d04390e",
+          "skill_sha": "9518a07b66f457f12206767a57e2fa64022f1eb5",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/dialogue-systems",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/dialogue-systems"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "fc50e053dbdb24a5b90ee467692f01bc73e8d13dd9ca49acacb27c99fd719e1d",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/game-ai",
+      "name": "game-ai",
+      "description": "Design NPC and enemy decision-making with finite state machines, behavior trees, steering behaviors, and A* pathfinding — engine-neutral algorithms that pair with the detected engine's navigation API. Use when building enemy AI, an FSM or behavior tree, steering/flocking, or pathfinding, or when the user mentions state machine, behavior tree, blackboard, A*, navmesh, seek, or patrol/chase.",
+      "categories": [
+        "engineering"
+      ],
+      "tags_zh": [
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/disciplines/game-ai",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "ad92e1ff558a8ec51109e4bfd6dfe415e766621f",
+          "skill_sha": "6b90b505ef635cb7f0917de3416670ad1d404790",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/game-ai",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/game-ai"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "24137bd21ea3f74b8292b88d2cee39bea4f68a99a5981dacef94871b4cbb5864",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/game-feel",
+      "name": "game-feel",
+      "description": "Add \"juice\" and game feel that makes actions satisfying — screen shake, hit-stop/freeze frames, tweened/eased motion, squash & stretch, knockback, and layered audio-visual feedback — as engine-neutral techniques that pair with the detected engine's tween, particle, and camera APIs. Use when the user mentions game feel, juice, \"make it feel good/punchy\", screen shake, hit stop, screen freeze, easing, squash and stretch, impact frames, or feedback/polish on hits, jumps, pickups, and deaths.",
+      "categories": [
+        "media"
+      ],
+      "tags_zh": [
+        "设计、图像、音频与视频"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/disciplines/game-feel",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "7a1eb41bdf2fce7adeadb4b97efa8241fb9c7f98",
+          "skill_sha": "3dafb5b3f2d9a56f9e9eb8c3bae1805800de6fda",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/game-feel",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/game-feel"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "17ff0aca9317b73ad0bcfb3569ee7d75ab86e196bfa12a2a55c5c1d95eed3f43",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/game-ui-ux",
+      "name": "game-ui-ux",
+      "description": "Design and build game UI/UX — HUDs, menus, and overlays — that survive every screen: anchor- based responsive layout, resolution/aspect scaling and safe areas, keyboard/gamepad focus navigation, a screen/menu state stack, and event-driven (not polled) HUD updates. Engine- neutral patterns that pair with the detected engine's UI skill. Use when the user mentions HUD, health bar, main menu, pause menu, settings screen, UI layout, anchors, UI scaling, aspect ratio, safe area, controller/keyboard menu navigation, or wiring UI to game state.",
+      "categories": [
+        "engineering"
+      ],
+      "tags_zh": [
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/disciplines/game-ui-ux",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "7161502a894f8ba3b7671fdb73cff77e74add930",
+          "skill_sha": "c7088f7d340dd3d68848f7d0d9a954577fde86b3",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/game-ui-ux",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/game-ui-ux"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "fc1a69fb70a84235ee46fed43b5923c928a3886fdebc803b479e7dea77a7f0c7",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/input-systems",
+      "name": "input-systems",
+      "description": "Architect game input — action mapping (abstracting keys into named actions), rebinding with conflict detection and persistence, multi-device support (keyboard, gamepad, touch), analog deadzones, and feel features like input buffering and coyote time, plus accessibility. Engine-neutral. Use when the user mentions input mapping, rebind controls, gamepad support, deadzone, input buffering, coyote time, or accessible controls.",
+      "categories": [
+        "frontend"
+      ],
+      "tags_zh": [
+        "前端、界面与体验"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/disciplines/input-systems",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "a3cad5e41f9de7fcfee96789302f4256219861fd",
+          "skill_sha": "d20f5a0bdfb5f6c41822dcd138cba305e2ab0d64",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/input-systems",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/input-systems"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "b1f2c429194d8b994ca2056280c69c9bc2ca5587d381abe80450755643471631",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/level-design",
+      "name": "level-design",
+      "description": "Design and build playable levels — the blockout/whitebox-to-playable workflow, player metrics and grid layout, pacing and flow (tension/rest curve), gating and the critical path, and encounter design. Engine-neutral practice. Use when the user mentions level design, blockout/whitebox/greybox, level layout, level pacing, encounter design, or the critical path through a level.",
+      "categories": [
+        "automation"
+      ],
+      "tags_zh": [
+        "办公、应用集成与自动化"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/disciplines/level-design",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "f0d89b9f6df84b2e17a3d08b5d4a80e0e8e83d06",
+          "skill_sha": "14337635666aaa38bce83ce797aa89f89e964cc4",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/level-design",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/level-design"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "7695a9f443dc50a11480c75c1e1bd1d7c46b46aed34c6f09eaf73d0355876ee9",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/performance-optimization",
+      "name": "performance-optimization",
+      "description": "Find and fix game performance problems methodically — measure with the engine profiler first, reason about the frame-time budget, locate the CPU-vs-GPU bottleneck, then apply the right fix: object pooling, draw-call batching, fewer allocations/GC spikes, and asset budgets. Engine- neutral method that pairs with each engine's profiler. Use when the user mentions performance, optimize, low/dropping FPS, frame drops, stutter, lag, profiler, frame budget, draw calls, batching, garbage collection/GC spikes, object pooling, or \"the game runs slow\".",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/disciplines/performance-optimization",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "df3a247ea8f22f9f0b9d529aa257ab02ce028bf3",
+          "skill_sha": "e6878a4552be445b54988bd2fb93619d561f38f3",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/performance-optimization",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/performance-optimization"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "92fca9bc3083a71d9ab86868c251024b8e5d2c74b4c2c23b60e384a49408b364",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/physics-tuning",
+      "name": "physics-tuning",
+      "description": "Tune game physics for stable, good-feeling motion — fixed vs variable timestep, render interpolation, mass/gravity/drag, continuous collision detection (CCD) to stop tunneling, fixing jitter, and collision layers/masks. Engine-neutral. Use when the user mentions physics feel, jitter, tunneling, fixed timestep, FixedUpdate, CCD, bouncing/unstable physics, or collision layers.",
+      "categories": [
+        "research"
+      ],
+      "tags_zh": [
+        "科研、文献与科学计算"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/disciplines/physics-tuning",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "9a2db0086380c38e7fa3405140df00bbb474c309",
+          "skill_sha": "4f22e28ebd21d74a40b52951a41f57c73a46d964",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/physics-tuning",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/physics-tuning"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "993e1d40861e68da9e17644309fcd76e69ed881eb7c3838e88e94491ad3ebc3a",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/procedural-gen",
+      "name": "procedural-gen",
+      "description": "Generate game content procedurally — seeded deterministic RNG, value/Perlin/ Simplex noise for terrain and heightmaps, grid dungeon generation (rooms + corridors, BSP, random walk, wave function collapse), and weighted loot/drop tables. Engine-neutral algorithms. Use when the user mentions procedural generation, perlin/simplex noise, random seed, dungeon generator, WFC, heightmap/terrain, or loot tables.",
+      "categories": [
+        "engineering"
+      ],
+      "tags_zh": [
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/disciplines/procedural-gen",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "ff68b7488563d2be6cab6ffc8ee74cbec6b79394",
+          "skill_sha": "10b58ce76370179deb8fc064deeb977e5b577ffd",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/procedural-gen",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/procedural-gen"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "6f80ec4be9d500bda0c9ceb9a3d1facc9c96a2c5f66facf85bae2c55cce13154",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/save-systems",
+      "name": "save-systems",
+      "description": "Design save/load for game state — choosing what to serialize, file formats, save slots, atomic crash-safe writes, schema versioning and migration, and autosave. Engine-neutral. Use when the user mentions save system, save/load, game state persistence, save slots, autosave, save file corruption, or migrating old saves to a new version.",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/disciplines/save-systems",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "46cac963bf1074c6e865e655d8b93d4d065eb1d0",
+          "skill_sha": "dbfa017473dd69f28217a620bb1fb73621913d36",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/save-systems",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/save-systems"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "c260dc42fc81eb305f75328774efa42900bb1a9c42849ddd6ee2adc87848cf13",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/shader-programming",
+      "name": "shader-programming",
+      "description": "Write game shaders from cross-engine fundamentals — the vertex→fragment pipeline, coordinate spaces, UV math, and common 2D/3D effects (tint, UV scroll, dissolve, outline, fresnel rim, vignette) in GLSL with HLSL equivalents. Use when the user mentions shaders, fragment/pixel shader, vertex shader, UV, GLSL, HLSL, or effects like dissolve, outline, or rim light.",
+      "categories": [
+        "engineering",
+        "media"
+      ],
+      "tags_zh": [
+        "设计、图像、音频与视频",
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/disciplines/shader-programming",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "2be558cbd5293a78007b69cd22dc830bba75ba22",
+          "skill_sha": "06aa180b587d7d31b5ab0e36e28db431f16220f6",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/shader-programming",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/shader-programming"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "13803210786cbd57b8e84b5e665a7f737850107ea5f7bc0d6c353596cbc6eebc",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/ebitengine/ebitengine-game",
+      "name": "ebitengine-game",
+      "description": "Create, improve, debug and package playable 2D games in Go with Ebitengine (github.com/hajimehoshi/ebiten/v2). Use for Ebitengine game requests: game design translated into a complete loop, input, rendering, text, audio, scenes, gameplay tests and desktop, browser or mobile builds. Also use when fixing these systems in an existing Ebitengine game. Do not apply to unrelated Go software or engine-internal patches merely because they depend on Ebitengine.",
+      "categories": [
+        "testing",
+        "media",
+        "mobile"
+      ],
+      "tags_zh": [
+        "测试、调试与代码评审",
+        "移动端、桌面与游戏",
+        "设计、图像、音频与视频"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/ebitengine/ebitengine-game",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "0294e6d13678dd44d38421cd66468dd6ed1a2841",
+          "skill_sha": "ef948ba9ed1707f6cea97c686447fbf2d7abe4b6",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/ebitengine/ebitengine-game",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/ebitengine/ebitengine-game"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "db6a9d75733b52fe98c3dd5abd25436409736d9abbb1a46a1b81d9046e502ee1",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/genres/card-game",
+      "name": "card-game",
+      "description": "Build a card game: card data, deck/hand/discard zones, draw/shuffle/reshuffle, a turn structure, costs, and effect resolution. Use for a deckbuilder, TCG/CCG, or roguelike deckbuilder.",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/genres/card-game",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "e704e079af96cf2cf880e3ec98452949ec439957",
+          "skill_sha": "0567666318f510a5a2fa997c2e3ef1fe116157e4",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/genres/card-game",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/genres/card-game"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "c854c5e553168267707ff94d55d46f9828d5b735b3da02e1e7c39384f8f04a83",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/genres/fps-shooter",
+      "name": "fps-shooter",
+      "description": "Build a first-person shooter: move+mouse-look controller, hitscan or projectile shooting, weapons, health, and enemy AI. Use for an FPS, or tuning aim feel, time-to-kill, recoil, or spread.",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/genres/fps-shooter",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "e0552997e80c24667330951f23de0587a276eba6",
+          "skill_sha": "6c048f624f6ef3e34f75b7345cc20678bd541d8a",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/genres/fps-shooter",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/genres/fps-shooter"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "8ebb362a4a71e641442ff5fd285f2adbcbeadcfce56d7ea0dd525fc3dd0ae45e",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/genres/platformer",
+      "name": "platformer",
+      "description": "Build a 2D platformer: run/jump control with coyote time, jump buffering, and variable jump height, wall slide and wall jump, plus tiled levels and hazards. Use for a platformer or Mario/Celeste-like, or tuning jump feel.",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/genres/platformer",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "32285b14fff2042c0d89d0c8b7d010928f1cc806",
+          "skill_sha": "4d5337bfb48967520b7f5955ab648e3c080a0d3c",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/genres/platformer",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/genres/platformer"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "f741806a660cc5050d43e9f157a3f5dcd298a1915707738b13a487669821cec5",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/genres/puzzle",
+      "name": "puzzle",
+      "description": "Build a puzzle game: grid/board state, move input, rule-based resolution (match-3 cascades, sokoban pushes, tile logic), scoring, and undo. Use for a match-3, sokoban, or grid-logic puzzle.",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/genres/puzzle",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "386ed8e88f63ad538d6758fbfd1765dca6d61b80",
+          "skill_sha": "034c395421fa729ea589bb8d8a532494d5924083",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/genres/puzzle",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/genres/puzzle"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "e478c506477d7a6ab088c9c8e78463fe93361a07937cef311deb8eaa2e3be049",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/genres/roguelike",
+      "name": "roguelike",
+      "description": "Build a roguelike: turn-based grid movement, procedural dungeons, permadeath, field-of-view, and loot tables. Use for a roguelike/roguelite or turn-based grid dungeon crawler with procedural levels.",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/genres/roguelike",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "9ac1dca42ec4e154edca5ce3c1290babcff809e6",
+          "skill_sha": "2f9b30532fb49377c3db51623ac7304769bacaa2",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/genres/roguelike",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/genres/roguelike"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "62d7590c0c3d032447ce9e94fe1fd0d70496edd508186e290011da06dd0ac25a",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/genres/rpg",
+      "name": "rpg",
+      "description": "Build an RPG: stats and leveling, inventory and equipment, quests, branching dialogue, save/load, and combat. Use for an RPG/JRPG, or designing stat, inventory, quest, or combat systems.",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/genres/rpg",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "6b92698e48e5cbce0fe71e78006a55f5765d40f9",
+          "skill_sha": "6ce277d53fbb9c1352b8f14e17003bce994f57b0",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/genres/rpg",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/genres/rpg"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "d65f7188462bd729a3a0e8c88cf64a5b74e3487d8b0f938195514f820f57c39d",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/genres/survival-crafting",
+      "name": "survival-crafting",
+      "description": "Build a survival-crafting game: resource gathering, inventory, crafting and a tech tree, needs (hunger/thirst/temperature), and base building. Use for a survival or crafting/base-building game.",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/genres/survival-crafting",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "190a8c2a173f5d50d43d0c84e73838b2af9344c7",
+          "skill_sha": "54cc0a0514f2c955c0230f25cc97f62d196806e1",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/genres/survival-crafting",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/genres/survival-crafting"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "ef878a4f914a668f69acf7496e3d50778ae2614bf2e62f2ed39f0eca4774c877",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/genres/tower-defense",
+      "name": "tower-defense",
+      "description": "Build a tower defense: enemies pathing along lanes, wave spawning, towers that auto-target and fire, an economy, and lives. Use for a tower-defense/wave-defense game, or balancing waves and economy.",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/genres/tower-defense",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "b8eae1468d3ce28e898f44f38d3c7d9f1b111983",
+          "skill_sha": "213977deb38c75826d04408061d21089c7db0bb4",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/genres/tower-defense",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/genres/tower-defense"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "7da7a4e0b654b07619dcea758967e20b80c0b664929e25204fff3aed1f3c808e",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/genres/visual-novel",
+      "name": "visual-novel",
+      "description": "Build a visual novel: a branching script, character and background display, a text box with choices, save/load, backlog, and skip/auto. Use for a VN, dating sim, or branching story game.",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/genres/visual-novel",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "bd41c59f5cc7dd1da3ca7255fb639e61f9e7512d",
+          "skill_sha": "7baf574e67fe739fd173edbe83539d27455afd97",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/genres/visual-novel",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/genres/visual-novel"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "77b58e52cb2a67aaa74c8233e05c1fee3b8b4ded29aac6d9b40230d4042318bd",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/godot/godot-2d-movement",
+      "name": "godot-2d-movement",
+      "description": "Implement 2D kinematic character movement in Godot 4.7 with CharacterBody2D and move_and_slide(): platformer run/jump with gravity, top-down 8-direction motion, slope handling, and reading collisions. Use when coding a 2D player or enemy controller, a platformer or top-down character, or fixing move_and_slide()/ is_on_floor() behavior in a .tscn with a CharacterBody2D.",
+      "categories": [
+        "mobile"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/godot/godot-2d-movement",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "3bfdda93d0cbd4d0e9efc816cc610601a51b3073",
+          "skill_sha": "714c3053d1f5f6bc2beeee37593a26d404fa2416",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-2d-movement",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-2d-movement"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "d198d32e92e5e438fcdcd1a1fc865bfa37dfcf285d04545c81ccc30895533631",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/godot/godot-3d-essentials",
+      "name": "godot-3d-essentials",
+      "description": "Set up a Godot 4.7 3D scene: Node3D transforms, Camera3D, lighting (DirectionalLight3D/OmniLight3D), WorldEnvironment for sky/ambient/tonemap/post, MeshInstance3D materials, and GridMap for tile-based 3D levels. Use when building a 3D scene in a Godot project, placing cameras/lights, configuring environment and post-processing, or working with Node3D/.tscn 3D content and GridMap.",
+      "categories": [
+        "media",
+        "mobile"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏",
+        "设计、图像、音频与视频"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/godot/godot-3d-essentials",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "42e87f18d75c0b96343eea6aee3997a925a8646c",
+          "skill_sha": "ccc739c0497bed0a114d3b0860d34ee0a8706cbc",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-3d-essentials",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-3d-essentials"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "b7b8b5e2b4ed9fcc54a69e9fe5e9837626ca589aba2b3e4758fbb06277d6958a",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/godot/godot-animation",
+      "name": "godot-animation",
+      "description": "Animate in Godot 4.7 three ways: AnimationPlayer for keyframed clips (incl. Call Method tracks), AnimationTree with state machines and blend spaces for character animation, and Tween for short procedural/UI tweens via create_tween(). Use when working with AnimationPlayer/AnimationTree nodes in a .tscn, blending character states, sprite-sheet animation, or code-driven Tweens.",
+      "categories": [
+        "media",
+        "mobile",
+        "engineering"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏",
+        "设计、图像、音频与视频",
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/godot/godot-animation",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "8594deb059af585bd9a10f3a21761dcb8eb18e6e",
+          "skill_sha": "2fecb969e833c43eb3e064867b9446522648ff0e",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-animation",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-animation"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "b4444ad97191102c78fb5e19b90e59c7fc074bc181a87ec9b19104344caea541",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/godot/godot-audio",
+      "name": "godot-audio",
+      "description": "Play and mix audio in Godot 4.7: AudioStreamPlayer (2D/3D variants), audio buses with volume/mute and effects, music vs SFX routing, db/linear volume, and precise sync-to-beat playback timing. Use when playing sounds or music in a Godot project, routing AudioStreamPlayer nodes to buses, adjusting bus volume via AudioServer, or syncing gameplay to the beat.",
+      "categories": [
+        "media",
+        "mobile"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏",
+        "设计、图像、音频与视频"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/godot/godot-audio",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "7ace408d2a6823d6b600f6d7ba41926878877119",
+          "skill_sha": "2abd77ea5f4ce23344d78ea297a0257c0053cb6a",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-audio",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-audio"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "0df1cbbb9c33a10aedae997af3d13aeec50e8ae8fa67f059ad88481c67b0b556",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/godot/godot-csharp",
+      "name": "godot-csharp",
+      "description": "Use C#/.NET in Godot 4.7: partial classes extending nodes, the PascalCase lifecycle (_Ready/_Process/_PhysicsProcess), [Export] fields, [Signal] delegates as C# events, type-safe node lookup, and calling between C# and GDScript. Use when writing Godot game code in C# (.cs files, .csproj), needing the Godot .NET build, converting GDScript patterns to C#, or wiring Godot signals as C# events.",
+      "categories": [
+        "mobile",
+        "engineering",
+        "writing"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏",
+        "写作、翻译与知识管理",
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/godot/godot-csharp",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "4b85cfcbb6a533a39facb790fabdbbb74e3aa4e0",
+          "skill_sha": "30103b1beb776bc2ede6e9fad2d81dad107af9d7",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-csharp",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-csharp"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "527a7bed4c6bf694cc49e6ae3622a43bcf6fd3ff8ae3a314e70f3591b76a120b",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/godot/godot-export",
+      "name": "godot-export",
+      "description": "Export and build a Godot 4.7 project for distribution: install export templates, define export presets (Windows/macOS/Linux/Web/Android), run headless command-line exports for CI, and handle web (HTML5) COOP/COEP and dedicated-server/headless builds. Use when exporting a Godot game, configuring export_presets.cfg, building for web/desktop/mobile, or automating builds from the command line.",
+      "categories": [
+        "mobile"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/godot/godot-export",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "ee2f82e13eb21de9e4f0a4a8362ea5d6b9ee154f",
+          "skill_sha": "7f8962080187ac87376a3cea966500ce4243c3b5",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-export",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-export"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "6cb3735834f014d3ce096d16ff008bf08854cb76363a461ad50640dd2fde0eac",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/godot/godot-gdscript",
+      "name": "godot-gdscript",
+      "description": "Write idiomatic GDScript for Godot 4.7: static typing, the node lifecycle (_ready/_process/_physics_process), @export/@onready/@tool annotations, signals, and await for asynchronous flow. Use when editing .gd scripts in a Godot project (project.godot), writing or debugging GDScript, or porting 3.x GDScript to 4.x (function signatures, yield to await, export to @export).",
+      "categories": [
+        "mobile",
+        "research",
+        "writing"
+      ],
+      "tags_zh": [
+        "科研、文献与科学计算",
+        "移动端、桌面与游戏",
+        "写作、翻译与知识管理"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/godot/godot-gdscript",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "6d6feb627eb221d4e65341abc5c79ddaacfb4463",
+          "skill_sha": "44eb9f5b24bfe1c2354f153fc6e34148d8abb7a8",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-gdscript",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-gdscript"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "697c57d32077a629c68f19f82aa048ddc56014e2392c661b7bd9d92bbe82beec",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/godot/godot-gdscript-headless-testing",
+      "name": "godot-gdscript-headless-testing",
+      "description": "Run GDScript test suites from the command line with `godot --headless`, using a SceneTree/MainLoop runner script that exits non-zero on failure so CI can gate merges. Use when a Godot project needs unit tests without opening the editor, when wiring a CI job (GitHub Actions or similar) that must fail the build on a failing `.gd` test, or when a `godot --headless` invocation hangs, opens a window, or exits 0 despite failed assertions.",
+      "categories": [
+        "mobile",
+        "testing",
+        "devops"
+      ],
+      "tags_zh": [
+        "测试、调试与代码评审",
+        "部署、云与运维",
+        "移动端、桌面与游戏"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/godot/godot-gdscript-headless-testing",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "da569cc98e8bccee432c8bc1118090b8764b4c47",
+          "skill_sha": "c8eea6a301309564c95f028a92f6ee651341b1b6",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-gdscript-headless-testing",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-gdscript-headless-testing"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "280ca6b89f4290e812ebe5bf58b4ee54ba14990385e270f1cdf9117b7581cb8f",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/godot/godot-multiplayer",
+      "name": "godot-multiplayer",
+      "description": "Build networked games with Godot 4.7 high-level multiplayer: set up an ENetMultiplayerPeer server/client, define RPCs with the @rpc annotation (call via rpc()/rpc_id()), set per-node multiplayer authority, and replicate state with MultiplayerSpawner and MultiplayerSynchronizer. Use when adding multiplayer/networking to a Godot project, writing @rpc functions, or syncing player/world state across peers.",
+      "categories": [
+        "mobile",
+        "writing"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏",
+        "写作、翻译与知识管理"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/godot/godot-multiplayer",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "e75cec1f6ae6facdf44377bb9131bd8eff4c6d5c",
+          "skill_sha": "5f378ec7ec70e46653356ec04cecd7ab32dd9b0d",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-multiplayer",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-multiplayer"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "7b1e764dc2361e050a944b9ef0f0d56ffea09e3f1401d0ede23249258c9b7753",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/godot/godot-nodes-scenes",
+      "name": "godot-nodes-scenes",
+      "description": "Structure a Godot 4.7 project with the scene tree and node composition: build reusable scenes, instance PackedScenes at runtime, navigate the tree safely, and register autoload singletons. Use when designing .tscn scenes, deciding how to split nodes, spawning instances with instantiate(), wiring autoloads, or fixing \"node not found\"/freed-node errors in a Godot project.",
+      "categories": [
+        "mobile"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/godot/godot-nodes-scenes",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "f0301d6d9a52172164b59ea835072c596ad6be13",
+          "skill_sha": "99cfd6838743aeb3b339e7afbb34de13ed7aa85d",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-nodes-scenes",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-nodes-scenes"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "5aef55e72842631ffa989eeb64524c02aa60ae0b1b1e3fa4e7c0b801cb9957dc",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/godot/godot-physics",
+      "name": "godot-physics",
+      "description": "Use Godot 4.7 physics bodies and detection in 2D and 3D: RigidBody, StaticBody, Area, and CharacterBody; collision layers vs masks; contact/overlap signals; and raycasts (RayCast nodes and direct space-state queries). Use when configuring collision layers/masks, detecting overlaps with Area2D/Area3D, applying forces to a RigidBody, or casting rays in a Godot project (.tscn with physics bodies), including 3D projects running Jolt Physics, the default 3D engine for projects created in 4.6+.",
+      "categories": [
+        "mobile",
+        "research",
+        "media"
+      ],
+      "tags_zh": [
+        "科研、文献与科学计算",
+        "移动端、桌面与游戏",
+        "设计、图像、音频与视频"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/godot/godot-physics",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "382cea5f74f2d76efffd0cbdfb0f049cb25a176e",
+          "skill_sha": "e6790d90142483a2566ef8bd17424b52db60458f",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-physics",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-physics"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "bbfec25e980c597f5aef4b404a0a8b96bf8a35399bd8373acc5c5f98bc13eb56",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/godot/godot-resources",
+      "name": "godot-resources",
+      "description": "Design data-driven Godot 4.7 games with custom Resource classes: define typed data with class_name + @export, save/load .tres/.res files, instance and duplicate resources, and load on demand with ResourceLoader (incl. threaded loading). Use when modeling items/stats/configs as data in a Godot project, creating .tres resources, or working with custom Resource subclasses and ResourceLoader/ResourceSaver.",
+      "categories": [
+        "mobile"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/godot/godot-resources",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "23bf115d46b0c30c9f3ee0ac758351a52ae35b03",
+          "skill_sha": "7ec5d20d06ee14335f44ef079b0299ba7378fc9d",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-resources",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-resources"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "ef62b818bd27883b2772de2c7838f9c950399b238221044bfa9c00577f802950",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/godot/godot-shaders",
+      "name": "godot-shaders",
+      "description": "Write Godot 4.7 shaders in the Godot Shading Language: canvas_item shaders for 2D and spatial shaders for 3D, with vertex/fragment functions, uniforms (source_color, hint_range), TIME/UV animation, and screen-reading via hint_screen_texture. Use when authoring .gdshader files, writing fragment/vertex code, making 2D/3D visual effects, or porting 3.x shaders (SCREEN_TEXTURE, hint_color) to 4.x.",
+      "categories": [
+        "mobile",
+        "media",
+        "engineering"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏",
+        "设计、图像、音频与视频",
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/godot/godot-shaders",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "8334af6c735b5b876830fa3e2d4d76d26e1bc7d8",
+          "skill_sha": "529f9dd98901208d5cb1e28c2c2857a52a627841",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-shaders",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-shaders"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "42994ae3f9114dfd904f3d9d92ef816c9e98b743d0b10ec0b804292f7938a9a0",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/godot/godot-signals-groups",
+      "name": "godot-signals-groups",
+      "description": "Build event-driven, decoupled Godot 4.7 gameplay with signals and node groups: declare and emit custom signals, connect with Callables (incl. bind/one-shot), and broadcast to many nodes via groups and call_group. Use when wiring node communication in a Godot project, replacing tight references with signals, emitting/connecting events, or porting 3.x connect(\"sig\", self, \"method\") code.",
+      "categories": [
+        "mobile",
+        "engineering"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏",
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/godot/godot-signals-groups",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "cab67e733121e0cf661dad25816e3ce5c3eccaa2",
+          "skill_sha": "003fbeca64d7ae845df9bc3d44087e933c6a258c",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-signals-groups",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-signals-groups"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "cf9023bd57d6914e92981723b9620ab1b148b64aaa419f5d494838e8db5ec196",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/godot/godot-tilemap",
+      "name": "godot-tilemap",
+      "description": "Build and edit tile-based 2D levels in Godot 4.7 with TileMapLayer and TileSet: paint layers, set up collision/navigation/custom-data on tiles, autotile with terrain sets, and read/write cells from code (set_cell, get_cell_tile_data, local_to_map). Use when working with TileMapLayer nodes, .tres TileSets, autotiling, or migrating a deprecated TileMap node to TileMapLayer.",
+      "categories": [
+        "mobile",
+        "engineering"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏",
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/godot/godot-tilemap",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "7505fc21d7a1f166f5972516b159a49ec1e5bc3a",
+          "skill_sha": "b3139664b2069f7104e5b9fec5e87b118e954dcd",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-tilemap",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-tilemap"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "59a027720f02e142fc2e8354180e7748aa5bb43d7cee14b2a724fe8c82bf934c",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/godot/godot-ui-control",
+      "name": "godot-ui-control",
+      "description": "Build Godot 4.7 user interfaces with Control nodes: anchors and offsets for responsive layout, Container nodes (VBox/HBox/Grid/Margin) for automatic arrangement, Theme resources for consistent styling, and keyboard/gamepad focus navigation. Use when laying out a HUD, menu, or UI in a Godot project, working with Control/Container nodes, anchors, themes, or focus in a .tscn.",
+      "categories": [
+        "mobile"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/godot/godot-ui-control",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "e049092b1d7b6a68b12c8a4b49ca923dfd412530",
+          "skill_sha": "d3d1bd190991265fcfe6713e6172490f23204df1",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-ui-control",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-ui-control"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "f39f0ad8b9df246f188e2bcfbbefb8b9c36c24b750bc43f55035a98f95c6373e",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/other-engines/bevy-ecs",
+      "name": "bevy-ecs",
+      "description": "Structure a Bevy app around its Entity Component System: build the App with plugins, define Component/Resource types, write systems with Query/Res/Commands, filter and order systems, and use the Time resource for frame-rate-independent motion. Use when building or debugging a Bevy game in Rust — when the user mentions Bevy, ECS, App::new, add_systems, Query, Commands, components/systems, or a Cargo.toml depending on bevy.",
+      "categories": [
+        "engineering"
+      ],
+      "tags_zh": [
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/other-engines/bevy-ecs",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "aab2637122060e7951725f6dbea379e59d3ca3ea",
+          "skill_sha": "c7c1274721fb8eae79f11a942d4e2bae39128f22",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/bevy-ecs",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/bevy-ecs"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "7e6928e3b0c75e838de5437e15f78e3a9c62e4428940e3756329a204b19170b7",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/other-engines/defold-core",
+      "name": "defold-core",
+      "description": "Build and debug the core of a Defold game in Lua: game.project settings, collections, game objects and components, script lifecycle and self state, go.property, input focus and bindings, URLs and message passing, factories, collection factories and collection proxies, plus building and smoke-running with Bob. Use when a project has game.project or .collection, .go, .script, .gui_script or .input_binding files, or the request mentions Defold, msg.post, on_message, on_input, acquire_input_focus, factory.create, collection proxy, bob.jar, or a Defold build error.",
+      "categories": [
+        "testing"
+      ],
+      "tags_zh": [
+        "测试、调试与代码评审"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/other-engines/defold-core",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "547bbf735403bbadab2a2452eda964949b158cb4",
+          "skill_sha": "c8cd1b0fe4f433330431781a536e0037d4952d9e",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/defold-core",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/defold-core"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "617db9ed8213f1e23a622aa1bbe254ecfe0897dd1643e888708eb5db475dcb08",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/other-engines/love2d-core",
+      "name": "love2d-core",
+      "description": "Structure and debug a LÖVE (Love2D) game in Lua: the love.load/update/draw loop, delta-time movement, input, and screen states. Use when building a LÖVE 11.x game (main.lua, conf.lua, .love).",
+      "categories": [
+        "testing"
+      ],
+      "tags_zh": [
+        "测试、调试与代码评审"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/other-engines/love2d-core",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "1da67c16cb961e1f7cd11c785cfcdcfb7bf0daa2",
+          "skill_sha": "a4dbdc11cad8f8232bd43fc692bfd63eec1604af",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/love2d-core",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/love2d-core"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "77d9b8da2b759719709ff09374e46d1b0e86b2cb3a50975cbba0ce3d16ba7470",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/other-engines/pygame-core",
+      "name": "pygame-core",
+      "description": "Structure a pygame (pygame-ce) game in Python: the init/event/update/draw loop, delta-time movement, Surface/Rect blitting, keyboard/mouse input, and Sprite/Group management with collision. Use when building or debugging a pygame game — when the user mentions pygame, pygame-ce, the game loop, blit, Surface, Rect, sprite groups, or clock.tick. Targets pygame-ce.",
+      "categories": [
+        "engineering"
+      ],
+      "tags_zh": [
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/other-engines/pygame-core",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "73eb0b4c407f2b209d821a3b1cdffdee60cc5bc2",
+          "skill_sha": "51acdff0acf6112ca8a0bf4678008c055e621ec0",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/pygame-core",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/pygame-core"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "3e2bf800684a1a4c2c72db38e5a6cacdc1c16fefabad7adbca89032448bef283",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/other-engines/roblox-characters",
+      "name": "roblox-characters",
+      "description": "Build respawn-safe Roblox character systems around Players, CharacterAdded/CharacterRemoving, Humanoid, HumanoidRootPart, Animator, R6/R15 rigs, movement, animations and markers, death, tools, accessories, ownership, and custom characters. Use when character scripts break after respawn, cache stale Humanoids, control movement or velocity, load AnimationTracks, handle death, equip Tools, modify avatars, or support custom player rigs.",
+      "categories": [
+        "media"
+      ],
+      "tags_zh": [
+        "设计、图像、音频与视频"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/other-engines/roblox-characters",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "66bfa87c4e7ab20ab3cee213fa2b4a5d98c7d8d9",
+          "skill_sha": "5d338b83a08e24f1e345477e34ea85dfc08501f2",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-characters",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-characters"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "2e720635eaedbcfd724f7041f9f5ffa97726b90e46c6f6c2e45949e4e8719982",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/other-engines/roblox-datastores",
+      "name": "roblox-datastores",
+      "description": "Persist player data in Roblox with DataStoreService: GetDataStore, GetAsync/ SetAsync/UpdateAsync/IncrementAsync wrapped in pcall, load-on-join and save-on-leave plus BindToClose, retries, and OrderedDataStore leaderboards. Use when saving or loading persistent data in a Roblox experience — when the user mentions DataStore, DataStoreService, GetAsync, SetAsync, UpdateAsync, save player data, or leaderboards. For general Luau scripting use roblox-luau.",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/other-engines/roblox-datastores",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "8da2d3d5d3b82f2d4ea0b5661ec3ad3b8ab134d8",
+          "skill_sha": "1043dac07b8d4952d577e39272fd70034c360b47",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-datastores",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-datastores"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "5897adbd337f81e5d445b9bb481cc9158d64a68f9f662379288962d2df1fa46f",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/other-engines/roblox-luau",
+      "name": "roblox-luau",
+      "description": "Script a Roblox experience in Luau: get services, create and parent Instances, connect events, run server Scripts vs client LocalScripts, and communicate across the client/server boundary with RemoteEvents/RemoteFunctions (server-authoritative). Use when building or debugging Roblox Studio scripts — when the user mentions Roblox, Luau, services, RemoteEvent, Instance.new, PlayerAdded, or client vs server. For saving player data use roblox-datastores.",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/other-engines/roblox-luau",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "eb9abcf747ea940328ad05051e57723957726ad6",
+          "skill_sha": "147b3c6cdfd45f35d8b5387dd8968f233793bc3f",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-luau",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-luau"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "0b5bc11b202c04afe5a4af981e55308db7d2664b2952ca0198ef3243c279d64b",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/other-engines/roblox-networking",
+      "name": "roblox-networking",
+      "description": "Design and harden Roblox client/server networking with RemoteEvent, RemoteFunction, and UnreliableRemoteEvent; server authority, argument and Instance validation, rate limits, proximity/ownership checks, targeted replication, streaming, lifecycle, prediction, and reconciliation. Use for Roblox remotes, exploits, request spam, multiplayer replication, network ownership, high-frequency cosmetic updates, or server/client desynchronization.",
+      "categories": [
+        "security"
+      ],
+      "tags_zh": [
+        "安全、隐私与审计"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/other-engines/roblox-networking",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "b77bdfce140eff6adaac958ebc27bbc346d0507b",
+          "skill_sha": "1b9ded8474ce865c144f15083da0a0a994c48c0d",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-networking",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-networking"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "21d67c56909c817249c74a9a9ea5c99ec7a9eb4c89af3c305513a46195af1b7d",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/other-engines/roblox-physics",
+      "name": "roblox-physics",
+      "description": "Implement Roblox physical simulation and queries with assemblies, anchoring, constraints, collision groups, CanCollide/CanTouch/CanQuery, raycasts and overlap queries, mass, impulses, forces, velocity, moving assemblies, cleanup, and network ownership. Use for Roblox collisions, hit detection, RaycastParams, PhysicsService, projectiles, vehicles, knockback, constraints, deprecated BodyMovers, unstable motion, or client-owned physics exploits.",
+      "categories": [
+        "research",
+        "security"
+      ],
+      "tags_zh": [
+        "科研、文献与科学计算",
+        "安全、隐私与审计"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/other-engines/roblox-physics",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "624c5f3aa142df2fa047f3e65b49250a3c6bf36e",
+          "skill_sha": "eefde58822468c591726863c9e22b4418c9d4282",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-physics",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-physics"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "c8def6cbdad3eff751dda652a187831871d43783b1bf1a7549049530f8ed9d4b",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/other-engines/roblox-simulator-economy",
+      "name": "roblox-simulator-economy",
+      "description": "Design, balance, and implement the economy of a Roblox simulator, tycoon, clicker, or idle game in Luau: upgrade cost curves, buy max, income per second, rebirth/prestige requirements and multipliers, offline earnings, big-number display (1.5K, 3.4M, 2.0Qa), server-authoritative purchases, repairing tampered or old save data, and odds disclosure for paid random items such as eggs, crates, and spins. Includes a Lune pacing calculator. Use when choosing or checking baseCost/costGrowth/rebirth numbers, writing upgrade/currency/rebirth/offline code, or when progress stalls, a rebirth takes far longer than the last, numbers display as 1000K, offline earnings pay too much, or players gain currency they did not earn.",
+      "categories": [
+        "engineering",
+        "writing"
+      ],
+      "tags_zh": [
+        "写作、翻译与知识管理",
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/other-engines/roblox-simulator-economy",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "2060be8479201e61390af6824bbe211f0161184d",
+          "skill_sha": "58910cf46b609d62e8a82ffbbe120501f8a7d964",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-simulator-economy",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-simulator-economy"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "bb1d4e5b056b3663c24f9be52b926566f12c2b3c16fc5cd156e9294cad4914bd",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/other-engines/roblox-studio-workflow",
+      "name": "roblox-studio-workflow",
+      "description": "Modify living Roblox Studio projects safely: inspect Explorer and execution locations, preserve existing structure, reuse modules/remotes, create meaningful Instances, apply Attributes and CollectionService tags, test server/client and multiple devices, inspect Output, and remove experiments/debug objects. Use when an agent edits a place or rbxl/rbxlx/Rojo project, operates in Studio, adds Scripts/LocalScripts/ModuleScripts, or must verify a Roblox change in context.",
+      "categories": [
+        "automation",
+        "testing",
+        "ai"
+      ],
+      "tags_zh": [
+        "AI、模型与智能体",
+        "测试、调试与代码评审",
+        "办公、应用集成与自动化"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/other-engines/roblox-studio-workflow",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "e5c4b0269ace00fd911ab4153c483403323c38e6",
+          "skill_sha": "449c872157b8d0623517c5a89a76800b6fc44e3d",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-studio-workflow",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-studio-workflow"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "865d43b462cef65c261dc3f7b8b371bb2134ef173f38af2195bb5d6b97240328",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/other-engines/roblox-ui",
+      "name": "roblox-ui",
+      "description": "Build production Roblox interfaces with ScreenGui/PlayerGui lifecycle, responsive UDim2 layouts, safe insets, reusable editable Instances, cross-device input and selection, restrained motion, cleanup, and multi-viewport verification. Use for Roblox HUDs, inventories, shops, settings, ability bars, ScrollingFrames, AutomaticSize, GuiService, gamepad focus, touch UI, or UI that clips, resets on respawn, looks generic, or was generated as one giant LocalScript.",
+      "categories": [
+        "testing"
+      ],
+      "tags_zh": [
+        "测试、调试与代码评审"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/other-engines/roblox-ui",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "e96939ff9fb747d02080966de236b5df5b3aec2a",
+          "skill_sha": "96365dec487ec74a449dc064ccd0fd0c2911f136",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-ui",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-ui"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "32e84ba37c6ba98de1138fa546d611de9026e3e1083d61c8e19f431607a8ecb2",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/unity/unity-animation",
+      "name": "unity-animation",
+      "description": "Drive Unity 6.3 LTS character animation with Animator Controllers: states, transitions, parameters, blend trees, animation layers, and humanoid Avatar IK. Use when wiring an Animator, setting parameters from script (SetFloat/SetBool/SetTrigger), building blend trees, or when the user mentions Animator, Mecanim, state machine, blend tree, or .controller.",
+      "categories": [
+        "media",
+        "mobile"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏",
+        "设计、图像、音频与视频"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/unity/unity-animation",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "9d989d42d5434a2a4f71c45b93e4eb1ee11adafe",
+          "skill_sha": "579a6ddc522777032889f1bc38530099d433b99a",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unity/unity-animation",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unity/unity-animation"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "ba94fb6f26759afa67bd27e03f60481d22f6d866450436a30154d3327243f7fe",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/unity/unity-build-pipeline",
+      "name": "unity-build-pipeline",
+      "description": "Build and ship Unity 6.3 LTS players: build settings and scenes, player/quality settings, the IL2CPP vs Mono scripting backend, managed code stripping, scripted BuildPipeline.BuildPlayer, and CI/headless builds. Use when configuring or automating a build, choosing a scripting backend, shrinking build size, or when the user mentions Unity build, player settings, IL2CPP, code stripping, or Addressables.",
+      "categories": [
+        "mobile",
+        "backend",
+        "engineering"
+      ],
+      "tags_zh": [
+        "后端、API 与架构",
+        "移动端、桌面与游戏",
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/unity/unity-build-pipeline",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "a201ef3efd76c2af02450bcfffde647c0b9133d2",
+          "skill_sha": "49e32ffc3e219a0dceed93088172a39d581d21e6",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unity/unity-build-pipeline",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unity/unity-build-pipeline"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "7362793413ccff4e8d17f5fc01d7797b90d72152221001e38ce5b21da3cd3200",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/unity/unity-csharp-scripting",
+      "name": "unity-csharp-scripting",
+      "description": "Write Unity 6.3 LTS C# gameplay scripts: the MonoBehaviour lifecycle (Awake/OnEnable/Start/Update/FixedUpdate/LateUpdate), GameObject and component access, coroutines, and Inspector serialization. Use when creating or editing .cs scripts in a Unity project, or when the user mentions MonoBehaviour, Start/Update, GetComponent, SerializeField, coroutines, or \"Unity script\".",
+      "categories": [
+        "mobile"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/unity/unity-csharp-scripting",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "4ef8970d3b2c79ec4a5a69389d469679c1a8b399",
+          "skill_sha": "0d81d5859ad5a0251b7d0b6f5d477cb913a4199c",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unity/unity-csharp-scripting",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unity/unity-csharp-scripting"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "6e879192e773f5a9dcebec0a1b98e8114bd618e95b41ecfa1b4ae1fae63f6a5c",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/unity/unity-input-system",
+      "name": "unity-input-system",
+      "description": "Wire player input in Unity 6.3 LTS with the Input System package: Input Actions, action maps, the PlayerInput component, and reading values via callbacks or polling. Use when the project has a .inputactions asset or com.unity.inputsystem, or when the user mentions the Unity Input System, InputAction, action maps, PlayerInput, control schemes, or rebinding.",
+      "categories": [
+        "mobile"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/unity/unity-input-system",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "c5d9b9169cdd3c0eb6f914ea59c6a4bbb475d102",
+          "skill_sha": "7c036885062a59816d50c3634f716d4512f4095a",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unity/unity-input-system",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unity/unity-input-system"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "a0c68e3c8a0efedb62e9bfc54e05317780f5ee43c312740fb7d91f2bf61ad211",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/unity/unity-navmesh",
+      "name": "unity-navmesh",
+      "description": "Add AI navigation in Unity 6.3 LTS: bake a NavMesh with the AI Navigation package (NavMeshSurface), move agents with NavMeshAgent.SetDestination, and handle dynamic obstacles. Use when setting up pathfinding, making an enemy chase the player, baking navigation, or when the user mentions NavMesh, NavMeshAgent, NavMeshSurface, NavMeshObstacle, or Unity pathfinding.",
+      "categories": [
+        "mobile",
+        "ai"
+      ],
+      "tags_zh": [
+        "AI、模型与智能体",
+        "移动端、桌面与游戏"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/unity/unity-navmesh",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "841e1af862fc1820e6e8971cb692c93d587d03cf",
+          "skill_sha": "402564ddf5a0e496e45300207aa74db77a79a963",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unity/unity-navmesh",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unity/unity-navmesh"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "a9daba1e34799303f6dbe7f9efe53dc39a649d67fc23b4ecd217410dc45dacc6",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/unity/unity-physics",
+      "name": "unity-physics",
+      "description": "Set up 3D physics in Unity 6.3 LTS: Rigidbody movement and forces, colliders, triggers vs collisions, layer-based collision, raycasts, and joints. Use when adding a Rigidbody, handling OnCollisionEnter/OnTriggerEnter, tuning collision layers, casting rays, or when the user mentions Unity physics, AddForce, isKinematic, or linearVelocity.",
+      "categories": [
+        "mobile",
+        "research",
+        "media"
+      ],
+      "tags_zh": [
+        "科研、文献与科学计算",
+        "移动端、桌面与游戏",
+        "设计、图像、音频与视频"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/unity/unity-physics",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "b530f2016b151099a871cc7f18321f7dcd11ce0b",
+          "skill_sha": "f7ab068a0aac0836ecddf35323decbaaeedc7015",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unity/unity-physics",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unity/unity-physics"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "f1bc4f969ae4ce15ed4acc2c1610e726e0dd03f2c9b6647f04cfb145222ef823",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/unity/unity-scriptableobjects",
+      "name": "unity-scriptableobjects",
+      "description": "Architect Unity 6.3 LTS data and decoupling with ScriptableObjects: config/data assets, shared runtime variables, event channels, and runtime sets/registries. Use when designing data-driven systems, replacing singletons/managers, creating .asset data with CreateAssetMenu, or when the user mentions ScriptableObject, SO architecture, or data assets.",
+      "categories": [
+        "mobile",
+        "backend"
+      ],
+      "tags_zh": [
+        "后端、API 与架构",
+        "移动端、桌面与游戏"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/unity/unity-scriptableobjects",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "1fd11f49c0530253678c16807d1633a1dd5c05e1",
+          "skill_sha": "382c99d51905b74f0442a9064bace51c633b56c7",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unity/unity-scriptableobjects",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unity/unity-scriptableobjects"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "360e47ee72291845ac13b095cee82c14e2519f29f5cbe3e10ebeb667be8b1fba",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/unity/unity-tilemap-2d",
+      "name": "unity-tilemap-2d",
+      "description": "Build and script 2D tilemaps in Unity 6.3 LTS: the Grid + Tilemap components, the Tile Palette, tilemap colliders, rule tiles, and runtime SetTile/GetTile painting. Use when painting tile levels, adding a TilemapCollider2D, using rule or animated tiles, generating tilemaps from code, or when the user mentions Unity tilemap, tile palette, rule tile, or Grid.",
+      "categories": [
+        "mobile",
+        "engineering"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏",
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/unity/unity-tilemap-2d",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "fdeca27029e6a7e3fdab8c79f877ca3847f972ea",
+          "skill_sha": "d0fa924a4d52117c8a6e5d3bee244749a834b4c8",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unity/unity-tilemap-2d",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unity/unity-tilemap-2d"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "dcbce379654318d4c613254c586aa99dd3faf71c848d0384376144516e9595f9",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/unreal/unreal-behavior-trees",
+      "name": "unreal-behavior-trees",
+      "description": "Build NPC AI in Unreal Engine 5 with Behavior Trees and Blackboards: composites (Selector/Sequence), tasks, decorators, services, and running the tree from an AIController. Use when creating enemy/NPC AI, BT_/BB_ assets, custom BTTask or BTService nodes, or when the user mentions Behavior Tree, Blackboard, AIController, BTTask, decorator, or service.",
+      "categories": [
+        "mobile"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/unreal/unreal-behavior-trees",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "272266859aeb502f5cb98bc49b1ae1bcdf9b33a0",
+          "skill_sha": "f552227677c47e712fe0a525757159e2680f0b8a",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unreal/unreal-behavior-trees",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unreal/unreal-behavior-trees"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "92cb183b32df6cf7825ea7fd24bf33400ba21a05f157e52c6b9c363abc430cd8",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/unreal/unreal-blueprints",
+      "name": "unreal-blueprints",
+      "description": "Build Unreal Engine 5 gameplay with Blueprint visual scripting: Blueprint Classes, the Event Graph and Construction Script, variables/functions/macros, and Blueprint communication (Cast, Interfaces, Event Dispatchers). Use when working in Blueprints, wiring an event graph, deciding how Blueprints talk to each other, or when the user mentions Blueprint, BP, event graph, construction script, or a Blueprint .uasset.",
+      "categories": [
+        "mobile"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/unreal/unreal-blueprints",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "7e85960d6c84f192b76f00b4b6d81bc4746ad8aa",
+          "skill_sha": "06c0a55d8fa47be92e047f5f6e830d00727387cb",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unreal/unreal-blueprints",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unreal/unreal-blueprints"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "cabcf38f4584905fc43d470ec567a53416a852d60467078344c49a430cfb833b",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/unreal/unreal-cpp-gameplay",
+      "name": "unreal-cpp-gameplay",
+      "description": "Write Unreal Engine 5 C++ gameplay code: the UCLASS/UPROPERTY/UFUNCTION reflection macros, the Gameplay Framework (GameMode, Pawn, Character, PlayerController, Actor components), and the module Build.cs. Use when writing or debugging UE C++, deriving from AActor/ACharacter/ AGameModeBase, exposing properties to the editor or Blueprints, or when the user mentions Unreal C++, UCLASS, GENERATED_BODY, GameMode, ACharacter, or .Build.cs.",
+      "categories": [
+        "mobile",
+        "engineering",
+        "writing"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏",
+        "写作、翻译与知识管理",
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/unreal/unreal-cpp-gameplay",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "7de24a1e6f4931be0d3646d2ea575e8f8e1cf234",
+          "skill_sha": "75185238136c179a53fb47c3075c3528288947c9",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unreal/unreal-cpp-gameplay",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unreal/unreal-cpp-gameplay"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "ed0166cae59b2912b1d24e58aeb10918441b4ff84861502264e9c624b11da2d0",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/unreal/unreal-enhanced-input",
+      "name": "unreal-enhanced-input",
+      "description": "Set up player input in Unreal Engine 5 with Enhanced Input: Input Actions, Input Mapping Contexts, modifiers and triggers, adding the mapping context, and binding actions by ETriggerEvent. Use when wiring movement/look/jump input, creating IA_/IMC_ assets, binding in C++ or Blueprints, or when the user mentions Enhanced Input, Input Mapping Context, Input Action, IA_/IMC_, or ETriggerEvent.",
+      "categories": [
+        "mobile"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/unreal/unreal-enhanced-input",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "a8f09c6cba9cb3e4888fddb27b06443b592944dd",
+          "skill_sha": "d9de39aaba835a643604b97e252ad1d54c0cc009",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unreal/unreal-enhanced-input",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unreal/unreal-enhanced-input"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "866842322b2a9edf6bff4fdb3dd4458e8771bb797f52fcd48948b7bab4108546",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/unreal/unreal-niagara",
+      "name": "unreal-niagara",
+      "description": "Create and control VFX in Unreal Engine 5 with Niagara: systems and emitters, modules and the spawn/update stages, exposed User parameters, and spawning or driving effects from Blueprints or C++. Use when building particle effects, NS_/NE_ assets, spawning a Niagara system at runtime, setting User parameters, or when the user mentions Niagara, VFX, or a particle system in Unreal.",
+      "categories": [
+        "mobile"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/unreal/unreal-niagara",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "202a5837edaf7c2aaebc1d9fc966bb3c36374e95",
+          "skill_sha": "94d60efe236359805183bd90987f16f074c29749",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unreal/unreal-niagara",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unreal/unreal-niagara"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "9f0ba1e367709166bd7fd5cabec037736b673a08bd03f9fde3de952df1522d9a",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/unreal/unreal-packaging",
+      "name": "unreal-packaging",
+      "description": "Package and ship an Unreal Engine 5 project: the Platforms menu Package Project flow, build configurations (Development vs Shipping), cooking content, packaging settings and the Game Default Map, and command-line builds with RunUAT BuildCookRun. Use when packaging a build, making a shipping build, cooking content, configuring packaging settings, or when the user mentions package Unreal, cook content, shipping build, or BuildCookRun.",
+      "categories": [
+        "mobile",
+        "engineering"
+      ],
+      "tags_zh": [
+        "移动端、桌面与游戏",
+        "通用开发与工程方法"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/unreal/unreal-packaging",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "737a5fa53539b6ae47f6511230f797cc07c93fad",
+          "skill_sha": "d0f2eca385d1cc7e44ba3f5a6760e3d900b53d59",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unreal/unreal-packaging",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/unreal/unreal-packaging"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "68768862554c77dbbc219ff8c1ac2f95f2a3f045e3cbcf525f7114553b0b4c5d",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/web-engines/phaser-arcade-physics",
+      "name": "phaser-arcade-physics",
+      "description": "Use Phaser 4 Arcade Physics: enable the world, give sprites bodies, set velocity/acceleration/gravity, and resolve collisions with colliders, overlaps, groups, and world bounds. Use when a Phaser game needs movement or collisions — when the user mentions Arcade Physics, this.physics, setVelocity, collider, overlap, gravity, onFloor, or a platformer/top-down controller. For game config, scenes, and the loader use phaser-core.",
+      "categories": [
+        "research"
+      ],
+      "tags_zh": [
+        "科研、文献与科学计算"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/web-engines/phaser-arcade-physics",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "72bcf1c54431de0c30998dc797be10e11eef5750",
+          "skill_sha": "3b8a0f1deebae1015a36635a88f52a858b1535ae",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/web-engines/phaser-arcade-physics",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/web-engines/phaser-arcade-physics"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "e83c8207d603f8f78f8e004dca107576a1845afecf351979ab964a3d67fa3ae3",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/web-engines/phaser-core",
+      "name": "phaser-core",
+      "description": "Set up and debug a Phaser 4 game: the Game config, the Scene lifecycle (init/preload/create/update), the asset loader, cameras, and cross-scene communication. Use when building or debugging a Phaser game — when the user mentions Phaser, Phaser.Game, Phaser.Scene, preload/create/update, this.load, this.add, or scene transitions. For Arcade Physics movement/collisions use phaser-arcade-physics.",
+      "categories": [
+        "research",
+        "testing"
+      ],
+      "tags_zh": [
+        "科研、文献与科学计算",
+        "测试、调试与代码评审"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/web-engines/phaser-core",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "9c1a297e272d17f41a6f55fb5bf41dbfcb2be389",
+          "skill_sha": "20231b066c0a5fbc364197d125aed6de829d67bc",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/web-engines/phaser-core",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/web-engines/phaser-core"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "c8f8013185cf74d989ab64e55fade41d7930aea805a2978a53962d6c78950fe7",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/web-engines/pixijs-rendering",
+      "name": "pixijs-rendering",
+      "description": "Build a PixiJS v8 render layer: create the async Application, load textures with Assets, compose the scene graph with Container and Sprite, drive the ticker loop, wire pointer events, and group draws with render groups. Use when building or debugging PixiJS v8 — when the user mentions PixiJS, Pixi, Application, app.stage, Container, Sprite, Assets.load, app.ticker, or eventMode. Pins the v8 async init() API (examples checked against 8.22).",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/web-engines/pixijs-rendering",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "6e397b188da317066dee47263a404aa7dc314d7b",
+          "skill_sha": "23be77ecb9afc75073357de2cf754a3b5c43236e",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/web-engines/pixijs-rendering",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/web-engines/pixijs-rendering"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "41fd381579d73b6066e61c312a1e0adff20033dfa7c823dac7516d5f4c67701c",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/web-engines/threejs-gltf-loading",
+      "name": "threejs-gltf-loading",
+      "description": "Load glTF/GLB models in three.js with GLTFLoader and play their skinned animations with AnimationMixer, including DRACO/Meshopt-compressed meshes and KTX2 textures. Use when importing 3D models into three.js — when the user mentions glTF, GLB, GLTFLoader, AnimationMixer, animation clips, DRACOLoader, or \"load a 3D model\". For scene/camera/renderer setup use threejs-scene-setup; for materials and lights use threejs-materials-lighting.",
+      "categories": [
+        "media"
+      ],
+      "tags_zh": [
+        "设计、图像、音频与视频"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/web-engines/threejs-gltf-loading",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "9c8b7b9f5ff158f83cbbb20aa5dc93c5bddac66c",
+          "skill_sha": "4fa63eeca3ca4e73f4834d4bd07a37f31ca4f94a",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/web-engines/threejs-gltf-loading",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/web-engines/threejs-gltf-loading"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "562157dc7c734aed64397bad353cf36769b05faef7b397fc6b19db0c37f144fb",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/web-engines/threejs-materials-lighting",
+      "name": "threejs-materials-lighting",
+      "description": "Light and shade a three.js scene: choose materials (MeshStandardMaterial PBR vs unlit MeshBasicMaterial), add ambient/hemisphere/directional/point/spot lights, turn on shadow maps, and use an environment map (IBL) for realistic reflections. Use when a three.js model looks black, flat, or wrong — when the user mentions three.js materials, MeshStandardMaterial, lights, shadows, envMap, or PBR. For renderer/loop setup use threejs-scene-setup; for loading models use threejs-gltf-loading.",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/web-engines/threejs-materials-lighting",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "611f3439f82d0cacf7742fa85f2d68fa3f8f03c1",
+          "skill_sha": "5087660b2ee598655d66d8a1da3f4b805738301e",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/web-engines/threejs-materials-lighting",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/web-engines/threejs-materials-lighting"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "c72e846caf88f8da76b9a78f4e44d0139ece678d1f88f8a169bdbfbb374399d4",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/web-engines/threejs-scene-setup",
+      "name": "threejs-scene-setup",
+      "description": "Stand up a three.js scene: import maps and the three/addons path, the Scene/PerspectiveCamera/WebGLRenderer trio, the setAnimationLoop render loop, responsive resize, OrbitControls, and opting into WebGPURenderer. Use when starting or debugging a three.js app — when the user mentions three.js, THREE.Scene, WebGLRenderer, WebGPURenderer, PerspectiveCamera, the render loop, resizing, or OrbitControls. For models use threejs-gltf-loading; for materials/lights use threejs-materials-lighting.",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/web-engines/threejs-scene-setup",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "93fc0437fd0736fb393ace9a8bb45ccb490a61ca",
+          "skill_sha": "fad847ff0804def000b3f17fe5b062302eb7312e",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/web-engines/threejs-scene-setup",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/web-engines/threejs-scene-setup"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "2db8ec2a1dc7258ad65ae9df8bf978168b8ac52e689dedc9f851b21829a8b540",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/workflows/game-jam",
+      "name": "game-jam",
+      "description": "Plan and ship a game under a jam deadline: lock scope to the clock, schedule the hours, cut features, and submit on time. Use for a game jam (Ludum Dare, GMTK Jam, Global Game Jam), a 48-hour or weekend build, or scoping and submitting a jam entry.",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/workflows/game-jam",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "b150e668f39397b7445adcdddbfc159add278c1d",
+          "skill_sha": "c649681a66c58a4013a9f445afba4a46ed05643c",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/workflows/game-jam",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/workflows/game-jam"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "fab0e434fdb8e96b7a795e4722291a99204eb9c513b34befd2d1ad0e790ba6fd",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/workflows/itch-publish",
+      "name": "itch-publish",
+      "description": "Publish and update a game on itch.io: create the project page and upload builds with the butler CLI (butler push) to named channels. Use for itch.io publishing, butler push, channel naming for Windows/macOS/Linux/HTML5, versioning uploads, or shipping a jam or release build to itch.io.",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/workflows/itch-publish",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "08057e032460a7019b3a50d0b87965551d419b81",
+          "skill_sha": "19042d547ba73acdd29928ed5c4c2db80d87cea2",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/workflows/itch-publish",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/workflows/itch-publish"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "aacc8227f9c738982ad9b0ef7488f4c6747e631c0f752ea7223d5c170cd709b2",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/workflows/prototype-fast",
+      "name": "prototype-fast",
+      "description": "Build a playable prototype in about an hour to answer one question — is it fun? — with greybox primitives, a hard timebox, and explicit keep/kill criteria. Use when prototyping a mechanic, making a vertical slice or MVP, greyboxing/blockout, or judging throwaway vs keep.",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/workflows/prototype-fast",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "743c454ad66439105154d50606d94aa460a5ae3b",
+          "skill_sha": "b1835db78a7def4523b2b992a6eb62e8ff7c9072",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/workflows/prototype-fast",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/workflows/prototype-fast"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "8acb38609042ac57d76a500e7e116704deeb01874c1dcab9253ba8f83b77081a",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "gamedev-skills/awesome-gamedev-agent-skills/skills/workflows/steam-publish",
+      "name": "steam-publish",
+      "description": "Publish or update a game on Steam with Steamworks and SteamPipe: configure depots and packages, upload builds with steamcmd, set a build live on a branch, and run the release checklists. Use for Steam publishing, app_build.vdf/steamcmd uploads, depots, beta branches, or a store page release.",
+      "categories": [
+        "other"
+      ],
+      "tags_zh": [
+        "其他与待细分"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "path": "skills/workflows/steam-publish",
+          "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+          "bundle_sha": "a2749572a9097c46c555fba0f975987a94087dd8",
+          "skill_sha": "79f144399c4a35541d1746b7666caf1d33f901da",
+          "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/workflows/steam-publish",
+          "priority": 25,
+          "kind": "specialist",
+          "license": {
+            "declared": null,
+            "repository": "Apache-2.0",
+            "content_hint": "Apache-2.0",
+            "review_required": true,
+            "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/workflows/steam-publish"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+              "mode": "100644"
+            },
+            {
+              "path": "NOTICE",
+              "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "79f99f5b51a067193b28e936988ffb4f8411b4307d32bf8b7c1d26e24e9c9b44",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "Skill为按需读取的指导；引擎、版本、编辑器接口和素材能力另行核对。用户2026-11-06要求仅保存仓库，暂不安装。制作游戏时再按项目选一个引擎及少量任务技能；不默认安装全部77项或运行发布/素材生成服务。",
+      "has_external_refs": true,
       "format_issues": []
     },
     {

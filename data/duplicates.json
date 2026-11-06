@@ -375,6 +375,14 @@
       "status": "same_name_kept_separate"
     },
     {
+      "name": "performance-optimization",
+      "members": [
+        "gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/performance-optimization",
+        "sickn33/agentic-awesome-skills/skills/performance-optimization"
+      ],
+      "status": "same_name_kept_separate"
+    },
+    {
       "name": "polars",
       "members": [
         "K-Dense-AI/scientific-agent-skills/skills/polars",
