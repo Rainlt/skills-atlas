@@ -1,6 +1,6 @@
 # AI、模型与智能体
 
-[返回总目录](../../CATALOG.md) · 294 个条目 · 分类为规则初分，欢迎纠错。
+[返回总目录](../../CATALOG.md) · 295 个条目 · 分类为规则初分，欢迎纠错。
 
 复制完整 ID 后运行 `python3 atlas.py download <ID> --dest ./downloads/<目录名>`。
 
@@ -15,6 +15,7 @@
 | [academy-guide](https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/academy-guide) | Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product — it recommends matching courses, tutorials, and use cases from Claude Academy (academy.claude.com), Anthropi | `anthropics/skills/skills/academy-guide` |
 | [claude-api](https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/claude-api) | Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration. TRIGGER — read BEFORE opening the target file; don't skip because it  | `anthropics/skills/skills/claude-api` |
 | [mcp-builder](https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/mcp-builder) | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services,  | `anthropics/skills/skills/mcp-builder` |
+| [ai-behavior-trees-utility-ai](https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/disciplines/ai-behavior-trees-utility-ai) | Build a production behavior-tree runtime (Blackboard, action/condition leaves, sequence/selector/parallel composites, decorators) and a Utility AI system (response curves — linear, exponential, sigmoid, quadratic — consi | `gamedev-skills/awesome-gamedev-agent-skills/skills/disciplines/ai-behavior-trees-utility-ai` |
 | [gemini-api-dev](https://github.com/google-gemini/gemini-skills/tree/ee9da52195752ca83c2fca701d96bcb5a9c08d2d/skills/gemini-api-dev) | Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal understanding, image generation, video generation, speech generation (TTS), voice design, voice replication, str | `google-gemini/gemini-skills/skills/gemini-api-dev` |
 | [gemini-live-api-dev](https://github.com/google-gemini/gemini-skills/tree/ee9da52195752ca83c2fca701d96bcb5a9c08d2d/skills/gemini-live-api-dev) | Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API, or migrating legacy Live models (2.0/2.5/3.1) to Gemini 3.8 Live. Covers WebSocket-based audio/video/text streaming,  | `google-gemini/gemini-skills/skills/gemini-live-api-dev` |
 | [gemini-omni-flash-api](https://github.com/google-gemini/gemini-skills/tree/ee9da52195752ca83c2fca701d96bcb5a9c08d2d/skills/gemini-omni-flash-api) | Use this skill for generative video editing, text-to-video, image-referenced video generation, first-frame-to-video, first-and-last-frame transitions, and video extensions using Gemini Omni 1.1 Flash (gemini-omni-1.1-fla | `google-gemini/gemini-skills/skills/gemini-omni-flash-api` |

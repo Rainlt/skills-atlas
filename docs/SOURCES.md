@@ -26,6 +26,7 @@
 | [ZWD11/house-plan-designer](https://github.com/ZWD11/house-plan-designer) | specialist | 1 | [b94183f9ce22](https://github.com/ZWD11/house-plan-designer/commit/b94183f9ce2215db9a178da89a90d2ecefb18497) | MIT |
 | [Githun1314/agent-wechat-reader](https://github.com/Githun1314/agent-wechat-reader) | specialist | 1 | [0d5b167239f1](https://github.com/Githun1314/agent-wechat-reader/commit/0d5b167239f135934dced0411b0fb887d35bf9be) | MIT |
 | [larashero3-dotcom/lieflat-gongwen](https://github.com/larashero3-dotcom/lieflat-gongwen) | specialist | 1 | [c9cdbd432713](https://github.com/larashero3-dotcom/lieflat-gongwen/commit/c9cdbd432713ca7eb9367bea22e6d2ee5c1cdab2) | UNKNOWN |
+| [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) | specialist | 78 | [19d93f97c9c1](https://github.com/gamedev-skills/awesome-gamedev-agent-skills/commit/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9) | Apache-2.0 |
 
 仓库级许可证只是线索，不覆盖技能中的单独授权；UNKNOWN 表示未被 GitHub 识别。
 

@@ -851,6 +851,13 @@
       "level": "download_verified",
       "date": "2026-11-05",
       "note": "固定源与完整目录已核验；规则审阅及6项有限脚本用例完成。3种官方合成示例通过；发现全角％漏检、要求词子串误计及小样本硬规则过度泛化。按单位模板及真实事实适配，不以参数替代内容核查；用户真实材料效果待实践。"
+    },
+    "gamedev-skills/awesome-gamedev-agent-skills/router": {
+      "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "bundle_sha": "e51e711dc3428c7ea97c0c98dd8deac4112d6b09",
+      "level": "metadata_reviewed",
+      "date": "2026-11-06",
+      "note": "核对README、router用途与按引擎/任务分流、固定来源及目录结构；用户要求仅收录，未安装、未运行游戏或上游代码。"
     }
   },
   "policy": {
@@ -922,6 +929,14 @@
       "工作方案",
       "经验材料",
       "领导讲话"
+    ],
+    "gamedev-skills/awesome-gamedev-agent-skills/router": [
+      "游戏开发",
+      "制作游戏",
+      "游戏专项",
+      "游戏工具箱",
+      "角色移动",
+      "关卡设计"
     ]
   }
 }

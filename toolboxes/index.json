@@ -270,7 +270,7 @@
     {
       "id": "software-development-toolbox",
       "name": "软件开发工具箱",
-      "summary": "从零开发与改造已有软件共用六环节；先确认现有行为和接口，按需排错与保持行为重构，界面/网页验收按需。",
+      "summary": "从零开发与改造已有软件共用六环节；先确认现有行为和接口，按需排错与保持行为重构，界面/网页验收按需。 游戏专项仅登记，暂不安装。",
       "example": "给论文工具增加CSV导出，保持旧JSON接口；定位特殊标题导致的导出错误，整理重复逻辑后核对旧行为。",
       "stages": [
         "需求与计划",
@@ -320,7 +320,12 @@
         "systematic-debugging",
         "repo-native-refactor",
         "开发软件",
-        "从头开发"
+        "从头开发",
+        "游戏",
+        "游戏开发",
+        "小游戏",
+        "游戏专项",
+        "gamedev"
       ],
       "requires_any": [
         "开发",
@@ -338,19 +343,21 @@
         "排错",
         "调试",
         "排查",
-        "修复"
+        "修复",
+        "制作游戏",
+        "做游戏"
       ],
       "primary_count": 6,
       "component_count": 9,
-      "canonical_version": "2026-11-05.2",
-      "canonical_commit": "3eb482b6e894f18d0db5cd1c8d7f77b1a1180e03",
+      "canonical_version": "2026-11-06.1",
+      "canonical_commit": "77747788cb700992cd6b7124a83754f5e1a32acd",
       "guide_url": "https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/software-development-toolbox",
       "entry_url": "https://github.com/Rainlt/methods-atlas/blob/main/toolboxes/software-development-toolbox/SKILL.md",
       "access": "private",
-      "verification": "受控CLI故障修前失败/修后通过；419项API与6项CLI重构对照一致；复杂真实项目待验证",
-      "checked_on": "2026-11-05",
+      "verification": "受控CLI故障修前失败/修后通过；419项API与6项CLI重构对照一致；复杂真实项目待验证；新增游戏来源仅登记未安装/实测",
+      "checked_on": "2026-11-06",
       "state": "active",
-      "reason": "复核与有限重构合并替换原通用评审；仅新增条件排错，分新建与已有项目入口，不新增全局技能。",
+      "reason": "保留原九项默认用途；登记游戏专项来源与调用条件，用户暂不做游戏、不安装。",
       "invoke": "使用 $software-development-toolbox，从零开发或改造这个软件；需要时定位故障、保持原有行为重构，并完成实际验证。"
     }
   ]
