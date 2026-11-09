@@ -18,6 +18,8 @@
 
 动画按用途分为 **[创意故事动画工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/creative-animation-toolbox)** 与 **[科研动画工具箱](https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/scientific-animation-toolbox)**：前者从一句想法或小故事进入，后者从论文、方法图、公式或结果进入；不要求先有讲稿或 PPT。共用版本缓存、渲染和媒体检查，已有工程优先复用。旧动画入口仅保留兼容分流，迁移记录见工具箱索引。
 
+两套动画箱共用材料核对、分镜实现、具体修改与预览反馈方法；先检查真实预览，再完成正式导出。方法更新与接线检查已记录，成片质量和成本改进待实际作品验证。
+
 正文在私有个人方法库中统一维护，需有访问权限；本库保留轻量索引与核对版本，不重复维护上游全文，也不占单项技能精选名额。
 
 ```bash
