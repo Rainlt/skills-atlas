@@ -69,7 +69,8 @@
       "helpers": [
         "按需补充角色或背景",
         "已有声音优先，缺音效复用shotcraft选材与同步",
-        "连续对象和镜头节奏按需补强"
+        "连续对象和镜头节奏按需补强",
+        "材料依据、分镜实现、具体修改与预览反馈共用一份指南"
       ],
       "keywords": [
         "动画",
@@ -98,13 +99,13 @@
       ],
       "primary_count": 4,
       "component_count": 7,
-      "canonical_version": "2026-11-06.2",
-      "canonical_commit": "16112e04e514b19063afe8d41c10de22ec6238e7",
+      "canonical_version": "2026-11-09.1",
+      "canonical_commit": "52306345f1b67f7552a213b19205f63a54a0f1f0",
       "guide_url": "https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/creative-animation-toolbox",
       "entry_url": "https://github.com/Rainlt/methods-atlas/blob/main/toolboxes/creative-animation-toolbox/SKILL.md",
       "access": "private",
-      "verification": "中文12秒机制与onetake比较已有记录；新增CC0音效搜索/下载和两处同步测量通过，未试听，完整作品/旁白待验证；花叔三项固定源与有限样例已评估，设计/动态遮挡漏检及阈值边界见私有记录",
-      "checked_on": "2026-11-06",
+      "verification": "中文12秒机制与onetake比较已有记录；新增CC0音效搜索/下载和两处同步测量通过，未试听，完整作品/旁白待验证；花叔三项固定源与有限样例已评估，设计/动态遮挡漏检及阈值边界见私有记录；五个制作方法已吸收并完成入口/清单及6项既有动画回归检查，成片质量与成本改进未验证",
+      "checked_on": "2026-11-09",
       "state": "active",
       "reason": "吸收有限对照、内容导向和真实渲染覆盖；保留默认路线/引擎，不增加默认组件，不把单样例或工具成功当完整效果证明。",
       "invoke": "使用 $creative-animation-toolbox; 从一句想法、小故事或视觉创意进入故事、分镜、镜头、代码动画与实际视频，不要求先有讲稿或 PPT。"
@@ -124,7 +125,8 @@
         "按需增强镜头表达",
         "按需制作配音科普解说",
         "已有声音优先，缺音效复用shotcraft选材与同步",
-        "连续对象和镜头节奏按需补强"
+        "连续对象和镜头节奏按需补强",
+        "材料依据、分镜实现、具体修改与预览反馈共用一份指南"
       ],
       "keywords": [
         "动画",
@@ -160,13 +162,13 @@
       ],
       "primary_count": 4,
       "component_count": 8,
-      "canonical_version": "2026-11-06.1",
-      "canonical_commit": "dfe400fd2a0f7218c44004f9650e5ef0cc13a3cd",
+      "canonical_version": "2026-11-09.1",
+      "canonical_commit": "52306345f1b67f7552a213b19205f63a54a0f1f0",
       "guide_url": "https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/scientific-animation-toolbox",
       "entry_url": "https://github.com/Rainlt/methods-atlas/blob/main/toolboxes/scientific-animation-toolbox/SKILL.md",
       "access": "private",
-      "verification": "中文12秒机制与onetake比较已有记录；新增CC0音效搜索/下载和两处同步测量通过，未试听，完整作品/旁白待验证；花叔三项固定源与有限样例已评估，设计/动态遮挡漏检及阈值边界见私有记录",
-      "checked_on": "2026-11-06",
+      "verification": "中文12秒机制与onetake比较已有记录；新增CC0音效搜索/下载和两处同步测量通过，未试听，完整作品/旁白待验证；花叔三项固定源与有限样例已评估，设计/动态遮挡漏检及阈值边界见私有记录；五个制作方法已吸收并完成入口/清单及6项既有动画回归检查，成片质量与成本改进未验证",
+      "checked_on": "2026-11-09",
       "state": "active",
       "reason": "吸收有限对照、内容导向和真实渲染覆盖；保留默认路线/引擎，不增加默认组件，不把单样例或工具成功当完整效果证明。",
       "invoke": "使用 $scientific-animation-toolbox; 从论文、方法图、公式、实验结果或科学原理进入证据核对、机制分镜、动画和科学复核交付，旁白与 PPT 按需。"
@@ -199,13 +201,13 @@
       ],
       "primary_count": 1,
       "component_count": 1,
-      "canonical_version": "2026-11-06.1",
-      "canonical_commit": "dfe400fd2a0f7218c44004f9650e5ef0cc13a3cd",
+      "canonical_version": "2026-11-09.1",
+      "canonical_commit": "52306345f1b67f7552a213b19205f63a54a0f1f0",
       "guide_url": "https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/animation-toolbox",
       "entry_url": "https://github.com/Rainlt/methods-atlas/blob/main/toolboxes/animation-toolbox/SKILL.md",
       "access": "private",
-      "verification": "旧名继续只作兼容分流；共用声音选材、时间对齐与来源记录指南，默认组件不增加；花叔三项固定源与有限样例已评估，设计/动态遮挡漏检及阈值边界见私有记录",
-      "checked_on": "2026-11-06",
+      "verification": "旧名继续只作兼容分流；共用声音选材、时间对齐与来源记录指南，默认组件不增加；花叔三项固定源与有限样例已评估，设计/动态遮挡漏检及阈值边界见私有记录；五个制作方法已吸收并完成入口/清单及6项既有动画回归检查，成片质量与成本改进未验证",
+      "checked_on": "2026-11-09",
       "state": "archived",
       "reason": "吸收有限对照、内容导向和真实渲染覆盖；保留默认路线/引擎，不增加默认组件，不把单样例或工具成功当完整效果证明。",
       "invoke": "创意材料转 creative-animation-toolbox，科研材料转 scientific-animation-toolbox",
