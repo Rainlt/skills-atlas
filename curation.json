@@ -879,6 +879,13 @@
       "level": "metadata_reviewed",
       "date": "2026-11-06",
       "note": "参数化艺术动效与白板场景；8秒中文片段已导出，文字审计存在动态遮挡边界，运动/颜色阈值需按用途解释，不替换现有动画默认引擎。；具体执行与限制见私有方法库记录，不据此标为完整任务已验证。"
+    },
+    "heydamir/unslop/skills/unslop": {
+      "commit": "97daa3eb365670ea3f87ed85356cbfcee18105a5",
+      "bundle_sha": "678b941ab61876fca845de831f4a8e17c68eb53d",
+      "level": "download_verified",
+      "date": "2026-11-09",
+      "note": "固定源14文件逐文件Git blob核验并安装；受控论文清单按九层方法改稿，桌面/390px与添加筛选状态持久化检查通过；snapshot成功。人为构造输入，未做正式产品或盲测，不宣称审美优于原流程；story视频未实测。"
     }
   },
   "policy": {
@@ -979,6 +986,14 @@
       "白板动画",
       "手绘动画",
       "动效检查"
+    ],
+    "heydamir/unslop/skills/unslop": [
+      "界面精修",
+      "页面不好看",
+      "前端视觉改稿",
+      "去除界面AI味",
+      "地球支线",
+      "unslop UI"
     ]
   }
 }

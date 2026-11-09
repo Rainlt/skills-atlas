@@ -30,6 +30,7 @@
 | [alchaincyf/darwin-skill](https://github.com/alchaincyf/darwin-skill) | specialist | 1 | [8a8b66258e3c](https://github.com/alchaincyf/darwin-skill/commit/8a8b66258e3c45d6ae4aea39719468c6428fcb0a) | MIT |
 | [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) | specialist | 1 | [b2460b031c33](https://github.com/alchaincyf/huashu-design/commit/b2460b031c33ff32d2bf3b97263527daa231e4de) | MIT |
 | [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) | specialist | 1 | [8a0d7d72ca65](https://github.com/alchaincyf/huashu-art-motion/commit/8a0d7d72ca65fcce6f8ba82c4a6c8dfe35b8422c) | MIT |
+| [heydamir/unslop](https://github.com/heydamir/unslop) | specialist | 1 | [97daa3eb3656](https://github.com/heydamir/unslop/commit/97daa3eb365670ea3f87ed85356cbfcee18105a5) | UNKNOWN |
 
 仓库级许可证只是线索，不覆盖技能中的单独授权；UNKNOWN 表示未被 GitHub 识别。
 

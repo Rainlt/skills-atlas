@@ -1,10 +1,8 @@
 {
-  "previous_snapshot": "559cc99d4fb36d57",
-  "snapshot": "25215640f4bd34e8",
+  "previous_snapshot": "25215640f4bd34e8",
+  "snapshot": "359e4011ffe07c85",
   "added": [
-    "alchaincyf/darwin-skill",
-    "alchaincyf/huashu-art-motion",
-    "alchaincyf/huashu-design"
+    "heydamir/unslop/skills/unslop"
   ],
   "removed": [],
   "updated": [],

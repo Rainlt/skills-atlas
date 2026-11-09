@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "snapshot": "25215640f4bd34e8",
-  "generated_at": "2026-11-06T01:54:36.316189+00:00",
+  "snapshot": "359e4011ffe07c85",
+  "generated_at": "2026-11-09T08:14:50.889843+00:00",
   "stats": {
-    "sources": 26,
-    "scanned_skills": 4047,
-    "unique_bundles": 4047,
+    "sources": 27,
+    "scanned_skills": 4048,
+    "unique_bundles": 4048,
     "exact_duplicates_removed": 0,
-    "same_name_families": 98,
+    "same_name_families": 99,
     "excluded_identical_distribution_copies": 5226,
     "excluded_noncanonical_skill_files": 5609,
     "identical_instruction_groups": 6
@@ -522,6 +522,27 @@
       "repository_license": "MIT",
       "skills_scanned": 1,
       "url": "https://github.com/alchaincyf/huashu-art-motion",
+      "excluded_skill_files": 0,
+      "excluded_identical_distribution_copies": 0
+    },
+    {
+      "repo": "heydamir/unslop",
+      "kind": "specialist",
+      "priority": 20,
+      "include": [
+        "skills/unslop/"
+      ],
+      "pinned_commit": "97daa3eb365670ea3f87ed85356cbfcee18105a5",
+      "discover_references": false,
+      "note_zh": "已有网页界面的视觉诊断与精修：间距、配色、文案和排版逐项处理；保留产品功能与品牌。用户选用，受控论文清单样例已试用，正式产品效果待实践。",
+      "compatibility": "核心改稿为指导，无需付费接口。网页快照与可选对比视频需项目中的Playwright及浏览器，视频另需FFmpeg；静态快照会移除脚本，不能作为可运行应用替换。CC BY 4.0，保留作者署名。不替换已有软件开发工程默认项。",
+      "commit": "97daa3eb365670ea3f87ed85356cbfcee18105a5",
+      "tree_sha": "8aa81c2622a932dac438469654182c9747a359d6",
+      "branch": "HEAD",
+      "archived": null,
+      "repository_license": "UNKNOWN",
+      "skills_scanned": 1,
+      "url": "https://github.com/heydamir/unslop",
       "excluded_skill_files": 0,
       "excluded_identical_distribution_copies": 0
     }
@@ -49066,6 +49087,52 @@
       "upstream_category": null,
       "declared_risk": null,
       "compatibility": "未验证；请阅读上游要求",
+      "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "heydamir/unslop/skills/unslop",
+      "name": "unslop",
+      "description": "Turns vibecoded, AI-looking UI into a designed interface with its own character. Finds a direction from the product itself, then fixes spacing, color, icons, copy, type, layout, details, visuals and motion in that order, and can generate a real hero visual with an image tool when one is available. Use when the user asks to unslop, polish, clean up or redesign a screen so it stops looking AI-generated, or when a UI shows the usual tells like purple gradients, glows, gradient text, emoji labels, \"New ✨\" badges, glossy blobs, uppercase tracked labels, pulsing elements or uneven spacing. Works on React, Tailwind, HTML and CSS, for dashboards, apps and landing pages.",
+      "categories": [
+        "frontend",
+        "media"
+      ],
+      "tags_zh": [
+        "前端、界面与体验",
+        "设计、图像、音频与视频"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "heydamir/unslop",
+          "path": "skills/unslop",
+          "commit": "97daa3eb365670ea3f87ed85356cbfcee18105a5",
+          "bundle_sha": "678b941ab61876fca845de831f4a8e17c68eb53d",
+          "skill_sha": "e743184011b0fbde978d88d04340ae12dc355997",
+          "url": "https://github.com/heydamir/unslop/tree/97daa3eb365670ea3f87ed85356cbfcee18105a5/skills/unslop",
+          "priority": 20,
+          "kind": "specialist",
+          "license": {
+            "declared": "CC-BY-4.0",
+            "repository": "UNKNOWN",
+            "content_hint": "UNKNOWN",
+            "review_required": false,
+            "url": "https://github.com/heydamir/unslop/tree/97daa3eb365670ea3f87ed85356cbfcee18105a5/skills/unslop"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "da6ab6cc8f333d7e89a99812866df8f24374d47c",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "f8269a00eddb2719e7a0234364786d18e2042b9992bb97e1e381be1866a92564",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "核心改稿为指导，无需付费接口。网页快照与可选对比视频需项目中的Playwright及浏览器，视频另需FFmpeg；静态快照会移除脚本，不能作为可运行应用替换。CC BY 4.0，保留作者署名。不替换已有软件开发工程默认项。",
       "has_external_refs": false,
       "format_issues": []
     },
