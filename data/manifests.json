@@ -32165,6 +32165,92 @@
       "type": "blob"
     }
   ],
+  "678b941ab61876fca845de831f4a8e17c68eb53d": [
+    {
+      "path": "SKILL.md",
+      "sha": "e743184011b0fbde978d88d04340ae12dc355997",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha": "cfecf69e9d784ae3b2edee8efc4a20eb4eb89370",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/effects.md",
+      "sha": "621f8ec43153d396d7e2cd7c4309a00d4aa27d32",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/refs.md",
+      "sha": "e6c23aa433b9ef191a75f16a65ce1b4b1a2a8505",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/refs/beacon-engraving.webp",
+      "sha": "cf8af41fa080808a3f715e8f3d7d58ea789abd1e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/refs/meadow-3d.webp",
+      "sha": "d8284c8d16fb3fd5f4436adbb04e8119819e36f1",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/refs/story-dashboard-frames.webp",
+      "sha": "b9a08721f366269b234727d4f6eddc403a85fc21",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/refs/unslop-dashboard-after.webp",
+      "sha": "9836639938830aac335963b8d1536178bc107fce",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/refs/unslop-hero-after.webp",
+      "sha": "ad9059318bd3ca85b008a622090f495ad42cf12e",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/signs.md",
+      "sha": "e9bae0369394d56ed080ef8a7e3d15bd4ec70a7f",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/tokens.md",
+      "sha": "431cdc3f68650819274b22b91df9764d8f0a64d6",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/visuals.md",
+      "sha": "d7e89c14ddc675def22a46435ef1f2053d8d9362",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/snapshot.mjs",
+      "sha": "ef226aa4650fb84d238d434035d73606abdcb88a",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "scripts/story.mjs",
+      "sha": "a9565db068e28d9d9a89309898da00b66654b719",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "0dfccf04cfff8fc2215180c25af09e234e1ecb4c": [
     {
       "path": "SKILL.md",

@@ -675,6 +675,14 @@
       "status": "same_name_kept_separate"
     },
     {
+      "name": "unslop",
+      "members": [
+        "heydamir/unslop/skills/unslop",
+        "sickn33/agentic-awesome-skills/skills/unslop"
+      ],
+      "status": "same_name_kept_separate"
+    },
+    {
       "name": "using-git-worktrees",
       "members": [
         "obra/superpowers/skills/using-git-worktrees",
