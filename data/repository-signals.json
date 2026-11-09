@@ -2,151 +2,186 @@
   "schema_version": 1,
   "repositories": {
     "anthropics/skills": {
-      "stars": 183602,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 189958,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
-      "pushed_at": "2026-10-09T18:45:52Z",
+      "pushed_at": "2026-11-06T22:32:32Z",
       "url": "https://github.com/anthropics/skills"
     },
     "openai/skills": {
-      "stars": 28291,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 28605,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
-      "pushed_at": "2026-09-08T20:35:26Z",
+      "pushed_at": "2026-10-28T17:31:41Z",
       "url": "https://github.com/openai/skills"
     },
     "vercel-labs/agent-skills": {
-      "stars": 32978,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 33743,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
-      "pushed_at": "2026-10-14T17:58:45Z",
+      "pushed_at": "2026-10-28T19:17:28Z",
       "url": "https://github.com/vercel-labs/agent-skills"
     },
     "huggingface/skills": {
-      "stars": 11210,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 11306,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
-      "pushed_at": "2026-10-23T09:08:05Z",
+      "pushed_at": "2026-10-30T14:12:53Z",
       "url": "https://github.com/huggingface/skills"
     },
     "google-gemini/gemini-skills": {
-      "stars": 4333,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 4439,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
-      "pushed_at": "2026-10-13T17:41:39Z",
+      "pushed_at": "2026-11-05T17:44:48Z",
       "url": "https://github.com/google-gemini/gemini-skills"
     },
     "supabase/agent-skills": {
-      "stars": 2928,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 3036,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
-      "pushed_at": "2026-10-02T12:34:51Z",
+      "pushed_at": "2026-11-07T21:49:27Z",
       "url": "https://github.com/supabase/agent-skills"
     },
     "remotion-dev/skills": {
-      "stars": 5663,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 6644,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
-      "pushed_at": "2026-10-22T15:31:18Z",
+      "pushed_at": "2026-11-05T08:20:43Z",
       "url": "https://github.com/remotion-dev/skills"
     },
     "obra/superpowers": {
-      "stars": 304758,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 314734,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
-      "pushed_at": "2026-10-23T03:48:57Z",
+      "pushed_at": "2026-11-03T23:24:58Z",
       "url": "https://github.com/obra/superpowers"
     },
     "trailofbits/skills": {
-      "stars": 7791,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 8083,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
-      "pushed_at": "2026-10-24T01:53:03Z",
+      "pushed_at": "2026-11-06T15:20:09Z",
       "url": "https://github.com/trailofbits/skills"
     },
     "cloudflare/security-audit-skill": {
-      "stars": 45498,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 67222,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
       "pushed_at": "2026-09-14T19:29:02Z",
       "url": "https://github.com/cloudflare/security-audit-skill"
     },
     "K-Dense-AI/scientific-agent-skills": {
-      "stars": 54493,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 56534,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
-      "pushed_at": "2026-10-19T09:33:57Z",
+      "pushed_at": "2026-11-02T09:23:27Z",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
     },
     "ComposioHQ/awesome-claude-skills": {
-      "stars": 77875,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 79088,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
       "pushed_at": "2026-09-18T07:16:11Z",
       "url": "https://github.com/ComposioHQ/awesome-claude-skills"
     },
     "sickn33/agentic-awesome-skills": {
-      "stars": 48472,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 49390,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
-      "pushed_at": "2026-10-24T21:31:58Z",
+      "pushed_at": "2026-11-08T14:10:48Z",
       "url": "https://github.com/sickn33/agentic-awesome-skills"
     },
     "loopx-project/loopx": {
-      "stars": 6421,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 6568,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
-      "pushed_at": "2026-10-25T09:19:31Z",
+      "pushed_at": "2026-11-09T07:56:33Z",
       "url": "https://github.com/loopx-project/loopx"
     },
     "Adkid-Zephyr/oral-paper-skill": {
-      "stars": 451,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 561,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
       "pushed_at": "2026-09-17T22:32:29Z",
       "url": "https://github.com/Adkid-Zephyr/oral-paper-skill"
     },
     "larashero3-dotcom/lieflat-less-ai-tone": {
-      "stars": 4046,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 6981,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
-      "pushed_at": "2026-08-24T06:57:13Z",
+      "pushed_at": "2026-11-05T14:16:44Z",
       "url": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone"
     },
     "Panniantong/Agent-Reach": {
-      "stars": 102065,
-      "captured_at": "2026-10-25T09:23:21.904826+00:00",
+      "stars": 110407,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
-      "pushed_at": "2026-10-25T04:37:26Z",
+      "pushed_at": "2026-11-08T02:17:48Z",
       "url": "https://github.com/Panniantong/Agent-Reach"
     },
-    "D4Vinci/Scrapling": {
-      "stars": 91917,
-      "captured_at": "2026-11-02T06:09:49.019305+00:00",
+    "Rainlt/skills-atlas": {
+      "stars": 0,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
-      "pushed_at": "2026-11-01T18:00:03Z",
+      "pushed_at": "2026-11-06T02:06:05Z",
+      "url": "https://github.com/Rainlt/skills-atlas"
+    },
+    "D4Vinci/Scrapling": {
+      "stars": 100112,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
+      "archived": false,
+      "pushed_at": "2026-11-08T13:18:31Z",
       "url": "https://github.com/D4Vinci/Scrapling"
     },
     "ZWD11/house-plan-designer": {
-      "stars": 319,
-      "captured_at": "2026-11-04T04:10:13.970492+00:00",
+      "stars": 469,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
-      "pushed_at": "2026-11-02T05:09:07Z",
+      "pushed_at": "2026-11-05T14:12:33Z",
       "url": "https://github.com/ZWD11/house-plan-designer"
     },
     "Githun1314/agent-wechat-reader": {
       "stars": 6,
-      "captured_at": "2026-11-04T05:41:20.504560+00:00",
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
       "pushed_at": "2026-07-31T17:06:22Z",
       "url": "https://github.com/Githun1314/agent-wechat-reader"
     },
     "larashero3-dotcom/lieflat-gongwen": {
-      "stars": 2342,
-      "captured_at": "2026-11-05T01:40:42.842539+00:00",
+      "stars": 2460,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
       "archived": false,
       "pushed_at": "2026-11-03T03:38:47Z",
       "url": "https://github.com/larashero3-dotcom/lieflat-gongwen"
+    },
+    "gamedev-skills/awesome-gamedev-agent-skills": {
+      "stars": 7892,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
+      "archived": false,
+      "pushed_at": "2026-10-28T03:10:14Z",
+      "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills"
+    },
+    "alchaincyf/darwin-skill": {
+      "stars": 6853,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
+      "archived": false,
+      "pushed_at": "2026-09-18T13:16:41Z",
+      "url": "https://github.com/alchaincyf/darwin-skill"
+    },
+    "alchaincyf/huashu-design": {
+      "stars": 29009,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
+      "archived": false,
+      "pushed_at": "2026-11-04T03:28:47Z",
+      "url": "https://github.com/alchaincyf/huashu-design"
+    },
+    "alchaincyf/huashu-art-motion": {
+      "stars": 6571,
+      "captured_at": "2026-11-09T07:59:01.653115+00:00",
+      "archived": false,
+      "pushed_at": "2026-10-16T17:03:31Z",
+      "url": "https://github.com/alchaincyf/huashu-art-motion"
     }
   },
   "errors": []
