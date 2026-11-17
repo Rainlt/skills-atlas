@@ -70,7 +70,8 @@
         "按需补充角色或背景",
         "已有声音优先，缺音效复用shotcraft选材与同步",
         "连续对象和镜头节奏按需补强",
-        "材料依据、分镜实现、具体修改与预览反馈共用一份指南"
+        "材料依据、分镜实现、具体修改与预览反馈共用一份指南",
+        "Rodin Agentic：机械结构/装配三维演示的按需候选，未安装或实测"
       ],
       "keywords": [
         "动画",
@@ -95,17 +96,18 @@
         "音效",
         "声音对齐",
         "Freesound",
-        "sound effects"
+        "sound effects",
+        "机械道具动画"
       ],
       "primary_count": 4,
       "component_count": 7,
-      "canonical_version": "2026-11-09.1",
-      "canonical_commit": "416894a6522888606af47bad05b35d87befc9400",
+      "canonical_version": "2026-11-17.1",
+      "canonical_commit": "53a6d89e8f767adc4318eadf2b642b341f77b79c",
       "guide_url": "https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/creative-animation-toolbox",
       "entry_url": "https://github.com/Rainlt/methods-atlas/blob/main/toolboxes/creative-animation-toolbox/SKILL.md",
       "access": "private",
-      "verification": "中文12秒机制与onetake比较已有记录；新增CC0音效搜索/下载和两处同步测量通过，未试听，完整作品/旁白待验证；花叔三项固定源与有限样例已评估，设计/动态遮挡漏检及阈值边界见私有记录；五个制作方法已吸收并完成入口/清单及6项既有动画回归检查，成片质量与成本改进未验证",
-      "checked_on": "2026-11-09",
+      "verification": "中文12秒机制与onetake比较已有记录；新增CC0音效搜索/下载和两处同步测量通过，未试听，完整作品/旁白待验证；花叔三项固定源与有限样例已评估，设计/动态遮挡漏检及阈值边界见私有记录；五个制作方法已吸收并完成入口/清单及6项既有动画回归检查，成片质量与成本改进未验证；Rodin仅登记为待实践候选，未安装、接入或生成实测",
+      "checked_on": "2026-11-17",
       "state": "active",
       "reason": "吸收有限对照、内容导向和真实渲染覆盖；保留默认路线/引擎，不增加默认组件，不把单样例或工具成功当完整效果证明。",
       "invoke": "使用 $creative-animation-toolbox; 从一句想法、小故事或视觉创意进入故事、分镜、镜头、代码动画与实际视频，不要求先有讲稿或 PPT。"
@@ -113,8 +115,8 @@
     {
       "id": "scientific-animation-toolbox",
       "name": "科研动画工具箱",
-      "summary": "从论文、方法图、公式、实验结果或科学原理进入证据核对、机制分镜、动画和科学复核交付，旁白与 PPT 按需。 动作或转场音效按需调用。 机制与流程优先二维代码动画，立体结构或空间关系按需三维。",
-      "example": "数据块更新时配轻短提示，声音服务机制理解，不暗示真实计算耗时",
+      "summary": "从论文、方法图、公式、实验结果或科学原理进入证据核对、机制分镜、动画和科学复核交付，旁白与 PPT 按需。 动作或转场音效按需调用。 机制与流程优先二维代码动画，立体结构或空间关系按需三维。 机械结构与装配演示按需考虑Rodin三维备选。",
+      "example": "把机械结构图做成分件、拆解或装配演示；Rodin候选须先试点并核对导出的动作，生成结构不当作工程依据。",
       "stages": [
         "材料与证据",
         "机制与分镜",
@@ -126,7 +128,8 @@
         "按需制作配音科普解说",
         "已有声音优先，缺音效复用shotcraft选材与同步",
         "连续对象和镜头节奏按需补强",
-        "材料依据、分镜实现、具体修改与预览反馈共用一份指南"
+        "材料依据、分镜实现、具体修改与预览反馈共用一份指南",
+        "Rodin Agentic：机械结构/装配三维演示的按需候选，未安装或实测"
       ],
       "keywords": [
         "动画",
@@ -158,17 +161,25 @@
         "音效",
         "声音对齐",
         "Freesound",
-        "sound effects"
+        "sound effects",
+        "机械结构演示",
+        "装配演示",
+        "拆解演示",
+        "机械动画",
+        "Rodin",
+        "Rodin Agentic",
+        "机械结构",
+        "装配动画"
       ],
       "primary_count": 4,
       "component_count": 8,
-      "canonical_version": "2026-11-09.1",
-      "canonical_commit": "416894a6522888606af47bad05b35d87befc9400",
+      "canonical_version": "2026-11-17.1",
+      "canonical_commit": "53a6d89e8f767adc4318eadf2b642b341f77b79c",
       "guide_url": "https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/scientific-animation-toolbox",
       "entry_url": "https://github.com/Rainlt/methods-atlas/blob/main/toolboxes/scientific-animation-toolbox/SKILL.md",
       "access": "private",
-      "verification": "中文12秒机制与onetake比较已有记录；新增CC0音效搜索/下载和两处同步测量通过，未试听，完整作品/旁白待验证；花叔三项固定源与有限样例已评估，设计/动态遮挡漏检及阈值边界见私有记录；五个制作方法已吸收并完成入口/清单及6项既有动画回归检查，成片质量与成本改进未验证",
-      "checked_on": "2026-11-09",
+      "verification": "中文12秒机制与onetake比较已有记录；新增CC0音效搜索/下载和两处同步测量通过，未试听，完整作品/旁白待验证；花叔三项固定源与有限样例已评估，设计/动态遮挡漏检及阈值边界见私有记录；五个制作方法已吸收并完成入口/清单及6项既有动画回归检查，成片质量与成本改进未验证；Rodin仅登记为待实践候选，未安装、接入或生成实测",
+      "checked_on": "2026-11-17",
       "state": "active",
       "reason": "吸收有限对照、内容导向和真实渲染覆盖；保留默认路线/引擎，不增加默认组件，不把单样例或工具成功当完整效果证明。",
       "invoke": "使用 $scientific-animation-toolbox; 从论文、方法图、公式、实验结果或科学原理进入证据核对、机制分镜、动画和科学复核交付，旁白与 PPT 按需。"
@@ -183,7 +194,8 @@
       ],
       "helpers": [
         "共享版本缓存",
-        "共享渲染与检查"
+        "共享渲染与检查",
+        "Rodin Agentic：机械结构/装配三维演示的按需候选，未安装或实测"
       ],
       "keywords": [
         "动画",
@@ -201,13 +213,13 @@
       ],
       "primary_count": 1,
       "component_count": 1,
-      "canonical_version": "2026-11-09.1",
-      "canonical_commit": "416894a6522888606af47bad05b35d87befc9400",
+      "canonical_version": "2026-11-17.1",
+      "canonical_commit": "53a6d89e8f767adc4318eadf2b642b341f77b79c",
       "guide_url": "https://github.com/Rainlt/methods-atlas/tree/main/toolboxes/animation-toolbox",
       "entry_url": "https://github.com/Rainlt/methods-atlas/blob/main/toolboxes/animation-toolbox/SKILL.md",
       "access": "private",
-      "verification": "旧名继续只作兼容分流；共用声音选材、时间对齐与来源记录指南，默认组件不增加；花叔三项固定源与有限样例已评估，设计/动态遮挡漏检及阈值边界见私有记录；五个制作方法已吸收并完成入口/清单及6项既有动画回归检查，成片质量与成本改进未验证",
-      "checked_on": "2026-11-09",
+      "verification": "旧名继续只作兼容分流；共用声音选材、时间对齐与来源记录指南，默认组件不增加；花叔三项固定源与有限样例已评估，设计/动态遮挡漏检及阈值边界见私有记录；五个制作方法已吸收并完成入口/清单及6项既有动画回归检查，成片质量与成本改进未验证；Rodin仅登记为待实践候选，未安装、接入或生成实测",
+      "checked_on": "2026-11-17",
       "state": "archived",
       "reason": "吸收有限对照、内容导向和真实渲染覆盖；保留默认路线/引擎，不增加默认组件，不把单样例或工具成功当完整效果证明。",
       "invoke": "创意材料转 creative-animation-toolbox，科研材料转 scientific-animation-toolbox",
