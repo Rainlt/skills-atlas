@@ -1,8 +1,8 @@
 {
-  "previous_snapshot": "25215640f4bd34e8",
-  "snapshot": "359e4011ffe07c85",
+  "previous_snapshot": "359e4011ffe07c85",
+  "snapshot": "71c5d0c8608e0c2e",
   "added": [
-    "heydamir/unslop/skills/unslop"
+    "arjun988/blender-skills/.claude/skills/blender-director"
   ],
   "removed": [],
   "updated": [],

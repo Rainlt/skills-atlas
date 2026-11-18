@@ -31,6 +31,7 @@
 | [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) | specialist | 1 | [b2460b031c33](https://github.com/alchaincyf/huashu-design/commit/b2460b031c33ff32d2bf3b97263527daa231e4de) | MIT |
 | [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) | specialist | 1 | [8a0d7d72ca65](https://github.com/alchaincyf/huashu-art-motion/commit/8a0d7d72ca65fcce6f8ba82c4a6c8dfe35b8422c) | MIT |
 | [heydamir/unslop](https://github.com/heydamir/unslop) | specialist | 1 | [97daa3eb3656](https://github.com/heydamir/unslop/commit/97daa3eb365670ea3f87ed85356cbfcee18105a5) | UNKNOWN |
+| [arjun988/blender-skills](https://github.com/arjun988/blender-skills) | collection | 1 | [904f095d8f36](https://github.com/arjun988/blender-skills/commit/904f095d8f36a6e72adaebb08d07f884a074743d) | MIT |
 
 仓库级许可证只是线索，不覆盖技能中的单独授权；UNKNOWN 表示未被 GitHub 识别。
 

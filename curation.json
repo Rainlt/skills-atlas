@@ -886,6 +886,13 @@
       "level": "download_verified",
       "date": "2026-11-09",
       "note": "固定源14文件逐文件Git blob核验并安装；受控论文清单按九层方法改稿，桌面/390px与添加筛选状态持久化检查通过；snapshot成功。人为构造输入，未做正式产品或盲测，不宣称审美优于原流程；story视频未实测。"
+    },
+    "arjun988/blender-skills/.claude/skills/blender-director": {
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "bundle_sha": "125496184cdfd1f9bc68713129eec006de29a4a9",
+      "level": "metadata_reviewed",
+      "date": "2026-11-18",
+      "note": "总入口、内部路由、MCP安装说明和MIT许可证四份固定源Git blob已核对；确认共94项，只收一个检索入口。目录外共享资料与专项依赖已明示，未安装或建模实测。"
     }
   },
   "policy": {
@@ -994,6 +1001,15 @@
       "去除界面AI味",
       "地球支线",
       "unslop UI"
+    ],
+    "arjun988/blender-skills/.claude/skills/blender-director": [
+      "blender-skills",
+      "Blender建模",
+      "Blender自动建模",
+      "Blender材质",
+      "Blender动画",
+      "三维建模",
+      "3D建模"
     ]
   }
 }

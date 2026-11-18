@@ -24455,6 +24455,14 @@
         "plugins/agentic-awesome-skills-claude/skills/paypal-integration",
         "plugins/agentic-awesome-skills/skills/paypal-integration"
       ]
+    },
+    {
+      "repo": "arjun988/blender-skills",
+      "bundle_sha": "125496184cdfd1f9bc68713129eec006de29a4a9",
+      "canonical_path": ".claude/skills/blender-director",
+      "excluded_paths": [
+        ".cursor/skills/blender-director"
+      ]
     }
   ]
 }

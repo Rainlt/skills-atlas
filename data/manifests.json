@@ -30537,6 +30537,20 @@
       "type": "blob"
     }
   ],
+  "125496184cdfd1f9bc68713129eec006de29a4a9": [
+    {
+      "path": "SKILL.md",
+      "sha": "07edef3ccaf9a8cc64ae94dc13acd413d5338df8",
+      "mode": "100644",
+      "type": "blob"
+    },
+    {
+      "path": "references/skill-routing.md",
+      "sha": "30f6e6137e65126d775f691fa76637cafc2f9d68",
+      "mode": "100644",
+      "type": "blob"
+    }
+  ],
   "ccbc33ed119b28c3ef7b44a7e2081ab191ad63af": [
     {
       "path": "AI-AND-LLM.md",
