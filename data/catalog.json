@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot": "359e4011ffe07c85",
-  "generated_at": "2026-11-09T08:14:50.889843+00:00",
+  "snapshot": "71c5d0c8608e0c2e",
+  "generated_at": "2026-11-18T01:09:50.041697+00:00",
   "stats": {
-    "sources": 27,
-    "scanned_skills": 4048,
-    "unique_bundles": 4048,
+    "sources": 28,
+    "scanned_skills": 4049,
+    "unique_bundles": 4049,
     "exact_duplicates_removed": 0,
     "same_name_families": 99,
-    "excluded_identical_distribution_copies": 5226,
-    "excluded_noncanonical_skill_files": 5609,
+    "excluded_identical_distribution_copies": 5227,
+    "excluded_noncanonical_skill_files": 5796,
     "identical_instruction_groups": 6
   },
   "sources": [
@@ -545,6 +545,27 @@
       "url": "https://github.com/heydamir/unslop",
       "excluded_skill_files": 0,
       "excluded_identical_distribution_copies": 0
+    },
+    {
+      "repo": "arjun988/blender-skills",
+      "kind": "collection",
+      "priority": 20,
+      "include": [
+        ".claude/skills/blender-director/"
+      ],
+      "pinned_commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "discover_references": false,
+      "note_zh": "Blender制作专项技能包：仅索引blender-director总入口，原仓库94项按任务读取，不展开为94条新目录；不与网页3D或游戏开发原则合并。",
+      "compatibility": "本条只下载总入口目录及其内部路由参考，不包含同级共享references和其余93项专项。实际使用须从固定源获取所选专项与共享资料，并准备Blender、BlenderMCP插件和兼容客户端；单项下载不等于完整安装。当前仅收录，未安装、未连接或建模实测；基础本地执行不必配置可选的Hyper3D/Sketchfab等外部服务。",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "tree_sha": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "branch": "main",
+      "archived": false,
+      "repository_license": "MIT",
+      "skills_scanned": 1,
+      "url": "https://github.com/arjun988/blender-skills",
+      "excluded_skill_files": 187,
+      "excluded_identical_distribution_copies": 1
     }
   ],
   "skills": [
@@ -44992,6 +45013,52 @@
       "declared_risk": null,
       "compatibility": "未验证；请阅读上游要求",
       "has_external_refs": false,
+      "format_issues": []
+    },
+    {
+      "id": "arjun988/blender-skills/.claude/skills/blender-director",
+      "name": "blender-director",
+      "description": "Use when starting any Blender asset task, planning a production pipeline, coordinating multiple disciplines, or matching a reference photo/concept art. Invoke for game-ready assets, hard surface, environment, character, creature, export, or any multi-skill Blender workflow.",
+      "categories": [
+        "media",
+        "automation"
+      ],
+      "tags_zh": [
+        "设计、图像、音频与视频",
+        "办公、应用集成与自动化"
+      ],
+      "aliases": [],
+      "locations": [
+        {
+          "repo": "arjun988/blender-skills",
+          "path": ".claude/skills/blender-director",
+          "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+          "bundle_sha": "125496184cdfd1f9bc68713129eec006de29a4a9",
+          "skill_sha": "07edef3ccaf9a8cc64ae94dc13acd413d5338df8",
+          "url": "https://github.com/arjun988/blender-skills/tree/904f095d8f36a6e72adaebb08d07f884a074743d/.claude/skills/blender-director",
+          "priority": 20,
+          "kind": "collection",
+          "license": {
+            "declared": "MIT",
+            "repository": "MIT",
+            "content_hint": "MIT",
+            "review_required": false,
+            "url": "https://github.com/arjun988/blender-skills/tree/904f095d8f36a6e72adaebb08d07f884a074743d/.claude/skills/blender-director"
+          },
+          "notices": [
+            {
+              "path": "LICENSE",
+              "sha": "576f7bc8a82e02a0d09a6f955612050cf15873a8",
+              "mode": "100644"
+            }
+          ]
+        }
+      ],
+      "instruction_sha256": "0dee1764187983b2a33de43114a3f2bafcb20b4a305bd453fab51e39b31e3c0f",
+      "upstream_category": null,
+      "declared_risk": null,
+      "compatibility": "本条只下载总入口目录及其内部路由参考，不包含同级共享references和其余93项专项。实际使用须从固定源获取所选专项与共享资料，并准备Blender、BlenderMCP插件和兼容客户端；单项下载不等于完整安装。当前仅收录，未安装、未连接或建模实测；基础本地执行不必配置可选的Hyper3D/Sketchfab等外部服务。",
+      "has_external_refs": true,
       "format_issues": []
     },
     {

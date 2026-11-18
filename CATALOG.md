@@ -1,6 +1,6 @@
 # 技能分类目录
 
-索引快照：`359e4011ffe07c85`。主分类用于下表计数；交叉标签可在命令行筛选。
+索引快照：`71c5d0c8608e0c2e`。主分类用于下表计数；交叉标签可在命令行筛选。
 
 搜索：`python3 atlas.py search '科研'`。查看条目：`python3 atlas.py show <ID>`。
 
@@ -17,7 +17,7 @@
 | [安全、隐私与审计](docs/categories/security.md) | 358 |
 | [部署、云与运维](docs/categories/devops.md) | 336 |
 | [移动端、桌面与游戏](docs/categories/mobile.md) | 86 |
-| [设计、图像、音频与视频](docs/categories/media.md) | 183 |
+| [设计、图像、音频与视频](docs/categories/media.md) | 184 |
 | [写作、翻译与知识管理](docs/categories/writing.md) | 102 |
 | [产品、营销与商业](docs/categories/business.md) | 374 |
 | [办公、应用集成与自动化](docs/categories/automation.md) | 1130 |

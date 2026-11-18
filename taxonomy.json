@@ -539,6 +539,7 @@
     }
   ],
   "name_overrides": {
+    "blender-director": ["media", "automation"],
     "loopx-performance-diagnosis": ["engineering", "testing"],
     "loopx-project": ["automation", "engineering"],
     "loopx-self-repair": ["automation", "engineering"],

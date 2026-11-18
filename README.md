@@ -7,7 +7,7 @@
 已明确删除的来源及原因见[退出记录](docs/SOURCE_EXITS.md)，不再作为备选或重复引入。
 
 <!-- STATS:START -->
-目前收录 27 个来源、4,048 个技能目录，分为 17 类。默认展示 40 个精选用途，相近候选收拢为 3,915 个入口。
+目前收录 28 个来源、4,049 个技能目录，分为 17 类。默认展示 40 个精选用途，相近候选收拢为 3,916 个入口。
 <!-- STATS:END -->
 
 ## 工具箱 · 从技能库提炼的工作线
@@ -56,6 +56,8 @@ python3 atlas.py download obra/superpowers/skills/systematic-debugging --dest ./
 打包成 ZIP、指定安装目录等用法见[命令行说明](docs/USAGE.md)。克隆仓库后也可以直接运行这些命令，或打开 `browse.html` 离线搜索。
 
 ## 收录与去重
+
+[Blender 技能包](docs/BLENDER_SKILLS.md)仅收录一个总入口，按任务选择原仓库的 94 个专项；与已有三维网页和游戏原则区分，未安装或建模实测。
 
 来源包括 [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)、[agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)，以及 Anthropic、OpenAI、Vercel、Hugging Face 等项目。完整名单和收录版本见[来源列表](docs/SOURCES.md)。
 
